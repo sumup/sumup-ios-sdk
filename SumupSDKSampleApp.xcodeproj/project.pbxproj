@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9610BD18996359009D8EBC /* InfoPlist.strings */; };
+		DC9610C118996359009D8EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9610C018996359009D8EBC /* main.m */; };
+		DC9610C518996359009D8EBC /* SUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9610C418996359009D8EBC /* SUSAppDelegate.m */; };
+		DC9610C818996359009D8EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9610C618996359009D8EBC /* Main.storyboard */; };
+		DC9610CB18996359009D8EBC /* SUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9610CA18996359009D8EBC /* SUSViewController.m */; };
+		DC9610CD18996359009D8EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9610CC18996359009D8EBC /* Images.xcassets */; };
+		DC9610ED18996388009D8EBC /* SMPSharedResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC9610EB18996388009D8EBC /* SMPSharedResources.bundle */; };
+		DC9610EE18996388009D8EBC /* SumupSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9610EC18996388009D8EBC /* SumupSDK.framework */; };
+		DCA9F4771899687D0057702B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F4761899687D0057702B /* MapKit.framework */; };
+		DCA9F47F189968C70057702B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F47E189968C70057702B /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E92050D81B289E4B00173579 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92050D71B289E4B00173579 /* Accelerate.framework */; };
+		E93AF477192BAB2A00AD09AC /* YTLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E93AF476192BAB2A00AD09AC /* YTLibResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC9610B118996359009D8EBC /* SumupSDKSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumupSDKSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9610BC18996359009D8EBC /* SumupSDKSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SumupSDKSampleApp-Info.plist"; sourceTree = "<group>"; };
+		DC9610BE18996359009D8EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC9610C018996359009D8EBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC9610C218996359009D8EBC /* SumupSDKSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SumupSDKSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		DC9610C318996359009D8EBC /* SUSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUSAppDelegate.h; sourceTree = "<group>"; };
+		DC9610C418996359009D8EBC /* SUSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUSAppDelegate.m; sourceTree = "<group>"; };
+		DC9610C918996359009D8EBC /* SUSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUSViewController.h; sourceTree = "<group>"; };
+		DC9610CA18996359009D8EBC /* SUSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUSViewController.m; sourceTree = "<group>"; };
+		DC9610CC18996359009D8EBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC9610EB18996388009D8EBC /* SMPSharedResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMPSharedResources.bundle; sourceTree = "<group>"; };
+		DC9610EC18996388009D8EBC /* SumupSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SumupSDK.framework; sourceTree = "<group>"; };
+		DCA9F4761899687D0057702B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DCA9F47E189968C70057702B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E90292CD1B29EF6600D7B7BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E92050D71B289E4B00173579 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E93AF476192BAB2A00AD09AC /* YTLibResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YTLibResources.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9610AE18996359009D8EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9610EE18996388009D8EBC /* SumupSDK.framework in Frameworks */,
+				DCA9F47F189968C70057702B /* AVFoundation.framework in Frameworks */,
+				E92050D81B289E4B00173579 /* Accelerate.framework in Frameworks */,
+				DCA9F4771899687D0057702B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC9610A818996359009D8EBC = {
+			isa = PBXGroup;
+			children = (
+				DC9610BA18996359009D8EBC /* SumupSDKSampleApp */,
+				DC9610B318996359009D8EBC /* Frameworks */,
+				DC9610B218996359009D8EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9610B218996359009D8EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9610B118996359009D8EBC /* SumupSDKSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9610B318996359009D8EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC9610E918996388009D8EBC /* SumupSDK.embeddedframework */,
+				E92050D71B289E4B00173579 /* Accelerate.framework */,
+				DCA9F47E189968C70057702B /* AVFoundation.framework */,
+				DCA9F4761899687D0057702B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC9610BA18996359009D8EBC /* SumupSDKSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC9610C318996359009D8EBC /* SUSAppDelegate.h */,
+				DC9610C418996359009D8EBC /* SUSAppDelegate.m */,
+				DC9610C618996359009D8EBC /* Main.storyboard */,
+				DC9610C918996359009D8EBC /* SUSViewController.h */,
+				DC9610CA18996359009D8EBC /* SUSViewController.m */,
+				DC9610CC18996359009D8EBC /* Images.xcassets */,
+				DC9610BB18996359009D8EBC /* Supporting Files */,
+			);
+			path = SumupSDKSampleApp;
+			sourceTree = "<group>";
+		};
+		DC9610BB18996359009D8EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9610BC18996359009D8EBC /* SumupSDKSampleApp-Info.plist */,
+				DC9610BD18996359009D8EBC /* InfoPlist.strings */,
+				DC9610C018996359009D8EBC /* main.m */,
+				DC9610C218996359009D8EBC /* SumupSDKSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC9610E918996388009D8EBC /* SumupSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				DC9610EA18996388009D8EBC /* Resources */,
+				DC9610EC18996388009D8EBC /* SumupSDK.framework */,
+			);
+			path = SumupSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		DC9610EA18996388009D8EBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E93AF476192BAB2A00AD09AC /* YTLibResources.bundle */,
+				DC9610EB18996388009D8EBC /* SMPSharedResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9610B018996359009D8EBC /* SumupSDKSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9610E318996359009D8EBC /* Build configuration list for PBXNativeTarget "SumupSDKSampleApp" */;
+			buildPhases = (
+				DC9610AD18996359009D8EBC /* Sources */,
+				DC9610AE18996359009D8EBC /* Frameworks */,
+				DC9610AF18996359009D8EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumupSDKSampleApp;
+			productName = SumupSDKSampleApp;
+			productReference = DC9610B118996359009D8EBC /* SumupSDKSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9610A918996359009D8EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SUS;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "SumUp Payments Limited";
+			};
+			buildConfigurationList = DC9610AC18996359009D8EBC /* Build configuration list for PBXProject "SumupSDKSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9610A818996359009D8EBC;
+			productRefGroup = DC9610B218996359009D8EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9610B018996359009D8EBC /* SumupSDKSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9610AF18996359009D8EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9610CD18996359009D8EBC /* Images.xcassets in Resources */,
+				DC9610C818996359009D8EBC /* Main.storyboard in Resources */,
+				DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */,
+				E93AF477192BAB2A00AD09AC /* YTLibResources.bundle in Resources */,
+				DC9610ED18996388009D8EBC /* SMPSharedResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9610AD18996359009D8EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9610C518996359009D8EBC /* SUSAppDelegate.m in Sources */,
+				DC9610CB18996359009D8EBC /* SUSViewController.m in Sources */,
+				DC9610C118996359009D8EBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC9610BD18996359009D8EBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9610BE18996359009D8EBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC9610C618996359009D8EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90292CD1B29EF6600D7B7BF /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9610E118996359009D8EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC9610E218996359009D8EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9610E418996359009D8EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SumupSDK.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SumupSDKSampleApp/SumupSDKSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SumupSDKSampleApp/SumupSDKSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC9610E518996359009D8EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SumupSDK.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SumupSDKSampleApp/SumupSDKSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SumupSDKSampleApp/SumupSDKSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9610AC18996359009D8EBC /* Build configuration list for PBXProject "SumupSDKSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9610E118996359009D8EBC /* Debug */,
+				DC9610E218996359009D8EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9610E318996359009D8EBC /* Build configuration list for PBXNativeTarget "SumupSDKSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9610E418996359009D8EBC /* Debug */,
+				DC9610E518996359009D8EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9610A918996359009D8EBC /* Project object */;
+}

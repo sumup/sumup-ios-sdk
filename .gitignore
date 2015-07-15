@@ -1,0 +1,5 @@
+.DS_Store
+*.xccheckout
+*.xcscmblueprint
+SumupSDKSampleApp.xcodeproj/project.xcworkspace/xcuserdata
+SumupSDKSampleApp.xcodeproj/xcuserdata

@@ -1,0 +1,24 @@
+#N canvas 666 143 771 754 10;
+#X obj 33 116 yousend~ 1 0.5;
+#X obj 31 166 dac~;
+#X obj 32 30 r message-to-encode;
+#X obj 236 119 s message-received;
+#X obj 236 87 youreceive~ 1 0.25;
+#X obj 236 56 adc~;
+#X msg 33 84 set_message \$1;
+#X obj 41 57 symbol;
+#X obj 334 181 loadbang;
+#X obj 312 256 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 281 306 print ready;
+#X obj 139 225 print msg;
+#X connect 0 0 1 1;
+#X connect 0 0 1 0;
+#X connect 2 0 7 0;
+#X connect 4 0 3 0;
+#X connect 5 0 4 0;
+#X connect 6 0 0 0;
+#X connect 6 0 11 0;
+#X connect 7 0 6 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
