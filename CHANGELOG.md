@@ -1,5 +1,8 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.2.1b1
+* [IMPROVEMENT] Rename SBJson to [avoid conflicts](https://github.com/sumup/sumup-ios-sdk/issues/1).
+
 ## Version 1.2
 **Important**: `AVFoundation` needs to be linked as **optional** if your deployment target is iOS 5.x
 
