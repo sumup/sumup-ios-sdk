@@ -1,5 +1,9 @@
 # SumUp iOS SDK
 
+## Version 1.2.1
+
+- [Changelog](CHANGELOG.md)
+
 ## Getting started
 
 ### Preparing your XCode project
@@ -24,6 +28,8 @@ Lastly, the SumUp SDK has a few dependencies to system frameworks. Please make s
 
 Please also add `-lstdc++` to `OTHER_LDFLAGS` ("Other Linker Flags") of your target.
 
+*You might want to silence warnings like "was built for newer iOS version than being linked" by adding `-w` to "Other Linker Flags" as well to work around a [bug in Xcode 7](http://stackoverflow.com/a/32543155).*
+
 On older versions of Xcode you might also need to link to:
 
 * AudioToolbox
@@ -38,7 +44,7 @@ On older versions of Xcode you might also need to link to:
 * UIKit
 
 
-####Deployement Target
+#### Deployment Target
 The SumUp SDK is suitable from iOS 5.1.1 to iOS 8 for iPad and iPhone, so please set your deployment target to 5.1.1 or later.
 
 ### Location/Microphone usage

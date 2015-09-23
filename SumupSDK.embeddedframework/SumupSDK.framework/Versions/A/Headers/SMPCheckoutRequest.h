@@ -80,7 +80,8 @@ typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
  *  An (optional) ID to be associated with this transaction.
  *  See https://sumup.com/integration#transactionReportingAPIs
  *  on how to retrieve a transaction using this ID.
- *  This ID has to be unique in the scope of your SDK key. It must not be longer than 128 characters.
+ *  This ID has to be unique in the scope of a SumUp merchant account and its sub-accounts.
+ *  It must not be longer than 128 characters and can only contain printable ASCII characters.
  */
 @property (strong) NSString *foreignTransactionID;
 
