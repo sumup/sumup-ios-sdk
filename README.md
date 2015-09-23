@@ -1,5 +1,9 @@
 # SumUp iOS SDK
 
+## Version 1.2.1
+
+- [Changelog](CHANGELOG.md)
+
 ## Getting started
 
 ### Preparing your XCode project
