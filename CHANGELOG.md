@@ -1,5 +1,9 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.2.1b2
+* [UPDATE] Remove CFBundleExecutable entries from info.plist files of bundles to [fix ITMS-90535 error when submitting to iTC](https://github.com/sumup/sumup-ios-sdk/issues/4).
+* [UPDATE] Add `-w` to `OTHER_LDFLAGS` of sample App to work around [linker warnings](http://stackoverflow.com/a/32543155).
+
 ## Version 1.2.1b1
 * [IMPROVEMENT] Rename SBJson to [avoid conflicts](https://github.com/sumup/sumup-ios-sdk/issues/1).
 
@@ -24,7 +28,7 @@ Needs to be linked against `Accelerate` framework.
 * [BUGFIX] accept WhenInUse location usage permission
 
 ### Version 1.0.2
-* [BUGFIX] Stability improvements 
+* [BUGFIX] Stability improvements
 
 ### Version 1.0.1
 * [UPDATE] Return an error in +[SumupSDK checkoutWithRequest:fromViewController:completionBlock:] if merchant is not logged in.

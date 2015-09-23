@@ -154,7 +154,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SUS;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "SumUp Payments Limited";
 			};
 			buildConfigurationList = DC9610AC18996359009D8EBC /* Build configuration list for PBXProject "SumupSDKSampleApp" */;
@@ -239,6 +239,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -273,6 +275,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -302,7 +305,9 @@
 					"-ObjC",
 					"-all_load",
 					"-lstdc++",
+					"-w",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -326,7 +331,9 @@
 					"-ObjC",
 					"-all_load",
 					"-lstdc++",
+					"-w",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
