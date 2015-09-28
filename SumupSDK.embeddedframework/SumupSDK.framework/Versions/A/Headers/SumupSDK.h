@@ -80,6 +80,16 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult *result ,NSError *e
                               animated:(BOOL)animated
                        completionBlock:(SumupCompletionBlock)block;
 
+
+/**
+ * Logs in a merchant with an access token acquired via https://sumup.com/integration#APIAuth
+ * Make sure that no user is logged in already when calling this method.
+ *
+ *  @param aToken an access token
+ *  @param block  a completion block that will run after login has succeeded/failed
+ */
++ (void)loginWithToken:(NSString *)aToken completion:(SumupCompletionBlock)block;
+
 /**
  \returns YES if the merchant is logged in. NO otherwise.
  */
@@ -162,6 +172,7 @@ typedef NS_ENUM(NSInteger, SMPSumupSDKError) {
     SMPSumupSDKErrorActivationNeeded    = 1,        // The merchant's account is not activated
     SMPSumupSDKErrorAccountGeneral      = 20,
     SMPSumupSDKErrorAccountNotLoggedIn  = 21,       // The merchant is not logged into his account.
+    SMPSumupSDKErrorAccountIsLoggedIn   = 22,       // A merchant is logged in already. Call logout before logging in again.
     SMPSumupSDKErrorCheckoutGeneral     = 50,
     SMPSumupSDKErrorCheckoutInProgress  = 51,       // Another checkout process is currently in progress.
 };

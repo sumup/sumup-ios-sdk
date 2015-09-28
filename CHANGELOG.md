@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.2.2b1
+* [ADDED] `+[SumupSDK loginWithToken:completion:]` provides a way to log in a
+merchant with an access token acquired using the
+[authentication API](https://sumup.com/integration#APIAuth).
+* [IMPROVEMENT] Always provide an error object if login fails in
+`+[SumupSDK presentLoginFromViewController:animated:completionBlock]`
+
 ## Version 1.2.1
 * [IMPROVEMENT] Rename SBJson to [avoid conflicts](https://github.com/sumup/sumup-ios-sdk/issues/1).
 * [UPDATE] Remove CFBundleExecutable entries from info.plist files of bundles to [fix ITMS-90535 error when submitting to iTC](https://github.com/sumup/sumup-ios-sdk/issues/4).
