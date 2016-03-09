@@ -1,6 +1,6 @@
 # SumUp iOS SDK Changelog
 
-## Version 1.2.2b1
+## Version 1.2.2
 * [ADDED] `+[SumupSDK loginWithToken:completion:]` provides a way to log in a
 merchant with an access token acquired using the
 [authentication API](https://sumup.com/integration#APIAuth).
