@@ -1,6 +1,6 @@
 # SumUp iOS SDK
 
-## Version 1.2.1
+## Version 1.3.0b1
 
 - [Changelog](CHANGELOG.md)
 
@@ -25,8 +25,6 @@ Lastly, the SumUp SDK has a few dependencies to system frameworks. Please make s
 * AVFoundation (needs to be linked as **optional** if your deployment target is iOS 5.x)
 * Accelerate
 * MapKit
-
-Please also add `-lstdc++` to `OTHER_LDFLAGS` ("Other Linker Flags") of your target.
 
 *You might want to silence warnings like "was built for newer iOS version than being linked" by adding `-w` to "Other Linker Flags" as well to work around a [bug in Xcode 7](http://stackoverflow.com/a/32543155).*
 

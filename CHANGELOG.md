@@ -1,6 +1,12 @@
 # SumUp iOS SDK Changelog
 
-## Version 1.2.2
+## Version 1.3.0b1
+* [ADDED] new terminal including US support
+
+## Version 1.2.2b2
+* [IMPROVEMENT] no need to link against `stdc++` anymore
+
+## Version 1.2.2b1
 * [ADDED] `+[SumupSDK loginWithToken:completion:]` provides a way to log in a
 merchant with an access token acquired using the
 [authentication API](https://sumup.com/integration#APIAuth).
