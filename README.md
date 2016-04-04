@@ -6,17 +6,17 @@
 
 ## Getting started
 
-### Preparing your XCode project
+### Preparing your Xcode project
 *You can use the sample App that is provided with the SumUp SDK as a reference project.*
 
 
 The SumUp SDK is provided to you as an embedded framework `SumupSDK.embeddedframework` that combines a static library, its headers and a bundle containing resources such as images and localizations.
 
-Add the `SumupSDK.embeddedframework` to your XCode project (e.g. in the group Frameworks). If you haven't done so already when adding it, ensure that 
+Add the `SumupSDK.embeddedframework` to your Xcode project (e.g. in the group Frameworks). If you haven't done so already when adding it, ensure that
 
 * `SumupSDK.embeddedframework/SumupSDK.framework`
 * `SumupSDK.embeddedframework/Reources/SMPSharedResources.bundle`
-* `SumupSDK.embeddedframework/Resources/YTLibResources.bundle` 
+* `SumupSDK.embeddedframework/Resources/YTLibResources.bundle`
 
 are members of your app's target. Make sure your app is linked to `SumupSDK.framework`.
 
@@ -55,7 +55,7 @@ The SumUp SDK needs to access the user's location and the device's microphone. I
 
 Before calling any other method of the SumUp SDK you need setup the SumUp SDK with your API key:
 
-```
+```objc
 #import <SumupSDK/SumupSDK.h>
 
 // ...
@@ -63,18 +63,18 @@ Before calling any other method of the SumUp SDK you need setup the SumUp SDK wi
 [SumupSDK setupWithAPIKey:@"MyAPIKey"];
 ```
 As this might ask for the user's location it should not necessarily be part
-of the app launch. 
+of the app launch.
 
 Once the SumUp SDK is setup, you can start interacting with it.
 
 ### Login to SumUp
 
-The logical next step after the setup is to allow the user to login to his SumUp account. You can present a login screen from your `UIViewController` using the following method:
-```
+The logical next step after the setup is to allow the user to login to their SumUp account. You can present a login screen from your `UIViewController` using the following method:
+```objc
 [SumupSDK presentLoginfromViewController:vc
                                 animated:YES
                          completionBlock:nil];
-``` 
+```
 
 ### Accept card payments
 
@@ -85,7 +85,7 @@ Before accepting card payment you need to prepare a checkout request that encaps
 For this you will need to create an instance of `SMPCheckoutRequest`:
 
 
-```
+```objc
 #import <SumupSDK/SumupSDK.h>
 
 // ...
@@ -94,7 +94,7 @@ SMPCheckoutRequest *request = [SMPCheckoutRequest requestWithTotal:[NSDecimalNum
                                                              title:self.textFieldTitle.text
                                                       currencyCode:[[SumupSDK currentMerchant] currencyCode]
                                                     paymentOptions:SMPPaymentOptionAny];
-                                                     
+
 // set an optional identifier
 [request setForeignTransactionID:@"my-unique-id"];
 ```
@@ -106,10 +106,10 @@ You can pass an optional transaction identifier in `foreignTransactionID`. This 
 Using this checkout request you can then start accepting payments:
 
 
-```
-[SumupSDK checkoutWithRequest:request 
-           fromViewController:vc 
-                   completion:^(SMPCheckoutResult *result, NSError *error) {                   
+```objc
+[SumupSDK checkoutWithRequest:request
+           fromViewController:vc
+                   completion:^(SMPCheckoutResult *result, NSError *error) {
                    // ... handle completed and failed payments here
 }];
 ```
