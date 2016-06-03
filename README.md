@@ -1,6 +1,6 @@
 # SumUp iOS SDK
 
-## Version 1.3.0b1
+## Version 1.3.0b2
 
 - [Changelog](CHANGELOG.md)
 

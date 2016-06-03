@@ -1,17 +1,30 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.3.0b2
+**Deployment target changed to iOS 6.**
+
+* [UPDATE] **Base SDK is iOS 9.3, deployment target is iOS 6**
+* [IMPROVEMENT] Improve layout on iPhone 6, iPhone 6 plus and iPad Pro
+* [IMPROVEMENT] Match style of SumUp iOS app version 1.55
+* [IMPROVEMENT] Improve support of Wake-on-Bluetooth PIN+ readers
+* [IMPROVEMENT] Prefix some internal classes to avoid duplicated symbols
+
+Sample application:
+
+* [UPDATE] Application supports large screens
+* [UPDATE] Deployment target has been raised to iOS 6
+
 ## Version 1.3.0b1
 * [ADDED] new terminal including US support
 
-## Version 1.2.2b2
-* [IMPROVEMENT] no need to link against `stdc++` anymore
+## Version 1.2.2
 
-## Version 1.2.2b1
 * [ADDED] `+[SumupSDK loginWithToken:completion:]` provides a way to log in a
 merchant with an access token acquired using the
 [authentication API](https://sumup.com/integration#APIAuth).
 * [IMPROVEMENT] Always provide an error object if login fails in
 `+[SumupSDK presentLoginFromViewController:animated:completionBlock]`
+* [IMPROVEMENT] no need to link against `stdc++` anymore
 
 ## Version 1.2.1
 * [IMPROVEMENT] Rename SBJson to [avoid conflicts](https://github.com/sumup/sumup-ios-sdk/issues/1).

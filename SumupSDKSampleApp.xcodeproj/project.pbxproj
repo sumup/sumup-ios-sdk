@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BF7553B1CF6093C00C793FB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */; };
 		DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9610BD18996359009D8EBC /* InfoPlist.strings */; };
 		DC9610C118996359009D8EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9610C018996359009D8EBC /* main.m */; };
 		DC9610C518996359009D8EBC /* SUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9610C418996359009D8EBC /* SUSAppDelegate.m */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DC9610B118996359009D8EBC /* SumupSDKSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumupSDKSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9610BC18996359009D8EBC /* SumupSDKSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SumupSDKSampleApp-Info.plist"; sourceTree = "<group>"; };
 		DC9610BE18996359009D8EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				DC9610C318996359009D8EBC /* SUSAppDelegate.h */,
 				DC9610C418996359009D8EBC /* SUSAppDelegate.m */,
 				DC9610C618996359009D8EBC /* Main.storyboard */,
+				1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */,
 				DC9610C918996359009D8EBC /* SUSViewController.h */,
 				DC9610CA18996359009D8EBC /* SUSViewController.m */,
 				DC9610CC18996359009D8EBC /* Images.xcassets */,
@@ -180,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF7553B1CF6093C00C793FB /* Launch Screen.storyboard in Resources */,
 				DC9610CD18996359009D8EBC /* Images.xcassets in Resources */,
 				DC9610C818996359009D8EBC /* Main.storyboard in Resources */,
 				DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */,
@@ -300,7 +304,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SumupSDKSampleApp/SumupSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumupSDKSampleApp/SumupSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -326,7 +330,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SumupSDKSampleApp/SumupSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumupSDKSampleApp/SumupSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
