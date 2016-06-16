@@ -1,8 +1,12 @@
 # SumUp iOS SDK
 
-## Version 1.3.0b2
+## Version 1.3.0b3
 
 - [Changelog](CHANGELOG.md)
+
+#### Deployment Target
+The SumUp SDK is suitable from iOS 6.0 to iOS 9 for iPad and iPhone,
+so please set your deployment target to 6.0 or later.
 
 ## Getting started
 
@@ -22,7 +26,7 @@ are members of your app's target. Make sure your app is linked to `SumupSDK.fram
 
 Lastly, the SumUp SDK has a few dependencies to system frameworks. Please make sure that your app links against the following frameworks:
 
-* AVFoundation (needs to be linked as **optional** if your deployment target is iOS 5.x)
+* AVFoundation
 * Accelerate
 * MapKit
 
@@ -40,10 +44,6 @@ On older versions of Xcode you might also need to link to:
 * GLKit
 * Security
 * UIKit
-
-
-#### Deployment Target
-The SumUp SDK is suitable from iOS 5.1.1 to iOS 8 for iPad and iPhone, so please set your deployment target to 5.1.1 or later.
 
 ### Location/Microphone usage
 The SumUp SDK needs to access the user's location and the device's microphone. If your app has not asked for the user's permission the SumUp SDK will ask at the first login or checkout attempt. Please add the keys `NSLocationWhenInUseUsageDescription` and `NSMicrophoneUsageDescription` to your info plist file and add a (most likely english) explanation why the app needs the user's location. You can provide localization using a localized `InfoPlist.strings` file.
@@ -108,6 +108,7 @@ Using this checkout request you can then start accepting payments:
 [SumupSDK checkoutWithRequest:request
            fromViewController:vc
                    completion:^(SMPCheckoutResult *result, NSError *error) {
-                   // ... handle completed and failed payments here
+                   // handle completed and failed payments here
+                   // retrieve information via result.additionalInfo
 }];
 ```

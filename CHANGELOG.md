@@ -1,5 +1,14 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.3.0b3
+* [ADDED] Provide additional information on transaction and payment
+  instrument in `-[SMPCheckoutResult additionalInfo]`.
+* [IMPROVEMENT] Add nullability annotations
+
+Sample application:
+
+* [IMPROVEMENT] Fix some warnings on missing launch image sizes
+
 ## Version 1.3.0b2
 **Deployment target changed to iOS 6.**
 
