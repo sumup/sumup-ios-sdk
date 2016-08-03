@@ -1,5 +1,16 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.3.0b4
+* [BUGFIX] Fix an issue where some C&S transactions would incorrectly be
+  reported as failed
+* [IMPROVEMENT] Improve BTLE discovery of the new SumUp terminal
+* [IMPROVEMENT] Prefix some internal classes to avoid collisions,
+  see [issue 15](https://github.com/sumup/sumup-ios-sdk/issues/15).
+
+  Sample application:
+
+  * [IMPROVEMENT] Remove `-w` in other linker flags and hint from README.
+
 ## Version 1.3.0b3
 * [ADDED] Provide additional information on transaction and payment
   instrument in `-[SMPCheckoutResult additionalInfo]`.

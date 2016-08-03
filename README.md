@@ -1,6 +1,6 @@
 # SumUp iOS SDK
 
-## Version 1.3.0b3
+## Version 1.3.0b4
 
 - [Changelog](CHANGELOG.md)
 
@@ -30,24 +30,20 @@ Lastly, the SumUp SDK has a few dependencies to system frameworks. Please make s
 * Accelerate
 * MapKit
 
-*You might want to silence warnings like "was built for newer iOS version than being linked" by adding `-w` to "Other Linker Flags" as well to work around a [bug in Xcode 7](http://stackoverflow.com/a/32543155).*
+Please make sure to add `-ObjC` to "Other Linker Flags" if it is not included.
 
-On older versions of Xcode you might also need to link to:
 
-* AudioToolbox
-* AudioUnit
-* CFNetwork
-* CoreAudio
-* CoreGraphics
-* CoreLocation
-* Foundation
-* GLKit
-* Security
-* UIKit
-
-### Location/Microphone usage
-The SumUp SDK needs to access the user's location and the device's microphone. If your app has not asked for the user's permission the SumUp SDK will ask at the first login or checkout attempt. Please add the keys `NSLocationWhenInUseUsageDescription` and `NSMicrophoneUsageDescription` to your info plist file and add a (most likely english) explanation why the app needs the user's location. You can provide localization using a localized `InfoPlist.strings` file.
-
+### Location/Microphone usage Info.plist keys
+The SumUp SDK needs to access the user's location and the device's microphone.
+If your app has not asked for the user's permission the SumUp SDK will ask at
+the first login or checkout attempt. Please add the keys
+`NSLocationWhenInUseUsageDescription` and `NSMicrophoneUsageDescription` to your
+info plist file and add a (most likely english) explanation why the app needs
+the user's location. You can provide localization using a localized
+`InfoPlist.strings` file. For reference see the iOS Developer Library on
+[location usage on iOS 6 and 7](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW27),
+[iOS 8 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26)
+and [microphone access in iOS 7 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW25).
 
 ## Integrating the SumUp SDK with your app
 

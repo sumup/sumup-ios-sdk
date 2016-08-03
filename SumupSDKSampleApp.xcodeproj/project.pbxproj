@@ -307,12 +307,7 @@
 				GCC_PREFIX_HEADER = "SumupSDKSampleApp/SumupSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumupSDKSampleApp/SumupSDKSampleApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-					"-lstdc++",
-					"-w",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,12 +330,7 @@
 				GCC_PREFIX_HEADER = "SumupSDKSampleApp/SumupSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumupSDKSampleApp/SumupSDKSampleApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-					"-lstdc++",
-					"-w",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
