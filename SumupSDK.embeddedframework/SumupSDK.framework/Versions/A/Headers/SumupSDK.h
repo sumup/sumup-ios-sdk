@@ -11,16 +11,17 @@
 #import "SMPCheckoutResult.h"
 #import "SMPMerchant.h"
 
+NS_ASSUME_NONNULL_BEGIN
 
 /// A common completion block used within the SumupSDK is called with a success value and an error object.
-typedef void (^SumupCompletionBlock)(BOOL success, NSError *error);
+typedef void (^SumupCompletionBlock)(BOOL success, NSError * _Nullable error);
 /**
  *  The completion block type that will be used when calling checkoutWithRequest:fromViewController:completion:
  *
  *  @param result a SMPCheckoutResult that provides information about the checkout process
  *  @param error  an error object in case the checkout can not be performed
  */
-typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult *result ,NSError *error);
+typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult * _Nullable result ,NSError * _Nullable error);
 
 /// The SumupSDK class is your central interface with Sumup.
 @interface SumupSDK : NSObject
@@ -78,7 +79,7 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult *result ,NSError *e
  */
 + (void)presentLoginFromViewController:(UIViewController *)fromViewController
                               animated:(BOOL)animated
-                       completionBlock:(SumupCompletionBlock)block;
+                       completionBlock:(nullable SumupCompletionBlock)block;
 
 
 /**
@@ -88,7 +89,7 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult *result ,NSError *e
  *  @param aToken an access token
  *  @param block  a completion block that will run after login has succeeded/failed
  */
-+ (void)loginWithToken:(NSString *)aToken completion:(SumupCompletionBlock)block;
++ (void)loginWithToken:(NSString *)aToken completion:(nullable SumupCompletionBlock)block;
 
 /**
  \returns YES if the merchant is logged in. NO otherwise.
@@ -96,7 +97,7 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult *result ,NSError *e
 + (BOOL)isLoggedIn;
 
 /// Returns a copy of the currently logged in merchant or nil if no merchant is logged in.
-+ (SMPMerchant *)currentMerchant;
++ (nullable SMPMerchant *)currentMerchant;
 
 /**
  \abstract Presents a checkout view with all necessary steps to charge a customer.
@@ -110,7 +111,7 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult *result ,NSError *e
  */
 + (void)checkoutWithRequest:(SMPCheckoutRequest *)request
          fromViewController:(UIViewController *)controller
-            completionBlock:(SumupCompletionBlock)block DEPRECATED_MSG_ATTRIBUTE("Please use checkoutWithRequest:fromViewController:completion: instead.");
+            completionBlock:(nullable SumupCompletionBlock)block DEPRECATED_MSG_ATTRIBUTE("Please use checkoutWithRequest:fromViewController:completion: instead.");
 
 
 /**
@@ -122,7 +123,7 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult *result ,NSError *e
  */
 + (void)checkoutWithRequest:(SMPCheckoutRequest *)request
          fromViewController:(UIViewController *)controller
-                 completion:(SMPCheckoutCompletionBlock)block;
+                 completion:(nullable SMPCheckoutCompletionBlock)block;
 
 /**
  \returns YES if a checkout is progress. NO otherwise.
@@ -133,7 +134,7 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult *result ,NSError *e
  Performs a logout of the current merchant and resets the remembered password.
  \param block The completion block is called once the logout has finished.
  */
-+ (void)logoutWithCompletionBlock:(SumupCompletionBlock)block;
++ (void)logoutWithCompletionBlock:(nullable SumupCompletionBlock)block;
 
 /**
  \abstract If enabled the SDK automatically displays UI notifications (similar to the ringer UI notifications from iOS) to the user when the reader state changes. Default is YES.
@@ -178,3 +179,5 @@ typedef NS_ENUM(NSInteger, SMPSumupSDKError) {
 };
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -12,9 +12,9 @@
 @interface SMPMerchant : NSObject
 
 /// The currency code used by the merchant for all payments.
-@property (readonly, copy) NSString *currencyCode;
+@property (readonly, copy, nullable) NSString *currencyCode;
 
 /// The merchant's identifier within the SumUp system.
-@property (readonly, copy) NSString *merchantCode;
+@property (readonly, copy, nullable) NSString *merchantCode;
 
 @end

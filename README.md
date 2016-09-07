@@ -1,8 +1,12 @@
 # SumUp iOS SDK
 
-## Version 1.2.2
+## Version 1.3
 
 - [Changelog](CHANGELOG.md)
+
+#### Deployment Target
+The SumUp SDK is suitable from iOS 6.0 to iOS 10 for iPad and iPhone,
+so please set your deployment target to 6.0 or later.
 
 ## Getting started
 
@@ -22,34 +26,40 @@ are members of your app's target. Make sure your app is linked to `SumupSDK.fram
 
 Lastly, the SumUp SDK has a few dependencies to system frameworks. Please make sure that your app links against the following frameworks:
 
-* AVFoundation (needs to be linked as **optional** if your deployment target is iOS 5.x)
+* AVFoundation
 * Accelerate
 * MapKit
 
-Please also add `-lstdc++` to `OTHER_LDFLAGS` ("Other Linker Flags") of your target.
+Please make sure to add `-ObjC` to "Other Linker Flags" if it is not included.
 
-*You might want to silence warnings like "was built for newer iOS version than being linked" by adding `-w` to "Other Linker Flags" as well to work around a [bug in Xcode 7](http://stackoverflow.com/a/32543155).*
+### Supported Device Orientation
+Your app must support at least one landscape orientation. So please make sure
+to support at least one of the orientations Landscape Left/Right.
+See `UISupportedInterfaceOrientations` in the sample app's
+[Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L54-L60)
+or the "General" tab in Xcode's Target Editor.
 
-On older versions of Xcode you might also need to link to:
+### Privacy Info.plist keys
+The SumUp SDK needs to access the user's location, Bluetooth peripherals,
+and the device's microphone.
+If your app has not asked for the user's permission the SumUp SDK will ask at
+the first login or checkout attempt. Please add the following keys
+to your info plist file:
+* NSLocationWhenInUseUsageDescription
+* NSBluetoothPeripheralUsageDescription
+* NSMicrophoneUsageDescription
+* NSLocationUsageDescription (only if deployment target is iOS 6 or 7)
 
-* AudioToolbox
-* AudioUnit
-* CFNetwork
-* CoreAudio
-* CoreGraphics
-* CoreLocation
-* Foundation
-* GLKit
-* Security
-* UIKit
+See the sample app's
+[Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L38-L45).
+You can provide localization by providing a localized
+[InfoPlist.strings](SumupSDKSampleApp/en.lproj/InfoPlist.strings) file.
 
-
-#### Deployment Target
-The SumUp SDK is suitable from iOS 5.1.1 to iOS 8 for iPad and iPhone, so please set your deployment target to 5.1.1 or later.
-
-### Location/Microphone usage
-The SumUp SDK needs to access the user's location and the device's microphone. If your app has not asked for the user's permission the SumUp SDK will ask at the first login or checkout attempt. Please add the keys `NSLocationWhenInUseUsageDescription` and `NSMicrophoneUsageDescription` to your info plist file and add a (most likely english) explanation why the app needs the user's location. You can provide localization using a localized `InfoPlist.strings` file.
-
+For reference see the iOS Developer Library on
+[location usage on iOS 6 and 7](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW27),
+[iOS 8 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26),
+[Bluetooth peripheral usage](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW20)
+and [microphone access in iOS 7 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW25).
 
 ## Integrating the SumUp SDK with your app
 
@@ -110,6 +120,7 @@ Using this checkout request you can then start accepting payments:
 [SumupSDK checkoutWithRequest:request
            fromViewController:vc
                    completion:^(SMPCheckoutResult *result, NSError *error) {
-                   // ... handle completed and failed payments here
+                   // handle completed and failed payments here
+                   // retrieve information via result.additionalInfo
 }];
 ```

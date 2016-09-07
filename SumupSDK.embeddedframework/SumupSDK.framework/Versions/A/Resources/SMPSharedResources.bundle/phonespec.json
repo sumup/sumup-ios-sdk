@@ -125,7 +125,25 @@
       "national_trunk": "8",
       "subscriber_number_length_max": 7,
       "subscriber_number_length_min": 7
-    }
+    },
+    {
+    "country_code": "se",
+    "country_prefix": "46",
+    "international_dial_prefix": "00",
+    "mobile_prefix_regex": "7",
+    "national_trunk": "0",
+    "subscriber_number_length_max": 8,
+    "subscriber_number_length_min": 6
+    },
+    {
+    "country_code": "us",
+    "country_prefix": "1",
+    "international_dial_prefix": "011",
+    "mobile_prefix_regex": "[2-9][0-9][0-9][2-9]",
+    "national_trunk": "1",
+    "subscriber_number_length_max": 6,
+    "subscriber_number_length_min": 6
+    },
   ],
   "local_country": {
     "country_code": "de",

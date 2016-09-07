@@ -49,17 +49,19 @@
 }
 
 - (IBAction)buttonChargeTapped:(id)sender {
-    // check total
+    // check total and currency code
     NSString *total = [[self textFieldTotal] text];
+    NSString *currencyCode = [[SumupSDK currentMerchant] currencyCode];
     
-    if ([total doubleValue] <= 0) {
+    if (([total doubleValue] <= 0) || ![currencyCode length]) {
         return;
     }
     
     SMPCheckoutRequest *request;
+
     request = [SMPCheckoutRequest requestWithTotal:[NSDecimalNumber decimalNumberWithString:total]
                                              title:self.textFieldTitle.text
-                                      currencyCode:[[SumupSDK currentMerchant] currencyCode]
+                                      currencyCode:currencyCode
                                     paymentOptions:SMPPaymentOptionAny];
     
     // the foreignTransactionID is an optional parameter and can be used

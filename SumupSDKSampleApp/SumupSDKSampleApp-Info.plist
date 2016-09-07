@@ -28,17 +28,23 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>460</string>
+	<string>640</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>The app needs to connect to Bluetooth peripherals to detect the SumUp Card Terminal correctly. Please confirm with "OK" as you cannot use your card reader otherwise.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>To provide a secure service, we need to know your location. Without location information, you cannot use SumUp.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>To provide a secure service, we need to know your location. Without location information, you cannot use SumUp.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>The app needs to access the microphone of your audio jack in order for the SumUp Card Reader to be detected correctly. Please confirm with "OK" as you cannot use your card reader otherwise.</string>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

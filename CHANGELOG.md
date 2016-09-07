@@ -1,11 +1,37 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.3
+
+**Deployment target changed to iOS 6.**
+
+* [UPDATE] Base SDK is iOS 9.3, deployment target is iOS 6
+* [ADDED] Provide additional information on transaction and payment
+  instrument in `-[SMPCheckoutResult additionalInfo]`.
+* [ADDED] New terminal including US support
+* [BUGFIX] Fix an issue where some C&S transactions and mobile payments
+  would incorrectly be reported as failed
+* [IMPROVEMENT] Improve layout on iPhone 6, iPhone 6 Plus, and iPad Pro
+* [IMPROVEMENT] Match style of SumUp iOS app version 1.60 and later
+* [IMPROVEMENT] Improve support of Wake-on-Bluetooth PIN+ readers
+* [IMPROVEMENT] Add nullability annotations
+* [IMPROVEMENT] Prefix some internal classes to avoid duplicated symbols,
+  see [issue 15](https://github.com/sumup/sumup-ios-sdk/issues/15).
+
+Sample application:
+
+* [UPDATE] Application supports large screens
+* [UPDATE] Deployment target has been raised to iOS 6
+* [IMPROVEMENT] Remove `-w` in other linker flags and hint from README.
+* [IMPROVEMENT] Add NSBluetoothPeripheralUsageDescription to Info.plist
+
 ## Version 1.2.2
+
 * [ADDED] `+[SumupSDK loginWithToken:completion:]` provides a way to log in a
 merchant with an access token acquired using the
 [authentication API](https://sumup.com/integration#APIAuth).
 * [IMPROVEMENT] Always provide an error object if login fails in
 `+[SumupSDK presentLoginFromViewController:animated:completionBlock]`
+* [IMPROVEMENT] no need to link against `stdc++` anymore
 
 ## Version 1.2.1
 * [IMPROVEMENT] Rename SBJson to [avoid conflicts](https://github.com/sumup/sumup-ios-sdk/issues/1).
