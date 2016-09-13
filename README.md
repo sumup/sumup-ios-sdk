@@ -1,6 +1,6 @@
 # SumUp iOS SDK
 
-## Version 1.3
+## Version 1.3.1b1
 
 - [Changelog](CHANGELOG.md)
 
@@ -33,8 +33,9 @@ Lastly, the SumUp SDK has a few dependencies to system frameworks. Please make s
 Please make sure to add `-ObjC` to "Other Linker Flags" if it is not included.
 
 ### Supported Device Orientation
-Your app must support at least one landscape orientation. So please make sure
-to support at least one of the orientations Landscape Left/Right.
+The SDK supports all device orientations on iPad and portrait only on iPhone.
+Feel free to support other orientations on iPhone but please keep in mind that
+the SDK's UI will be presented in portrait on iPhone.
 See `UISupportedInterfaceOrientations` in the sample app's
 [Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L54-L60)
 or the "General" tab in Xcode's Target Editor.

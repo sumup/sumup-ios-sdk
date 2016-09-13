@@ -1,5 +1,10 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.3.1b1
+
+* [IMPROVEMENT] Hosting app is no longer required to support any landscape
+  device orientation on iPhone
+
 ## Version 1.3
 
 **Deployment target changed to iOS 6.**
