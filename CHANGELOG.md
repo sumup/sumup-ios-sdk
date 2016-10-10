@@ -1,5 +1,11 @@
 # SumUp iOS SDK Changelog
 
+## Version 1.3.1b2
+
+* [IMPROVEMENT] Improve support for latest BTLE card terminals
+* [IMPROVEMENT] Assert that SMPSharedResources is available when setting up SDK
+  on simulator.
+
 ## Version 1.3.1b1
 
 * [IMPROVEMENT] Hosting app is no longer required to support any landscape
