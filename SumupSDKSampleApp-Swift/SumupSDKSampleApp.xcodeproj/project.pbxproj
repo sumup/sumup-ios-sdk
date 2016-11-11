@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC483B281DD53142009CD71F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC483B271DD53142009CD71F /* AppDelegate.swift */; };
+		DC483B2A1DD53142009CD71F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC483B291DD53142009CD71F /* ViewController.swift */; };
+		DC483B2D1DD53142009CD71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC483B2B1DD53142009CD71F /* Main.storyboard */; };
+		DC483B2F1DD53142009CD71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC483B2E1DD53142009CD71F /* Assets.xcassets */; };
+		DC483B321DD53142009CD71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC483B301DD53142009CD71F /* LaunchScreen.storyboard */; };
+		DC483B3F1DD53356009CD71F /* SMPSharedResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC483B3C1DD53356009CD71F /* SMPSharedResources.bundle */; };
+		DC483B401DD53356009CD71F /* YTLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC483B3D1DD53356009CD71F /* YTLibResources.bundle */; };
+		DC483B411DD53356009CD71F /* SumupSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC483B3E1DD53356009CD71F /* SumupSDK.framework */; };
+		DC483B471DD53431009CD71F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC483B461DD53431009CD71F /* AVFoundation.framework */; };
+		DC483B491DD53438009CD71F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC483B481DD53438009CD71F /* Accelerate.framework */; };
+		DC483B4B1DD5343E009CD71F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC483B4A1DD5343E009CD71F /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC483B241DD53142009CD71F /* SumupSDKSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumupSDKSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC483B271DD53142009CD71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC483B291DD53142009CD71F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC483B2C1DD53142009CD71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC483B2E1DD53142009CD71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC483B311DD53142009CD71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC483B331DD53142009CD71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC483B3C1DD53356009CD71F /* SMPSharedResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMPSharedResources.bundle; sourceTree = "<group>"; };
+		DC483B3D1DD53356009CD71F /* YTLibResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YTLibResources.bundle; sourceTree = "<group>"; };
+		DC483B3E1DD53356009CD71F /* SumupSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SumupSDK.framework; sourceTree = "<group>"; };
+		DC483B421DD53386009CD71F /* SumupSDKSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SumupSDKSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC483B461DD53431009CD71F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC483B481DD53438009CD71F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DC483B4A1DD5343E009CD71F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC483B211DD53142009CD71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC483B4B1DD5343E009CD71F /* MapKit.framework in Frameworks */,
+				DC483B491DD53438009CD71F /* Accelerate.framework in Frameworks */,
+				DC483B471DD53431009CD71F /* AVFoundation.framework in Frameworks */,
+				DC483B411DD53356009CD71F /* SumupSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC483B1B1DD53142009CD71F = {
+			isa = PBXGroup;
+			children = (
+				DC483B261DD53142009CD71F /* SumupSDKSampleApp */,
+				DC483B391DD53348009CD71F /* Frameworks */,
+				DC483B251DD53142009CD71F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC483B251DD53142009CD71F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC483B241DD53142009CD71F /* SumupSDKSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC483B261DD53142009CD71F /* SumupSDKSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC483B271DD53142009CD71F /* AppDelegate.swift */,
+				DC483B291DD53142009CD71F /* ViewController.swift */,
+				DC483B2B1DD53142009CD71F /* Main.storyboard */,
+				DC483B2E1DD53142009CD71F /* Assets.xcassets */,
+				DC483B301DD53142009CD71F /* LaunchScreen.storyboard */,
+				DC483B331DD53142009CD71F /* Info.plist */,
+				DC483B421DD53386009CD71F /* SumupSDKSampleApp-Bridging-Header.h */,
+			);
+			path = SumupSDKSampleApp;
+			sourceTree = "<group>";
+		};
+		DC483B391DD53348009CD71F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC483B4A1DD5343E009CD71F /* MapKit.framework */,
+				DC483B481DD53438009CD71F /* Accelerate.framework */,
+				DC483B461DD53431009CD71F /* AVFoundation.framework */,
+				DC483B3A1DD53356009CD71F /* SumupSDK.embeddedframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC483B3A1DD53356009CD71F /* SumupSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				DC483B3B1DD53356009CD71F /* Resources */,
+				DC483B3E1DD53356009CD71F /* SumupSDK.framework */,
+			);
+			name = SumupSDK.embeddedframework;
+			path = ../SumupSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		DC483B3B1DD53356009CD71F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC483B3C1DD53356009CD71F /* SMPSharedResources.bundle */,
+				DC483B3D1DD53356009CD71F /* YTLibResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC483B231DD53142009CD71F /* SumupSDKSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC483B361DD53142009CD71F /* Build configuration list for PBXNativeTarget "SumupSDKSampleApp" */;
+			buildPhases = (
+				DC483B201DD53142009CD71F /* Sources */,
+				DC483B211DD53142009CD71F /* Frameworks */,
+				DC483B221DD53142009CD71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumupSDKSampleApp;
+			productName = SumupSDKSampleApp;
+			productReference = DC483B241DD53142009CD71F /* SumupSDKSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC483B1C1DD53142009CD71F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "SumUp Payments Limited";
+				TargetAttributes = {
+					DC483B231DD53142009CD71F = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC483B1F1DD53142009CD71F /* Build configuration list for PBXProject "SumupSDKSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC483B1B1DD53142009CD71F;
+			productRefGroup = DC483B251DD53142009CD71F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC483B231DD53142009CD71F /* SumupSDKSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC483B221DD53142009CD71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC483B401DD53356009CD71F /* YTLibResources.bundle in Resources */,
+				DC483B321DD53142009CD71F /* LaunchScreen.storyboard in Resources */,
+				DC483B2F1DD53142009CD71F /* Assets.xcassets in Resources */,
+				DC483B2D1DD53142009CD71F /* Main.storyboard in Resources */,
+				DC483B3F1DD53356009CD71F /* SMPSharedResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC483B201DD53142009CD71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC483B2A1DD53142009CD71F /* ViewController.swift in Sources */,
+				DC483B281DD53142009CD71F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC483B2B1DD53142009CD71F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC483B2C1DD53142009CD71F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC483B301DD53142009CD71F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC483B311DD53142009CD71F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC483B341DD53142009CD71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC483B351DD53142009CD71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC483B371DD53142009CD71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../SumupSDK.embeddedframework",
+				);
+				INFOPLIST_FILE = SumupSDKSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sample.SumupSDKSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SumupSDKSampleApp/SumupSDKSampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC483B381DD53142009CD71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../SumupSDK.embeddedframework",
+				);
+				INFOPLIST_FILE = SumupSDKSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sample.SumupSDKSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SumupSDKSampleApp/SumupSDKSampleApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC483B1F1DD53142009CD71F /* Build configuration list for PBXProject "SumupSDKSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC483B341DD53142009CD71F /* Debug */,
+				DC483B351DD53142009CD71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC483B361DD53142009CD71F /* Build configuration list for PBXNativeTarget "SumupSDKSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC483B371DD53142009CD71F /* Debug */,
+				DC483B381DD53142009CD71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC483B1C1DD53142009CD71F /* Project object */;
+}

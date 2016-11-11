@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ppg-ON-gSU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dpS-5h-n2T">
+            <objects>
+                <viewController id="ppg-ON-gSU" customClass="ViewController" customModule="SumupSDKSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yxe-Kz-AzS"/>
+                        <viewControllerLayoutGuide type="bottom" id="CrE-kQ-23j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4ju-lo-aDB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="10.00" borderStyle="line" placeholder="Total" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5eM-k7-bG1">
+                                <rect key="frame" x="57" y="90" width="260" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ppg-ON-gSU" id="lyY-Ul-VK7"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kse-ee-d4H">
+                                <rect key="frame" x="64" y="222" width="246" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Charge">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" red="0.82113939520000001" green="0.82113939520000001" blue="0.82113939520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonChargeTapped:" destination="ppg-ON-gSU" eventType="touchUpInside" id="Rgl-eZ-9xO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GxW-dx-SH2">
+                                <rect key="frame" x="38" y="25" width="120" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" red="0.82113939520000001" green="0.82113939520000001" blue="0.82113939520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonLoginTapped:" destination="ppg-ON-gSU" eventType="touchUpInside" id="dlB-JW-LGC"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Add optional label" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r3p-C6-FR7">
+                                <rect key="frame" x="57" y="178" width="260" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ppg-ON-gSU" id="bGU-tK-v8h"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xW4-Eq-hXI">
+                                <rect key="frame" x="216" y="25" width="120" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" red="0.82113939520000001" green="0.82113939520000001" blue="0.82113939520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonLogoutTapped:" destination="ppg-ON-gSU" eventType="touchUpInside" id="7eN-p9-KBY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mag-xa-VUL">
+                                <rect key="frame" x="61" y="304" width="253" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95411142680000005" green="0.95411142680000005" blue="0.95411142680000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9p0-qg-qSe">
+                                <rect key="frame" x="30" y="643" width="325" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonCharge" destination="Kse-ee-d4H" id="eVr-as-gzM"/>
+                        <outlet property="buttonLogin" destination="GxW-dx-SH2" id="TaG-Zs-apf"/>
+                        <outlet property="buttonLogout" destination="xW4-Eq-hXI" id="Sfj-9F-NSR"/>
+                        <outlet property="label" destination="Mag-xa-VUL" id="8M8-hB-Ugj"/>
+                        <outlet property="textFieldTitle" destination="r3p-C6-FR7" id="6M1-0b-Hm7"/>
+                        <outlet property="textFieldTotal" destination="5eM-k7-bG1" id="FJn-Vg-AxC"/>
+                        <outlet property="versionLabel" destination="9p0-qg-qSe" id="FoT-9C-c50"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AyV-yb-iCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
