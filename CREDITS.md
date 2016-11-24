@@ -66,9 +66,9 @@ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS “AS IS” AND ANY EX
 
 ---
 
-Uses [SSKeychain](https://github.com/soffes/sskeychain).
+Uses [SAMKeychain](https://github.com/soffes/SAMKeychain).
 
-Copyright (c) 2010-2014 [Sam Soffes](http://soff.es)
+Copyright (c) 2010-2016 Sam Soffes, [http://soff.es](http://soff.es)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

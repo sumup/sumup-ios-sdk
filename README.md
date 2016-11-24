@@ -1,70 +1,111 @@
-# SumUp iOS SDK
+# SumUp mPOS SDK - iOS
 
-## Version 1.3
+[![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
+[![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
+[![Supports](https://img.shields.io/badge/Requires-iOS%206+-red.svg?style=flat-square)]()
+[![Version](https://img.shields.io/badge/Version-2.0-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Licence](https://img.shields.io/badge/Licence-SumUp-brightgreen.svg?style=flat-square)](LICENCE)
 
-- [Changelog](CHANGELOG.md)
+This repository provides a native iOS SDK that enables you to integrate SumUp's proprietary
+card terminal(s) and its payment platform to accept credit and debit card payments
+(incl. VISA, MasterCard, American Express and more). SumUp's SDK communicates transparently
+to the card terminal(s) via Bluetooth (BLE 4.0) or an audio cable connection. Upon initiating
+a checkout, the SDK guides your user using appropriate screens through each step of the payment
+process. As part of the process, SumUp provides also the card terminal setup screen, along with the
+cardholder signature verification screen. The checkout result is returned with the relevant
+data for your records.
 
-#### Deployment Target
-The SumUp SDK is suitable from iOS 6.0 to iOS 10 for iPad and iPhone,
-so please set your deployment target to 6.0 or later.
+No sensitive card data is ever passed through to or stored on the merchant’s phone.
+All data is encrypted by the card terminal, which has been fully certified to the highest
+industry standards (PCI, EMV I & II, Visa, MasterCard & Amex).
 
-## Getting started
+For more information, please refer to SumUp's
+[integration website](https://sumup.com/integration#terminalPaymentSDK).
+
+### Prerequisites
+1. Registered for a merchant account via SumUp's [country websites](https://sumup.com/) (or received a test account).
+2. Received SumUp card terminal: Air, Air Lite, PIN+ Terminal, Chip/Magstripe or Signature Card Reader.
+3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
+4. Deployment Target iOS 6.0 or later.
+5. Xcode 7 and iOS SDK 9 or later.
+6. iPhone, iPad or iPod touch of all sizes and resolutions running on iOS 6+.
+
+### Table of Contents
+* [Installation](#installation)
+    * [Preparing your Xcode project](#preparing-your-xcode-project)
+    * [Supported device orientation](#supported-device-orientation)
+    * [Privacy Info plist keys](#privacy-info-plist-keys)
+* [Getting started](#getting-started)
+  * [Authenticate app](#authenticate-app)
+  * [Login](#login)
+  * [Accept card payments](#accept-card-payments)
+* [Community](#community)
+* [Changelog](#changelog)
+* [License](#license)
+
+## Installation
 
 ### Preparing your Xcode project
-*You can use the sample App that is provided with the SumUp SDK as a reference project.*
 
+The SumUp SDK is provided as an embedded framework `SumupSDK.embeddedframework`
+that combines a static library, its headers and bundles containing resources such as
+images and localizations. Please follow the steps below to prepare your project:
 
-The SumUp SDK is provided to you as an embedded framework `SumupSDK.embeddedframework` that combines a static library, its headers and a bundle containing resources such as images and localizations.
+1. Add the `SumupSDK.embeddedframework` to your Xcode project (e.g. in the group Frameworks).
+Please ensure that the following frameworks are part of your app's target:
 
-Add the `SumupSDK.embeddedframework` to your Xcode project (e.g. in the group Frameworks). If you haven't done so already when adding it, ensure that
+        SumupSDK.embeddedframework/SumupSDK.framework
+        SumupSDK.embeddedframework/Reources/SMPSharedResources.bundle
+        SumupSDK.embeddedframework/Resources/YTLibResources.bundle
 
-* `SumupSDK.embeddedframework/SumupSDK.framework`
-* `SumupSDK.embeddedframework/Reources/SMPSharedResources.bundle`
-* `SumupSDK.embeddedframework/Resources/YTLibResources.bundle`
+2. Link your app to `SumupSDK.framework`.
+3. Link your app against the following system frameworks:
 
-are members of your app's target. Make sure your app is linked to `SumupSDK.framework`.
+        AVFoundation
+        Accelerate
+        MapKit
 
-Lastly, the SumUp SDK has a few dependencies to system frameworks. Please make sure that your app links against the following frameworks:
+4. Add `-ObjC` to "Other Linker Flags" if not yet included.
 
-* AVFoundation
-* Accelerate
-* MapKit
+> Note:
+> You can use the [sample app](https://github.com/sumup/sumup-ios-sdk/tree/master/SumupSDKSampleApp)
+that is provided with the SumUp SDK as a reference project. The Xcode project contains sample apps
+written in Objective-C and Swift.
 
-Please make sure to add `-ObjC` to "Other Linker Flags" if it is not included.
-
-### Supported Device Orientation
-Your app must support at least one landscape orientation. So please make sure
-to support at least one of the orientations Landscape Left/Right.
+### Supported device orientation
+The SDK supports all device orientations on iPad and portrait on iPhone.
+Feel free to support other orientations on iPhone but please keep in mind that
+the SDK's UI will be presented in portrait on iPhone.
 See `UISupportedInterfaceOrientations` in the sample app's
 [Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L54-L60)
 or the "General" tab in Xcode's Target Editor.
 
-### Privacy Info.plist keys
-The SumUp SDK needs to access the user's location, Bluetooth peripherals,
-and the device's microphone.
-If your app has not asked for the user's permission the SumUp SDK will ask at
-the first login or checkout attempt. Please add the following keys
-to your info plist file:
-* NSLocationWhenInUseUsageDescription
-* NSBluetoothPeripheralUsageDescription
-* NSMicrophoneUsageDescription
-* NSLocationUsageDescription (only if deployment target is iOS 6 or 7)
+### Privacy Info plist keys
+The SumUp SDK requires access to the user's location, Bluetooth peripherals
+and the device's microphone. If your app has not asked for the user's permission,
+the SumUp SDK will ask at the time of the first login or checkout attempt. Please add the
+following keys to your info plist file:
 
-See the sample app's
-[Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L38-L45).
-You can provide localization by providing a localized
+        NSLocationWhenInUseUsageDescription
+        NSBluetoothPeripheralUsageDescription
+        NSMicrophoneUsageDescription
+        NSLocationUsageDescription (only if deployment target is iOS 6 or 7)
+
+> Note:
+> - Please refer to the sample app's [Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L38-L45)
+for more information regarding the listed permissions required.
+> - You can provide localization by providing a localized
 [InfoPlist.strings](SumupSDKSampleApp/en.lproj/InfoPlist.strings) file.
-
-For reference see the iOS Developer Library on
+> - For further information, see the iOS Developer Library on
 [location usage on iOS 6 and 7](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW27),
 [iOS 8 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26),
 [Bluetooth peripheral usage](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW20)
 and [microphone access in iOS 7 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW25).
 
-## Integrating the SumUp SDK with your app
 
-Before calling any other method of the SumUp SDK you need setup the SumUp SDK with your API key:
-
+## Getting started
+### Authenticate app
+Before calling any additional feature of the SumUp SDK, you are required to setup the SDK with your Affiliate (Access) Key:
 ```objc
 #import <SumupSDK/SumupSDK.h>
 
@@ -72,27 +113,32 @@ Before calling any other method of the SumUp SDK you need setup the SumUp SDK wi
 
 [SumupSDK setupWithAPIKey:@"MyAPIKey"];
 ```
-As this might ask for the user's location it should not necessarily be part
-of the app launch.
 
-Once the SumUp SDK is setup, you can start interacting with it.
+> Note:
+> `setupWithAPIKey:` checks for the user's location permission. Consequently,
+do not call this method as part of the app launch.
 
-### Login to SumUp
+### Login
 
-The logical next step after the setup is to allow the user to login to their SumUp account. You can present a login screen from your `UIViewController` using the following method:
+Following app authentication, a registered SumUp merchant account needs to be logged in.
+Present a login screen from your `UIViewController`, using the following method:
 ```objc
 [SumupSDK presentLoginfromViewController:vc
                                 animated:YES
                          completionBlock:nil];
 ```
 
+
+> Note:
+> To log out of the SDK, please refer to `logoutWithCompletionBlock:`.
+
 ### Accept card payments
+Once logged in, you can start using the SumUp SDK to accept card payments.
 
-Once the user is logged in, you can use the SumUp SDK to accept card payments.
+#### Prepare checkout request
+Prepare a checkout request that encapsulates the information regarding the transaction.
 
-Before accepting card payment you need to prepare a checkout request that encapsulates the information regarding the transaction.
-
-For this you will need to create an instance of `SMPCheckoutRequest`:
+For this, you will need to create an instance `SMPCheckoutRequest`:
 
 
 ```objc
@@ -101,19 +147,27 @@ For this you will need to create an instance of `SMPCheckoutRequest`:
 // ...
 
 SMPCheckoutRequest *request = [SMPCheckoutRequest requestWithTotal:[NSDecimalNumber decimalNumberWithString:@"10.00"]
-                                                             title:self.textFieldTitle.text
+                                                             title:@"your title"
                                                       currencyCode:[[SumupSDK currentMerchant] currencyCode]
                                                     paymentOptions:SMPPaymentOptionAny];
+```
 
+Please note that you need to pass an `NSDecimalNumber` as the total value.
+While `NSDecimalNumber` is a subclass of `NSNumber` it is not advised to use the
+convenience method of `NSNumber` to create an `NSDecimalNumber`.
+
+You can pass an optional transaction identifier in `foreignTransactionID`.
+This identifier will be associated with the transaction and can be used to retrieve this transaction later.
+See [API documentation](https://sumup.com/integration#transactionReportingAPIs) for details.
+Please make sure that this ID is unique within the scope of your SumUp SDK's Affiliate (Access) Key.
+It must not be longer than 128 characters.
+
+```
 // set an optional identifier
 [request setForeignTransactionID:@"my-unique-id"];
 ```
-
-Please be aware that you need to pass an `NSDecimalNumber` as the total value. While `NSDecimalNumber` is a subclass of `NSNumber` it is not advised to use the convenience method of `NSNumber` to create a `NSDecimalNumber`.
-
-You can pass an optional transaction identifier in `foreignTransactionID`. This identifier will be associated with the transaction and can be used to retrieve this transaction later. See [API documentation](https://sumup.com/integration#transactionReportingAPIs) for details. Please make sure that this ID is unique within the scope of your SumUp SDK key. It must not be longer than 128 characters.
-
-Using this checkout request you can then start accepting payments:
+#### Initiate Checkout Request
+Start a payment by using the checkout request below:
 
 
 ```objc
@@ -124,3 +178,15 @@ Using this checkout request you can then start accepting payments:
                    // retrieve information via result.additionalInfo
 }];
 ```
+
+## Community
+- **Questions?** Get in contact with our integration team by sending an email to
+<a href="mailto:integration@sumup.com">integration@sumup.com</a>.
+- **Found a bug?** [Open an issue](https://github.com/sumup/sumup-ios-sdk/issues/new).
+Please provide as much information as possible.
+
+## Changelog
+[SumUp iOS SDK Changelog](CHANGELOG.md)
+
+## License
+[SumUp iOS SDK License](LICENSE)

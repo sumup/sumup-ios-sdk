@@ -54,6 +54,7 @@
     NSString *currencyCode = [[SumupSDK currentMerchant] currencyCode];
     
     if (([total doubleValue] <= 0) || ![currencyCode length]) {
+        [self showResultsString:@"not logged in"];
         return;
     }
     
@@ -103,6 +104,7 @@
 
 #pragma mark -
 #pragma mark - Beautify UI
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self addCurrencyToTextField];

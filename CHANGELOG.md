@@ -1,5 +1,14 @@
 # SumUp iOS SDK Changelog
 
+## Version 2.0
+
+* [IMPROVEMENT] Support latest Air and Air Lite terminals
+* [IMPROVEMENT] Hosting app is no longer required to support any landscape
+  device orientation on iPhone
+* [IMPROVEMENT] Assert that SMPSharedResources is available when setting up SDK
+  on simulator.
+* [ADDED] Swift sample app
+
 ## Version 1.3
 
 **Deployment target changed to iOS 6.**

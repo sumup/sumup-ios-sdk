@@ -1,9 +1,9 @@
 //
 //  SMPMerchant.h
-//  Cashier
+//  SumupSDK
 //
 //  Created by Felix Lamouroux on 04.03.14.
-//  Copyright (c) 2014 iosphere GmbH. All rights reserved.
+//  Copyright (c) 2014 SumUp Payments Limited. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
