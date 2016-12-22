@@ -8,6 +8,8 @@
 * [IMPROVEMENT] Assert that SMPSharedResources is available when setting up SDK
   on simulator.
 * [ADDED] Swift sample app
+* [ADDED] Includes upcoming SSL certificate - Certificates included in any
+  previous SDK version will expire Friday, 24th Feb 2017
 
 ## Version 1.3
 
