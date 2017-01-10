@@ -365,6 +365,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
@@ -392,6 +393,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
