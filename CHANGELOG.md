@@ -1,5 +1,26 @@
 # SumUp iOS SDK Changelog
 
+## Version 2.1b1-miura
+
+**Deployment target changed to iOS 7.**
+
+This version supports Miura card readers connected via Bluetooth classic
+in addition to SumUp's proprietary card terminals.
+Your app needs to be linked against ExternalAccessory, SystemConfiguration and
+sqlite3 as well. Please make sure to also include the AdyenToolkit.bundle
+provided with the SDK and include the relevant
+`UISupportedExternalAccessoryProtocols` in your Info.plist file.
+ See [readme](README.md#preparing-your-xcode-project).
+
+* [UPDATE] Deployment target is iOS 7
+* [ADDED] Support Miura card readers
+
+Sample application:
+
+* [UPDATE] Raise Objective-C sample app's deployment target to iOS 7
+* [BUGFIX] Add missing `-ObjC` linker flag to Swift sample app
+
+
 ## Version 2.0
 
 * [IMPROVEMENT] Support latest Air and Air Lite terminals

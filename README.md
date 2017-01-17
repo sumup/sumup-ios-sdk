@@ -2,9 +2,15 @@
 
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
-[![Supports](https://img.shields.io/badge/Requires-iOS%206+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-2.0-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
-[![Licence](https://img.shields.io/badge/Licence-SumUp-brightgreen.svg?style=flat-square)](LICENCE)
+[![Supports](https://img.shields.io/badge/Requires-iOS%207+-red.svg?style=flat-square)]()
+[![Version](https://img.shields.io/badge/Version-2.1b1miura-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
+
+**This version of the SDK supports the Miura card readers M006 and M010 in
+addition to SumUp's proprietary card terminals.
+If you do not plan to support Miura readers, please keep using the
+release/preview versions of the SDK which do not support these readers.**
+
 
 This repository provides a native iOS SDK that enables you to integrate SumUp's proprietary
 card terminal(s) and its payment platform to accept credit and debit card payments
@@ -24,7 +30,7 @@ For more information, please refer to SumUp's
 
 ### Prerequisites
 1. Registered for a merchant account via SumUp's [country websites](https://sumup.com/) (or received a test account).
-2. Received SumUp card terminal: Air, Air Lite, PIN+ Terminal, Chip/Magstripe or Signature Card Reader.
+2. Received SumUp card terminal: Air, Air Lite, PIN+ Terminal, Chip & Signature or Miura card terminal.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
 4. Deployment Target iOS 6.0 or later.
 5. Xcode 7 and iOS SDK 9 or later.
@@ -33,6 +39,7 @@ For more information, please refer to SumUp's
 ### Table of Contents
 * [Installation](#installation)
     * [Preparing your Xcode project](#preparing-your-xcode-project)
+    * [MFi Program Authorization](#mfi-program-authorization)
     * [Supported device orientation](#supported-device-orientation)
     * [Privacy Info plist keys](#privacy-info-plist-keys)
 * [Getting started](#getting-started)
@@ -51,26 +58,51 @@ The SumUp SDK is provided as an embedded framework `SumupSDK.embeddedframework`
 that combines a static library, its headers and bundles containing resources such as
 images and localizations. Please follow the steps below to prepare your project:
 
-1. Add the `SumupSDK.embeddedframework` to your Xcode project (e.g. in the group Frameworks).
-Please ensure that the following frameworks are part of your app's target:
-
-        SumupSDK.embeddedframework/SumupSDK.framework
-        SumupSDK.embeddedframework/Reources/SMPSharedResources.bundle
-        SumupSDK.embeddedframework/Resources/YTLibResources.bundle
-
-2. Link your app to `SumupSDK.framework`.
+1. Add the `SumupSDK.embeddedframework` to your Xcode project.
+2. Link your app against `SumupSDK.framework`.
 3. Link your app against the following system frameworks:
 
-        AVFoundation
         Accelerate
+        AVFoundation
+        ExternalAccessory
         MapKit
+        SystemConfiguration
+        sqlite3
 
 4. Add `-ObjC` to "Other Linker Flags" if not yet included.
+
+5. Add the bundles provided in `SumupSDK.embeddedframework/Resources`
+   to your app target.
+
+        SumupSDK.embeddedframework/Resources/SMPSharedResources.bundle
+        SumupSDK.embeddedframework/Resources/YTLibResources.bundle
+        SumupSDK.embeddedframework/Resources/AdyenToolkit.bundle
+
+6. Add the following `UISupportedExternalAccessoryProtocols` to your app's
+  [Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L68-L73) file:
+
+        com.adyen.bt1
+        com.miura.shuttle.payleven
+        com.payleven.shuttle
+
 
 > Note:
 > You can use the [sample app](https://github.com/sumup/sumup-ios-sdk/tree/master/SumupSDKSampleApp)
 that is provided with the SumUp SDK as a reference project. The Xcode project contains sample apps
 written in Objective-C and Swift.
+
+#### MFi Program Authorization
+
+As your app communicates with the Miura card reader, which is an  approved
+MFi device, Apple requires your application to be registered before
+submitting to the App Store.
+This registration process officially associates your app with the Miura card
+reader and can only be performed by SumUp.
+Once your application has been registered, future app versions will not require
+additional registrations.
+Please get in touch with integration@sumup.com providing your bundle identifier
+and team ID before submission.
+
 
 ### Supported device orientation
 The SDK supports all device orientations on iPad and portrait on iPhone.

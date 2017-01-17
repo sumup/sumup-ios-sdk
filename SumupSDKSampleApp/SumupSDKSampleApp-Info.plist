@@ -28,21 +28,21 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.1b1-miura</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>641</string>
+	<string>697</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>The app needs to connect to Bluetooth peripherals to detect the SumUp Card Terminal correctly. Please confirm with &quot;OK&quot; as you cannot use your card reader otherwise.</string>
+	<string>The app needs to connect to Bluetooth peripherals to detect the SumUp Card Terminal correctly. Please confirm with "OK" as you cannot use your card reader otherwise.</string>
 	<key>NSLocationUsageDescription</key>
 	<string>To provide a secure service, we need to know your location. Without location information, you cannot use SumUp.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>To provide a secure service, we need to know your location. Without location information, you cannot use SumUp.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>The app needs to access the microphone of your audio jack in order for the SumUp Card Reader to be detected correctly. Please confirm with &quot;OK&quot; as you cannot use your card reader otherwise.</string>
+	<string>The app needs to access the microphone of your audio jack in order for the SumUp Card Reader to be detected correctly. Please confirm with "OK" as you cannot use your card reader otherwise.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>
@@ -53,6 +53,12 @@
 	</array>
 	<key>UIRequiresFullScreen</key>
 	<true/>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.adyen.bt1</string>
+		<string>com.miura.shuttle.payleven</string>
+		<string>com.payleven.shuttle</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

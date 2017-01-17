@@ -32,6 +32,14 @@
 		DCA9F47F189968C70057702B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F47E189968C70057702B /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E92050D81B289E4B00173579 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92050D71B289E4B00173579 /* Accelerate.framework */; };
 		E93AF477192BAB2A00AD09AC /* YTLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E93AF476192BAB2A00AD09AC /* YTLibResources.bundle */; };
+		E96619F01E263E4D005234D9 /* AdyenToolkit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E96619EF1E263E4D005234D9 /* AdyenToolkit.bundle */; };
+		E96619F11E263E4D005234D9 /* AdyenToolkit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E96619EF1E263E4D005234D9 /* AdyenToolkit.bundle */; };
+		E98CDE0A1E25565D00D098DE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E98CDE091E25565D00D098DE /* libsqlite3.tbd */; };
+		E98CDE0C1E25566C00D098DE /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98CDE0B1E25566C00D098DE /* ExternalAccessory.framework */; };
+		E98CDE0E1E25567400D098DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98CDE0D1E25567400D098DE /* SystemConfiguration.framework */; };
+		E9B145911E2556CF00548ABC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E98CDE091E25565D00D098DE /* libsqlite3.tbd */; };
+		E9B145921E2556D500548ABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98CDE0D1E25567400D098DE /* SystemConfiguration.framework */; };
+		E9B145931E2556DA00548ABC /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98CDE0B1E25566C00D098DE /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +66,10 @@
 		E90292CD1B29EF6600D7B7BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/Main-ObjC.storyboard"; sourceTree = "<group>"; };
 		E92050D71B289E4B00173579 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		E93AF476192BAB2A00AD09AC /* YTLibResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YTLibResources.bundle; sourceTree = "<group>"; };
+		E96619EF1E263E4D005234D9 /* AdyenToolkit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdyenToolkit.bundle; sourceTree = "<group>"; };
+		E98CDE091E25565D00D098DE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E98CDE0B1E25566C00D098DE /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		E98CDE0D1E25567400D098DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +77,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B584F461DE6132D00642029 /* MapKit.framework in Frameworks */,
-				1B584F451DE6132700642029 /* AVFoundation.framework in Frameworks */,
-				1B584F441DE6131E00642029 /* Accelerate.framework in Frameworks */,
 				1B584F411DE6130600642029 /* SumupSDK.framework in Frameworks */,
+				1B584F441DE6131E00642029 /* Accelerate.framework in Frameworks */,
+				1B584F451DE6132700642029 /* AVFoundation.framework in Frameworks */,
+				E9B145931E2556DA00548ABC /* ExternalAccessory.framework in Frameworks */,
+				1B584F461DE6132D00642029 /* MapKit.framework in Frameworks */,
+				E9B145921E2556D500548ABC /* SystemConfiguration.framework in Frameworks */,
+				E9B145911E2556CF00548ABC /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,9 +92,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC9610EE18996388009D8EBC /* SumupSDK.framework in Frameworks */,
-				DCA9F47F189968C70057702B /* AVFoundation.framework in Frameworks */,
 				E92050D81B289E4B00173579 /* Accelerate.framework in Frameworks */,
+				DCA9F47F189968C70057702B /* AVFoundation.framework in Frameworks */,
+				E98CDE0C1E25566C00D098DE /* ExternalAccessory.framework in Frameworks */,
 				DCA9F4771899687D0057702B /* MapKit.framework in Frameworks */,
+				E98CDE0E1E25567400D098DE /* SystemConfiguration.framework in Frameworks */,
+				E98CDE0A1E25565D00D098DE /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +166,9 @@
 		DC9610B318996359009D8EBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E98CDE0D1E25567400D098DE /* SystemConfiguration.framework */,
+				E98CDE0B1E25566C00D098DE /* ExternalAccessory.framework */,
+				E98CDE091E25565D00D098DE /* libsqlite3.tbd */,
 				DC9610E918996388009D8EBC /* SumupSDK.embeddedframework */,
 				E92050D71B289E4B00173579 /* Accelerate.framework */,
 				DCA9F47E189968C70057702B /* AVFoundation.framework */,
@@ -190,6 +211,7 @@
 		DC9610EA18996388009D8EBC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E96619EF1E263E4D005234D9 /* AdyenToolkit.bundle */,
 				E93AF476192BAB2A00AD09AC /* YTLibResources.bundle */,
 				DC9610EB18996388009D8EBC /* SMPSharedResources.bundle */,
 			);
@@ -275,9 +297,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96619F11E263E4D005234D9 /* AdyenToolkit.bundle in Resources */,
+				1B584F431DE6130D00642029 /* SMPSharedResources.bundle in Resources */,
 				1B584F421DE6130A00642029 /* YTLibResources.bundle in Resources */,
 				1B584F491DE6146000642029 /* Main-Swift.storyboard in Resources */,
-				1B584F431DE6130D00642029 /* SMPSharedResources.bundle in Resources */,
 				1B584F3F1DE6124400642029 /* Launch Screen.storyboard in Resources */,
 				1B584F401DE6125100642029 /* InfoPlist.strings in Resources */,
 				1B584F3D1DE6123300642029 /* Images.xcassets in Resources */,
@@ -288,12 +311,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96619F01E263E4D005234D9 /* AdyenToolkit.bundle in Resources */,
+				E93AF477192BAB2A00AD09AC /* YTLibResources.bundle in Resources */,
+				DC9610ED18996388009D8EBC /* SMPSharedResources.bundle in Resources */,
 				1BF7553B1CF6093C00C793FB /* Launch Screen.storyboard in Resources */,
 				DC9610CD18996359009D8EBC /* Images.xcassets in Resources */,
 				DC9610C818996359009D8EBC /* Main-ObjC.storyboard in Resources */,
 				DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */,
-				E93AF477192BAB2A00AD09AC /* YTLibResources.bundle in Resources */,
-				DC9610ED18996388009D8EBC /* SMPSharedResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +468,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0.1;
@@ -485,7 +508,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0.1;
@@ -502,6 +524,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SumupSDKSampleApp/SrcObjC/SumupSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumupSDKSampleApp/SumupSDKSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SumupSDKSampleApp/SrcObjC/SumupSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumupSDKSampleApp/SumupSDKSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
