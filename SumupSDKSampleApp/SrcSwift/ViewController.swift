@@ -15,7 +15,8 @@ class ViewController: UIViewController {
 
     @IBOutlet fileprivate weak var buttonLogin: UIButton?
     @IBOutlet fileprivate weak var buttonLogout: UIButton?
-    @IBOutlet private weak var buttonCharge: UIButton?
+    @IBOutlet fileprivate weak var buttonPreferences: UIButton?
+    @IBOutlet fileprivate weak var buttonCharge: UIButton?
 
     @IBOutlet fileprivate weak var textFieldTotal: UITextField?
     @IBOutlet fileprivate weak var textFieldTitle: UITextField?
@@ -39,18 +40,22 @@ class ViewController: UIViewController {
 
         if !appearCompleted {
             appearCompleted = true
-            presentLogin(animated: true)
+            presentLogin()
         }
     }
 
     // MARK: - Storyboard Actions
 
     @IBAction private func buttonLoginTapped(_ sender: Any) {
-        presentLogin(animated: true)
+        presentLogin()
     }
 
     @IBAction private func buttonLogoutTapped(_ sender: Any) {
         requestLogout()
+    }
+
+    @IBAction private func buttonOpenPreferencesTapped(_ sender: Any) {
+        presentCheckoutPreferences()
     }
 
     @IBAction private func buttonChargeTapped(_ sender: Any) {
@@ -59,9 +64,34 @@ class ViewController: UIViewController {
 
     // MARK: - SumupSDK interactions
 
-    private func presentLogin(animated: Bool) {
+    private func presentCheckoutPreferences() {
+        SumupSDK.presentCheckoutPreferences(from: self, animated: true) { [weak self] (success: Bool, presentationError: Error?) in
+            guard let safeError = presentationError as? NSError else {
+                // no error, nothing else to do
+                return
+            }
+
+            print("error presenting checkout preferences: \(safeError)")
+
+            let errorMessage: String
+            switch (safeError.domain, safeError.code) {
+            case (SMPSumupSDKErrorDomain, SMPSumupSDKError.accountNotLoggedIn.rawValue):
+                errorMessage = "not logged in"
+
+            case (SMPSumupSDKErrorDomain, SMPSumupSDKError.checkoutInProgress.rawValue):
+                errorMessage = "checkout is in progress"
+
+            default:
+                errorMessage = "general error"
+            }
+
+            self?.showResult(string: errorMessage)
+        }
+    }
+
+    private func presentLogin() {
         // present login UI and wait for completion block to update button states
-        SumupSDK.presentLogin(from: self, animated: animated) { [weak self] (success: Bool, error: Error?) in
+        SumupSDK.presentLogin(from: self, animated: true) { [weak self] (success: Bool, error: Error?) in
             guard error == nil else {
                 // errors are handled within the SDK, there should be no need
                 // for your app to display any error message
@@ -153,8 +183,13 @@ extension ViewController {
         let isLoggedIn = SumupSDK.isLoggedIn()
         buttonLogin?.isEnabled = !isLoggedIn
         buttonLogout?.isEnabled = isLoggedIn
-        // in this sample app we leave the charge button enabled
-        // to highlight the error handling in buttonChargeTapped(_)
+
+        // real apps should usually disable these actions when the user
+        // is not logged in - we keep them enabled to demonstrate the
+        // error handling
+
+        // buttonCharge?.isEnabled = isLoggedIn
+        // buttonPreferences?.isEnabled = isLoggedIn
     }
 
     fileprivate func applyStyle() {
@@ -192,7 +227,7 @@ extension ViewController {
     fileprivate func showResult(string: String) {
         label?.text = string
         // fade in label
-        UIView.animateKeyframes(withDuration: 3, delay: 0, options: .allowUserInteraction, animations: {
+        UIView.animateKeyframes(withDuration: 3, delay: 0, options: [.allowUserInteraction, .beginFromCurrentState], animations: {
             let relativeDuration = TimeInterval(0.15)
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: relativeDuration) {
                 self.label?.alpha = 1.0
