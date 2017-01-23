@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="10.00" borderStyle="line" placeholder="Total" textAlignment="center" minimumFontSize="17" id="9dJ-2i-FCZ">
-                                <rect key="frame" x="29.5" y="90" width="260" height="80"/>
+                                <rect key="frame" x="30" y="90" width="260" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" returnKeyType="next"/>
@@ -24,10 +24,10 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c6N-X2-K5F">
-                                <rect key="frame" x="36.5" y="222" width="246" height="57"/>
+                                <rect key="frame" x="37" y="222" width="246" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
-                                <state key="normal" title="Charge">
+                                <state key="normal" title="Preferences">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <state key="disabled">
@@ -35,7 +35,22 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonChargeTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="g9L-fH-d0f"/>
+                                    <action selector="buttonOpenPreferencesTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RwZ-Sh-KHW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aWd-G8-hb3">
+                                <rect key="frame" x="37" y="287" width="246" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Charge">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" red="0.82113939520000001" green="0.82113939520000001" blue="0.82113939520000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonChargeTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GBg-6b-ZzM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tbC-Gb-rxm">
@@ -55,7 +70,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Add optional label" textAlignment="center" minimumFontSize="17" id="Njw-Qd-kUI">
-                                <rect key="frame" x="29.5" y="178" width="260" height="36"/>
+                                <rect key="frame" x="30" y="178" width="260" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go"/>
@@ -64,7 +79,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ffz-r9-gBD">
-                                <rect key="frame" x="169.5" y="25" width="120" height="57"/>
+                                <rect key="frame" x="170" y="25" width="120" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="Logout">
@@ -80,11 +95,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nK1-HI-2MQ">
-                                <rect key="frame" x="33.5" y="304" width="253" height="67"/>
+                                <rect key="frame" x="34" y="352" width="253" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9541114267676768" green="0.9541114267676768" blue="0.9541114267676768" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9dF-cl-f1u">
@@ -101,9 +116,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="buttonCharge" destination="c6N-X2-K5F" id="EAr-Hd-tdD"/>
+                        <outlet property="buttonCharge" destination="aWd-G8-hb3" id="Th2-kI-o7Q"/>
                         <outlet property="buttonLogin" destination="tbC-Gb-rxm" id="orp-E9-oe3"/>
                         <outlet property="buttonLogout" destination="Ffz-r9-gBD" id="iEz-ky-RZd"/>
+                        <outlet property="buttonPreferences" destination="c6N-X2-K5F" id="e2k-HR-sw0"/>
                         <outlet property="label" destination="nK1-HI-2MQ" id="ZhG-pg-pyf"/>
                         <outlet property="textFieldTitle" destination="Njw-Qd-kUI" id="0Xx-G0-Jb9"/>
                         <outlet property="textFieldTotal" destination="9dJ-2i-FCZ" id="bE4-k4-3iU"/>

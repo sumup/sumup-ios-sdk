@@ -130,6 +130,23 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult * _Nullable result 
  */
 + (BOOL)checkoutInProgress;
 
+
+/**
+ *  Presenting checkout preferences allows the current merchant to configure the checkout options and
+ *  change the card terminal. Merchants can also set up the terminal when applicable.
+ *  Can only be called when a merchant is logged in and checkout is not in progress.
+ *  The completion block will be executed once the preferences have been dismissed.
+ *  The success parameter indicates whether the preferences have been presented.
+ *  If not successful an error will be provided, see SMPSumupSDKError.
+ *
+ *  @param fromViewController The UIViewController instance from which the checkout should be presented modally.
+ *  @param animated           Pass YES to animate the transition.
+ *  @param block              The completion block is called after the view controller has been dismissed.
+ */
++ (void)presentCheckoutPreferencesFromViewController:(UIViewController *)fromViewController
+                                            animated:(BOOL)animated
+                                          completion:(nullable SumupCompletionBlock)block;
+
 /**
  Performs a logout of the current merchant and resets the remembered password.
  \param block The completion block is called once the logout has finished.

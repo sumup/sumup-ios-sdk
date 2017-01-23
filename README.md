@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
 [![Supports](https://img.shields.io/badge/Requires-iOS%207+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-2.1b1miura-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-2.1b2miura-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 
 **This version of the SDK supports the Miura card readers M006 and M010 in
@@ -32,9 +32,9 @@ For more information, please refer to SumUp's
 1. Registered for a merchant account via SumUp's [country websites](https://sumup.com/) (or received a test account).
 2. Received SumUp card terminal: Air, Air Lite, PIN+ Terminal, Chip & Signature or Miura card terminal.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
-4. Deployment Target iOS 6.0 or later.
+4. Deployment Target iOS 7.0 or later.
 5. Xcode 7 and iOS SDK 9 or later.
-6. iPhone, iPad or iPod touch of all sizes and resolutions running on iOS 6+.
+6. iPhone, iPad or iPod touch.
 
 ### Table of Contents
 * [Installation](#installation)
@@ -46,6 +46,7 @@ For more information, please refer to SumUp's
   * [Authenticate app](#authenticate-app)
   * [Login](#login)
   * [Accept card payments](#accept-card-payments)
+  * [Update checkout preferences](#update-checkout-preferences)
 * [Community](#community)
 * [Changelog](#changelog)
 * [License](#license)
@@ -121,7 +122,7 @@ following keys to your info plist file:
         NSLocationWhenInUseUsageDescription
         NSBluetoothPeripheralUsageDescription
         NSMicrophoneUsageDescription
-        NSLocationUsageDescription (only if deployment target is iOS 6 or 7)
+        NSLocationUsageDescription (only if deployment target is iOS 7)
 
 > Note:
 > - Please refer to the sample app's [Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L38-L45)
@@ -137,7 +138,7 @@ and [microphone access in iOS 7 and later](https://developer.apple.com/library/i
 
 ## Getting started
 ### Authenticate app
-Before calling any additional feature of the SumUp SDK, you are required to setup the SDK with your Affiliate (Access) Key:
+Before calling any additional feature of the SumUp SDK, you are required to set up the SDK with your Affiliate (Access) Key:
 ```objc
 #import <SumupSDK/SumupSDK.h>
 
@@ -210,6 +211,26 @@ Start a payment by using the checkout request below:
                    // retrieve information via result.additionalInfo
 }];
 ```
+
+### Update checkout preferences
+When logged in you can let merchants check and update their checkout
+preferences. Merchants can select their preferred card terminal and set up a
+new one if needed. The preferences available to a merchant depend on their
+respective account settings.
+
+```objc
+[SumupSDK presentCheckoutPreferencesFromViewController:self
+                                              animated:YES
+                                            completion:^(BOOL success, NSError * _Nullable error) {
+                                              if (!success) {
+                                                // there was a problem presenting the preferences
+                                              } else {
+                                                // next checkout will reflect the merchant's changes.
+                                              }
+                                            }];
+}
+```
+
 
 ## Community
 - **Questions?** Get in contact with our integration team by sending an email to
