@@ -1,16 +1,6 @@
 # SumUp iOS SDK Changelog
 
-## Version 2.1b2-miura
-
-* [ADDED] Provide method to let merchants change their checkout preferences
-  `+[SumupSDK presentCheckoutPreferencesFromViewController:animated:completion:]`
-
-Sample application:
-
-  * [ADDED] Add button to present checkout preferences
-
-
-## Version 2.1b1-miura
+## Version 2.1-miura
 
 **Deployment target changed to iOS 7.**
 
@@ -24,11 +14,15 @@ provided with the SDK and include the relevant
 
 * [UPDATE] Deployment target is iOS 7
 * [ADDED] Support Miura card readers
+* [ADDED] Provide method to let merchants change their checkout preferences
+  `+[SumupSDK presentCheckoutPreferencesFromViewController:animated:completion:]`
+
 
 Sample application:
 
 * [UPDATE] Raise Objective-C sample app's deployment target to iOS 7
 * [BUGFIX] Add missing `-ObjC` linker flag to Swift sample app
+* [ADDED] Add button to present checkout preferences
 
 
 ## Version 2.0

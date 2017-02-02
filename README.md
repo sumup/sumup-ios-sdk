@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
 [![Supports](https://img.shields.io/badge/Requires-iOS%207+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-2.1b2miura-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-2.1miura-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 
 **This version of the SDK supports the Miura card readers M006 and M010 in
