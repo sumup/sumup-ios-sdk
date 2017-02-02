@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *buttonLogin;
 @property (weak, nonatomic) IBOutlet UIButton *buttonLogout;
 @property (weak, nonatomic) IBOutlet UIButton *buttonCharge;
+@property (weak, nonatomic) IBOutlet UIButton *buttonPreferences;
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UILabel *versionLabel;
@@ -46,6 +47,16 @@
                                  [self updateButtonState];
                                  
                              }];
+}
+
+- (IBAction)buttonOpenPreferencesTapped:(id)sender {
+    [SumupSDK presentCheckoutPreferencesFromViewController:self
+                                                  animated:YES
+                                                completion:^(BOOL success, NSError * _Nullable error) {
+                                                    if (!success || error) {
+                                                        [self showResultsString:@"not logged in"];
+                                                    }
+                                                }];
 }
 
 - (IBAction)buttonChargeTapped:(id)sender {
@@ -98,7 +109,14 @@
     BOOL isLoggedIn = [SumupSDK isLoggedIn];
     [[self buttonLogin] setEnabled:!isLoggedIn];
     [[self buttonLogout] setEnabled:isLoggedIn];
+
+    // real apps should usually disable these actions when the user
+    // is not logged in - we keep them enabled to demonstrate the
+    // error handling
+
     // [[self buttonCharge] setEnabled:isLoggedIn];
+    // [[self buttonPreferences] setEnabled:isLoggedIn];
+
     [self addCurrencyToTextField];
 }
 
@@ -129,13 +147,13 @@
     [self.label setText:result];
     [UIView animateWithDuration:1.5
                           delay:0
-                        options:UIViewAnimationOptionAllowUserInteraction
+                        options:UIViewAnimationOptionAllowUserInteraction | UIViewAnimationOptionBeginFromCurrentState
                      animations:^{
                          [self.label setAlpha:1.0];
                      } completion:^(BOOL finished) {
                          [UIView animateWithDuration:0.5
                                                delay:2.0
-                                             options:UIViewAnimationOptionAllowUserInteraction
+                                             options:UIViewAnimationOptionAllowUserInteraction | UIViewAnimationOptionBeginFromCurrentState
                                           animations:^{
                                               [self.label setAlpha:0.0];
                                           } completion:nil];

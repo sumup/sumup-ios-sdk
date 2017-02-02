@@ -1,5 +1,16 @@
 # SumUp iOS SDK Changelog
 
+## Version 2.1
+
+* [ADDED] Provide method to let merchants change their checkout preferences
+  `+[SumupSDK presentCheckoutPreferencesFromViewController:animated:completion:]`
+
+Sample application:
+
+* [ADDED] Add button to present checkout preferences
+* [BUGFIX] Add missing `-ObjC` linker flag to Swift sample app
+
+
 ## Version 2.0
 
 * [IMPROVEMENT] Support latest Air and Air Lite terminals
