@@ -1,5 +1,25 @@
 # SumUp iOS SDK Changelog
 
+## Version 2.2-miura
+
+* [BUGFIX] Fix a crash when trying to re-connect to an Air/PIN+ terminal,
+  see [issue #33](https://github.com/sumup/sumup-ios-sdk/issues/33)
+* [ADDED] Add `+[SumupSDK prepareForCheckout]` to prepare the SDK when a
+  checkout attempt is imminent.
+* [ADDED] Add `+[SumupSDK testSDKIntegration]` to validate your integration.
+  Please do not call in Release builds but only in development.
+* [IMPROVEMENT] Speed up wake on Bluetooth
+* [IMPROVEMENT] Fix an issue where subsequent checkout attempts would keep
+  failing when BT connection to Air/PIN+ Terminal has been lost during checkout.
+
+Sample application:
+
+* [ADDED] Tapping "Next" on the keyboard when entering an amount will wake a
+  connected terminal by calling `+[SumupSDK prepareForCheckout]`.
+* [ADDED] Run `+[SumupSDK testSDKIntegration]` when building in
+  Debug configuration.
+
+
 ## Version 2.1-miura
 
 **Deployment target changed to iOS 7.**

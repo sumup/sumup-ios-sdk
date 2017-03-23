@@ -244,6 +244,10 @@ extension ViewController {
 extension ViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField == textFieldTotal {
+            // we assume a checkout is imminent
+            // let the SDK know to e.g. wake a connected terminal
+            SumupSDK.prepareForCheckout()
+
             textFieldTitle?.becomeFirstResponder()
         } else if SumupSDK.isLoggedIn() {
             requestCheckout()
