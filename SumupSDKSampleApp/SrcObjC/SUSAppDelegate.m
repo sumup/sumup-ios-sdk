@@ -12,6 +12,14 @@
 @implementation SUSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+#if DEBUG
+    /*
+     *   Logs integration warnings in non-production code. Do not call this method in
+     *   release builds.
+     */
+    [SumupSDK testSDKIntegration];
+#endif
+
     /*
      *   This will setup the SumUpSDK.
      *

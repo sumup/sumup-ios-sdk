@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
 [![Supports](https://img.shields.io/badge/Requires-iOS%206+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-2.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-2.2-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 
 
@@ -70,10 +70,14 @@ images and localizations. Please follow the steps below to prepare your project:
         SumupSDK.embeddedframework/Resources/YTLibResources.bundle
 
 
-> Note:
+> Note:  
 > You can use the [sample app](https://github.com/sumup/sumup-ios-sdk/tree/master/SumupSDKSampleApp)
-that is provided with the SumUp SDK as a reference project. The Xcode project contains sample apps
-written in Objective-C and Swift.
+> that is provided with the SumUp SDK as a reference project.
+> The Xcode project contains sample apps written in Objective-C and Swift.  
+> In your debug setup you can also call `+[SumupSDK testSDKIntegration]`.
+> It will run various checks and print its findings  to the console.
+> Please do not call it in your Release build.
+
 
 
 ### Supported device orientation
@@ -81,7 +85,7 @@ The SDK supports all device orientations on iPad and portrait on iPhone.
 Feel free to support other orientations on iPhone but please keep in mind that
 the SDK's UI will be presented in portrait on iPhone.
 See `UISupportedInterfaceOrientations` in the sample app's
-[Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L54-L60)
+[Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L56-L67)
 or the "General" tab in Xcode's Target Editor.
 
 ### Privacy Info plist keys

@@ -164,6 +164,10 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     if (textField == self.textFieldTotal) {
+        // we assume a checkout is imminent
+        // let the SDK know to e.g. wake a connected terminal
+        [SumupSDK prepareForCheckout];
+
         [self.textFieldTitle becomeFirstResponder];
     } else if ([SumupSDK isLoggedIn]) {
         [self buttonChargeTapped:nil];
@@ -173,4 +177,5 @@
     
     return YES;
 }
+
 @end

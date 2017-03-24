@@ -11,9 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /*
- * Currency codes to be used in checkout (ISO 4217 code).
- * Other currency codes are permissible in the request object,
- * but are likely not to be accepted during the checkout.
+ *  Currency codes to be used in checkout (ISO 4217 code).
+ *  Other currency codes are permissible in the request object,
+ *  but are likely not to be accepted during the checkout.
  */
 
 extern NSString * const SMPCurrencyCodeBRL;
@@ -33,18 +33,18 @@ typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
 @interface SMPCheckoutRequest : NSObject
 
 /**
- \abstract Creates a new checkout request.
- 
- \param totalAmount The total amount to be charged to a customer. Cannot be nil.
- \param title An optional title to be displayed in the merchant's history and on customer receipts.
- \param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Cannot be nil, has to match the currency of the merchant logged in. Use [[[SumupSDK currentMerchant] currencyCode] and ensure its length is not 0.
- \param options Payment options to choose a payment type(card reader, mobile payment...)
- 
- \discussion Be careful when creating the NSDecimalNumber to not
- falsely use the NSNumber class creator methods.
- Use SMPPaymentOptionAny to not put restrictions on the desired payment types.
- 
- \returns A new request object or nil if totalAmount or currencyCode are nil.
+ *  Creates a new checkout request.
+ *
+ *  Be careful when creating the NSDecimalNumber to not
+ *  falsely use the NSNumber class creator methods.
+ *  Use SMPPaymentOptionAny to not put restrictions on the desired payment types.
+ *
+ *  @param totalAmount The total amount to be charged to a customer. Cannot be nil.
+ *  @param title An optional title to be displayed in the merchant's history and on customer receipts.
+ *  @param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Cannot be nil, has to match the currency of the merchant logged in. Use [[[SumupSDK currentMerchant] currencyCode] and ensure its length is not 0.
+ *  @param paymentOptions Payment options to choose a payment type(card reader, mobile payment...)
+ *
+ *  @return A new request object or nil if totalAmount or currencyCode are nil.
  */
 + (SMPCheckoutRequest *)requestWithTotal:(NSDecimalNumber *)totalAmount
                                    title:(nullable NSString *)title
@@ -52,27 +52,27 @@ typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
                           paymentOptions:(SMPPaymentOptions)paymentOptions;
 
 /**
- \abstract Creates a new checkout request.
- 
- \param totalAmount The total amount to be charged to a customer. Cannot be nil.
- \param title An optional title to be displayed in the merchant's history and on customer receipts.
- \param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Cannot be nil, has to match the currency of the merchant logged in. Use [[[SumupSDK currentMerchant] currencyCode] and ensure its length is not 0.
- 
- \discussion Be careful when creating the NSDecimalNumber to not
- falsely use the NSNumber class creator methods.
- 
- \returns A new request object or nil if totalAmount or currencyCode are nil.
+ *  Creates a new checkout request.
+ *
+ *  Be careful when creating the NSDecimalNumber to not
+ *  falsely use the NSNumber class creator methods.
+ *
+ *  @param totalAmount The total amount to be charged to a customer. Cannot be nil.
+ *  @param title An optional title to be displayed in the merchant's history and on customer receipts.
+ *  @param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Cannot be nil, has to match the currency of the merchant logged in. Use [[[SumupSDK currentMerchant] currencyCode] and ensure its length is not 0.
+ *
+ *  @return A new request object or nil if totalAmount or currencyCode are nil.
  */
 + (SMPCheckoutRequest *)requestWithTotal:(NSDecimalNumber *)totalAmount
                                    title:(nullable NSString *)title
                             currencyCode:(NSString *)currencyCode;
 
 /**
- \abstract The total amount to be charged to a customer.
- 
- \note Will not be nil if the instance was created using either
- requestWithTotal:title:currencyCode:paymentOptions: or
- requestWithTotal:title:currencyCode:
+ *  The total amount to be charged to a customer.
+ *
+ *  @note Will not be nil if the instance was created using either
+ *  requestWithTotal:title:currencyCode:paymentOptions: or
+ *  requestWithTotal:title:currencyCode:
  */
 @property (strong, readonly, nullable) NSDecimalNumber *totalAmount;
 
@@ -80,11 +80,11 @@ typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
 @property (strong, readonly, nullable) NSString *title;
 
 /**
- \abstractCurrency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode).
- 
- \note Will not be nil if the instance was created using either
- requestWithTotal:title:currencyCode:paymentOptions: or
- requestWithTotal:title:currencyCode:
+ *  Currency code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode).
+ *
+ *  @note Will not be nil if the instance was created using either
+ *  requestWithTotal:title:currencyCode:paymentOptions: or
+ *  requestWithTotal:title:currencyCode:
  */
 @property (strong, readonly, nullable) NSString *currencyCode;
 
