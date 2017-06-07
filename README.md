@@ -131,7 +131,7 @@ do not call this method as part of the app launch.
 Following app authentication, a registered SumUp merchant account needs to be logged in.
 Present a login screen from your `UIViewController`, using the following method:
 ```objc
-[SumupSDK presentLoginfromViewController:vc
+[SumupSDK presentLoginFromViewController:vc
                                 animated:YES
                          completionBlock:nil];
 ```
