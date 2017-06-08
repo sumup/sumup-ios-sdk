@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     @IBOutlet fileprivate weak var textFieldTotal: UITextField?
     @IBOutlet fileprivate weak var textFieldTitle: UITextField?
 
+    @IBOutlet fileprivate weak var segmentedControlTipping : UISegmentedControl?
+    @IBOutlet fileprivate weak var switchSkipReceiptScreen : UISwitch?
+
     @IBOutlet fileprivate weak var label: UILabel?
     @IBOutlet private weak var versionLabel: UILabel?
 
@@ -127,12 +130,26 @@ class ViewController: UIViewController {
                                          currencyCode: merchantCurrencyCode,
                                          paymentOptions: [.cardReader, .mobilePayment])
 
+        // add tip if selected
+        if let selectedTip = segmentedControlTipping?.selectedSegmentIndex,
+            selectedTip > 0,
+            tipAmounts.indices ~= selectedTip
+        {
+            let tipAmount = tipAmounts[selectedTip]
+            request.tipAmount = tipAmount
+        }
+
+        // set screenOptions to skip if switch is set to on 
+        if let skip = switchSkipReceiptScreen?.isOn, skip {
+            request.skipScreenOptions = .success
+        }
+
         // the foreignTransactionID is an **optional** parameter and can be used
         // to retrieve a transaction from SumUp's API. See -[SMPCheckoutRequest foreignTransactionID]
         request.foreignTransactionID = "your-unique-identifier-\(ProcessInfo.processInfo.globallyUniqueString)"
 
         SumupSDK.checkout(with: request, from: self) { [weak self] (result: SMPCheckoutResult?, error: Error?) in
-            if let safeError = error as? NSError {
+            if let safeError = error as NSError? {
                 print("error during checkout: \(safeError)")
 
                 if (safeError.domain == SMPSumupSDKErrorDomain) && (safeError.code == SMPSumupSDKError.accountNotLoggedIn.rawValue) {
@@ -149,11 +166,11 @@ class ViewController: UIViewController {
                 return
             }
 
-            print("result_transaction==\(safeResult.transactionCode)")
+            print("result_transaction==\(String(describing: safeResult.transactionCode))")
 
             if safeResult.success {
                 print("success")
-                self?.showResult(string: "Thank you - \(safeResult.transactionCode)")
+                self?.showResult(string: "Thank you - \(String(describing: safeResult.transactionCode))")
             } else {
                 print("cancelled: no error, no success")
                 self?.showResult(string: "No charge (cancelled)")
@@ -170,6 +187,55 @@ class ViewController: UIViewController {
     fileprivate func requestLogout() {
         SumupSDK.logout() { [weak self] _ in
             self?.updateButtonStates()
+        }
+    }
+
+    // MARK: - Tipping
+    fileprivate func updateTipControl() {
+        guard let control = segmentedControlTipping else {
+            return
+        }
+
+        let isLoggedIn = SumupSDK.isLoggedIn()
+
+        control.isHidden = !isLoggedIn
+        control.removeAllSegments()
+
+        guard let currencyCode = SumupSDK.currentMerchant()?.currencyCode else {
+            return
+        }
+
+        for tip in tipAmounts {
+            let isZero = tip.isEqual(NSDecimalNumber.zero)
+            let title = isZero ? "No tip" : String(format: "%@ %@", tip, currencyCode)
+            control.insertSegment(withTitle: title, at: control.numberOfSegments, animated: true)
+        }
+    }
+
+    fileprivate var tipAmounts:[NSDecimalNumber] {
+        get {
+            guard let currencyCode = SumupSDK.currentMerchant()?.currencyCode,
+                !currencyCode.isEmpty
+            else {
+                return []
+            }
+
+            switch currencyCode {
+            case SMPCurrencyCodeSEK:
+                return [NSDecimalNumber.zero,
+                        NSDecimalNumber(mantissa: 20, exponent: 0, isNegative: false),
+                        NSDecimalNumber(mantissa: 40, exponent: 0, isNegative: false)]
+
+            case SMPCurrencyCodeBRL:
+                return [NSDecimalNumber.zero,
+                        NSDecimalNumber(mantissa: 5, exponent: 0, isNegative: false),
+                        NSDecimalNumber(mantissa: 10, exponent: 0, isNegative: false)]
+
+            default:
+                return [NSDecimalNumber.zero,
+                        NSDecimalNumber(mantissa: 2, exponent: 0, isNegative: false),
+                        NSDecimalNumber(mantissa: 5, exponent: 0, isNegative: false)]
+            }
         }
     }
 }
@@ -190,6 +256,9 @@ extension ViewController {
 
         // buttonCharge?.isEnabled = isLoggedIn
         // buttonPreferences?.isEnabled = isLoggedIn
+
+        switchSkipReceiptScreen?.isEnabled = isLoggedIn
+        updateTipControl()
     }
 
     fileprivate func applyStyle() {

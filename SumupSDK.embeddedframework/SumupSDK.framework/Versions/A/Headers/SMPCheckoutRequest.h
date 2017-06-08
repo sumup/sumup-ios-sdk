@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SMPSkipScreenOptions.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,6 +22,7 @@ extern NSString * const SMPCurrencyCodeCHF;
 extern NSString * const SMPCurrencyCodeEUR;
 extern NSString * const SMPCurrencyCodeGBP;
 extern NSString * const SMPCurrencyCodePLN;
+extern NSString * const SMPCurrencyCodeSEK;
 extern NSString * const SMPCurrencyCodeUSD;
 
 typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
@@ -29,7 +31,7 @@ typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
     SMPPaymentOptionMobilePayment = 1 << 1,
 };
 
-/// Encapsulates all information that is necessary during a checkout with the SumUp.
+/// Encapsulates all information that is necessary during a checkout with the SumUp SDK.
 @interface SMPCheckoutRequest : NSObject
 
 /**
@@ -74,10 +76,10 @@ typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
  *  requestWithTotal:title:currencyCode:paymentOptions: or
  *  requestWithTotal:title:currencyCode:
  */
-@property (strong, readonly, nullable) NSDecimalNumber *totalAmount;
+@property (strong, nonatomic, readonly, nullable) NSDecimalNumber *totalAmount;
 
 /// A title to be displayed in the merchant's history and on customer receipts.
-@property (strong, readonly, nullable) NSString *title;
+@property (strong, nonatomic, readonly, nullable) NSString *title;
 
 /**
  *  Currency code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode).
@@ -86,10 +88,10 @@ typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
  *  requestWithTotal:title:currencyCode:paymentOptions: or
  *  requestWithTotal:title:currencyCode:
  */
-@property (strong, readonly, nullable) NSString *currencyCode;
+@property (strong, nonatomic, readonly, nullable) NSString *currencyCode;
 
 /// Payment options to choose a payment type
-@property (assign, readonly) SMPPaymentOptions paymentOptions;
+@property (assign, nonatomic, readonly) SMPPaymentOptions paymentOptions;
 
 /**
  *  An (optional) ID to be associated with this transaction.
@@ -98,7 +100,23 @@ typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
  *  This ID has to be unique in the scope of a SumUp merchant account and its sub-accounts.
  *  It must not be longer than 128 characters and can only contain printable ASCII characters.
  */
-@property (strong, nullable) NSString *foreignTransactionID;
+@property (strong, nonatomic, nullable) NSString *foreignTransactionID;
+
+
+/**
+ *  An optional additional tip amount to be charged to a customer.
+ *
+ *  @note Will be added to the totalAmount. Must be greater zero if passed.
+ */
+@property (strong, nonatomic, nullable) NSDecimalNumber *tipAmount;
+
+
+/**
+ *  An optional flag to skip the confirmation screen in checkout.
+ *  If set, the checkout will be dismissed w/o user interaction.
+ *  Default is SMPSkipScreenOptionNone.
+ */
+@property (nonatomic) SMPSkipScreenOptions skipScreenOptions;
 
 @end
 

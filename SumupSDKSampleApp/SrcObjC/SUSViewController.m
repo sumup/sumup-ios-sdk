@@ -9,7 +9,7 @@
 #import "SUSViewController.h"
 #import <SumupSDK/SumupSDK.h>
 
-@interface SUSViewController () <UITextFieldDelegate>
+@interface SUSViewController ()<UITextFieldDelegate>
 @property BOOL appeared;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldTotal;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldTitle;
@@ -17,6 +17,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *buttonLogout;
 @property (weak, nonatomic) IBOutlet UIButton *buttonCharge;
 @property (weak, nonatomic) IBOutlet UIButton *buttonPreferences;
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControlTipping;
+@property (weak, nonatomic) IBOutlet UISwitch *switchSkipReceiptScreen;
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UILabel *versionLabel;
@@ -27,7 +30,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
+
     // on first appear present login
     if (!self.appeared) {
         [self buttonLoginTapped:nil];
@@ -43,16 +46,15 @@
                                      // errors are handled within the SDK, there should be no need
                                      // for your app to display any error message
                                  }
-                                 
+
                                  [self updateButtonState];
-                                 
                              }];
 }
 
 - (IBAction)buttonOpenPreferencesTapped:(id)sender {
     [SumupSDK presentCheckoutPreferencesFromViewController:self
                                                   animated:YES
-                                                completion:^(BOOL success, NSError * _Nullable error) {
+                                                completion:^(BOOL success, NSError *_Nullable error) {
                                                     if (!success || error) {
                                                         [self showResultsString:@"not logged in"];
                                                     }
@@ -63,36 +65,61 @@
     // check total and currency code
     NSString *total = [[self textFieldTotal] text];
     NSString *currencyCode = [[SumupSDK currentMerchant] currencyCode];
-    
+
     if (([total doubleValue] <= 0) || ![currencyCode length]) {
         [self showResultsString:@"not logged in"];
         return;
     }
-    
+
     SMPCheckoutRequest *request;
 
     request = [SMPCheckoutRequest requestWithTotal:[NSDecimalNumber decimalNumberWithString:total]
                                              title:self.textFieldTitle.text
                                       currencyCode:currencyCode
                                     paymentOptions:SMPPaymentOptionAny];
-    
+
+    // Tip is optional. Default is no tip.
+    NSInteger selectedTipSegment = self.segmentedControlTipping.selectedSegmentIndex;
+
+    if (selectedTipSegment > 0) {
+        [request setTipAmount:[[self tipAmounts] objectAtIndex:selectedTipSegment]];
+    }
+
+    // Skip receipt screen if toggle is set to on
+    if (self.switchSkipReceiptScreen.isOn) {
+        [request setSkipScreenOptions:SMPSkipScreenOptionSuccess];
+    }
+
     // the foreignTransactionID is an optional parameter and can be used
     // to retrieve a transaction from SumUp's API. See -[SMPCheckoutRequest foreignTransactionID]
     [request setForeignTransactionID:[NSString stringWithFormat:@"your-unique-identifier-%@", [[NSProcessInfo processInfo] globallyUniqueString]]];
-    
+
     [SumupSDK checkoutWithRequest:request fromViewController:self completion:^(SMPCheckoutResult *result, NSError *error) {
         if ([error.domain isEqualToString:SMPSumupSDKErrorDomain] && (error.code == SMPSumupSDKErrorAccountNotLoggedIn)) {
             [self showResultsString:@"not logged in"];
             return;
         }
-        
-        [self showResultsString:[NSString stringWithFormat:@"%@ - %@", result.success ? @"Thank you" : @"No charge", result.transactionCode]];
-        
+
+        NSMutableArray<NSString *> *strings = [NSMutableArray array];
+        [strings addObject:[NSString stringWithFormat:@"%@ - %@", result.success ? @"Thank you" : @"No charge", result.transactionCode ? : @"no transaction"]];
+
+        if (result.transactionCode) {
+            NSString *tipAmount = result.additionalInfo[@"tip_amount"];
+
+            if (tipAmount) {
+                [strings addObject:[NSString stringWithFormat:@"%@ (incl. %@ tip) %@", result.additionalInfo[@"amount"], tipAmount, result.additionalInfo[@"currency"]]];
+            } else {
+                [strings addObject:[NSString stringWithFormat:@"%@ %@ (no tip)", result.additionalInfo[@"amount"], result.additionalInfo[@"currency"]]];
+            }
+        }
+
+        [self showResultsString:[strings componentsJoinedByString:@"\n"]];
+
         if (result.success) {
             [self.textFieldTitle setText:nil];
         }
     }];
-    
+
     // something went wrong checkout was not started
     if (![SumupSDK checkoutInProgress]) {
         [self showResultsString:@"failed to start checkout"];
@@ -107,6 +134,7 @@
 
 - (void)updateButtonState {
     BOOL isLoggedIn = [SumupSDK isLoggedIn];
+
     [[self buttonLogin] setEnabled:!isLoggedIn];
     [[self buttonLogout] setEnabled:isLoggedIn];
 
@@ -118,6 +146,51 @@
     // [[self buttonPreferences] setEnabled:isLoggedIn];
 
     [self addCurrencyToTextField];
+
+    [self updateTipControl];
+}
+
+#pragma mark - Tipping
+
+- (void)updateTipControl {
+    BOOL isLoggedIn = [SumupSDK isLoggedIn];
+
+    [self.segmentedControlTipping setHidden:!isLoggedIn];
+    [self.segmentedControlTipping removeAllSegments];
+
+    for (NSDecimalNumber *tip in [self tipAmounts]) {
+        BOOL isZero = [tip isEqual:[NSDecimalNumber zero]];
+        NSString *title = isZero ? @"No tip" : [NSString stringWithFormat:@"%@ %@", tip, [[SumupSDK currentMerchant] currencyCode]];
+        [self.segmentedControlTipping insertSegmentWithTitle:title atIndex:self.segmentedControlTipping.numberOfSegments animated:YES];
+    }
+
+    [self.switchSkipReceiptScreen setEnabled:isLoggedIn];
+}
+
+/// some examples of tip amounts in merchant currency units
+- (NSArray<NSDecimalNumber *> *)tipAmounts {
+    NSString *currencyCode = [[SumupSDK currentMerchant] currencyCode];
+
+    if (!currencyCode.length) {
+        return @[];
+    }
+
+    if ([currencyCode isEqualToString:SMPCurrencyCodeSEK]) {
+        return @[[NSDecimalNumber zero],
+                 [NSDecimalNumber decimalNumberWithMantissa:20 exponent:0 isNegative:NO],
+                 [NSDecimalNumber decimalNumberWithMantissa:40 exponent:0 isNegative:NO],
+                 ];
+    } else if ([currencyCode isEqualToString:SMPCurrencyCodeBRL]) {
+        return @[[NSDecimalNumber zero],
+                 [NSDecimalNumber decimalNumberWithMantissa:5 exponent:0 isNegative:NO],
+                 [NSDecimalNumber decimalNumberWithMantissa:10 exponent:0 isNegative:NO],
+                 ];
+    }
+
+    return @[[NSDecimalNumber zero],
+             [NSDecimalNumber decimalNumberWithMantissa:2 exponent:0 isNegative:NO],
+             [NSDecimalNumber decimalNumberWithMantissa:5 exponent:0 isNegative:NO],
+             ];
 }
 
 #pragma mark -
@@ -133,9 +206,10 @@
 
 - (void)addCurrencyToTextField {
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+
     [label setFont:self.textFieldTotal.font];
     SMPMerchant *merchant = [SumupSDK currentMerchant];
-    [label setText:[merchant currencyCode]?:@"---"];
+    [label setText:[merchant currencyCode] ? : @"---"];
     [label sizeToFit];
     [label setBounds:CGRectInset(label.bounds, -5, 0)];
     [label setBackgroundColor:[UIColor clearColor]];
@@ -167,7 +241,7 @@
         // we assume a checkout is imminent
         // let the SDK know to e.g. wake a connected terminal
         [SumupSDK prepareForCheckout];
-
+        
         [self.textFieldTitle becomeFirstResponder];
     } else if ([SumupSDK isLoggedIn]) {
         [self buttonChargeTapped:nil];

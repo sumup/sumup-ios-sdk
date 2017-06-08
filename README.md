@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
 [![Supports](https://img.shields.io/badge/Requires-iOS%206+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-2.2-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-2.3-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 
 
@@ -164,16 +164,37 @@ Please note that you need to pass an `NSDecimalNumber` as the total value.
 While `NSDecimalNumber` is a subclass of `NSNumber` it is not advised to use the
 convenience method of `NSNumber` to create an `NSDecimalNumber`.
 
-You can pass an optional transaction identifier in `foreignTransactionID`.
-This identifier will be associated with the transaction and can be used to retrieve this transaction later.
-See [API documentation](https://sumup.com/integration#transactionReportingAPIs) for details.
-Please make sure that this ID is unique within the scope of your SumUp SDK's Affiliate (Access) Key.
-It must not be longer than 128 characters.
+#### Additional checkout parameters
+When setting up the `SMPCheckoutRequest` object, the following optional parameters can be included:
+
+##### Tip amount
+An tip amount can be processed in addition to the `totalAmount` using the `tipAmount` parameter.
+The tip amount will then be shown during the checkout process and be included in the response.
+Please note that a tip amount cannot be changed during/after the checkout.
+Just like the `totalAmount` it is an `NSDecimalNumber` so make sure to
+not accidentally pass an `NSNumber`.
+
+##### Transaction identifier
+The `foreignTransactionID` identifier will be associated with the transaction
+and can be used to retrieve details related to the transaction.
+See [API documentation](https://sumup.com/docs/rest-api/transactions-api) for details.
+Please make sure that this ID is unique within the scope of the SumUp merchant account
+and sub-accounts. It must not be longer than 128 characters.
 
 ```
 // set an optional identifier
 [request setForeignTransactionID:@"my-unique-id"];
 ```
+
+##### Skip success screen
+To skip the screen shown at the end of a successful transaction, the
+`SMPSkipScreenOptionSuccess` option can be used.
+When setting this option your application is responsible for displaying
+the transaction result to the customer.
+In combination with the Receipts API your application can also send your own receipts,
+see [API documentation](https://sumup.com/docs/rest-api/transactions-api) for details.
+Please note success screens will still be shown when using the SumUp Air Lite readers.
+
 #### Initiate Checkout Request
 Start a payment by using the checkout request below:
 
@@ -203,9 +224,14 @@ respective account settings.
                                                 // next checkout will reflect the merchant's changes.
                                               }
                                             }];
-}
 ```
 
+## Out of Scope
+The following functions are handled by the [SumUp APIs](http://docs.sumup.com/rest-api/):
+* [Refunds](http://docs.sumup.com/rest-api/transactions-api/#merchant-refunds)
+* [Transaction history](http://docs.sumup.com/rest-api/transactions-api/#merchant-transactions)
+* [Receipts](http://docs.sumup.com/rest-api/transactions-api/#receipts)
+* [Account management](http://docs.sumup.com/rest-api/accounts-api/)
 
 ## Community
 - **Questions?** Get in contact with our integration team by sending an email to

@@ -1,5 +1,21 @@
 # SumUp iOS SDK Changelog
 
+## Version 2.3
+
+* [IMPROVEMENT] Support for future SumUp terminal.
+* [ADDED] Add `SMPSkipScreenOptions` to allow for skipping the screen
+  shown at the end of a successful transaction.
+* [ADDED] Add `-[SMPCheckoutRequest tipAmount]` to provide an additional
+  tip amount to be added to the total in checkout.
+
+  Sample application:
+
+* [ADDED] Add option to skip the receipt screen by setting the
+  appropriate `SMPSkipScreenOptions` of the checkout request.
+* [ADDED] Add option to specify tip amount.
+* [IMPROVEMENT] Convert to Auto Layout
+
+
 ## Version 2.2
 
 * [BUGFIX] Fix a crash when trying to re-connect to an Air/PIN+ terminal,
