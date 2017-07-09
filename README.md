@@ -3,6 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
 [![Supports](https://img.shields.io/badge/Requires-iOS%206+-red.svg?style=flat-square)]()
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/SumupSDK.svg?style=flat)](https://cocoapods.org/pods/SumupSDK)
 [![Version](https://img.shields.io/badge/Version-2.3-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 
@@ -33,7 +34,8 @@ For more information, please refer to SumUp's
 
 ### Table of Contents
 * [Installation](#installation)
-    * [Preparing your Xcode project](#preparing-your-xcode-project)
+    * [CocoaPods](#cocoapods)
+    * [Manual Installation](#manual-installation)
     * [Supported device orientation](#supported-device-orientation)
     * [Privacy Info plist keys](#privacy-info-plist-keys)
 * [Getting started](#getting-started)
@@ -47,7 +49,28 @@ For more information, please refer to SumUp's
 
 ## Installation
 
-### Preparing your Xcode project
+### CocoaPods
+
+CocoaPods is a dependency manager for Objective-C and Swift.
+To learn more about setting up your project for CocoaPods, please refer to the [official documentation](https://cocoapods.org/#install).
+To integrate SumUp SDK into your Xcode project using CocoaPods, you have to add it to your project's `Podfile`:
+
+```ruby
+platform :ios, '9.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+  pod 'SumupSDK'
+end
+```
+
+Afterwards, run the following command:
+
+```bash
+$ pod install
+```
+
+### Manual Installation
 
 The SumUp SDK is provided as an embedded framework `SumupSDK.embeddedframework`
 that combines a static library, its headers and bundles containing resources such as
@@ -70,10 +93,10 @@ images and localizations. Please follow the steps below to prepare your project:
         SumupSDK.embeddedframework/Resources/YTLibResources.bundle
 
 
-> Note:  
+> Note:
 > You can use the [sample app](https://github.com/sumup/sumup-ios-sdk/tree/master/SumupSDKSampleApp)
 > that is provided with the SumUp SDK as a reference project.
-> The Xcode project contains sample apps written in Objective-C and Swift.  
+> The Xcode project contains sample apps written in Objective-C and Swift.
 > In your debug setup you can also call `+[SumupSDK testSDKIntegration]`.
 > It will run various checks and print its findings  to the console.
 > Please do not call it in your Release build.
