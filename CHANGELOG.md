@@ -1,5 +1,13 @@
 # SumUp iOS SDK Changelog
 
+## Version 2.3.1
+
+* [IMPROVEMENT] Fix layout issues in login and checkout when building against iOS 11
+* [IMPROVEMENT] Add comment to point out that `setupWithAPIKey:`
+  needs to be called on the main thread.
+  See https://github.com/sumup/sumup-ios-sdk/issues/46
+
+
 ## Version 2.3
 
 * [IMPROVEMENT] Support for future SumUp terminal.

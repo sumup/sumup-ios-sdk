@@ -44,7 +44,7 @@ typedef void (^SMPCheckoutCompletionBlock)(SMPCheckoutResult * _Nullable result 
 /**
  *  Sets up the SumupSDK for use in your app.
  *
- *  Needs to be called at some point before starting interaction with the SDK.
+ *  Needs to be called from on the main thread at some point before starting interaction with the SDK.
  *  As this might ask for the user's location it should not necessarily be part
  *  of the app launch. Make sure to only setup once per app lifecycle.
  *
