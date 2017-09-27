@@ -24,7 +24,7 @@
 /**
  *  Additional information on the transaction like card information.
  *  Can be nil if the checkout failed prior to payment type selection or card insertion.
- *  Please see https://sumup.com/integration#TransactionHistoryModel for details.
+ *  Please see http://docs.sumup.com/rest-api/transactions-api/ for details.
  */
 @property (strong, readonly, nullable) NSDictionary *additionalInfo;
 
