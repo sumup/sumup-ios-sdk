@@ -3,7 +3,8 @@
 ## Version 2.3.2
 
 * [BUGFIX] Fix a crash in checkout on iPad Pro when building against iOS 11
-
+* [IMPROVEMENT] Fix an outdated link to API docs.
+  See [issue #49](https://github.com/sumup/sumup-ios-sdk/issues/33)https://github.com/sumup/sumup-ios-sdk/issues/49
 
 ## Version 2.3.1
 
