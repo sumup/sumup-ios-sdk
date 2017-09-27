@@ -1,5 +1,10 @@
 # SumUp iOS SDK Changelog
 
+## Version 2.3.2
+
+* [BUGFIX] Fix a crash in checkout on iPad Pro when building against iOS 11
+
+
 ## Version 2.3.1
 
 * [IMPROVEMENT] Fix layout issues in login and checkout when building against iOS 11
