@@ -1,10 +1,41 @@
 # SumUp iOS SDK Changelog
 
+## Version 3.0b1
+
+* Updated target SDK to iOS 11, deployment target raised to iOS 8.0
+* Drop support for audio connection to first generation PIN+ devices.
+  This implies that the `YTLibResources.bundle` has been removed.
+
+
+Sample application:
+
+* Update deployment target of Obj-C app to iOS 8
+* AVFoundation is linked as required as weak linking was only needed
+  when running on iOS 5
+
+
+## Transition Guide to 3.0
+When improving imported Swift names we took the opportunity to rename
+and prefix some classes and enums. We've also renamed the SDK to
+SumUpSDK to make it easier to integrate with CocoaPods.
+Migrating your code base is easy.
+
+* Remove the `SumupSDK.embeddedframework` and add the new
+  one called `SumUpSDK.embeddedframework`.
+* Rename your imports `<SumupSDK/SumupSDK.h>` to `<SumUpSDK/SumUpSDK.h>`
+* Rename all occurrences of `SumUpCompletionBlock` to `SMPCompletionBlock`
+* In Obj-C: rename all case-sensitive occurrences of
+  `SumupSDK` to `SMPSumUpSDK`
+* In Swift: rename all case-sensitive occurrences of
+  `SumupSDK` and `SMPSumupSDK` to `SumUpSDK`
+
+
 ## Version 2.3.2
 
 * [BUGFIX] Fix a crash in checkout on iPad Pro when building against iOS 11
 * [IMPROVEMENT] Fix an outdated link to API docs.
   See [issue #49](https://github.com/sumup/sumup-ios-sdk/issues/49)
+
 
 ## Version 2.3.1
 

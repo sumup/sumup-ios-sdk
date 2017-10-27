@@ -2,8 +2,8 @@
 
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
-[![Supports](https://img.shields.io/badge/Requires-iOS%206+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-2.3.2-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Supports](https://img.shields.io/badge/Requires-iOS%208+-red.svg?style=flat-square)]()
+[![Version](https://img.shields.io/badge/Version-3.0b1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 
 
@@ -21,14 +21,14 @@ All data is encrypted by the card terminal, which has been fully certified to th
 industry standards (PCI, EMV I & II, Visa, MasterCard & Amex).
 
 For more information, please refer to SumUp's
-[integration website](https://sumup.com/integration#terminalPaymentSDK).
+[integration website](http://docs.sumup.com/terminal-payment/).
 
 ### Prerequisites
 1. Registered for a merchant account via SumUp's [country websites](https://sumup.com/) (or received a test account).
 2. Received SumUp card terminal: Air, Air Lite, PIN+ terminal or Chip & Signature reader.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
-4. Deployment Target iOS 6.0 or later.
-5. Xcode 7 and iOS SDK 9 or later.
+4. Deployment Target iOS 8.0 or later.
+5. Xcode 9 and iOS SDK 11 or later.
 6. iPhone, iPad or iPod touch.
 
 ### Table of Contents
@@ -49,12 +49,12 @@ For more information, please refer to SumUp's
 
 ### Preparing your Xcode project
 
-The SumUp SDK is provided as an embedded framework `SumupSDK.embeddedframework`
+The SumUp SDK is provided as an embedded framework `SumUpSDK.embeddedframework`
 that combines a static library, its headers and bundles containing resources such as
 images and localizations. Please follow the steps below to prepare your project:
 
-1. Add the `SumupSDK.embeddedframework` to your Xcode project.
-2. Link your app against `SumupSDK.framework`.
+1. Add the `SumUpSDK.embeddedframework` to your Xcode project.
+2. Link your app against `SumUpSDK.framework`.
 3. Link your app against the following system frameworks:
 
         Accelerate
@@ -63,18 +63,17 @@ images and localizations. Please follow the steps below to prepare your project:
 
 4. Add `-ObjC` to "Other Linker Flags" if not yet included.
 
-5. Add the bundles provided in `SumupSDK.embeddedframework/Resources`
+5. Add the bundle provided in `SumUpSDK.embeddedframework/Resources`
    to your app target.
 
-        SumupSDK.embeddedframework/Resources/SMPSharedResources.bundle
-        SumupSDK.embeddedframework/Resources/YTLibResources.bundle
+        SumUpSDK.embeddedframework/Resources/SMPSharedResources.bundle
 
 
 > Note:  
-> You can use the [sample app](https://github.com/sumup/sumup-ios-sdk/tree/master/SumupSDKSampleApp)
+> You can use the [sample app](https://github.com/sumup/sumup-ios-sdk/tree/master/SampleApp/SumUpSDKSampleApp)
 > that is provided with the SumUp SDK as a reference project.
 > The Xcode project contains sample apps written in Objective-C and Swift.  
-> In your debug setup you can also call `+[SumupSDK testSDKIntegration]`.
+> In your debug setup you can also call `+[SMPSumUpSDK testSDKIntegration]`.
 > It will run various checks and print its findings  to the console.
 > Please do not call it in your Release build.
 
@@ -85,7 +84,7 @@ The SDK supports all device orientations on iPad and portrait on iPhone.
 Feel free to support other orientations on iPhone but please keep in mind that
 the SDK's UI will be presented in portrait on iPhone.
 See `UISupportedInterfaceOrientations` in the sample app's
-[Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L56-L67)
+[Info.plist](SampleApp/SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist#L56-L67)
 or the "General" tab in Xcode's Target Editor.
 
 ### Privacy Info plist keys
@@ -97,16 +96,14 @@ following keys to your info plist file:
         NSLocationWhenInUseUsageDescription
         NSBluetoothPeripheralUsageDescription
         NSMicrophoneUsageDescription
-        NSLocationUsageDescription (only if deployment target is iOS 6 or 7)
 
 > Note:
-> - Please refer to the sample app's [Info.plist](SumupSDKSampleApp/SumupSDKSampleApp-Info.plist#L38-L45)
+> - Please refer to the sample app's [Info.plist](SampleApp/SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist#L38-L43)
 for more information regarding the listed permissions required.
 > - You can provide localization by providing a localized
-[InfoPlist.strings](SumupSDKSampleApp/en.lproj/InfoPlist.strings) file.
+[InfoPlist.strings](SampleApp/SumUpSDKSampleApp/en.lproj/InfoPlist.strings) file.
 > - For further information, see the iOS Developer Library on
-[location usage on iOS 6 and 7](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW27),
-[iOS 8 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26),
+[location usage on iOS 8 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26),
 [Bluetooth peripheral usage](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW20)
 and [microphone access in iOS 7 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW25).
 
@@ -115,11 +112,11 @@ and [microphone access in iOS 7 and later](https://developer.apple.com/library/i
 ### Authenticate app
 Before calling any additional feature of the SumUp SDK, you are required to set up the SDK with your Affiliate (Access) Key:
 ```objc
-#import <SumupSDK/SumupSDK.h>
+#import <SumUpSDK/SumUpSDK.h>
 
 // ...
 
-[SumupSDK setupWithAPIKey:@"MyAPIKey"];
+[SumUpSDK setupWithAPIKey:@"MyAPIKey"];
 ```
 
 > Note:
@@ -131,9 +128,9 @@ do not call this method as part of the app launch.
 Following app authentication, a registered SumUp merchant account needs to be logged in.
 Present a login screen from your `UIViewController`, using the following method:
 ```objc
-[SumupSDK presentLoginFromViewController:vc
-                                animated:YES
-                         completionBlock:nil];
+[SMPSumUpSDK presentLoginFromViewController:vc
+                                   animated:YES
+                            completionBlock:nil];
 ```
 
 
@@ -150,13 +147,13 @@ For this, you will need to create an instance `SMPCheckoutRequest`:
 
 
 ```objc
-#import <SumupSDK/SumupSDK.h>
+#import <SumUpSDK/SumUpSDK.h>
 
 // ...
 
 SMPCheckoutRequest *request = [SMPCheckoutRequest requestWithTotal:[NSDecimalNumber decimalNumberWithString:@"10.00"]
                                                              title:@"your title"
-                                                      currencyCode:[[SumupSDK currentMerchant] currencyCode]
+                                                      currencyCode:[[SMPSumUpSDK currentMerchant] currencyCode]
                                                     paymentOptions:SMPPaymentOptionAny];
 ```
 
@@ -177,7 +174,7 @@ not accidentally pass an `NSNumber`.
 ##### Transaction identifier
 The `foreignTransactionID` identifier will be associated with the transaction
 and can be used to retrieve details related to the transaction.
-See [API documentation](https://sumup.com/docs/rest-api/transactions-api) for details.
+See [API documentation](http://docs.sumup.com/rest-api/transactions-api/) for details.
 Please make sure that this ID is unique within the scope of the SumUp merchant account
 and sub-accounts. It must not be longer than 128 characters.
 
@@ -192,7 +189,7 @@ To skip the screen shown at the end of a successful transaction, the
 When setting this option your application is responsible for displaying
 the transaction result to the customer.
 In combination with the Receipts API your application can also send your own receipts,
-see [API documentation](https://sumup.com/docs/rest-api/transactions-api) for details.
+see [API documentation](http://docs.sumup.com/rest-api/transactions-api/) for details.
 Please note success screens will still be shown when using the SumUp Air Lite readers.
 
 #### Initiate Checkout Request
@@ -200,11 +197,11 @@ Start a payment by using the checkout request below:
 
 
 ```objc
-[SumupSDK checkoutWithRequest:request
-           fromViewController:vc
-                   completion:^(SMPCheckoutResult *result, NSError *error) {
-                   // handle completed and failed payments here
-                   // retrieve information via result.additionalInfo
+[SMPSumUpSDK checkoutWithRequest:request
+              fromViewController:vc
+                      completion:^(SMPCheckoutResult *result, NSError *error) {
+                      // handle completed and failed payments here
+                      // retrieve information via result.additionalInfo
 }];
 ```
 
@@ -215,15 +212,15 @@ new one if needed. The preferences available to a merchant depend on their
 respective account settings.
 
 ```objc
-[SumupSDK presentCheckoutPreferencesFromViewController:self
-                                              animated:YES
-                                            completion:^(BOOL success, NSError * _Nullable error) {
-                                              if (!success) {
-                                                // there was a problem presenting the preferences
-                                              } else {
-                                                // next checkout will reflect the merchant's changes.
-                                              }
-                                            }];
+[SMPSumUpSDK presentCheckoutPreferencesFromViewController:self
+                                                 animated:YES
+                                               completion:^(BOOL success, NSError * _Nullable error) {
+                                                 if (!success) {
+                                                   // there was a problem presenting the preferences
+                                                 } else {
+                                                   // next checkout will reflect the merchant's changes.
+                                                 }
+                                               }];
 ```
 
 ## Out of Scope
