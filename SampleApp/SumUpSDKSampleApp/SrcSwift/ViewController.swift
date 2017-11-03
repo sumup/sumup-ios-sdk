@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SumUpSDK
 
 class ViewController: UIViewController {
     private var appearCompleted = false

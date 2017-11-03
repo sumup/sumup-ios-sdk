@@ -1,31 +1,36 @@
 # SumUp iOS SDK Changelog
 
-## Version 3.0b1
+## Version 3.0b2
 
 * Updated target SDK to iOS 11, deployment target raised to iOS 8.0
 * Drop support for audio connection to first generation PIN+ devices.
   This implies that the `YTLibResources.bundle` has been removed.
-
+* Added module map for Swift integration without bridging headers
 
 Sample application:
 
 * Update deployment target of Obj-C app to iOS 8
 * AVFoundation is linked as required as weak linking was only needed
   when running on iOS 5
+* Swift sample app uses modular imports instead of bridging headers
 
 
 ## Transition Guide to 3.0
+
 When improving imported Swift names we took the opportunity to rename
 and prefix some classes and enums. We've also renamed the SDK to
 SumUpSDK to make it easier to integrate with CocoaPods.
 Migrating your code base is easy.
 
 * Remove the `SumupSDK.embeddedframework` and add the new
-  one called `SumUpSDK.embeddedframework`.
+  one called `SumUpSDK.embeddedframework`. Make sure your target still links
+  against the framework and still copies the resource bundle.
 * Rename your imports `<SumupSDK/SumupSDK.h>` to `<SumUpSDK/SumUpSDK.h>`
+  * If your project uses modules, you can use `@import SumUpSDK;` in Objective-C
+  * Swift projects should always use `import SumUpSDK` instead global bridging header imports
 * Rename all occurrences of `SumUpCompletionBlock` to `SMPCompletionBlock`
-* In Obj-C: rename all case-sensitive occurrences of
-  `SumupSDK` to `SMPSumUpSDK`
+* In ObjC: rename all case-sensitive occurrences of
+  `SumupSDK` to `SMPSumUpSDK` (except for imports, see above)
 * In Swift: rename all case-sensitive occurrences of
   `SumupSDK` and `SMPSumupSDK` to `SumUpSDK`
 

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SumUpSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

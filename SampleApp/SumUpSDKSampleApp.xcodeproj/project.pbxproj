@@ -34,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		1B584F181DE60F7100642029 /* SumUpSDKSampleAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumUpSDKSampleAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B584F2A1DE60F9D00642029 /* SumUpSDKSampleAppSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SumUpSDKSampleAppSwift-Bridging-Header.h"; path = "SrcSwift/SumUpSDKSampleAppSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		1B584F301DE60FEE00642029 /* SUSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUSAppDelegate.h; path = SrcObjC/SUSAppDelegate.h; sourceTree = "<group>"; };
 		1B584F311DE60FEE00642029 /* SUSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SUSAppDelegate.m; path = SrcObjC/SUSAppDelegate.m; sourceTree = "<group>"; };
 		1B584F321DE60FEE00642029 /* SUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUSViewController.h; path = SrcObjC/SUSViewController.h; sourceTree = "<group>"; };
@@ -118,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				1B584F471DE6146000642029 /* Main-Swift.storyboard */,
-				1B584F2A1DE60F9D00642029 /* SumUpSDKSampleAppSwift-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -371,7 +369,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "SumUpSDKSampleApp/SrcSwift/SumUpSDKSampleAppSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,7 +401,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
-				SWIFT_OBJC_BRIDGING_HEADER = "SumUpSDKSampleApp/SrcSwift/SumUpSDKSampleAppSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

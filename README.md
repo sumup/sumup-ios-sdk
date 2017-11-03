@@ -1,18 +1,18 @@
 # SumUp mPOS SDK - iOS
 
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
-[![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)]()
+[![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%208+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-3.0b1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-3.0b2-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
-
+[![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 
 This repository provides a native iOS SDK that enables you to integrate SumUp's proprietary
 card terminal(s) and its payment platform to accept credit and debit card payments
 (incl. VISA, MasterCard, American Express and more). SumUp's SDK communicates transparently
 to the card terminal(s) via Bluetooth (BLE 4.0) or an audio cable connection. Upon initiating
 a checkout, the SDK guides your user using appropriate screens through each step of the payment
-process. As part of the process, SumUp provides also the card terminal setup screen, along with the
+process. As part of the process, SumUp also provides the card terminal setup screen, along with the
 cardholder signature verification screen. The checkout result is returned with the relevant
 data for your records.
 
@@ -33,24 +33,27 @@ For more information, please refer to SumUp's
 
 ### Table of Contents
 * [Installation](#installation)
-    * [Preparing your Xcode project](#preparing-your-xcode-project)
-    * [Supported device orientation](#supported-device-orientation)
-    * [Privacy Info plist keys](#privacy-info-plist-keys)
+  * [Manual Integration](#manual-integration)
+  * [Integration via CocoaPods](#integration-via-cocoapods)
+  * [Supported device orientation](#supported-device-orientation)
+  * [Privacy Info plist keys](#privacy-info-plist-keys)
 * [Getting started](#getting-started)
+  * [Import the SDK](#import-the-sdk)
   * [Authenticate app](#authenticate-app)
   * [Login](#login)
   * [Accept card payments](#accept-card-payments)
   * [Update checkout preferences](#update-checkout-preferences)
+* [Out of Scope](#out-of-scope)
 * [Community](#community)
 * [Changelog](#changelog)
 * [License](#license)
 
 ## Installation
 
-### Preparing your Xcode project
+### Manual Integration
 
 The SumUp SDK is provided as an embedded framework `SumUpSDK.embeddedframework`
-that combines a static library, its headers and bundles containing resources such as
+that combines a static library, its headers, and bundles containing resources such as
 images and localizations. Please follow the steps below to prepare your project:
 
 1. Add the `SumUpSDK.embeddedframework` to your Xcode project.
@@ -70,21 +73,33 @@ images and localizations. Please follow the steps below to prepare your project:
 
 
 > Note:  
-> You can use the [sample app](https://github.com/sumup/sumup-ios-sdk/tree/master/SampleApp/SumUpSDKSampleApp)
+> You can use the [sample app](SampleApp/SumUpSDKSampleApp)
 > that is provided with the SumUp SDK as a reference project.
 > The Xcode project contains sample apps written in Objective-C and Swift.  
 > In your debug setup you can also call `+[SMPSumUpSDK testSDKIntegration]`.
-> It will run various checks and print its findings  to the console.
+> It will run various checks and print its findings to the console.
 > Please do not call it in your Release build.
 
+### Integration via CocoaPods
 
+The SumUp SDK can be integrated via CocoaPods. Regardless if you use dynamic
+frameworks (`use_frameworks!`), SumUp will always be added to your app as a 
+staticly linked library.
+
+```ruby
+target '<Your Target Name>' do
+    pod 'SumUpSDK'
+end
+```
+ 
+To learn more about setting up your project for CocoaPods, please refer to the [official documentation](https://cocoapods.org/#install).
 
 ### Supported device orientation
 The SDK supports all device orientations on iPad and portrait on iPhone.
 Feel free to support other orientations on iPhone but please keep in mind that
 the SDK's UI will be presented in portrait on iPhone.
 See `UISupportedInterfaceOrientations` in the sample app's
-[Info.plist](SampleApp/SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist#L56-L67)
+[Info.plist](SampleApp/SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist#L54-L65)
 or the "General" tab in Xcode's Target Editor.
 
 ### Privacy Info plist keys
@@ -104,19 +119,23 @@ for more information regarding the listed permissions required.
 [InfoPlist.strings](SampleApp/SumUpSDKSampleApp/en.lproj/InfoPlist.strings) file.
 > - For further information, see the iOS Developer Library on
 [location usage on iOS 8 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26),
-[Bluetooth peripheral usage](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW20)
+[Bluetooth peripheral usage](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW20),
 and [microphone access in iOS 7 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW25).
 
 
 ## Getting started
+
+### Import the SDK
+
+To import the SDK in Objective-C source files, you can use `#import <SumUpSDK/SumUpSDK.h>`. If module
+support is enabled in your project, you can use `@import SumUpSDK;` instead.
+
+In Swift, use `import SumUpSDK`. You do not have to add any headers to your bridging header.
+
 ### Authenticate app
 Before calling any additional feature of the SumUp SDK, you are required to set up the SDK with your Affiliate (Access) Key:
 ```objc
-#import <SumUpSDK/SumUpSDK.h>
-
-// ...
-
-[SumUpSDK setupWithAPIKey:@"MyAPIKey"];
+[SMPSumUpSDK setupWithAPIKey:@"MyAPIKey"];
 ```
 
 > Note:
@@ -143,14 +162,10 @@ Once logged in, you can start using the SumUp SDK to accept card payments.
 #### Prepare checkout request
 Prepare a checkout request that encapsulates the information regarding the transaction.
 
-For this, you will need to create an instance `SMPCheckoutRequest`:
+For this, you will need to create an instance of `SMPCheckoutRequest`:
 
 
 ```objc
-#import <SumUpSDK/SumUpSDK.h>
-
-// ...
-
 SMPCheckoutRequest *request = [SMPCheckoutRequest requestWithTotal:[NSDecimalNumber decimalNumberWithString:@"10.00"]
                                                              title:@"your title"
                                                       currencyCode:[[SMPSumUpSDK currentMerchant] currencyCode]
@@ -165,7 +180,7 @@ convenience method of `NSNumber` to create an `NSDecimalNumber`.
 When setting up the `SMPCheckoutRequest` object, the following optional parameters can be included:
 
 ##### Tip amount
-An tip amount can be processed in addition to the `totalAmount` using the `tipAmount` parameter.
+A tip amount can be processed in addition to the `totalAmount` using the `tipAmount` parameter.
 The tip amount will then be shown during the checkout process and be included in the response.
 Please note that a tip amount cannot be changed during/after the checkout.
 Just like the `totalAmount` it is an `NSDecimalNumber` so make sure to
@@ -188,9 +203,9 @@ To skip the screen shown at the end of a successful transaction, the
 `SMPSkipScreenOptionSuccess` option can be used.
 When setting this option your application is responsible for displaying
 the transaction result to the customer.
-In combination with the Receipts API your application can also send your own receipts,
+In combination with the Receipts API, your application can also send your own receipts,
 see [API documentation](http://docs.sumup.com/rest-api/transactions-api/) for details.
-Please note success screens will still be shown when using the SumUp Air Lite readers.
+Please note that success screens will still be shown when using the SumUp Air Lite readers.
 
 #### Initiate Checkout Request
 Start a payment by using the checkout request below:
