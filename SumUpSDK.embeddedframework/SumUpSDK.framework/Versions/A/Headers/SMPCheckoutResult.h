@@ -20,13 +20,13 @@ NS_SWIFT_NAME(CheckoutResult)
  *  The transaction code to be used as a reference to this transaction.
  *  Can be nil if the checkout failed in an early stage and did not reach SumUp's backend.
  */
-@property (strong, readonly, nullable) NSString *transactionCode;
+@property (readonly, nullable) NSString *transactionCode;
 
 /**
  *  Additional information on the transaction like card information.
  *  Can be nil if the checkout failed prior to payment type selection or card insertion.
  *  Please see http://docs.sumup.com/rest-api/transactions-api/ for details.
  */
-@property (strong, readonly, nullable) NSDictionary *additionalInfo;
+@property (readonly, nullable) NSDictionary *additionalInfo;
 
 @end

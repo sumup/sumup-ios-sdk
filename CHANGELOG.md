@@ -1,18 +1,20 @@
 # SumUp iOS SDK Changelog
 
-## Version 3.0b2
+## Version 3.0
 
-* Updated target SDK to iOS 11, deployment target raised to iOS 8.0
-* Drop support for audio connection to first generation PIN+ devices.
+* [UPDATE] Update target SDK to iOS 11, deployment target raised to iOS 8.0
+* [REMOVED] Drop support for audio connection to first generation PIN+ devices.
   This implies that the `YTLibResources.bundle` has been removed.
-* Added module map for Swift integration without bridging headers
+* [IMPROVEMENT] Add module map for Swift integration without bridging headers
+* [IMPROVEMENT] Prefer readonly properties over methods to improve Swift signatures
+* [ADDED] Add CocoaPods integration support – use `pod SumUpSDK` in your Podfile
 
 Sample application:
 
-* Update deployment target of Obj-C app to iOS 8
-* AVFoundation is linked as required as weak linking was only needed
+* [UPDATE] Update deployment target of Obj-C app to iOS 8
+* [UPDATE] AVFoundation is linked as required since weak linking was only needed
   when running on iOS 5
-* Swift sample app uses modular imports instead of bridging headers
+* [IMPROVEMENT] Swift sample app uses modular imports instead of bridging headers
 
 
 ## Transition Guide to 3.0
@@ -29,10 +31,15 @@ Migrating your code base is easy.
   * If your project uses modules, you can use `@import SumUpSDK;` in Objective-C
   * Swift projects should always use `import SumUpSDK` instead global bridging header imports
 * Rename all occurrences of `SumUpCompletionBlock` to `SMPCompletionBlock`
-* In ObjC: rename all case-sensitive occurrences of
-  `SumupSDK` to `SMPSumUpSDK` (except for imports, see above)
-* In Swift: rename all case-sensitive occurrences of
-  `SumupSDK` and `SMPSumupSDK` to `SumUpSDK`
+* In ObjC:
+  - rename all case-sensitive occurrences of
+  `SumupSDK` to `SMPSumUpSDK` (except for imports, see above),  
+* In Swift:
+  - rename all case-sensitive occurrences of `SumupSDK` and `SMPSumupSDK`
+  to `SumUpSDK`
+  - remove trailing parantheses from `SumUpSDK`'s `isLoggedIn`,
+  `checkoutInProgress`, `bundleVersion `, and `bundleVersionShortString`
+  - rename `SMPSkipScreenOptions` to `SkipScreenOptions`
 
 
 ## Version 2.3.2

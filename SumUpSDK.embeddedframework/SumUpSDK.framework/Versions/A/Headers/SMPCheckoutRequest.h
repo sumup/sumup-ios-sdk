@@ -96,10 +96,10 @@ NS_SWIFT_NAME(CheckoutRequest)
  *  requestWithTotal:title:currencyCode:paymentOptions: or
  *  requestWithTotal:title:currencyCode:
  */
-@property (strong, nonatomic, readonly, nullable) NSDecimalNumber *totalAmount;
+@property (nonatomic, readonly, nullable) NSDecimalNumber *totalAmount;
 
 /// A title to be displayed in the merchant's history and on customer receipts.
-@property (strong, nonatomic, readonly, nullable) NSString *title;
+@property (nonatomic, readonly, nullable) NSString *title;
 
 /**
  *  Currency code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode).
@@ -108,10 +108,10 @@ NS_SWIFT_NAME(CheckoutRequest)
  *  requestWithTotal:title:currencyCode:paymentOptions: or
  *  requestWithTotal:title:currencyCode:
  */
-@property (strong, nonatomic, readonly, nullable) NSString *currencyCode;
+@property (nonatomic, readonly, nullable) NSString *currencyCode;
 
 /// Payment options to choose a payment type
-@property (assign, nonatomic, readonly) SMPPaymentOptions paymentOptions;
+@property (nonatomic, readonly) SMPPaymentOptions paymentOptions;
 
 /**
  *  An (optional) ID to be associated with this transaction.
@@ -120,7 +120,7 @@ NS_SWIFT_NAME(CheckoutRequest)
  *  This ID has to be unique in the scope of a SumUp merchant account and its sub-accounts.
  *  It must not be longer than 128 characters and can only contain printable ASCII characters.
  */
-@property (strong, nonatomic, nullable) NSString *foreignTransactionID;
+@property (nonatomic, copy, nullable) NSString *foreignTransactionID;
 
 
 /**
@@ -128,7 +128,7 @@ NS_SWIFT_NAME(CheckoutRequest)
  *
  *  @note Will be added to the totalAmount. Must be greater zero if passed.
  */
-@property (strong, nonatomic, nullable) NSDecimalNumber *tipAmount;
+@property (nonatomic, copy, nullable) NSDecimalNumber *tipAmount;
 
 
 /**

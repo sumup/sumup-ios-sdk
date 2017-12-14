@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%208+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-3.0b2-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-3.0-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 
@@ -83,7 +83,7 @@ images and localizations. Please follow the steps below to prepare your project:
 ### Integration via CocoaPods
 
 The SumUp SDK can be integrated via CocoaPods. Regardless if you use dynamic
-frameworks (`use_frameworks!`), SumUp will always be added to your app as a 
+frameworks (`use_frameworks!`), SumUp will always be added to your app as a
 staticly linked library.
 
 ```ruby
@@ -91,7 +91,7 @@ target '<Your Target Name>' do
     pod 'SumUpSDK'
 end
 ```
- 
+
 To learn more about setting up your project for CocoaPods, please refer to the [official documentation](https://cocoapods.org/#install).
 
 ### Supported device orientation
@@ -140,7 +140,8 @@ Before calling any additional feature of the SumUp SDK, you are required to set 
 
 > Note:
 > `setupWithAPIKey:` checks for the user's location permission. Consequently,
-do not call this method as part of the app launch.
+do not call this method as part of the app launch. This method must be called on
+the main queue.
 
 ### Login
 

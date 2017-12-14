@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -25,7 +31,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWd-G8-hb3">
-                                <rect key="frame" x="20" y="430" width="374" height="60"/>
+                                <rect key="frame" x="20" y="442.66666666666669" width="374" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
                                 <state key="normal" title="Charge">
@@ -179,6 +185,7 @@ Text</string>
                             <constraint firstItem="9dF-cl-f1u" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="nLc-2L-w3K"/>
                             <constraint firstItem="9dF-cl-f1u" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nK1-HI-2MQ" secondAttribute="bottom" constant="5" id="okd-eQ-6nF"/>
                             <constraint firstItem="9dJ-2i-FCZ" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.5" priority="250" id="pjq-0P-Zzb"/>
+                            <constraint firstItem="ZVp-1t-qki" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="rDF-A5-UQk"/>
                             <constraint firstItem="tbC-Gb-rxm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="sTP-4l-m5c"/>
                             <constraint firstItem="c6N-X2-K5F" firstAttribute="top" secondItem="tbC-Gb-rxm" secondAttribute="bottom" id="tgF-Qx-wcI"/>
                             <constraint firstItem="9dJ-2i-FCZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="vIb-xA-rvn"/>
@@ -202,7 +209,7 @@ Text</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="144.80000000000001" y="48.125937031484263"/>
+            <point key="canvasLocation" x="143.47826086956522" y="48.097826086956523"/>
         </scene>
     </scenes>
 </document>

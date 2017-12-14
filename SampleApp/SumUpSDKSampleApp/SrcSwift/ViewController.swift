@@ -109,7 +109,7 @@ class ViewController: UIViewController {
 
     fileprivate func requestCheckout() {
         // ensure that we have a valid merchant
-        guard let merchantCurrencyCode = SumUpSDK.currentMerchant()?.currencyCode else {
+        guard let merchantCurrencyCode = SumUpSDK.currentMerchant?.currencyCode else {
             showResult(string: "not logged in")
             return
         }
@@ -187,7 +187,7 @@ class ViewController: UIViewController {
         }
 
         // after the checkout is initiated we expect a checkout to be in progress
-        if !SumUpSDK.checkoutInProgress() {
+        if !SumUpSDK.checkoutInProgress {
             // something went wrong: checkout was not started
             showResult(string: "failed to start checkout")
         }
@@ -205,12 +205,12 @@ class ViewController: UIViewController {
             return
         }
 
-        let isLoggedIn = SumUpSDK.isLoggedIn()
+        let isLoggedIn = SumUpSDK.isLoggedIn
 
         control.isHidden = !isLoggedIn
         control.removeAllSegments()
 
-        guard let currencyCode = SumUpSDK.currentMerchant()?.currencyCode else {
+        guard let currencyCode = SumUpSDK.currentMerchant?.currencyCode else {
             return
         }
 
@@ -223,7 +223,7 @@ class ViewController: UIViewController {
 
     fileprivate var tipAmounts:[NSDecimalNumber] {
         get {
-            guard let currencyCode = SumUpSDK.currentMerchant()?.currencyCode,
+            guard let currencyCode = SumUpSDK.currentMerchant?.currencyCode,
                 !currencyCode.isEmpty
                 else {
                     return []
@@ -255,7 +255,7 @@ class ViewController: UIViewController {
 extension ViewController {
 
     fileprivate func updateButtonStates() {
-        let isLoggedIn = SumUpSDK.isLoggedIn()
+        let isLoggedIn = SumUpSDK.isLoggedIn
         buttonLogin?.isEnabled = !isLoggedIn
         buttonLogout?.isEnabled = isLoggedIn
 
@@ -277,7 +277,7 @@ extension ViewController {
 
     fileprivate func updateCurrency() {
         // ensure that we have a valid merchant
-        guard let merchantCurrencyCode = SumUpSDK.currentMerchant()?.currencyCode else {
+        guard let merchantCurrencyCode = SumUpSDK.currentMerchant?.currencyCode else {
             return
         }
 
@@ -327,7 +327,7 @@ extension ViewController: UITextFieldDelegate {
             SumUpSDK.prepareForCheckout()
 
             textFieldTitle?.becomeFirstResponder()
-        } else if SumUpSDK.isLoggedIn() {
+        } else if SumUpSDK.isLoggedIn {
             requestCheckout()
         } else {
             textField.resignFirstResponder()

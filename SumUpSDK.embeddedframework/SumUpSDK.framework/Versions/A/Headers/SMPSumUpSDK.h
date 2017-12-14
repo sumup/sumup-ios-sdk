@@ -14,7 +14,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// A common completion block used within the SumUpSDK is called with a success value and an error object.
+/// A common completion block used within the SumUpSDK that is called with a success value and an error object.
 typedef void (^SMPCompletionBlock)(BOOL success, NSError * _Nullable error);
 
 /**
@@ -30,6 +30,33 @@ NS_SWIFT_NAME(SumUpSDK)
 @interface SMPSumUpSDK : NSObject
 
 /**
+ *  @return YES if a merchant is logged in. NO otherwise.
+ */
+@property (class, readonly) BOOL isLoggedIn;
+
+/// Returns a copy of the currently logged in merchant or nil if no merchant is logged in.
+@property (class, readonly, nullable) SMPMerchant *currentMerchant;
+
+/**
+ *  @return YES if a checkout is in progress. NO otherwise.
+ */
+@property (class, readonly) BOOL checkoutInProgress;
+
+/**
+ *  Returns the SDK's CFBundleVersion
+ *
+ *  @return the SDK version
+ */
+@property(class, readonly) NSString *bundleVersion;
+
+/**
+ *  Returns the of the SDK's CFBundleShortVersionString
+ *
+ *  @return the short SDK version
+ */
+@property(class, readonly) NSString *bundleVersionShortString;
+
+/**
  *  Sets up the SumUpSDK for use in your app.
  *
  *  Needs to be called from on the main thread at some point before starting interaction with the SDK.
@@ -43,7 +70,6 @@ NS_SWIFT_NAME(SumUpSDK)
  *  @return YES if setup was successful. NO otherwise or if SDK has been set up before.
  */
 + (BOOL)setupWithAPIKey:(NSString *)apiKey;
-
 
 /**
  *  Presents the login modally from the given view controller.
@@ -62,7 +88,6 @@ NS_SWIFT_NAME(SumUpSDK)
                               animated:(BOOL)animated
                        completionBlock:(nullable SMPCompletionBlock)block;
 
-
 /**
  *  Logs in a merchant with an access token acquired via http://docs.sumup.com/oauth/
  *  Make sure that no user is logged in already when calling this method.
@@ -71,15 +96,6 @@ NS_SWIFT_NAME(SumUpSDK)
  *  @param block  a completion block that will run after login has succeeded/failed
  */
 + (void)loginWithToken:(NSString *)aToken completion:(nullable SMPCompletionBlock)block;
-
-/**
- *  @return YES if the merchant is logged in. NO otherwise.
- */
-+ (BOOL)isLoggedIn;
-
-/// Returns a copy of the currently logged in merchant or nil if no merchant is logged in.
-+ (nullable SMPMerchant *)currentMerchant;
-
 
 /**
  *  Can be called in advance when a checkout is imminent and a user is logged in.
@@ -117,12 +133,6 @@ NS_SWIFT_NAME(SumUpSDK)
                  completion:(nullable SMPCheckoutCompletionBlock)block;
 
 /**
- *  @return YES if a checkout is progress. NO otherwise.
- */
-+ (BOOL)checkoutInProgress;
-
-
-/**
  *  Presenting checkout preferences allows the current merchant to configure the checkout options and
  *  change the card terminal. Merchants can also set up the terminal when applicable.
  *  Can only be called when a merchant is logged in and checkout is not in progress.
@@ -153,20 +163,6 @@ NS_SWIFT_NAME(SumUpSDK)
  *  to your app to use the device's microphone.
  */
 + (void)setUINotificationsForReaderStatusEnabled:(BOOL)enabled;
-
-/**
- *  Returns the SDK's CFBundleVersion
- *
- *  @return the SDK version
- */
-+ (NSString *)bundleVersion;
-
-/**
- *  Returns the of the SDK's CFBundleShortVersionString
- *
- *  @return the short SDK version
- */
-+ (NSString *)bundleVersionShortString;
 
 #pragma mark - Error Domain and Codes
 
