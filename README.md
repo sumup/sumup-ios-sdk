@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%208+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-3.0-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-3.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 
@@ -25,9 +25,9 @@ For more information, please refer to SumUp's
 
 ### Prerequisites
 1. Registered for a merchant account via SumUp's [country websites](https://sumup.com/) (or received a test account).
-2. Received SumUp card terminal: Air, Air Lite, PIN+ terminal or Chip & Signature reader.
+2. Received SumUp card terminal: Air, Air Lite, PIN+ terminal, Chip & Signature reader, or SumUp Air Register.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
-4. Deployment Target iOS 8.0 or later.
+4. Deployment Target iOS 9.0 or later.
 5. Xcode 9 and iOS SDK 11 or later.
 6. iPhone, iPad or iPod touch.
 
@@ -50,6 +50,9 @@ For more information, please refer to SumUp's
 
 ## Installation
 
+If you want to support the SumUp Air Register, please also read our additional
+[Air Register setup guide](AirRegister/README.md).
+
 ### Manual Integration
 
 The SumUp SDK is provided as an embedded framework `SumUpSDK.embeddedframework`
@@ -62,6 +65,7 @@ images and localizations. Please follow the steps below to prepare your project:
 
         Accelerate
         AVFoundation
+        ExternalAccessory
         MapKit
 
 4. Add `-ObjC` to "Other Linker Flags" if not yet included.
@@ -71,11 +75,10 @@ images and localizations. Please follow the steps below to prepare your project:
 
         SumUpSDK.embeddedframework/Resources/SMPSharedResources.bundle
 
-
-> Note:  
+> Note:
 > You can use the [sample app](SampleApp/SumUpSDKSampleApp)
 > that is provided with the SumUp SDK as a reference project.
-> The Xcode project contains sample apps written in Objective-C and Swift.  
+> The Xcode project contains sample apps written in Objective-C and Swift.
 > In your debug setup you can also call `+[SMPSumUpSDK testSDKIntegration]`.
 > It will run various checks and print its findings to the console.
 > Please do not call it in your Release build.
@@ -121,7 +124,6 @@ for more information regarding the listed permissions required.
 [location usage on iOS 8 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26),
 [Bluetooth peripheral usage](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW20),
 and [microphone access in iOS 7 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW25).
-
 
 ## Getting started
 
@@ -247,8 +249,7 @@ The following functions are handled by the [SumUp APIs](http://docs.sumup.com/re
 * [Account management](http://docs.sumup.com/rest-api/accounts-api/)
 
 ## Community
-- **Questions?** Get in contact with our integration team by sending an email to
-<a href="mailto:integration@sumup.com">integration@sumup.com</a>.
+- **Questions?** Get in contact with our integration team by sending an email to integration@sumup.com.
 - **Found a bug?** [Open an issue](https://github.com/sumup/sumup-ios-sdk/issues/new).
 Please provide as much information as possible.
 

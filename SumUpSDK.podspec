@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name    = "SumUpSDK"
-  s.version = "3.0"
+  s.version = "3.1"
   s.summary = "This SDK enables you to integrate SumUp's proprietary card terminal(s) and its payment platform to accept credit and debit card payments."
 
   s.description = <<-DESC
@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
                 ]
   s.module_map = "SumUpSDK.embeddedframework/SumUpSDK.framework/Modules/module.modulemap"
 
-  s.frameworks           = "Accelerate", "AVFoundation", "MapKit"
+  s.frameworks           = "Accelerate", "AVFoundation", "MapKit", "ExternalAccessory"
   s.user_target_xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
-  s.platform             = :ios, "8.0"
+  s.platform             = :ios, "9.0"
 
 end

@@ -173,13 +173,22 @@ extern NSString * const SMPSumUpSDKErrorDomain;
  *  The error codes returned from the SDK
  */
 typedef NS_ENUM(NSInteger, SMPSumUpSDKError) {
-    SMPSumUpSDKErrorGeneral             = 0,        // General error
-    SMPSumUpSDKErrorActivationNeeded    = 1,        // The merchant's account is not activated
-    SMPSumUpSDKErrorAccountGeneral      = 20,
-    SMPSumUpSDKErrorAccountNotLoggedIn  = 21,       // The merchant is not logged into his account.
-    SMPSumUpSDKErrorAccountIsLoggedIn   = 22,       // A merchant is logged in already. Call logout before logging in again.
-    SMPSumUpSDKErrorCheckoutGeneral     = 50,
-    SMPSumUpSDKErrorCheckoutInProgress  = 51,       // Another checkout process is currently in progress.
+    /// General error
+    SMPSumUpSDKErrorGeneral                        = 0,
+    /// The merchant's account is not activated
+    SMPSumUpSDKErrorActivationNeeded               = 1,
+    /// General error with the merchant's account
+    SMPSumUpSDKErrorAccountGeneral                 = 20,
+    /// The merchant is not logged in to their account
+    SMPSumUpSDKErrorAccountNotLoggedIn             = 21,
+    /// A merchant is logged in already. Call logout before logging in again.
+    SMPSumUpSDKErrorAccountIsLoggedIn              = 22,
+    /// Generel checkout error
+    SMPSumUpSDKErrorCheckoutGeneral                = 50,
+    /// Another checkout process is currently in progress.
+    SMPSumUpSDKErrorCheckoutInProgress             = 51,
+    /// The currency code specified in the checkout request does not match that of the current merchant.
+    SMPSumUpSDKErrorCheckoutCurrencyCodeMismatch   = 52
 } NS_SWIFT_NAME(SumUpSDKError);
 
 #pragma mark - SDK Integration

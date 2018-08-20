@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2A869B1FBB4CF50053D675 /* RegisterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A869A1FBB4CF50053D675 /* RegisterDemoViewController.swift */; };
+		1B3F0FAF1FBC75C00003F8CA /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */; };
 		1B584F341DE60FEE00642029 /* SUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F311DE60FEE00642029 /* SUSAppDelegate.m */; };
 		1B584F351DE60FEE00642029 /* SUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F331DE60FEE00642029 /* SUSViewController.m */; };
 		1B584F371DE60FFC00642029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F361DE60FFC00642029 /* main.m */; };
@@ -19,6 +21,7 @@
 		1B584F451DE6132700642029 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F47E189968C70057702B /* AVFoundation.framework */; };
 		1B584F461DE6132D00642029 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F4761899687D0057702B /* MapKit.framework */; };
 		1B584F491DE6146000642029 /* Main-Swift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B584F471DE6146000642029 /* Main-Swift.storyboard */; };
+		1B63D8B62111EBCA0028241A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */; };
 		1BF7553B1CF6093C00C793FB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */; };
 		DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9610BD18996359009D8EBC /* InfoPlist.strings */; };
 		DC9610C818996359009D8EBC /* Main-ObjC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9610C618996359009D8EBC /* Main-ObjC.storyboard */; };
@@ -33,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B2A869A1FBB4CF50053D675 /* RegisterDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterDemoViewController.swift; path = SrcSwift/RegisterDemoViewController.swift; sourceTree = "<group>"; };
+		1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		1B584F181DE60F7100642029 /* SumUpSDKSampleAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumUpSDKSampleAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B584F301DE60FEE00642029 /* SUSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUSAppDelegate.h; path = SrcObjC/SUSAppDelegate.h; sourceTree = "<group>"; };
 		1B584F311DE60FEE00642029 /* SUSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SUSAppDelegate.m; path = SrcObjC/SUSAppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3F0FAF1FBC75C00003F8CA /* ExternalAccessory.framework in Frameworks */,
 				1B584F441DE6131E00642029 /* Accelerate.framework in Frameworks */,
 				1B584F451DE6132700642029 /* AVFoundation.framework in Frameworks */,
 				1B584F461DE6132D00642029 /* MapKit.framework in Frameworks */,
@@ -72,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B63D8B62111EBCA0028241A /* ExternalAccessory.framework in Frameworks */,
 				E92050D81B289E4B00173579 /* Accelerate.framework in Frameworks */,
 				DCA9F47F189968C70057702B /* AVFoundation.framework in Frameworks */,
 				DCA9F4771899687D0057702B /* MapKit.framework in Frameworks */,
@@ -106,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				1B584F391DE6101000642029 /* AppDelegate.swift */,
+				1B2A869A1FBB4CF50053D675 /* RegisterDemoViewController.swift */,
 				1B584F3A1DE6101100642029 /* ViewController.swift */,
 				1B584F4A1DE6146300642029 /* Supporting Files */,
 			);
@@ -144,6 +152,7 @@
 		DC9610B318996359009D8EBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */,
 				E95D10B61FA346F900035A3C /* SumUpSDK.embeddedframework */,
 				E92050D71B289E4B00173579 /* Accelerate.framework */,
 				DCA9F47E189968C70057702B /* AVFoundation.framework */,
@@ -237,7 +246,7 @@
 			attributes = {
 				CLASSPREFIX = SUS;
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "SumUp Payments Limited";
 				TargetAttributes = {
 					1B584F171DE60F7100642029 = {
@@ -299,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B584F3B1DE6101100642029 /* AppDelegate.swift in Sources */,
+				1B2A869B1FBB4CF50053D675 /* RegisterDemoViewController.swift in Sources */,
 				1B584F3C1DE6101100642029 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +371,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -370,7 +379,6 @@
 				SUS_STORYBOARD_NAME = "Main-Swift";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -394,7 +402,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -402,7 +409,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -418,12 +424,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -450,9 +458,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -467,12 +476,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -492,9 +503,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -512,7 +524,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SumUpSDKSampleApp/SrcObjC/SumUpSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -535,7 +546,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SumUpSDKSampleApp/SrcObjC/SumUpSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";

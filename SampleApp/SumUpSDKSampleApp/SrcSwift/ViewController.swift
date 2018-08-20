@@ -6,8 +6,8 @@
 //  Copyright © 2016 SumUp Payments Limited. All rights reserved.
 //
 
-import UIKit
 import SumUpSDK
+import UIKit
 
 class ViewController: UIViewController {
     private var appearCompleted = false
@@ -17,13 +17,14 @@ class ViewController: UIViewController {
     @IBOutlet fileprivate weak var buttonLogin: UIButton?
     @IBOutlet fileprivate weak var buttonLogout: UIButton?
     @IBOutlet fileprivate weak var buttonPreferences: UIButton?
+    @IBOutlet fileprivate weak var buttonRegisterDemo: UIButton?
     @IBOutlet fileprivate weak var buttonCharge: UIButton?
 
     @IBOutlet fileprivate weak var textFieldTotal: UITextField?
     @IBOutlet fileprivate weak var textFieldTitle: UITextField?
 
-    @IBOutlet fileprivate weak var segmentedControlTipping : UISegmentedControl?
-    @IBOutlet fileprivate weak var switchSkipReceiptScreen : UISwitch?
+    @IBOutlet fileprivate weak var segmentedControlTipping: UISegmentedControl?
+    @IBOutlet fileprivate weak var switchSkipReceiptScreen: UISwitch?
 
     @IBOutlet fileprivate weak var label: UILabel?
     @IBOutlet private weak var versionLabel: UILabel?
@@ -70,6 +71,8 @@ class ViewController: UIViewController {
 
     private func presentCheckoutPreferences() {
         SumUpSDK.presentCheckoutPreferences(from: self, animated: true) { [weak self] (success: Bool, presentationError: Error?) in
+            print("Did present checkout preferences with success: \(success). Error: \(String(describing: presentationError))")
+
             guard let safeError = presentationError as NSError? else {
                 // no error, nothing else to do
                 return
@@ -96,6 +99,8 @@ class ViewController: UIViewController {
     private func presentLogin() {
         // present login UI and wait for completion block to update button states
         SumUpSDK.presentLogin(from: self, animated: true) { [weak self] (success: Bool, error: Error?) in
+            print("Did present login with success: \(success). Error: \(String(describing: error))")
+
             guard error == nil else {
                 // errors are handled within the SDK, there should be no need
                 // for your app to display any error message
@@ -134,8 +139,7 @@ class ViewController: UIViewController {
         // add tip if selected
         if let selectedTip = segmentedControlTipping?.selectedSegmentIndex,
             selectedTip > 0,
-            tipAmounts.indices ~= selectedTip
-        {
+            tipAmounts.indices ~= selectedTip {
             let tipAmount = tipAmounts[selectedTip]
             request.tipAmount = tipAmount
         }
@@ -195,6 +199,7 @@ class ViewController: UIViewController {
 
     fileprivate func requestLogout() {
         SumUpSDK.logout { [weak self] (success: Bool, error: Error?) in
+            print("Did log out with success: \(success). Error: \(String(describing: error))")
             self?.updateButtonStates()
         }
     }
@@ -221,30 +226,26 @@ class ViewController: UIViewController {
         }
     }
 
-    fileprivate var tipAmounts:[NSDecimalNumber] {
-        get {
-            guard let currencyCode = SumUpSDK.currentMerchant?.currencyCode,
-                !currencyCode.isEmpty
-                else {
-                    return []
-            }
+    fileprivate var tipAmounts: [NSDecimalNumber] {
+        guard let currencyCode = SumUpSDK.currentMerchant?.currencyCode, !currencyCode.isEmpty else {
+            return []
+        }
 
-            switch currencyCode {
-            case CurrencyCodeSEK:
-                return [NSDecimalNumber.zero,
-                        NSDecimalNumber(mantissa: 20, exponent: 0, isNegative: false),
-                        NSDecimalNumber(mantissa: 40, exponent: 0, isNegative: false)]
+        switch currencyCode {
+        case CurrencyCodeSEK:
+            return [NSDecimalNumber.zero,
+                    NSDecimalNumber(mantissa: 20, exponent: 0, isNegative: false),
+                    NSDecimalNumber(mantissa: 40, exponent: 0, isNegative: false)]
 
-            case CurrencyCodeBRL:
-                return [NSDecimalNumber.zero,
-                        NSDecimalNumber(mantissa: 5, exponent: 0, isNegative: false),
-                        NSDecimalNumber(mantissa: 10, exponent: 0, isNegative: false)]
+        case CurrencyCodeBRL:
+            return [NSDecimalNumber.zero,
+                    NSDecimalNumber(mantissa: 5, exponent: 0, isNegative: false),
+                    NSDecimalNumber(mantissa: 10, exponent: 0, isNegative: false)]
 
-            default:
-                return [NSDecimalNumber.zero,
-                        NSDecimalNumber(mantissa: 2, exponent: 0, isNegative: false),
-                        NSDecimalNumber(mantissa: 5, exponent: 0, isNegative: false)]
-            }
+        default:
+            return [NSDecimalNumber.zero,
+                    NSDecimalNumber(mantissa: 2, exponent: 0, isNegative: false),
+                    NSDecimalNumber(mantissa: 5, exponent: 0, isNegative: false)]
         }
     }
 }
@@ -265,6 +266,10 @@ extension ViewController {
 
         // buttonCharge?.isEnabled = isLoggedIn
         // buttonPreferences?.isEnabled = isLoggedIn
+
+        // Hidden by default: Please refer to AirRegister/README.md for
+        // further details.
+        buttonRegisterDemo?.isHidden = !SumUpRegisterSDK.registerIsSupported
 
         switchSkipReceiptScreen?.isEnabled = isLoggedIn
         updateTipControl()

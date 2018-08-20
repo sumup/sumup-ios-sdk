@@ -1,5 +1,19 @@
 # SumUp iOS SDK Changelog
 
+## Version 3.1
+
+* [CHANGED] If you integrate the SDK manually, please link to the `ExternalAccessory`
+  framework as per our [setup guide](README.md)
+* [UPDATE] Deployment target raised to iOS 9.0
+* [CHANGED] The login mask does not show the "Reveal password" button anymore
+* [ADDED] SumUp [Air Register](AirRegister/README.md) support
+* [IMPROVEMENT] Dedicated error code for currency mismatches – please refer to our
+  [README](README.md) for hints regarding correct currency handling
+* [[IMPROVEMENT]](https://github.com/sumup/sumup-ios-sdk/issues/11) Populate
+  `NSLocalizedDescriptionKey` in SDK errors – you can still access
+  `NSUnderlyingErrorKey` for more details regarding the underlying error
+* [ADDED] New currency code constant (`CLP`) and new languages (`es-CL`, `et`)
+
 ## Version 3.0
 
 * [UPDATE] Update target SDK to iOS 11, deployment target raised to iOS 8.0
@@ -15,7 +29,6 @@ Sample application:
 * [UPDATE] AVFoundation is linked as required since weak linking was only needed
   when running on iOS 5
 * [IMPROVEMENT] Swift sample app uses modular imports instead of bridging headers
-
 
 ## Transition Guide to 3.0
 
@@ -33,14 +46,13 @@ Migrating your code base is easy.
 * Rename all occurrences of `SumUpCompletionBlock` to `SMPCompletionBlock`
 * In ObjC:
   - rename all case-sensitive occurrences of
-  `SumupSDK` to `SMPSumUpSDK` (except for imports, see above),  
+  `SumupSDK` to `SMPSumUpSDK` (except for imports, see above),
 * In Swift:
   - rename all case-sensitive occurrences of `SumupSDK` and `SMPSumupSDK`
   to `SumUpSDK`
   - remove trailing parantheses from `SumUpSDK`'s `isLoggedIn`,
   `checkoutInProgress`, `bundleVersion `, and `bundleVersionShortString`
   - rename `SMPSkipScreenOptions` to `SkipScreenOptions`
-
 
 ## Version 2.3.2
 
@@ -72,7 +84,6 @@ Migrating your code base is easy.
 * [ADDED] Add option to specify tip amount.
 * [IMPROVEMENT] Convert to Auto Layout
 
-
 ## Version 2.2
 
 * [BUGFIX] Fix a crash when trying to re-connect to an Air/PIN+ terminal,
@@ -92,7 +103,6 @@ Sample application:
 * [ADDED] Run `+[SumupSDK testSDKIntegration]` when building in
   Debug configuration.
 
-
 ## Version 2.1
 
 * [ADDED] Provide method to let merchants change their checkout preferences
@@ -102,7 +112,6 @@ Sample application:
 
 * [ADDED] Add button to present checkout preferences
 * [BUGFIX] Add missing `-ObjC` linker flag to Swift sample app
-
 
 ## Version 2.0
 

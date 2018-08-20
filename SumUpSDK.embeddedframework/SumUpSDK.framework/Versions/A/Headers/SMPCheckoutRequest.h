@@ -23,6 +23,8 @@ NS_SWIFT_NAME(CurrencyCodeBRL)
 extern NSString * const SMPCurrencyCodeBRL;
 NS_SWIFT_NAME(CurrencyCodeCHF)
 extern NSString * const SMPCurrencyCodeCHF;
+NS_SWIFT_NAME(CurrencyCodeCLP)
+extern NSString * const SMPCurrencyCodeCLP;
 NS_SWIFT_NAME(CurrencyCodeCZK)
 extern NSString * const SMPCurrencyCodeCZK;
 NS_SWIFT_NAME(CurrencyCodeDKK)

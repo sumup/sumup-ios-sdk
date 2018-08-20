@@ -9,4 +9,5 @@
 #import "SMPCheckoutRequest.h"
 #import "SMPCheckoutResult.h"
 #import "SMPMerchant.h"
+#import "SMPSumUpRegisterSDK.h"
 #import "SMPSumUpSDK.h"

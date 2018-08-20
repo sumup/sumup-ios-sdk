@@ -6,8 +6,8 @@
 //  Copyright © 2016 SumUp Payments Limited. All rights reserved.
 //
 
-import UIKit
 import SumUpSDK
+import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
