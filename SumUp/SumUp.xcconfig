@@ -1,0 +1,13 @@
+//
+//  SumupSDK.xcconfig
+//  SumupSDK
+//
+
+ENABLE_BITCODE = NO
+FRAMEWORK_SEARCH_PATHS = ${WRAP_FRAMEWORK_PATH}
+HEADER_SEARCH_PATHS = ${WRAP_FRAMEWORK_PATH}/Headers
+OTHER_CFLAGS = -isystem ${WRAP_FRAMEWORK_PATH}/Headers
+OTHER_LDFLAGS = ${WRAP_FLAGS}
+
+WRAP_FRAMEWORK_PATH = ${SRCROOT}/SumUpSDK.embeddedframework
+WRAP_FLAGS = -ObjC -framework Accelerate -framework AVFoundation -framework ExternalAccessory -framework MapKit -framework SumUpSDK

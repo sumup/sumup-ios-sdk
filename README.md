@@ -6,6 +6,7 @@
 [![Version](https://img.shields.io/badge/Version-3.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
+[![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)]()
 
 This repository provides a native iOS SDK that enables you to integrate SumUp's proprietary
 card terminal(s) and its payment platform to accept credit and debit card payments
@@ -35,6 +36,7 @@ For more information, please refer to SumUp's
 * [Installation](#installation)
   * [Manual Integration](#manual-integration)
   * [Integration via CocoaPods](#integration-via-cocoapods)
+  * [Integration via Carthage](#integration-via-carthage)
   * [Supported device orientation](#supported-device-orientation)
   * [Privacy Info plist keys](#privacy-info-plist-keys)
 * [Getting started](#getting-started)
@@ -96,6 +98,21 @@ end
 ```
 
 To learn more about setting up your project for CocoaPods, please refer to the [official documentation](https://cocoapods.org/#install).
+
+### Integration via Carthage
+
+To integrate SumUp SDK into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "sumup/sumup-ios-sdk"
+```
+
+- Run `carthage update` to build the framework
+- Drag the `SumUp` framework into your Xcode project
+- Drag the `SMPSharedResources` resource bundle into your Xcode Project
+- Add the `carthage copy-frameworks` build phase script, see the [Carthage guide](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application)
+- Add `$(SRCROOT)/Carthage/Build/iOS/SumUp.framework` to the script's Input Files
+- Add `$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SumUp.framework` to the script's Output Files
 
 ### Supported device orientation
 The SDK supports all device orientations on iPad and portrait on iPhone.
