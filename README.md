@@ -3,9 +3,10 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%209+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-3.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-3.2b1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 This repository provides a native iOS SDK that enables you to integrate SumUp's proprietary
 card terminal(s) and its payment platform to accept credit and debit card payments
@@ -28,13 +29,14 @@ For more information, please refer to SumUp's
 2. Received SumUp card terminal: Air, Air Lite, PIN+ terminal, Chip & Signature reader, or SumUp Air Register.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
 4. Deployment Target iOS 9.0 or later.
-5. Xcode 9 and iOS SDK 11 or later.
+5. Xcode 10.1 and iOS SDK 12 or later.
 6. iPhone, iPad or iPod touch.
 
 ### Table of Contents
 * [Installation](#installation)
   * [Manual Integration](#manual-integration)
   * [Integration via CocoaPods](#integration-via-cocoapods)
+  * [Integration via Carthage](#integration-via-carthage)
   * [Supported device orientation](#supported-device-orientation)
   * [Privacy Info plist keys](#privacy-info-plist-keys)
 * [Getting started](#getting-started)
@@ -75,19 +77,19 @@ images and localizations. Please follow the steps below to prepare your project:
 
         SumUpSDK.embeddedframework/Resources/SMPSharedResources.bundle
 
+6. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
+
 > Note:
 > You can use the [sample app](SampleApp/SumUpSDKSampleApp)
 > that is provided with the SumUp SDK as a reference project.
 > The Xcode project contains sample apps written in Objective-C and Swift.
-> In your debug setup you can also call `+[SMPSumUpSDK testSDKIntegration]`.
-> It will run various checks and print its findings to the console.
-> Please do not call it in your Release build.
+> See [Test your integration](#test-your-integration) for more information.
 
 ### Integration via CocoaPods
 
 The SumUp SDK can be integrated via CocoaPods. Regardless if you use dynamic
 frameworks (`use_frameworks!`), SumUp will always be added to your app as a
-staticly linked library.
+statically linked library.
 
 ```ruby
 target '<Your Target Name>' do
@@ -96,6 +98,34 @@ end
 ```
 
 To learn more about setting up your project for CocoaPods, please refer to the [official documentation](https://cocoapods.org/#install).
+
+### Integration via Carthage
+
+The SumUp SDK can be integrated with Carthage by following the steps below: 
+
+1. Add the following line to your `Cartfile`:
+	
+		github "sumup/sumup-ios-sdk" 
+
+2. Run `carthage update sumup-ios-sdk`
+3. Link your app against `Carthage/Build/iOS/SumUpSDK.framework` by dragging it into "Linked Frameworks and Libraries".
+Because SumUp is a statically linked library, it must **not** be contained in "Embedded Frameworks" and you must **not** add `SumUpSDK.framework` to Carthage's build phase.
+4. Add `-ObjC` to "Other Linker Flags" if not yet included.
+5. Add the provided `SMPSharedResource` bundle to your app target:
+
+		Carthage/Build/iOS/SumUpSDK.framework/Versions/A/Resources/SMPSharedResources.bundle
+
+6. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
+
+To learn more about setting up your project for Carthage, please refer to the [official documentation](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos).
+
+> Note:
+> See [Test your integration](#test-your-integration) for more information.
+
+### Test your integration
+In your debug setup you can call `+[SMPSumUpSDK testSDKIntegration]`.
+It will run various checks and print its findings to the console.
+Please do not call it in your Release build.
 
 ### Supported device orientation
 The SDK supports all device orientations on iPad and portrait on iPhone.

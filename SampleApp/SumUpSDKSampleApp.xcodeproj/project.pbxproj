@@ -191,7 +191,7 @@
 			);
 			name = SumUpSDK.embeddedframework;
 			path = ../SumUpSDK.embeddedframework;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		E95D10B71FA346F900035A3C /* Resources */ = {
 			isa = PBXGroup;
