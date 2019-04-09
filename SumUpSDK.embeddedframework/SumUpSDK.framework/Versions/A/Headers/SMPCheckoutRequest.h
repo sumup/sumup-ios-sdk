@@ -132,6 +132,14 @@ NS_SWIFT_NAME(CheckoutRequest)
  */
 @property (nonatomic, copy, nullable) NSDecimalNumber *tipAmount;
 
+/**
+ *  An optional count for the display of the number of sale items throughout the checkout process.
+ *  Default is zero which will hide the display of the item count.
+ *  This value is currently not reflected in the merchant's history
+ *  or the customer receipts.
+ */
+@property (nonatomic) NSUInteger saleItemsCount;
+
 
 /**
  *  An optional flag to skip the confirmation screen in checkout.

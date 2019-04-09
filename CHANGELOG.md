@@ -1,5 +1,22 @@
 # SumUp iOS SDK Changelog
 
+## Version 3.2
+
+* [UPDATE] Style updated to match our iOS app v2.0
+* [UPDATE] Base SDK updated to iOS 12, built with Xcode 10.1
+* [IMPROVEMENT] Location permissions are handled when presenting the
+  login view controller. The merchant is asked to grant location
+  permissions if needed and restricted from logging in when denied.
+* [IMPROVEMENT] Added a section to the README on how to
+  [integrate with Carthage](https://github.com/sumup/sumup-ios-sdk/blob/master/README.md#integration-via-carthage).
+  Heavily inspired by [Zyphrax's](https://github.com/Zyphrax) help in
+  [PR #42](https://github.com/sumup/sumup-ios-sdk/pull/43) addressing
+  [issue #37](https://github.com/sumup/sumup-ios-sdk/issues/37).
+* [BUGFIX] Fix a crash in checkout when trying to use an audio
+  connection to a PIN+ or C&S readers when microphone permissions have
+  been denied.
+* [ADDED] Added support for the SumUp 3G reader
+
 ## Version 3.1
 
 * [CHANGED] If you integrate the SDK manually, please link to the `ExternalAccessory`
