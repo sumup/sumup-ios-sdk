@@ -111,11 +111,18 @@ The SumUp SDK can be integrated with Carthage by following the steps below:
 3. Link your app against `Carthage/Build/iOS/SumUpSDK.framework` by dragging it into "Linked Frameworks and Libraries".
 Because SumUp is a statically linked library, it must **not** be contained in "Embedded Frameworks" and you must **not** add `SumUpSDK.framework` to Carthage's build phase.
 4. Add `-ObjC` to "Other Linker Flags" if not yet included.
-5. Add the provided `SMPSharedResource` bundle to your app target:
+5. Link your app against the following system frameworks:
+
+        Accelerate
+        AVFoundation
+        ExternalAccessory
+        MapKit
+
+6. Add the provided `SMPSharedResource` bundle to your app target:
 
 		Carthage/Build/iOS/SumUpSDK.framework/Versions/A/Resources/SMPSharedResources.bundle
 
-6. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
+7. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
 
 To learn more about setting up your project for Carthage, please refer to the [official documentation](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos).
 
