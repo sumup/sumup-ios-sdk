@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 3.3
+
+* [UPDATE] This version of the SumUp SDK is ready to be used with
+  Xcode 11 and the iOS 13 SDK
+* [ADDED] Added support for the latest generation of SumUp's Air and PIN+ readers
+* [BUGFIX] Fix a crash in checkout preferences when trying to disable all options
+
 ## Version 3.2
 
 * [UPDATE] Style updated to match our iOS app v2.0

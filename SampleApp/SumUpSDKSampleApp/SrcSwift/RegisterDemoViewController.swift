@@ -200,6 +200,10 @@ extension RegisterDemoViewController {
                         title = "Please re-connect"
                         message = "Please re-connect to finish the firmware update."
                         requiresReconnect = true
+                    @unknown default:
+                        assertionFailure("Unknown SumUp SDK error code encountered: \(sumUpErrorCode)")
+                        title = "Error"
+                        message = "Failed with unknown error: \(String(describing: error))"
                     }
                 } else {
                     title = "Error"

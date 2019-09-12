@@ -8,6 +8,7 @@
 
 #import "SMPCheckoutRequest.h"
 #import "SMPCheckoutResult.h"
+#import "SMPCurrencyCodes.h"
 #import "SMPMerchant.h"
 #import "SMPSumUpRegisterSDK.h"
 #import "SMPSumUpSDK.h"

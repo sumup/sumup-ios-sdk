@@ -296,7 +296,6 @@ extension ViewController {
         } else {
             currencyLabel = UILabel()
             currencyLabel.backgroundColor = .clear
-            currencyLabel.textColor = .lightGray
             textField.rightView = currencyLabel
             textField.rightViewMode = .always
         }
