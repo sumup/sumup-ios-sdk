@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 3.4
+
+*SDK versions v3.3 and earlier are currently not able to connect to SumUp on iOS 13.3 Beta 1 and Beta 2.*
+
+* [UPDATE] Address an issue with changes to [trusted certificates introduced with iOS 13](https://support.apple.com/en-us/HT210176)
+* [BUGFIX] Fix an issue where the host app's bundle name would not be displayed properly. Reported as part of [issue #84](https://github.com/sumup/sumup-ios-sdk/issues/84)
+
 ## Version 3.3
 
 * [UPDATE] This version of the SumUp SDK is ready to be used with
