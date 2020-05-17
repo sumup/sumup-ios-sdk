@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 3.5b1
+
+* [UPDATE] Deployment target raised to iOS 10.0
+* [UPDATE] This version of the SumUp SDK is built on Xcode 11.3.1 against iOS SDK 13.2
+* [UPDATE] Does not link against UIWebView to be compliant with [ASC policy](https://developer.apple.com/news/?id=12232019b)
+* [UPDATE] Sample apps' deployment target raised to iOS 10.0
+
 ## Version 3.4
 
 *SDK versions v3.3 and earlier are currently not able to connect to SumUp on iOS 13.3 Beta 1 and Beta 2.*
