@@ -1,5 +1,17 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.0.0-beta.1
+
+* [CHANGED] The SumUp SDK is now a dynamic framework and is shipped as an XCFramework. If you had previous versions installed, check out the [Migration Guide](MIGRATION.md).
+* [CHANGED] The `SMPSharedResources.bundle` is now part of the XCFramework and should
+not be added to the app target
+* :warning: The latest Carthage (0.35.0) is not yet compatible with
+XCFrameworks ([#2799](https://github.com/Carthage/Carthage/issues/2799))
+
+Sample application:
+
+* [UPDATE] Remove `-ObjC` from Other Linker Flags
+
 ## Version 3.5
 
 This is the last version published as a static library. Upcoming versions will be provided as

@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%2010+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-3.5-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-4.0.0-beta.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -29,7 +29,7 @@ For more information, please refer to SumUp's
 2. Received SumUp card terminal: Air, Air Lite, PIN+ terminal, Chip & Signature reader, or SumUp Air Register.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
 4. Deployment Target iOS 10.0 or later.
-5. Xcode 10.1 and iOS SDK 12 or later.
+5. Xcode 11 and iOS SDK 13 or later.
 6. iPhone, iPad or iPod touch.
 
 ### Table of Contents
@@ -57,27 +57,13 @@ If you want to support the SumUp Air Register, please also read our additional
 
 ### Manual Integration
 
-The SumUp SDK is provided as an embedded framework `SumUpSDK.embeddedframework`
-that combines a static library, its headers, and bundles containing resources such as
-images and localizations. Please follow the steps below to prepare your project:
+The SumUp SDK is provided as an XCFramework `SumUpSDK.xcframework` that contains
+the headers and bundles bundles containing resources such as images and localizations.
+Please follow the steps below to prepare your project:
 
-1. Add the `SumUpSDK.embeddedframework` to your Xcode project.
-2. Link your app against `SumUpSDK.framework`.
-3. Link your app against the following system frameworks:
-
-        Accelerate
-        AVFoundation
-        ExternalAccessory
-        MapKit
-
-4. Add `-ObjC` to "Other Linker Flags" if not yet included.
-
-5. Add the bundle provided in `SumUpSDK.embeddedframework/Resources`
-   to your app target.
-
-        SumUpSDK.embeddedframework/Resources/SMPSharedResources.bundle
-
-6. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
+1. Drag and drop the `SumUpSDK.xcframework` to your Xcode project's "Frameworks,
+Libraries, and Embedded Content" on the General settings tab.
+2. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
 
 > Note:
 > You can use the [sample app](SampleApp/SumUpSDKSampleApp)
@@ -87,42 +73,34 @@ images and localizations. Please follow the steps below to prepare your project:
 
 ### Integration via CocoaPods
 
-The SumUp SDK can be integrated via CocoaPods. Regardless if you use dynamic
-frameworks (`use_frameworks!`), SumUp will always be added to your app as a
-statically linked library.
+The SumUp SDK can be integrated via CocoaPods.
 
 ```ruby
 target '<Your Target Name>' do
-    pod 'SumUpSDK'
+    pod 'SumUpSDK', '~> 4.0.0-beta.1'
 end
 ```
+
+Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
 
 To learn more about setting up your project for CocoaPods, please refer to the [official documentation](https://cocoapods.org/#install).
 
 ### Integration via Carthage
 
+:warning: Distributing XCFrameworks with the latest Carthage version (0.35.0) is not yet available.
+There is an open issue ([#2799](https://github.com/Carthage/Carthage/issues/2799)) to solve this.
+Once that issue is fixed, we expect Carthage to work again.
+
 The SumUp SDK can be integrated with Carthage by following the steps below:
 
 1. Add the following line to your `Cartfile`:
 
-		github "sumup/sumup-ios-sdk"
+        github "sumup/sumup-ios-sdk"
 
 2. Run `carthage update sumup-ios-sdk`
-3. Link your app against `Carthage/Build/iOS/SumUpSDK.framework` by dragging it into "Linked Frameworks and Libraries".
-Because SumUp is a statically linked library, it must **not** be contained in "Embedded Frameworks" and you must **not** add `SumUpSDK.framework` to Carthage's build phase.
-4. Add `-ObjC` to "Other Linker Flags" if not yet included.
-5. Link your app against the following system frameworks:
-
-        Accelerate
-        AVFoundation
-        ExternalAccessory
-        MapKit
-
-6. Add the provided `SMPSharedResource` bundle to your app target:
-
-		Carthage/Build/iOS/SumUpSDK.framework/Versions/A/Resources/SMPSharedResources.bundle
-
-7. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
+3. Drag and drop the `Carthage/Build/iOS/SumUpSDK.xcframework` to your Xcode project's "Frameworks,
+Libraries, and Embedded Content" on the General settings tab.
+4. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
 
 To learn more about setting up your project for Carthage, please refer to the [official documentation](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos).
 
@@ -230,7 +208,7 @@ not accidentally pass an `NSNumber`.
 ##### Transaction identifier
 The `foreignTransactionID` identifier will be associated with the transaction
 and can be used to retrieve details related to the transaction.
-See [API documentation](http://docs.sumup.com/rest-api/transactions-api/) for details.
+See [API documentation](https://docs.sumup.com/rest-api/#tag/Transactions) for details.
 Please make sure that this ID is unique within the scope of the SumUp merchant account
 and sub-accounts. It must not be longer than 128 characters.
 
@@ -245,7 +223,7 @@ To skip the screen shown at the end of a successful transaction, the
 When setting this option your application is responsible for displaying
 the transaction result to the customer.
 In combination with the Receipts API, your application can also send your own receipts,
-see [API documentation](http://docs.sumup.com/rest-api/transactions-api/) for details.
+see [API documentation](https://docs.sumup.com/rest-api/#tag/Transactions) for details.
 Please note that success screens will still be shown when using the SumUp Air Lite readers.
 
 #### Initiate Checkout Request
@@ -281,10 +259,10 @@ respective account settings.
 
 ## Out of Scope
 The following functions are handled by the [SumUp APIs](http://docs.sumup.com/rest-api/):
-* [Refunds](http://docs.sumup.com/rest-api/transactions-api/#merchant-refunds)
-* [Transaction history](http://docs.sumup.com/rest-api/transactions-api/#merchant-transactions)
-* [Receipts](http://docs.sumup.com/rest-api/transactions-api/#receipts)
-* [Account management](http://docs.sumup.com/rest-api/accounts-api/)
+* [Refunds](https://docs.sumup.com/rest-api/#tag/Refunds)
+* [Transaction history](https://docs.sumup.com/rest-api/#tag/Transactions)
+* [Receipts](https://docs.sumup.com/rest-api/#tag/Receipts)
+* [Account management](https://docs.sumup.com/rest-api/#tag/Account-Details)
 
 ## Community
 - **Questions?** Get in contact with our integration team by sending an email to integration@sumup.com.

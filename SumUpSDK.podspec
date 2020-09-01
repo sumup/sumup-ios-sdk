@@ -1,7 +1,10 @@
 Pod::Spec.new do |s|
 
+  # XCFramework support first came in 1.9.0.beta.1
+  s.cocoapods_version = '>= 1.9'
+
   s.name    = "SumUpSDK"
-  s.version = "3.5"
+  s.version = "4.0.0-beta.1"
   s.summary = "This SDK enables you to integrate SumUp's proprietary card terminal(s) and its payment platform to accept credit and debit card payments."
 
   s.description = <<-DESC
@@ -18,18 +21,7 @@ Pod::Spec.new do |s|
   # source is ignored.
   s.source = { :git => "https://github.com/sumup/sumup-ios-sdk.git", :tag => "v#{s.version}" }
 
-  # As we only provide a (static) framework and resources, but no source files, this SDK
-  # will always be added to other projects as static library, and the resource bundles
-  # will automatically be placed within the app bundle. CocoaPods will not generate a
-  # static or dynamic wrapper library.
-  s.vendored_frameworks = "SumUpSDK.embeddedframework/SumUpSDK.framework"
-  s.resources = [
-                "SumUpSDK.embeddedframework/Resources/SMPSharedResources.bundle"
-                ]
-  s.module_map = "SumUpSDK.embeddedframework/SumUpSDK.framework/Modules/module.modulemap"
-
-  s.frameworks           = "Accelerate", "AVFoundation", "MapKit", "ExternalAccessory"
-  s.user_target_xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
-  s.platform             = :ios, "10.0"
+  s.vendored_frameworks = "SumUpSDK.xcframework"
+  s.platform            = :ios, "10.0"
 
 end

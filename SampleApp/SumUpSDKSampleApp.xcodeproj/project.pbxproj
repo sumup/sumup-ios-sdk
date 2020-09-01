@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1B2A869B1FBB4CF50053D675 /* RegisterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A869A1FBB4CF50053D675 /* RegisterDemoViewController.swift */; };
-		1B3F0FAF1FBC75C00003F8CA /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */; };
 		1B584F341DE60FEE00642029 /* SUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F311DE60FEE00642029 /* SUSAppDelegate.m */; };
 		1B584F351DE60FEE00642029 /* SUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F331DE60FEE00642029 /* SUSViewController.m */; };
 		1B584F371DE60FFC00642029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F361DE60FFC00642029 /* main.m */; };
@@ -17,23 +16,41 @@
 		1B584F3D1DE6123300642029 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9610CC18996359009D8EBC /* Images.xcassets */; };
 		1B584F3F1DE6124400642029 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */; };
 		1B584F401DE6125100642029 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9610BD18996359009D8EBC /* InfoPlist.strings */; };
-		1B584F441DE6131E00642029 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92050D71B289E4B00173579 /* Accelerate.framework */; };
-		1B584F451DE6132700642029 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F47E189968C70057702B /* AVFoundation.framework */; };
-		1B584F461DE6132D00642029 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F4761899687D0057702B /* MapKit.framework */; };
 		1B584F491DE6146000642029 /* Main-Swift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B584F471DE6146000642029 /* Main-Swift.storyboard */; };
-		1B63D8B62111EBCA0028241A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */; };
 		1BF7553B1CF6093C00C793FB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */; };
+		C43F5FBC24F4FBD10091DB67 /* SumUpSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */; };
+		C43F5FBD24F4FBD10091DB67 /* SumUpSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		C43F5FBF24F4FBD80091DB67 /* SumUpSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */; };
+		C43F5FC024F4FBD80091DB67 /* SumUpSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9610BD18996359009D8EBC /* InfoPlist.strings */; };
 		DC9610C818996359009D8EBC /* Main-ObjC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9610C618996359009D8EBC /* Main-ObjC.storyboard */; };
 		DC9610CD18996359009D8EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9610CC18996359009D8EBC /* Images.xcassets */; };
-		DCA9F4771899687D0057702B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F4761899687D0057702B /* MapKit.framework */; };
-		DCA9F47F189968C70057702B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA9F47E189968C70057702B /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		E92050D81B289E4B00173579 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92050D71B289E4B00173579 /* Accelerate.framework */; };
-		E95D10BA1FA346F900035A3C /* SMPSharedResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E95D10B81FA346F900035A3C /* SMPSharedResources.bundle */; };
-		E95D10BB1FA346F900035A3C /* SMPSharedResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E95D10B81FA346F900035A3C /* SMPSharedResources.bundle */; };
-		E95D10BC1FA346F900035A3C /* SumUpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95D10B91FA346F900035A3C /* SumUpSDK.framework */; };
-		E95D10BD1FA346F900035A3C /* SumUpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95D10B91FA346F900035A3C /* SumUpSDK.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C43F5FBE24F4FBD10091DB67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C43F5FBD24F4FBD10091DB67 /* SumUpSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43F5FC124F4FBD80091DB67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C43F5FC024F4FBD80091DB67 /* SumUpSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B2A869A1FBB4CF50053D675 /* RegisterDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterDemoViewController.swift; path = SrcSwift/RegisterDemoViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +61,11 @@
 		1B584F321DE60FEE00642029 /* SUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUSViewController.h; path = SrcObjC/SUSViewController.h; sourceTree = "<group>"; };
 		1B584F331DE60FEE00642029 /* SUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SUSViewController.m; path = SrcObjC/SUSViewController.m; sourceTree = "<group>"; };
 		1B584F361DE60FFC00642029 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SrcObjC/main.m; sourceTree = "<group>"; };
-		1B584F381DE6100400642029 /* SumUpSDKSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SumUpSDKSampleApp-Prefix.pch"; path = "SrcObjC/SumUpSDKSampleApp-Prefix.pch"; sourceTree = "<group>"; };
 		1B584F391DE6101000642029 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SrcSwift/AppDelegate.swift; sourceTree = "<group>"; };
 		1B584F3A1DE6101100642029 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SrcSwift/ViewController.swift; sourceTree = "<group>"; };
 		1B584F481DE6146000642029 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "SumUpSDKSampleApp/en.lproj/Main-Swift.storyboard"; sourceTree = SOURCE_ROOT; };
 		1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "SumUpSDKSampleApp/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SumUpSDK.xcframework; path = ../SumUpSDK.xcframework; sourceTree = "<group>"; };
 		DC9610B118996359009D8EBC /* SumUpSDKSampleAppObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumUpSDKSampleAppObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9610BC18996359009D8EBC /* SumUpSDKSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SumUpSDKSampleApp-Info.plist"; sourceTree = "<group>"; };
 		DC9610BE18996359009D8EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -57,8 +74,6 @@
 		DCA9F47E189968C70057702B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E90292CD1B29EF6600D7B7BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/Main-ObjC.storyboard"; sourceTree = "<group>"; };
 		E92050D71B289E4B00173579 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		E95D10B81FA346F900035A3C /* SMPSharedResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMPSharedResources.bundle; sourceTree = "<group>"; };
-		E95D10B91FA346F900035A3C /* SumUpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SumUpSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3F0FAF1FBC75C00003F8CA /* ExternalAccessory.framework in Frameworks */,
-				1B584F441DE6131E00642029 /* Accelerate.framework in Frameworks */,
-				1B584F451DE6132700642029 /* AVFoundation.framework in Frameworks */,
-				1B584F461DE6132D00642029 /* MapKit.framework in Frameworks */,
-				E95D10BD1FA346F900035A3C /* SumUpSDK.framework in Frameworks */,
+				C43F5FBC24F4FBD10091DB67 /* SumUpSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,11 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B63D8B62111EBCA0028241A /* ExternalAccessory.framework in Frameworks */,
-				E92050D81B289E4B00173579 /* Accelerate.framework in Frameworks */,
-				DCA9F47F189968C70057702B /* AVFoundation.framework in Frameworks */,
-				DCA9F4771899687D0057702B /* MapKit.framework in Frameworks */,
-				E95D10BC1FA346F900035A3C /* SumUpSDK.framework in Frameworks */,
+				C43F5FBF24F4FBD80091DB67 /* SumUpSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +111,6 @@
 			children = (
 				DC9610C618996359009D8EBC /* Main-ObjC.storyboard */,
 				1B584F361DE60FFC00642029 /* main.m */,
-				1B584F381DE6100400642029 /* SumUpSDKSampleApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,8 +158,8 @@
 		DC9610B318996359009D8EBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */,
 				1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */,
-				E95D10B61FA346F900035A3C /* SumUpSDK.embeddedframework */,
 				E92050D71B289E4B00173579 /* Accelerate.framework */,
 				DCA9F47E189968C70057702B /* AVFoundation.framework */,
 				DCA9F4761899687D0057702B /* MapKit.framework */,
@@ -183,24 +189,6 @@
 			path = SumUpSDKSampleApp;
 			sourceTree = "<group>";
 		};
-		E95D10B61FA346F900035A3C /* SumUpSDK.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				E95D10B71FA346F900035A3C /* Resources */,
-				E95D10B91FA346F900035A3C /* SumUpSDK.framework */,
-			);
-			name = SumUpSDK.embeddedframework;
-			path = ../SumUpSDK.embeddedframework;
-			sourceTree = SOURCE_ROOT;
-		};
-		E95D10B71FA346F900035A3C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E95D10B81FA346F900035A3C /* SMPSharedResources.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,6 +199,7 @@
 				1B584F141DE60F7100642029 /* Sources */,
 				1B584F151DE60F7100642029 /* Frameworks */,
 				1B584F161DE60F7100642029 /* Resources */,
+				C43F5FBE24F4FBD10091DB67 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +217,7 @@
 				DC9610AD18996359009D8EBC /* Sources */,
 				DC9610AE18996359009D8EBC /* Frameworks */,
 				DC9610AF18996359009D8EBC /* Resources */,
+				C43F5FC124F4FBD80091DB67 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95D10BB1FA346F900035A3C /* SMPSharedResources.bundle in Resources */,
 				1B584F491DE6146000642029 /* Main-Swift.storyboard in Resources */,
 				1B584F3F1DE6124400642029 /* Launch Screen.storyboard in Resources */,
 				1B584F401DE6125100642029 /* InfoPlist.strings in Resources */,
@@ -292,7 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95D10BA1FA346F900035A3C /* SMPSharedResources.bundle in Resources */,
 				1BF7553B1CF6093C00C793FB /* Launch Screen.storyboard in Resources */,
 				DC9610CD18996359009D8EBC /* Images.xcassets in Resources */,
 				DC9610C818996359009D8EBC /* Main-ObjC.storyboard in Resources */,
@@ -364,16 +352,14 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../SumUpSDK.embeddedframework",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
@@ -395,20 +381,19 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../SumUpSDK.embeddedframework",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -441,7 +426,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 960;
+				CURRENT_PROJECT_VERSION = 1000;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -460,7 +445,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 4.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -495,7 +480,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 960;
+				CURRENT_PROJECT_VERSION = 1000;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -507,9 +492,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 4.0;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -521,14 +507,12 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../SumUpSDK.embeddedframework",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SumUpSDKSampleApp/SrcObjC/SumUpSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-ObjC";
@@ -543,14 +527,12 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../SumUpSDK.embeddedframework",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SumUpSDKSampleApp/SrcObjC/SumUpSDKSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-ObjC";
