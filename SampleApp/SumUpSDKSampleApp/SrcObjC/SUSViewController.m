@@ -75,8 +75,7 @@
 
     request = [SMPCheckoutRequest requestWithTotal:[NSDecimalNumber decimalNumberWithString:total]
                                              title:self.textFieldTitle.text
-                                      currencyCode:currencyCode
-                                    paymentOptions:SMPPaymentOptionAny];
+                                      currencyCode:currencyCode];
 
     // Tip is optional. Default is no tip.
     NSInteger selectedTipSegment = self.segmentedControlTipping.selectedSegmentIndex;

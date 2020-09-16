@@ -1,5 +1,28 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.0.0
+
+* [REMOVED] Payment options provided when creating a checkout request will be ignored and default to `.any`. Options presented will be governed by merchant settings.
+* [ADDED] Added Swift Package Manager support. See [integration instructions](README.md#integration-via-swift-pm).
+* [BUGFIX] Remove pre-release version from CFBundleShortVersionString in XCFramework's Info.plist to pass ASC [validation](https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleshortversionstring) which requires this to be a period-separated list of at most three non-negative integers.
+* [UPDATE] Deprecated method `+[SMPSumUpSDK checkoutWithRequest:fromViewController:completionBlock:]` has been removed from the interface, please use `+[SMPSumUpSDK checkoutWithRequest:fromViewController:completion:]` instead.
+
+Sample application:
+
+* [UPDATE] Do not provide payment options when creating a checkout request.
+
+## Version 4.0.0-beta.1
+
+* [CHANGED] The SumUp SDK is now a dynamic framework and is shipped as an XCFramework. If you had previous versions installed, check out the [Migration Guide](MIGRATION.md).
+* [CHANGED] The `SMPSharedResources.bundle` is now part of the XCFramework and should
+not be added to the app target
+* :warning: The latest Carthage (0.35.0) is not yet compatible with
+XCFrameworks ([#2799](https://github.com/Carthage/Carthage/issues/2799))
+
+Sample application:
+
+* [UPDATE] Remove `-ObjC` from Other Linker Flags
+
 ## Version 3.5
 
 This is the last version published as a static library. Upcoming versions will be provided as

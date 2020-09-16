@@ -133,8 +133,7 @@ class ViewController: UIViewController {
         // setup payment request
         let request = CheckoutRequest(total: total,
                                       title: textFieldTitle?.text,
-                                      currencyCode: merchantCurrencyCode,
-                                      paymentOptions: [.cardReader, .mobilePayment])
+                                      currencyCode: merchantCurrencyCode)
 
         // add tip if selected
         if let selectedTip = segmentedControlTipping?.selectedSegmentIndex,

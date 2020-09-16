@@ -1,0 +1,6 @@
+framework module SumUpSDK {
+  umbrella header "SumUpSDK.h"
+
+  export *
+  module * { export * }
+}

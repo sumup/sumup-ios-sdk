@@ -8,17 +8,6 @@
 	<string>SumUpSDK</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>AppIcon29x29.png</string>
-		<string>AppIcon50x50@2x.png</string>
-		<string>AppIcon72x72.png</string>
-		<string>AppIcon29x29@2x.png</string>
-		<string>AppIcon57x57.png</string>
-		<string>AppIcon72x72@2x.png</string>
-		<string>AppIcon50x50.png</string>
-		<string>AppIcon57x57@2x.png</string>
-	</array>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -35,14 +24,14 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>The app needs to connect to Bluetooth peripherals to detect the SumUp Card Terminal correctly. Please confirm with OK as you cannot use your card reader otherwise.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>The app needs to connect to Bluetooth peripherals to detect the SumUp Card Terminal correctly. Please confirm with OK as you cannot use your card reader otherwise.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>To provide a secure service, we need to know your location. Without location information, you cannot use SumUp.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>The app needs to access the microphone of your audio jack in order for the SumUp Card Reader to be detected correctly. Please confirm with OK as you cannot use your card reader otherwise.</string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>The app needs to connect to Bluetooth peripherals to detect the SumUp Card Terminal correctly. Please confirm with OK as you cannot use your card reader otherwise.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>
