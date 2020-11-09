@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%2010+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-4.0.0-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-4.0.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -116,7 +116,7 @@ Requirement: Xcode 12 beta 6 (swift-tools-version:5.3)
 
 1. Add the package dependency to the repository `https://github.com/sumup/sumup-ios-sdk` (*File > Swift Packages > Add Package Dependency...*) with the version `Up to Next Major: 4.0.0`
 2. Leave the checkbox unchecked for the SumUpSDK at the integration popup (*Add Package to ...:*)
-<img width="732" alt="Swift PM - do not auto-integrate SDK" src="README/setup_swiftpm_skipautointegrate.png">
+![Swift PM - do not auto-integrate SDK](README/setup_swiftpm_skipautointegrate.png)
 3. From the Project Navigator, drag and drop the `SumUpSDK/Referenced Binaries/SumUpSDK.xcframework` to your Xcode project's "Frameworks, Libraries, and Embedded Content" on the General settings tab.
 4. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
 

@@ -1,5 +1,9 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.0.1
+
+* [UPDATE] Replaced deprecated `UIAlertView` usage with `UIAlertController`. (Solves [issue #93](https://github.com/sumup/sumup-ios-sdk/issues/93))
+
 ## Version 4.0.0
 
 * [REMOVED] Payment options provided when creating a checkout request will be ignored and default to `.any`. Options presented will be governed by merchant settings.
