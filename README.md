@@ -136,15 +136,13 @@ See `UISupportedInterfaceOrientations` in the sample app's
 or the "General" tab in Xcode's Target Editor.
 
 ### Privacy Info plist keys
-The SumUp SDK requires access to the user's location, Bluetooth peripherals
-and the device's microphone. If your app has not asked for the user's permission,
+The SumUp SDK requires access to the user's location and Bluetooth peripherals. If your app has not asked for the user's permission,
 the SumUp SDK will ask at the time of the first login or checkout attempt. Please add the
 following keys to your info plist file:
 
         NSLocationWhenInUseUsageDescription
         NSBluetoothAlwaysUsageDescription
         NSBluetoothPeripheralUsageDescription (unless your deployment target is at least iOS 13)
-        NSMicrophoneUsageDescription
 
 > Note:
 > - Please refer to the sample app's [Info.plist](SampleApp/SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist#L38-L43)
@@ -153,8 +151,7 @@ for more information regarding the listed permissions required.
 [InfoPlist.strings](SampleApp/SumUpSDKSampleApp/en.lproj/InfoPlist.strings) file.
 > - For further information, see the iOS Developer Library on
 [location usage on iOS 8 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26),
-[Bluetooth peripheral usage](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW20),
-and [microphone access in iOS 7 and later](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW25).
+[Bluetooth peripheral usage](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW20).
 
 ## Getting started
 
@@ -252,6 +249,9 @@ Start a payment by using the checkout request below:
                       // retrieve information via result.additionalInfo
 }];
 ```
+
+#### Checkout Error Codes
+Possible values of [error code](./SumUpSDK.xcframework/ios-armv7_arm64/SumUpSDK.framework/Headers/SMPSumUpSDK.h#L155) received in the `checkoutWithRequest:` completion block.
 
 ### Update checkout preferences
 When logged in you can let merchants check and update their checkout

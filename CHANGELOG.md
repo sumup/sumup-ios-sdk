@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.1.0
+
+* [ADDED] Introduced support for Brazilian PIN+ Contactless Card Reader.
+* [REMOVED] Dropped support for PIN+ card reader in cable mode. Merchants are advised to switch from cable to Bluetooth connection to continue using their PIN+ reader.
+* [IMPROVEMENT] Introduced an error code for [duplicate foreign transaction ID](https://github.com/sumup/sumup-ios-sdk#transaction-identifier) - SMPSumUpSDKErrorDuplicateForeignID & for invalid access token - SMPSumUpSDKErrorInvalidAccessToken. See [API documentation](https://developer.sumup.com/rest-api/#tag/Transactions) for details.
+* [IMPROVEMENT] Miscellaneous bug fixes and UI enhancements.
+
 ## Version 4.0.1
 
 * [UPDATE] Replaced deprecated `UIAlertView` usage with `UIAlertController`. (Solves [issue #93](https://github.com/sumup/sumup-ios-sdk/issues/93))
