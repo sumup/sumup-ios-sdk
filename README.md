@@ -22,7 +22,7 @@ All data is encrypted by the card terminal, which has been fully certified to th
 industry standards (PCI, EMV I & II, Visa, MasterCard & Amex).
 
 For more information, please refer to SumUp's
-[integration website](http://docs.sumup.com/terminal-payment/).
+[integration website](https://developer.sumup.com/docs/terminal-overview/).
 
 ### Prerequisites
 1. Registered for a merchant account via SumUp's [country websites](https://sumup.com/) (or received a test account).
