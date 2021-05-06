@@ -1,5 +1,9 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.1.1
+
+* [BUGFIX] Podspec fix. The release v4.1.0 does not work with Cocoapods due to an issue in the Podspec file. All changes mentioned in v4.1.0 are available in this release.
+
 ## Version 4.1.0
 
 * [ADDED] Introduced support for Brazilian PIN+ Contactless Card Reader.

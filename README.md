@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%2010+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-4.0.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-4.1.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -21,8 +21,8 @@ No sensitive card data is ever passed through to or stored on the merchant’s p
 All data is encrypted by the card terminal, which has been fully certified to the highest
 industry standards (PCI, EMV I & II, Visa, MasterCard & Amex).
 
-For more information, please refer to SumUp's
-[integration website](http://docs.sumup.com/terminal-payment/).
+For more information, please refer to
+[SumUp API documentation.](https://developer.sumup.com/).
 
 ### Prerequisites
 1. Registered for a merchant account via SumUp's [country websites](https://sumup.com/) (or received a test account).

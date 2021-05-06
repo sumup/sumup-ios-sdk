@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.9'
 
   s.name    = "SumUpSDK"
-  s.version = "4.1.0"
+  s.version = "4.1.1"
   s.summary = "This SDK enables you to integrate SumUp's proprietary card terminal(s) and its payment platform to accept credit and debit card payments."
 
   s.description = <<-DESC
@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/SumUp"
   s.license          = { :file => "LICENSE", :type => "Proprietary" }
   s.author           = { "SumUp" => "integration@sumup.com" }
+
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # This source is only used when the pod is specified by name in the trunk register.
   # If you specify a specific tag/branch/path in the Podfile during development, this
