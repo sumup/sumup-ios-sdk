@@ -185,6 +185,8 @@ Present a login screen from your `UIViewController`, using the following method:
 
 
 > Note:
+>  It is also possible to login an account with a token, without the user entering their SumUp login credentials in the SDK. Please refer to section [Transparent Authentication](#transparent-authentication). 
+>  
 > To log out of the SDK, please refer to `logoutWithCompletionBlock:`.
 
 ### Accept card payments
@@ -236,6 +238,18 @@ the transaction result to the customer.
 In combination with the Receipts API, your application can also send your own receipts,
 see [API documentation](https://docs.sumup.com/rest-api/#tag/Transactions) for details.
 Please note that success screens will still be shown when using the SumUp Air Lite readers.
+
+### Transparent Authentication
+To authenticate an account without the user typing in their SumUp credentials each time, you can generate an access token using OAuth2.0 and use it to transparently login to the SumUp SDK.
+
+```objc
+[SMPSumUpSDK loginWithToken:@"MY_ACCESS_TOKEN" 
+                 completion:nil];
+```
+
+For information about how to obtain a token, please see the [API Documentation](https://developer.sumup.com/docs/authorization/).
+
+If the token is invalid, `SMPSumUpSDKErrorInvalidAccessToken` will be returned.
 
 #### Initiate Checkout Request
 Start a payment by using the checkout request below:
