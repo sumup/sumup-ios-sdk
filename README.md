@@ -110,9 +110,13 @@ To learn more about setting up your project for Carthage, please refer to the [o
 
 ### Integration via Swift PM
 
-The latest Swift Package Manager version added support to [distribute binary frameworks as Swift Packages](https://developer.apple.com/documentation/swift_packages/distributing_binary_frameworks_as_swift_packages). Unfortunately there is a bug ([Bug Report SR-13343](https://bugs.swift.org/browse/SR-13343)), that adds the framework as a static library, not as an embedded dynamic framework. Follow this workaround to manage SumUp SDK versions via Swift PM:
+The latest Swift Package Manager version added support to [distribute binary frameworks as Swift Packages](https://developer.apple.com/documentation/swift_packages/distributing_binary_frameworks_as_swift_packages). 
 
-Requirement: Xcode 12 beta 6 (swift-tools-version:5.3)
+If you're using Xcode 12.3 or later, this should work out of the box.
+
+Unfortunately, Xcode 12 releases before that had an issue, ([Bug Report SR-13343](https://bugs.swift.org/browse/SR-13343)), that added the framework as a static library, not as an embedded dynamic framework. 
+
+Follow this workaround to manage SumUp SDK versions via Swift PM in those cases:
 
 1. Add the package dependency to the repository `https://github.com/sumup/sumup-ios-sdk` (*File > Swift Packages > Add Package Dependency...*) with the version `Up to Next Major: 4.0.0`
 2. Leave the checkbox unchecked for the SumUpSDK at the integration popup (*Add Package to ...:*)
