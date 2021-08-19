@@ -239,6 +239,9 @@ In combination with the Receipts API, your application can also send your own re
 see [API documentation](https://docs.sumup.com/rest-api/#tag/Transactions) for details.
 Please note that success screens will still be shown when using the SumUp Air Lite readers.
 
+### Prepare the SumUp Card terminal in advance
+In order to prepare a SumUp card terminal for checkout, `prepareForCheckout` can be called in advance. A registered SumUp merchant account needs to be logged in, and the card terminal must already be setup. You should use this method to let the SDK know that the user is most likely starting a checkout attempt soon; for example when entering an amount or adding products to a shopping cart. This allows the SDK to take appropriate measures, like attempting to wake a connected card terminal.
+
 ### Transparent Authentication
 To authenticate an account without the user typing in their SumUp credentials each time, you can generate an access token using OAuth2.0 and use it to transparently login to the SumUp SDK.
 
