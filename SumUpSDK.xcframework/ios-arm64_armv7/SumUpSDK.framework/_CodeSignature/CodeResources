@@ -8,6 +8,14 @@
 		<data>
 		3MSlwZ7Vc5pFrRHisMSmC3lfLyk=
 		</data>
+		<key>CircuitUIResources.bundle/Assets.car</key>
+		<data>
+		rvMKeF3KmYQXK75+mkwzzP3k2xM=
+		</data>
+		<key>CircuitUIResources.bundle/Info.plist</key>
+		<data>
+		jO+/SjuO7qDkGZeS72naHyIa2Sc=
+		</data>
 		<key>Headers/SMPCheckoutRequest.h</key>
 		<data>
 		ig0kT3pCSr0BWSgT1b1vxSfO9pI=
@@ -26,7 +34,7 @@
 		</data>
 		<key>Headers/SMPSkipScreenOptions.h</key>
 		<data>
-		GOygU46+dTItP2AC6V/XD9gX8hw=
+		1TMdtNJIlBJJYlB3JXWh9bqZxEE=
 		</data>
 		<key>Headers/SMPSumUpRegisterSDK.h</key>
 		<data>
@@ -34,7 +42,7 @@
 		</data>
 		<key>Headers/SMPSumUpSDK.h</key>
 		<data>
-		/iFUg/YrQ1xnX4ONQy0xyVgKggA=
+		O//hUoTGwlnKefuE3z648gVXjdk=
 		</data>
 		<key>Headers/SumUpSDK.h</key>
 		<data>
@@ -42,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kPlxRJkGa55BPi7St93aTfebgrk=
+		yIJEKtc3IHmlF+KInVhsPH/toZ0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +58,7 @@
 		</data>
 		<key>SMPSharedResources.bundle/Assets.car</key>
 		<data>
-		yJPEHL8cDTpDYqD96094IrxgFH8=
+		TGwYaIvOEVizOX4gjAAToLi2q9g=
 		</data>
 		<key>SMPSharedResources.bundle/ELV_Text.html</key>
 		<data>
@@ -58,7 +66,7 @@
 		</data>
 		<key>SMPSharedResources.bundle/Info.plist</key>
 		<data>
-		vWfJ94EaoBjdWGL2Q0Rvjp4m+is=
+		zcZ8kaTYc1fdt6MXeYBem7HYBlk=
 		</data>
 		<key>SMPSharedResources.bundle/MicSettingsHelp-Microphone.png</key>
 		<data>
@@ -86,7 +94,7 @@
 		</data>
 		<key>SMPSharedResources.bundle/PECSignatureVC.nib</key>
 		<data>
-		bhLRH8Lygc0Rz6bI+6gZLQhItL4=
+		K8gkJjEFjhlzx2aHcYuK1F4x8nE=
 		</data>
 		<key>SMPSharedResources.bundle/PaymentProgress.storyboardc/Info.plist</key>
 		<data>
@@ -94,177 +102,177 @@
 		</data>
 		<key>SMPSharedResources.bundle/PaymentProgress.storyboardc/PLVPaymentProgressViewController.nib</key>
 		<data>
-		ORNXhWALRyjZ/jELTihPWRBjMXk=
+		C5EIUse6622RTmHjXA3a2I8WOyQ=
 		</data>
 		<key>SMPSharedResources.bundle/PaymentProgress.storyboardc/zpf-6m-Hxi-view-jm8-UC-rMH.nib</key>
 		<data>
-		O6LOmJvAxyzU5mIvwgtPRQO6Q8g=
+		8WpWvemGaOdKttN8pX/AhlYnMzQ=
 		</data>
 		<key>SMPSharedResources.bundle/SMPAdyenPaymentViewController.nib</key>
 		<data>
-		uDAKzVoBDoqpcG40o94Nsq096vo=
+		Nf+4tP4DHn2gdzWbgB2a7rDunr4=
+		</data>
+		<key>SMPSharedResources.bundle/SMPBatteryView.nib</key>
+		<data>
+		LLublRNzHlD/rmSuzNRgthAPXFk=
 		</data>
 		<key>SMPSharedResources.bundle/SMPDeviceCarouselCell.nib/objects-12.3+.nib</key>
 		<data>
-		bQMJFl2N0K93tZkfTlUytyX5OSs=
+		vrW/acL963BW/MCyItM0w/WF4mU=
 		</data>
 		<key>SMPSharedResources.bundle/SMPDeviceCarouselCell.nib/runtime.nib</key>
 		<data>
-		7miXzv9Q9qwNrw6VmM9xnSe3FTU=
+		251IuljPp96CgjZqSWQd2MwYm2Y=
 		</data>
 		<key>SMPSharedResources.bundle/SMPInstructionsView.nib</key>
 		<data>
-		T/f6lsjh5KRUsg1Aa4Eag2udMoM=
+		2pRYEJpLZBlrjjvvKO/30iSjcx0=
 		</data>
 		<key>SMPSharedResources.bundle/SMPLoadingStatusView.nib</key>
 		<data>
-		H43W2gNTuZetVX8ZaN1C2KOGfIo=
+		T3ObptcX1fRFKIXZgJJugPG1KBA=
 		</data>
 		<key>SMPSharedResources.bundle/SMPNumPad.nib</key>
 		<data>
-		Fcz/tFka1r5zpO7QJU0rtmQrzZ0=
+		IAcEZIjyNvI6fF0wcelLzA0Utzk=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPCheckoutTransactionSummaryView.nib</key>
 		<data>
-		kbwk+oVQbcOvFSFkgXTVzRyyko4=
+		hlGfJXA0+IGFcHai8ET4VDL+izE=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPTipRateInputViewController.nib/objects-11.0+.nib</key>
 		<data>
-		cqVDPnJTRjLA1O5NWrJcB4FpS+0=
+		4Oz8A+cpYhwqgYIAr28Ykh05aW0=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPTipRateInputViewController.nib/runtime.nib</key>
 		<data>
-		e7mbP5h+cagRP9cV3iVlu7yTmPk=
+		k4pFu061nqBMZbnfjGKZgmSnClU=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentCardReaderVC.nib/objects-11.0+.nib</key>
 		<data>
-		ojkHpyMOeTTi0Fx0ETOhAWwkFJI=
+		Tm4Ej4koQQI3HVkT2fuku31X2Ow=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentCardReaderVC.nib/runtime.nib</key>
 		<data>
-		Wfv3ffx9U9UE1ZcMf5psdw/J/CA=
+		OIiNXyZDCLidNN7k+AqLkAKmVTw=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentCashTenderVC.nib/objects-11.0+.nib</key>
 		<data>
-		WKaBoer0O6dpb96yZChabscn2ow=
+		tq40dmWB690iEsc4O+hfgnownaA=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentCashTenderVC.nib/runtime.nib</key>
 		<data>
-		abuW3f8KwBFxmGHz8d4QHleWmN8=
+		NX0lzA9qvcZaDDPMnaVBr6M295s=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentFailedVC.nib/objects-11.0+.nib</key>
 		<data>
-		v2fIt1pD78slS2atUZLFrPbQCHA=
+		OcakPGwbE5A9hsLcVygYg3jjIKE=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentFailedVC.nib/runtime.nib</key>
 		<data>
-		WUtZtaDUuCFTlwUmJokjdjIR/JY=
+		QNNKx2SLe5Rv1GBRNVwlgzuREh0=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentOptionCell.nib/objects-12.3+.nib</key>
 		<data>
-		gTMvXoEiV3R+D6M66yG3K/Py0t8=
+		/HZXl35zMi8oox62cNGWsPqfC8s=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentOptionCell.nib/runtime.nib</key>
 		<data>
-		1KzY8iQOaBdM7UmVSl6mmY9mf2E=
+		Lu4S0Tk69Ye5qzKnzfiZejn0Xvo=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentOptionsVC.nib/objects-11.0+.nib</key>
 		<data>
-		fkT5p5hyhzD0Bg7gmondqjSuEX8=
+		jgvUVDpienCnHPvEVUFq7uvWmFI=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentOptionsVC.nib/runtime.nib</key>
 		<data>
-		gZWP4mKMETYyhXjI3413FHAO/AE=
+		MppdPWCnSTNmGm45lNZGsxSfCxw=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentQRViewController_legacy.nib/objects-11.0+.nib</key>
 		<data>
-		IO1khbNxsYVtTIXbJyxkdisjXNo=
+		sgfDNyXSRqE1oQbB9AXC6CMryck=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentQRViewController_legacy.nib/runtime.nib</key>
 		<data>
-		vAyeYbiHI/4nccinw3dyah+xg28=
-		</data>
-		<key>SMPSharedResources.bundle/SMPPaymentReceiptRequestVC.nib</key>
-		<data>
-		kwCg9E6z6N0lnfS5h8ZuJUd8x4c=
+		SfAkP+g+xW1EI9TMVCxhCDWDfRs=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentReceiptRequestVC_legacy.nib</key>
 		<data>
-		QkaPzYg0T6pFLoGNzhy+qBRdKxw=
+		gauuhHwRaJhB6CxR+P5X99kkMrY=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentSMSViewController.nib/objects-11.0+.nib</key>
 		<data>
-		lKnHCQvzlKLHMgD6QXDUqOfZU3A=
+		z9FjGmRRwSxdqT070yu4zHlR3t0=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentSMSViewController.nib/runtime.nib</key>
 		<data>
-		L73CwjYdkNKxHpqYhJEO4XJl6to=
+		HCEb53XXlIWRQRxDeYWkQSt0+3s=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentTipViewController.nib/objects-11.0+.nib</key>
 		<data>
-		MHOfzX0Jw1gpXpDV9F1k1OQ8vhU=
+		76Z7uJ4QX0nATatsYcyMQjt6fXE=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentTipViewController.nib/runtime.nib</key>
 		<data>
-		KPQeFKrUgm7DXJrnjF8Lr924n74=
+		VJWTYVTYOEHaZKblTV5fYZ3TOLA=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentVirtualTerminalViewController.nib/objects-11.0+.nib</key>
 		<data>
-		48BFRyPpcec4p5LPRlci/e9MXEk=
+		CKzGWA4Vef+APItKcb0jHUmvHz0=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPaymentVirtualTerminalViewController.nib/runtime.nib</key>
 		<data>
-		NzHLPNE40myaiPixmUJtKfefT/w=
+		FKqMrXRqsRsaDxzTxmgRcRtORp8=
 		</data>
 		<key>SMPSharedResources.bundle/SMPPinPlusFirmwareUpdateVC.nib</key>
 		<data>
-		Otg5kkNrDH45PaKpSHWwONDnSt4=
+		EyFdGnnBJ7RCT+W+mBWwjIdQAGw=
 		</data>
 		<key>SMPSharedResources.bundle/SMPSettingPaymentMethodTypeCell.nib</key>
 		<data>
-		fwBF+emgrhBj15zRh3uEKAlQwS4=
+		z6p69AaCsc7CFQcVv+3t0/It1HI=
 		</data>
 		<key>SMPSharedResources.bundle/SMPShowQRViewController.nib/objects-11.0+.nib</key>
 		<data>
-		SnPbDJrR9H5wxBpduryn1aAd75M=
+		0QxpUYlIz0ynAcHdUzTChQaqB6Y=
 		</data>
 		<key>SMPSharedResources.bundle/SMPShowQRViewController.nib/runtime.nib</key>
 		<data>
-		1+rBoo82rrgJEEnRzg00cK8D4/8=
+		GihXMv+sSCHM4HWCcWXSW5aoxus=
 		</data>
 		<key>SMPSharedResources.bundle/SMPTipAmountViewController.nib</key>
 		<data>
-		et0PqDmtLC96YD6QkfkoODg8ZEE=
+		mKF+m3LGIt0Tk7tPghQgWgW9WMM=
 		</data>
 		<key>SMPSharedResources.bundle/SMPTipContainerBaseViewController.nib</key>
 		<data>
-		O8pNZYsj/XUfj6Re870iaMH0FjQ=
+		qO7OYR3/vj0a4Ypuxxz/gOXsqgU=
 		</data>
 		<key>SMPSharedResources.bundle/SMPTipContainerControl.nib</key>
 		<data>
-		XFAR5by7wzebBaQAtY8BBkzzesQ=
+		hvKxbLeU6qscfgG6ePfiXip0aeM=
 		</data>
 		<key>SMPSharedResources.bundle/SMPTipFinalAmountInputViewController.nib</key>
 		<data>
-		KNoMRW/IeVsUwXRDM4Rc8DPFlak=
+		6TMRWujiYlE3jmmnXp9QhB5uVa4=
 		</data>
 		<key>SMPSharedResources.bundle/SMPTitleAndSwitchTableViewCell.nib</key>
 		<data>
-		IxvdSyYDp7nS//1c07WMVqC5P58=
+		TS20L4xh6gKtn9wyzSf8zlGCA6k=
 		</data>
 		<key>SMPSharedResources.bundle/SMPWalkthroughVC.nib</key>
 		<data>
-		A8p2VukGlETc6kWoGqZuCxh39bY=
+		yDZTkey102Vmf5C1qwfZg6GMx+Y=
 		</data>
 		<key>SMPSharedResources.bundle/SumUp-SDK-Info.plist</key>
 		<data>
-		vk3tprSaePcVD9vNxBAnEc3lSRs=
+		U8BiOT61EPirhjZBKTLB7L6kbvs=
 		</data>
 		<key>SMPSharedResources.bundle/bg.lproj/SMPSharedLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zdr3lAutUm4DJ8VKpLHt60dFA5c=
+			0B8Z1EOnjjWtROSs1tgPVDETGQw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -309,7 +317,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eWGWxyr7PMn7FeKMOeSvxiH3sH0=
+			d2G4BckjOyjJJ7Jt74aRPrIwWCg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -334,7 +342,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ND4Puli2tpgaFOKh/dX08J/hGOk=
+			vHo+hu1mp7tbC7h4GiSc9LKUK4s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -343,7 +351,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K5OOlVMTfl6zHarE3xO9UCWENeE=
+			hq2yBQDc2SywcMzdpcWqGIOrWpA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -352,7 +360,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			68D5HGymguFYdxI0JEPTEI7hOqo=
+			2JSDywQdHPdXOPdibKRp1sampmM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -361,7 +369,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1GYLb9Vae8MsUISy9yCYAutA8fs=
+			FQhB0sk3XbzYooE8g7fte4tqEDg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -370,7 +378,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VENAoa/J5d4p8ZYb0Dk6p2xluks=
+			WuTrwJwWxcmLBxZrYpuurT4u6gE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -379,7 +387,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0sl7ifxhiTeEUqGgtsFj3Fm4UFA=
+			VtsW/IqmCKpMKZKarUP5BFOaz68=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -388,7 +396,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yDCb+hRGURz3UvFrcRUKSZQ+cD0=
+			PA0hk0cFPUan28CQ5c5lDvyS2fo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>SMPSharedResources.bundle/es-US.lproj/SMPSharedLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XYGoeCrZJMZ1P6Y3gCZk6zjXp9s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -397,7 +414,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eWGWxyr7PMn7FeKMOeSvxiH3sH0=
+			d2G4BckjOyjJJ7Jt74aRPrIwWCg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -406,7 +423,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Bhmq8IfQ3w6bCoFhea6CP2+8CA=
+			jCQxgx13Wt8vHExBvVCc5DrJY70=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -415,7 +432,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1N+qPqpxOPk77q20sN4Dpxjkzg4=
+			NWS+RK6lpx7zv4fwP2SwAMAJ5rk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -424,7 +441,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y5seVHHdNwzd4mM5OzQ+h4exCcM=
+			X2v6gb/SXUCCnKNcwCAQwm2TUbI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -433,7 +450,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ajLB49LQVe+3IrRCDJrv5jYn4zA=
+			f/+wXTXTwNHnd347gaqqDN6WvKc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -442,7 +459,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jgKixmzpESeQlufYaIrsDeRVlV8=
+			yXtipCIO+w8KiYHPqtBwIaoGlRQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -451,7 +468,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hb8YNCja5XQn48xAB9beDrguimw=
+			3e4hL1tn3wTSrxWZHBgQ8XcU+50=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -460,7 +477,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ly7cP+2qkWFRYSqwIT4d29enNyE=
+			jHFrijIv3DszSwJY/qlAYXH2yPo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -469,7 +486,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mj2B6fHORGe/C0l3B0Me2l0Tnt0=
+			7F89ZnMXMfE7Br0HMsdVmpCwXEk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -494,7 +511,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sJu9EMpPYhtWTx2R6YKSFLCzTC8=
+			jORK0PT4gf+afR9QROB+jxkdd4o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -503,7 +520,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sJu9EMpPYhtWTx2R6YKSFLCzTC8=
+			jORK0PT4gf+afR9QROB+jxkdd4o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -936,7 +953,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GM3SBWJ4SPbq94lDvMnu3wIloGo=
+			IlKMDJIf7YQ7pzKGiMCXqK3UPYM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -945,7 +962,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5aASEWAUN8yuu5a2cjEvfzrzZHg=
+			+uc0aX+IIB1PcpXQNHbGE9Dej58=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -954,7 +971,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+4wjsLdEHDxO8EKuXZFWxz2mrhY=
+			eA5AJzkMI+PPpheEkVANfzpkflk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -963,7 +980,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7tqlanrqwVWAC4J09n+8W2MxeDA=
+			ae256OFfhzBfk6j3u83V8Vc2jx4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -972,7 +989,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ejw83YocG5/JrzOUXA+KHednCOk=
+			aD2NWNmtzbzIr5dGDIujIe58HfQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -985,7 +1002,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7/umbKnzG/Ce5mXVxYhrtqT23ec=
+			0OFp0wlOEZrmsE/KwdOxjnMceJk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1420,6 +1437,28 @@
 			i9GZWh8J9hJlqBMNwNPvAL/bJBxrcd+/DHy/JOhdwaY=
 			</data>
 		</dict>
+		<key>CircuitUIResources.bundle/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rvMKeF3KmYQXK75+mkwzzP3k2xM=
+			</data>
+			<key>hash2</key>
+			<data>
+			2Z+OHogF4diJ7uK/qXLgjHsc3k99jz/D+4s/bUBzU5I=
+			</data>
+		</dict>
+		<key>CircuitUIResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jO+/SjuO7qDkGZeS72naHyIa2Sc=
+			</data>
+			<key>hash2</key>
+			<data>
+			t5BXL0ILOEWW1SsYyICYbigDDAOKQr+yta6D0Jn0kkk=
+			</data>
+		</dict>
 		<key>Headers/SMPCheckoutRequest.h</key>
 		<dict>
 			<key>hash</key>
@@ -1468,11 +1507,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GOygU46+dTItP2AC6V/XD9gX8hw=
+			1TMdtNJIlBJJYlB3JXWh9bqZxEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			cCHV2CrMcvBcjsqR/R+srejGiOau+m82tXdGGP32TWM=
+			cbZcPNouLpLd3y1ZIddyji6FbjJ2YXEizAHPdr6RtW4=
 			</data>
 		</dict>
 		<key>Headers/SMPSumUpRegisterSDK.h</key>
@@ -1490,11 +1529,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/iFUg/YrQ1xnX4ONQy0xyVgKggA=
+			O//hUoTGwlnKefuE3z648gVXjdk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0s+ol1ZjtRHQSFYYDf9z7TcHVDIalGPYJKKSlSnLSdw=
+			XoUzMOQalywwDv1Dpv1lH4emFYiOepslEVjfdBwluIU=
 			</data>
 		</dict>
 		<key>Headers/SumUpSDK.h</key>
@@ -1523,11 +1562,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yJPEHL8cDTpDYqD96094IrxgFH8=
+			TGwYaIvOEVizOX4gjAAToLi2q9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			4IQEalZWMdqfAB7olAxGDVIAiHO64A5YqAKhXmZLvO8=
+			OBJ8X3eYFrxIbJeS+cqwPvUw6+Rd45axWZ9O0+uPZrQ=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/ELV_Text.html</key>
@@ -1545,11 +1584,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vWfJ94EaoBjdWGL2Q0Rvjp4m+is=
+			zcZ8kaTYc1fdt6MXeYBem7HYBlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			zLZRslQBmxO7FO/oixUJ6x6/UX2tpI1mkPLMZiqiJ6w=
+			MU8H11pzFOJ9qxH65q9kOzr6Zwne84knUGAPREVvWmk=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/MicSettingsHelp-Microphone.png</key>
@@ -1622,11 +1661,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bhLRH8Lygc0Rz6bI+6gZLQhItL4=
+			K8gkJjEFjhlzx2aHcYuK1F4x8nE=
 			</data>
 			<key>hash2</key>
 			<data>
-			9JbyJEVmJrzJxBGmPe5k9y2nGiL08kRmc6mrRIyFMfk=
+			pLm+Lbip1AqRYTvkKe/91F91p3z0g/mN3xQv0bx94ps=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/PaymentProgress.storyboardc/Info.plist</key>
@@ -1644,473 +1683,473 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ORNXhWALRyjZ/jELTihPWRBjMXk=
+			C5EIUse6622RTmHjXA3a2I8WOyQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			D0FdthtK/RCpLa/ZNcE22o4ev8aa6b4DBgbVGKUMbzU=
+			4uWi/xHqcDYFioH7s+1FIauY0G3wI/S+/rfkNihdcYA=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/PaymentProgress.storyboardc/zpf-6m-Hxi-view-jm8-UC-rMH.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O6LOmJvAxyzU5mIvwgtPRQO6Q8g=
+			8WpWvemGaOdKttN8pX/AhlYnMzQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			A/vjku3CVBJt7kfR1AYpSFPfFEvvgDjtvDSJ7ElS4kE=
+			0Mc+3AeOsL1wfy/5DR8T16TZ+Zxc+xtLX7N2zsxfG2M=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPAdyenPaymentViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uDAKzVoBDoqpcG40o94Nsq096vo=
+			Nf+4tP4DHn2gdzWbgB2a7rDunr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uy91YTCTb+pGahySMiPHf1IUvzGGF9CA3sx2rQ5i8/Y=
+			yKXwAmMeYb2MJg2e5GBaVvxlnNfT3jNP4l2D+b2qoCU=
+			</data>
+		</dict>
+		<key>SMPSharedResources.bundle/SMPBatteryView.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LLublRNzHlD/rmSuzNRgthAPXFk=
+			</data>
+			<key>hash2</key>
+			<data>
+			vP25qgnYQ+DjvAQqj2Ud+a5iXr8ILUK9Vzf+3usRB0M=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPDeviceCarouselCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bQMJFl2N0K93tZkfTlUytyX5OSs=
+			vrW/acL963BW/MCyItM0w/WF4mU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0r4KGHTz+CjGIfOXzIDCf1X9MAeDlAjQzCL4tktY6t0=
+			85RiA1BYBrxxwASexs20n2MFu+2s30Z1Q+//6XBD+Rc=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPDeviceCarouselCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7miXzv9Q9qwNrw6VmM9xnSe3FTU=
+			251IuljPp96CgjZqSWQd2MwYm2Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			C9o9Q6qy+5EWBjHqDe4GF4dOYO/j6X6yHXp+Qh99v1Q=
+			mrsabWIBtynD1SZ06lkWji2YTzW1WX3cwA/CglC7aNM=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPInstructionsView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T/f6lsjh5KRUsg1Aa4Eag2udMoM=
+			2pRYEJpLZBlrjjvvKO/30iSjcx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+qHDN5lZllzzCWHphWxOWywTs9HgiwLSF/yOBPrG4s8=
+			opqwHld7hjW+DZK1fZJrrxSyGrb8Qcp9dDpw3J/AsY8=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPLoadingStatusView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H43W2gNTuZetVX8ZaN1C2KOGfIo=
+			T3ObptcX1fRFKIXZgJJugPG1KBA=
 			</data>
 			<key>hash2</key>
 			<data>
-			QrgMhS5ci7+0eQAWMFrFpJhCv1HqQbyf5+A0DsapSbE=
+			zhwUU/cxavD16mmTeHqU5SgL8qbCkQuE8pZtPkjlAfI=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPNumPad.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fcz/tFka1r5zpO7QJU0rtmQrzZ0=
+			IAcEZIjyNvI6fF0wcelLzA0Utzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			hWRjYozCN9OJmL/4iVuUeYtkubvGSK62xIBWXpMtRKU=
+			foHnfKuta/ovz9agSv6hQilKHyKDx3CYKBlw74pBEUo=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPCheckoutTransactionSummaryView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kbwk+oVQbcOvFSFkgXTVzRyyko4=
+			hlGfJXA0+IGFcHai8ET4VDL+izE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jnrrovdADH/0+E2ZX3TrVW0K0AJPClYRaV2QRHZ+z4k=
+			9c+DJfD7pvGGRJTIA57UFltWuzQokXXUaamo+SReObM=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPTipRateInputViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cqVDPnJTRjLA1O5NWrJcB4FpS+0=
+			4Oz8A+cpYhwqgYIAr28Ykh05aW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			MQp7Z7E5udy8Qy/zR9l4atsGz4D4+YIQ9lVRzfFyRnw=
+			zdjuPN6uiD02PaaIxqVS1zo4X3JyHuOHeLjkaYhcMJ0=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPTipRateInputViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e7mbP5h+cagRP9cV3iVlu7yTmPk=
+			k4pFu061nqBMZbnfjGKZgmSnClU=
 			</data>
 			<key>hash2</key>
 			<data>
-			09sRRNms1f+KfeGTDylsLquqrQAFwj/C+SQVTeUa8JU=
+			2G4WI5wyFbVs3Axb+nXRs9WiXlnbM2rjT43nFQRNIZU=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentCardReaderVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ojkHpyMOeTTi0Fx0ETOhAWwkFJI=
+			Tm4Ej4koQQI3HVkT2fuku31X2Ow=
 			</data>
 			<key>hash2</key>
 			<data>
-			9oQdhkvoIR253tjqu1Qd2KDrx8h3985kE+6xyx+5DhQ=
+			D57gtNEsay6VNg2d+p6cj6nwUAGANfxu7XnnYmRgGHE=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentCardReaderVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wfv3ffx9U9UE1ZcMf5psdw/J/CA=
+			OIiNXyZDCLidNN7k+AqLkAKmVTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ELle4b53vMrZb96DTuT7GSdg8vRxcYCRqmrshehEBqk=
+			HTIRg3QVInoWAmWFuRfsKJ2kJutK3JJMjCdyllMMcJg=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentCashTenderVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WKaBoer0O6dpb96yZChabscn2ow=
+			tq40dmWB690iEsc4O+hfgnownaA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DbsDsPfOJ6+o/QT+fjlfkjawwQIjhNL62f97/tdiyzs=
+			MMTcs045/RpF3FZqgorJkLG61ZP9shg2vSDLICuWB1k=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentCashTenderVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			abuW3f8KwBFxmGHz8d4QHleWmN8=
+			NX0lzA9qvcZaDDPMnaVBr6M295s=
 			</data>
 			<key>hash2</key>
 			<data>
-			eyU2iEdIqBEn3EEC7sKtOHqLFShu1eC2H9U/5BTENLQ=
+			fMhadNMx7s+peiHr0vwkOQNavdGkoYSyqCvtP8Jb+RM=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentFailedVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v2fIt1pD78slS2atUZLFrPbQCHA=
+			OcakPGwbE5A9hsLcVygYg3jjIKE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3BitS7wGtNvYcTpPYbRYQAC8UO6bxm/W8Xop+VmiRW0=
+			UYLB2fzUjeEMCuKBownyGFKEkjXXptJ/lp7rZYCrq9E=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentFailedVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WUtZtaDUuCFTlwUmJokjdjIR/JY=
+			QNNKx2SLe5Rv1GBRNVwlgzuREh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			0EYrPcOeAiPPR4+Jdg0gyIKXPTfhvcsWQ7FdVgDIIZk=
+			pad371NEuOiIwm01LZ6LvWVPu0ZG+CNxoAllm7IzoOE=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentOptionCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gTMvXoEiV3R+D6M66yG3K/Py0t8=
+			/HZXl35zMi8oox62cNGWsPqfC8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			C+DF1yrWC4RTyZEXXGs5vGMj60nl92L6RX60EwWk30U=
+			HrOh0HGQB16jgY8W5jiaGeISzW3AxwbEHGzFkSdX1eg=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentOptionCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1KzY8iQOaBdM7UmVSl6mmY9mf2E=
+			Lu4S0Tk69Ye5qzKnzfiZejn0Xvo=
 			</data>
 			<key>hash2</key>
 			<data>
-			pQmNcInitmhn5+znfxhtxCXZyY0tS6cJdbuSpIJfZhs=
+			E51MZGnYFJUHZcVR0WuxjGgOqb+3b+y/49/TUMP0jFM=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentOptionsVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fkT5p5hyhzD0Bg7gmondqjSuEX8=
+			jgvUVDpienCnHPvEVUFq7uvWmFI=
 			</data>
 			<key>hash2</key>
 			<data>
-			7g7+Odjbvl5B11yOKtM6/r/+p6L0L+wVWR6bRLv9S6M=
+			McW1IwCKXcLNf5u6zDO3z+f5XII7cscx7BHb7qe8G4c=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentOptionsVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gZWP4mKMETYyhXjI3413FHAO/AE=
+			MppdPWCnSTNmGm45lNZGsxSfCxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Igwx/bVlTV1W6d+6xMp9DUcr0VSZ3/62j2TPoyj5ub8=
+			n++2ScR99nja5Oz4XcEfXQm7rMp5Py3W3pmVB6a5nDo=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentQRViewController_legacy.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IO1khbNxsYVtTIXbJyxkdisjXNo=
+			sgfDNyXSRqE1oQbB9AXC6CMryck=
 			</data>
 			<key>hash2</key>
 			<data>
-			QpBpGdfQm208y3/wEKXs2l+6/tPkBIhpMneU4kqPX0w=
+			PiB2tISwaHP2wJCAjT3ytU/S8vp9F9OD0q7Kx0xibpw=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentQRViewController_legacy.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vAyeYbiHI/4nccinw3dyah+xg28=
+			SfAkP+g+xW1EI9TMVCxhCDWDfRs=
 			</data>
 			<key>hash2</key>
 			<data>
-			eyFWhKIJOEvD9g27T7jvSvWnQtgItXdpweqVMRVL+Y4=
-			</data>
-		</dict>
-		<key>SMPSharedResources.bundle/SMPPaymentReceiptRequestVC.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kwCg9E6z6N0lnfS5h8ZuJUd8x4c=
-			</data>
-			<key>hash2</key>
-			<data>
-			YCQM/G1lEH/G1Mg7bUxej8GbzYWzomuXq++r1EziaeU=
+			/xemKB1gc36ajPdIYGgzQ27zc8EB26CVFX3H9yEG8Yk=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentReceiptRequestVC_legacy.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QkaPzYg0T6pFLoGNzhy+qBRdKxw=
+			gauuhHwRaJhB6CxR+P5X99kkMrY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ppeOFdvqgAa9dKfIwOzIkcNtV3vBKZNEbxZSPyh5KnM=
+			GZPHrQiio/i5be9etcSorf4gpsEWJbfMXD2IuxE1Jv4=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentSMSViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lKnHCQvzlKLHMgD6QXDUqOfZU3A=
+			z9FjGmRRwSxdqT070yu4zHlR3t0=
 			</data>
 			<key>hash2</key>
 			<data>
-			wVNA4iiMaf92x4AYxugOmhXKlhL6DsTzqwtRDIFGVCQ=
+			2s9SDjlyHKQEt5ZuLBv/27En9mmpPBIanDIXptZZfr8=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentSMSViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			L73CwjYdkNKxHpqYhJEO4XJl6to=
+			HCEb53XXlIWRQRxDeYWkQSt0+3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			J9PZrOazWmczNbGb/s4XWlrauYL1JCss4tR9g9Kklco=
+			77Ck9yqpUDlQd8VR10FrpSBhMoeSxDnRslBhQ4tiJ8c=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentTipViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MHOfzX0Jw1gpXpDV9F1k1OQ8vhU=
+			76Z7uJ4QX0nATatsYcyMQjt6fXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJEgz/R0i9egUsDObzIyoBD794P20Y78HN5aLerADEE=
+			UHxnqqPmgQFdBJiL+aJeHwcXFH9RVd+1i6nBVxNYXwg=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentTipViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KPQeFKrUgm7DXJrnjF8Lr924n74=
+			VJWTYVTYOEHaZKblTV5fYZ3TOLA=
 			</data>
 			<key>hash2</key>
 			<data>
-			zVWQwhF02vHv1VxIodvZXwz6GE91QY0V6mtFIONEAec=
+			RWWFq1u9OKMrXkGTPdltCYU6DNah3oCj2TYWD9r5ico=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentVirtualTerminalViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			48BFRyPpcec4p5LPRlci/e9MXEk=
+			CKzGWA4Vef+APItKcb0jHUmvHz0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BBO8UQPLB4sXt2maIItFjBV6j2zhH9AMtG/4n2Xu0S4=
+			5R0LmF+AgWmINECDGs9stP525p7GtwwRIFAm9INqXIs=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPaymentVirtualTerminalViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NzHLPNE40myaiPixmUJtKfefT/w=
+			FKqMrXRqsRsaDxzTxmgRcRtORp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			TAD1oXtBb5kbxhFbF7OSxtMxkMDusj0hh79M06gTY6g=
+			bNvbGQaOf8CUXyLAjOfHmA0JJNuhbB5ofvoZLEvcjWc=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPPinPlusFirmwareUpdateVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Otg5kkNrDH45PaKpSHWwONDnSt4=
+			EyFdGnnBJ7RCT+W+mBWwjIdQAGw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ns0q9S2TZkOw6f0dllRbvWHBHSxDChXOW8JUqYpgRks=
+			J4PhFzYHUATkyN2f/xx+uTLR+Q4rE65bfjT6ptIsavA=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPSettingPaymentMethodTypeCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fwBF+emgrhBj15zRh3uEKAlQwS4=
+			z6p69AaCsc7CFQcVv+3t0/It1HI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bxsG0kWuJfZ2Wy2d3gltZASidw+3fq30Nw0t8XaQwwI=
+			pb0qYOhkDnouDH+sS3Uwj5UX9qOdeQxLyWd31uQ57tc=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPShowQRViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SnPbDJrR9H5wxBpduryn1aAd75M=
+			0QxpUYlIz0ynAcHdUzTChQaqB6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			PJVWVlzLeX3ji3XqY1200MyuQOTGlks77LfMbhy2kSE=
+			EjI+uk7sce8tvcjucXc5NCuakN0dsq8v6L7zSUs9qpU=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPShowQRViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1+rBoo82rrgJEEnRzg00cK8D4/8=
+			GihXMv+sSCHM4HWCcWXSW5aoxus=
 			</data>
 			<key>hash2</key>
 			<data>
-			PDxaSLl1re1A//903lrdnI7aKpjsLp0zBx+tkte14aI=
+			YWkLyl9DJH6EjsW6141BPLZ3zeeH22v8RWk0ON5M9cg=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPTipAmountViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			et0PqDmtLC96YD6QkfkoODg8ZEE=
+			mKF+m3LGIt0Tk7tPghQgWgW9WMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			K+U18xXTXoMx7tqnJiw6Vgr9F0N9CwLjGiTtE71ZxdE=
+			edLkKrLgdElzWdA+nJsCV/xRo9Um5BWCFmEGGG2a8jY=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPTipContainerBaseViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O8pNZYsj/XUfj6Re870iaMH0FjQ=
+			qO7OYR3/vj0a4Ypuxxz/gOXsqgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			tYx1JQUXlPPCGEfFfzfn0GYGVnaT07HdY/CNHzA7TD8=
+			Qxq1AxmPk+rdKqmcUCkDtu5zMMpO8NUiTSNUEXwP+qg=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPTipContainerControl.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XFAR5by7wzebBaQAtY8BBkzzesQ=
+			hvKxbLeU6qscfgG6ePfiXip0aeM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6tMgnsJxqjpmkTBGXJtlomTci/d2ZAG6cmRiBIIqzbs=
+			WwrrnICujiznDk41lk8P68+qNXctYpauizazeNa3k0c=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPTipFinalAmountInputViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KNoMRW/IeVsUwXRDM4Rc8DPFlak=
+			6TMRWujiYlE3jmmnXp9QhB5uVa4=
 			</data>
 			<key>hash2</key>
 			<data>
-			VqiG3LytZD/aMgETXBIJBosjbPICU0ZBcSniphWzytM=
+			+fqVNiwaedcf+nDWXn73Krvx+TQcTc0X3XVQtqDV9M8=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPTitleAndSwitchTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IxvdSyYDp7nS//1c07WMVqC5P58=
+			TS20L4xh6gKtn9wyzSf8zlGCA6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			SYFsMyRmuel8nDFqIVoaUXHpCg+1cnyMZ2IaGP1Dtfg=
+			hhoGiBIT1czycUYwbvPsLL27Do3HTn4hrM0dqBxsxag=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SMPWalkthroughVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A8p2VukGlETc6kWoGqZuCxh39bY=
+			yDZTkey102Vmf5C1qwfZg6GMx+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ei75YhbUUfE7XDNbdEqQJxOk/eBo3c9Ii8sgsOdzX44=
+			g+34xJn+CyboEpn1ojC0HxMua/Jh9VQ6107la0uZ6AE=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/SumUp-SDK-Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vk3tprSaePcVD9vNxBAnEc3lSRs=
+			U8BiOT61EPirhjZBKTLB7L6kbvs=
 			</data>
 			<key>hash2</key>
 			<data>
-			B9n2yPhjN9qB3YO+MOTTVzNbhaXaGgA5+6j2lDtDSwQ=
+			27jcnqASD6VIE5+zPMtG4xFJrEf0jGZUYhkS7bSz6Ic=
 			</data>
 		</dict>
 		<key>SMPSharedResources.bundle/bg.lproj/SMPSharedLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zdr3lAutUm4DJ8VKpLHt60dFA5c=
+			0B8Z1EOnjjWtROSs1tgPVDETGQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			HuWGVbPJjkMN30BsD9BkWVI6JEqAHzpqO7tqW05z858=
+			HReTFrCZhIUxhSE+mwH3QQScvMKVpsDkowTU7PJil7Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2218,11 +2257,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eWGWxyr7PMn7FeKMOeSvxiH3sH0=
+			d2G4BckjOyjJJ7Jt74aRPrIwWCg=
 			</data>
 			<key>hash2</key>
 			<data>
-			BXgVDY8r2z5TPSWVcc20PMHGMS6Mnybe5odOpVVsAJo=
+			n6f8qijcGqJpB5BqSa/gmnrxO8Cf9vP5Hy4NYalKME0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2275,11 +2314,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ND4Puli2tpgaFOKh/dX08J/hGOk=
+			vHo+hu1mp7tbC7h4GiSc9LKUK4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			Omd/V1Ym5kCFsMnq7mHlffmzK8NzLAsZsw51GhIFGlg=
+			Y5f7uZ6COFPc6PAQLJGza/FQqvHh7HdUFfdw3oRSBXM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2288,11 +2327,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K5OOlVMTfl6zHarE3xO9UCWENeE=
+			hq2yBQDc2SywcMzdpcWqGIOrWpA=
 			</data>
 			<key>hash2</key>
 			<data>
-			YZMzAqEP5oXY0VcRv8Ql7a9HCETaSlgLiiUEYZGq7/o=
+			Uz4cVcLXB7Qv0KxttLjNA1ZvRYiJrpwBy6uwGlrPMt8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2301,11 +2340,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			68D5HGymguFYdxI0JEPTEI7hOqo=
+			2JSDywQdHPdXOPdibKRp1sampmM=
 			</data>
 			<key>hash2</key>
 			<data>
-			pXOT6ycKa06y8tv/EDLVlCNwImLooD/SXN/BfF5TPhc=
+			GOEF7w5B0fnnyDUt9CZjjHa77dU9Ojx4Q+38pzGPnCs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2314,11 +2353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1GYLb9Vae8MsUISy9yCYAutA8fs=
+			FQhB0sk3XbzYooE8g7fte4tqEDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			k4pldbGl5BLr6y09Nkr/XvDPEeAlcGKzSP3i18kQt3E=
+			roVEN8VK1YcmJcK99YMSbBEir7DCX0HBmX+XIJ6EKHs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2327,11 +2366,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VENAoa/J5d4p8ZYb0Dk6p2xluks=
+			WuTrwJwWxcmLBxZrYpuurT4u6gE=
 			</data>
 			<key>hash2</key>
 			<data>
-			HFh5vwoSjrRsbEQr3HWsIKoYIPjzg3vXuAI3onG64Vw=
+			iKnfAdYO9ucmLrILzdgLMLcOyl4lRn4T1vCc8N8U3lk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2340,11 +2379,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0sl7ifxhiTeEUqGgtsFj3Fm4UFA=
+			VtsW/IqmCKpMKZKarUP5BFOaz68=
 			</data>
 			<key>hash2</key>
 			<data>
-			7X6KRBWP0EMTzJUcn0CwDsCEy0R3pdqE8vrh6wrNkSc=
+			MmetN5ImDONdSVgpgM/akix3Crtdbaesjg5eWos4GAw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2353,11 +2392,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yDCb+hRGURz3UvFrcRUKSZQ+cD0=
+			PA0hk0cFPUan28CQ5c5lDvyS2fo=
 			</data>
 			<key>hash2</key>
 			<data>
-			29CKyQbn2TtGJ4udFWj5E5hnj5YvDQyWG5AUnrbtCaQ=
+			YojYWDkPi1ZNWlY2JQNWmWK4zWIyQPaXl0rn3v7M3go=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>SMPSharedResources.bundle/es-US.lproj/SMPSharedLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XYGoeCrZJMZ1P6Y3gCZk6zjXp9s=
+			</data>
+			<key>hash2</key>
+			<data>
+			CYVagup5CxJWb2wFOHrwlS12apQCER6hccQLyYibTjY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2366,11 +2418,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eWGWxyr7PMn7FeKMOeSvxiH3sH0=
+			d2G4BckjOyjJJ7Jt74aRPrIwWCg=
 			</data>
 			<key>hash2</key>
 			<data>
-			BXgVDY8r2z5TPSWVcc20PMHGMS6Mnybe5odOpVVsAJo=
+			n6f8qijcGqJpB5BqSa/gmnrxO8Cf9vP5Hy4NYalKME0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2379,11 +2431,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Bhmq8IfQ3w6bCoFhea6CP2+8CA=
+			jCQxgx13Wt8vHExBvVCc5DrJY70=
 			</data>
 			<key>hash2</key>
 			<data>
-			v28wT5Ju/mn7HMan8xm4Fwmegts+b2aG4eOrAogMBu0=
+			Z1aTFqGdwziNaclatsDxyk5tcJ4DlnITvru5O9mAPxw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2392,11 +2444,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1N+qPqpxOPk77q20sN4Dpxjkzg4=
+			NWS+RK6lpx7zv4fwP2SwAMAJ5rk=
 			</data>
 			<key>hash2</key>
 			<data>
-			DB6WbzZYniczVRO6ue3+vv9PAdq+n3N1VXPLu9EsiFg=
+			bhSecmmjqbNZBEmRskCpr4akidOy1SOHom1Z3kgHXj8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2405,11 +2457,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y5seVHHdNwzd4mM5OzQ+h4exCcM=
+			X2v6gb/SXUCCnKNcwCAQwm2TUbI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tgA6Ed2VyXNYJSV8ddNDCAY//DH1bTAU7B2cZ7qoOM0=
+			tPABtvas3DxYwl5Tr51eiC++JoCj0EvOQU3oEzYuhlg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2418,11 +2470,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ajLB49LQVe+3IrRCDJrv5jYn4zA=
+			f/+wXTXTwNHnd347gaqqDN6WvKc=
 			</data>
 			<key>hash2</key>
 			<data>
-			U3xv+HhM9VLBVvJpdB02wAgPlC97rK6FyhID/VtyVwo=
+			504H9IkW8hlsapF7SANM8ZY0HLv8bIDyvg+yqu3Bnm8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2431,11 +2483,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jgKixmzpESeQlufYaIrsDeRVlV8=
+			yXtipCIO+w8KiYHPqtBwIaoGlRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yY18cIv2PDzUotnxaqTd9L077H8tT6RFIg+Yo2wsTXo=
+			k8aEB4HV3ZeAFNDVIq7mPl34CvAidXZj0EeNJfC/CCA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2444,11 +2496,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hb8YNCja5XQn48xAB9beDrguimw=
+			3e4hL1tn3wTSrxWZHBgQ8XcU+50=
 			</data>
 			<key>hash2</key>
 			<data>
-			IDfNpjnEZ/T+A4vWEU3iVVSopBCC2GM5Iyy3t7R+A0I=
+			EKfS21e5Pg826L5yIDouUPRHtf16DvYKQBaedfyO//k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2457,11 +2509,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ly7cP+2qkWFRYSqwIT4d29enNyE=
+			jHFrijIv3DszSwJY/qlAYXH2yPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qu9sHaxMK/6tq+qvDwwDh+DdQHEAxZD46xbVm+a8+Cg=
+			2pfr8n4WXVb2thBkECehEfJad0Gx5RHuA1/gc4qMSnE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2470,11 +2522,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mj2B6fHORGe/C0l3B0Me2l0Tnt0=
+			7F89ZnMXMfE7Br0HMsdVmpCwXEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ffv9ssDeGf2OrYsDvFbGxLAw+EDJ+bMWV3nHTolWMTw=
+			Kyspd7LBNtynNBykcoc4vE22BA0vSHsmzTDfP9ZTvX0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2527,11 +2579,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sJu9EMpPYhtWTx2R6YKSFLCzTC8=
+			jORK0PT4gf+afR9QROB+jxkdd4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			lkXTbP2HeJpQyFOs65T81tMRVKO5KvFA8P/CLK8AuUs=
+			DpmBnePQOaKQ9RMAU6/xCwdSbIBwQd/YuK8XNTWqtQs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2540,11 +2592,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sJu9EMpPYhtWTx2R6YKSFLCzTC8=
+			jORK0PT4gf+afR9QROB+jxkdd4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			lkXTbP2HeJpQyFOs65T81tMRVKO5KvFA8P/CLK8AuUs=
+			DpmBnePQOaKQ9RMAU6/xCwdSbIBwQd/YuK8XNTWqtQs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3719,11 +3771,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GM3SBWJ4SPbq94lDvMnu3wIloGo=
+			IlKMDJIf7YQ7pzKGiMCXqK3UPYM=
 			</data>
 			<key>hash2</key>
 			<data>
-			41AEXYUSgByHOyI0qkmQ4T0DIQnQPOSif4kg+22gBWA=
+			oJjjY0Gj5PzCOYUxRhoVflHIiFDND4GD02anW77sIVc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3732,11 +3784,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5aASEWAUN8yuu5a2cjEvfzrzZHg=
+			+uc0aX+IIB1PcpXQNHbGE9Dej58=
 			</data>
 			<key>hash2</key>
 			<data>
-			PForqjN2sS8Vw2bIpB7slbyp3KIqvbVUpAYGrpCu+zM=
+			kTNac3zslWAX44NCfRmsXTQBbtZCqbvdDkOMFiwUowE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3745,11 +3797,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+4wjsLdEHDxO8EKuXZFWxz2mrhY=
+			eA5AJzkMI+PPpheEkVANfzpkflk=
 			</data>
 			<key>hash2</key>
 			<data>
-			aUte37RIMN3+44eRQmULCDu3Uideq0LksQoSPkYTL74=
+			8/UOSsAUDk/J7oQkZp4si2nN3QuCCmYHfEdxN8D400Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3758,11 +3810,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7tqlanrqwVWAC4J09n+8W2MxeDA=
+			ae256OFfhzBfk6j3u83V8Vc2jx4=
 			</data>
 			<key>hash2</key>
 			<data>
-			potp5T2uizhkADojY1HT+iBpbjuF6f2V/fBzju+wNAU=
+			piuOrC67+3lfzll5GcFjR2y8lxxBdOrbyiw5+QcmUrI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3771,11 +3823,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ejw83YocG5/JrzOUXA+KHednCOk=
+			aD2NWNmtzbzIr5dGDIujIe58HfQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UVK/HXRSyQ3iSVO0oGY8BW0QN5vwAf72pNuyiBStcyY=
+			yRIqKTtGGs0IMZ/wCgkmyNBs2v6w2TLWI0TnFL6kOHM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3795,11 +3847,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7/umbKnzG/Ce5mXVxYhrtqT23ec=
+			0OFp0wlOEZrmsE/KwdOxjnMceJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			hbNbCjuBTIJVlMc04Qu7lRH4+Ebsr6JvKy41AaGGsAM=
+			iHPwdnin/PF8+sercE28v3kn064QtK9dEfIQHnSeg5A=
 			</data>
 			<key>optional</key>
 			<true/>

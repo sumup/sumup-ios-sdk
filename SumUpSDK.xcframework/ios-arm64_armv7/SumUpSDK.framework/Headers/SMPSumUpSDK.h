@@ -173,6 +173,8 @@ typedef NS_ENUM(NSInteger, SMPSumUpSDKError) {
     SMPSumUpSDKErrorDuplicateForeignID   = 53,
     /// The access token is invalid. Login to get a valid access token.
     SMPSumUpSDKErrorInvalidAccessToken   = 54,
+    /// The amount entered contains invalid number of decimals.
+    SMPSumUpSDKErrorInvalidAmountDecimals   = 55,
 } NS_SWIFT_NAME(SumUpSDKError);
 
 #pragma mark - SDK Integration

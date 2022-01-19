@@ -21,6 +21,10 @@ typedef NS_OPTIONS(NSUInteger, SMPSkipScreenOptions) {
      *  Skip confirmation screen (i.e. screen that would ask for a receipt) for successful transactions.
      */
     SMPSkipScreenOptionSuccess = 1 << 0,
+    /**
+     *  Skip confirmation screen for failed transactions.
+     */
+    SMPSkipScreenOptionFailed = 1 << 1,
 } NS_SWIFT_NAME(SkipScreenOptions);
 
 #endif

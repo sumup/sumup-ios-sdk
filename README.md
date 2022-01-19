@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%2010+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-4.1.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-4.2.0-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -29,7 +29,9 @@ For more information, please refer to
 2. Received SumUp card terminal: Air, Air Lite, PIN+ terminal, Chip & Signature reader, or SumUp Air Register.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
 4. Deployment Target iOS 10.0 or later.
-5. Xcode 11 and iOS SDK 13 or later.
+   - The next SumUp SDK version will drop the support for iOS 10 and iOS 11
+5. Recommended to use on Xcode 11 and iOS SDK 13 or later.
+   - The next SumUp SDK version will recommend the usage of Xcode 13 and iOS SDK 15 or later.
 6. iPhone, iPad or iPod touch.
 
 ### Table of Contents
@@ -238,6 +240,13 @@ the transaction result to the customer.
 In combination with the Receipts API, your application can also send your own receipts,
 see [API documentation](https://docs.sumup.com/rest-api/#tag/Transactions) for details.
 Please note that success screens will still be shown when using the SumUp Air Lite readers.
+
+##### Skip failed screen
+To skip the screen shown at the end of a failed transaction, the
+`SMPSkipScreenOptionFailed` option can be used.
+When setting this option your application is responsible for displaying
+the transaction result to the customer.
+Please note that failed screens will still be shown when using the SumUp Air Lite readers.
 
 ### Prepare the SumUp Card terminal in advance
 In order to prepare a SumUp card terminal for checkout, `prepareForCheckout` can be called in advance. A registered SumUp merchant account needs to be logged in, and the card terminal must already be setup. You should use this method to let the SDK know that the user is most likely starting a checkout attempt soon; for example when entering an amount or adding products to a shopping cart. This allows the SDK to take appropriate measures, like attempting to wake a connected card terminal.

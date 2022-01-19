@@ -360,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -389,7 +389,7 @@
 					"@executable_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-Swift";
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -446,7 +446,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 4.1;
+				MARKETING_VERSION = 4.2.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -494,7 +494,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 4.1;
+				MARKETING_VERSION = 4.2.0;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -515,7 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-objc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.objc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-ObjC";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,7 +535,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sumup.sample-objc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.objc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUS_STORYBOARD_NAME = "Main-ObjC";
 				TARGETED_DEVICE_FAMILY = "1,2";

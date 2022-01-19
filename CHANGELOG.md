@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.2.0
+* [ADDED] Add `SMPSkipScreenOptionFail` to `SMPSkipScreenOptions` to allow for skipping the screen
+  shown at the end of a failed transaction.
+* [ADDED] Dedicated error code for handling invalid decimal values for currencies - `SMPSumUpSDKErrorInvalidAmountDecimals`
+* [UPCOMING] Dropping support for iOS 10 and iOS 11
+
+
 ## Version 4.1.1
 
 * [BUGFIX] Podspec fix. The release v4.1.0 does not work with Cocoapods due to an issue in the Podspec file. All changes mentioned in v4.1.0 are available in this release.
