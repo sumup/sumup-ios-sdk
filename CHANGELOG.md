@@ -1,5 +1,8 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.2.1
+* [BUGFIX] Internal bug fixes and improvements
+
 ## Version 4.2.0
 * [ADDED] Add `SMPSkipScreenOptionFail` to `SMPSkipScreenOptions` to allow for skipping the screen
   shown at the end of a failed transaction.
