@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.9'
 
   s.name    = "SumUpSDK"
-  s.version = "4.3.0"
+  s.version = "4.3.1"
   s.summary = "This SDK enables you to integrate SumUp's proprietary card terminal(s) and its payment platform to accept credit and debit card payments."
 
   s.description = <<-DESC
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/sumup/sumup-ios-sdk.git", :tag => "v#{s.version}" }
 
   s.vendored_frameworks = "SumUpSDK.xcframework"
-  s.platform            = :ios, "10.0"
+  s.platform            = :ios, "12.0"
 
 end

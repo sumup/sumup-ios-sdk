@@ -1,6 +1,11 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.3.1
+
+* [BUGFIX] Podspec fix. The release v4.3.0 does not work with Cocoapods due to an issue in the Podspec file. All changes mentioned in v4.3.0 are available in this release.
+
 ## Version 4.3.0
+
 * [ADDED] Introduction of the support for SumUp 'Solo' card reader (beta phase)
 * [ADDED] Prompt may appear after a checkout to recommend updating card reader firmware
 * [IMPROVEMENT] Refreshed SumUp Brand Design Language for failed, successful and receipt screens
