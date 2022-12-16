@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%2010+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-4.2.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-4.3.0-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -26,12 +26,10 @@ For more information, please refer to
 
 ### Prerequisites
 1. Registered for a merchant account via SumUp's [country websites](https://sumup.com/) (or received a test account).
-2. Received SumUp card terminal: Air, Air Lite, PIN+ terminal, Chip & Signature reader, or SumUp Air Register.
+2. Received SumUp card terminal: Solo, Air, Air Lite, PIN+ terminal, Chip & Signature reader, or SumUp Air Register.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
-4. Deployment Target iOS 10.0 or later.
-   - The next SumUp SDK version will drop the support for iOS 10 and iOS 11
-5. Recommended to use on Xcode 11 and iOS SDK 13 or later.
-   - The next SumUp SDK version will recommend the usage of Xcode 13 and iOS SDK 15 or later.
+4. Deployment Target iOS 12.0 or later.
+5. Recommended to use on Xcode 13 and iOS SDK 15 or later.
 6. iPhone, iPad or iPod touch.
 
 ### Table of Contents

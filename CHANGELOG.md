@@ -1,5 +1,17 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.3.0
+* [ADDED] Introduction of the support for SumUp 'Solo' card reader (beta phase)
+* [ADDED] Prompt may appear after a checkout to recommend updating card reader firmware
+* [IMPROVEMENT] Refreshed SumUp Brand Design Language for failed, successful and receipt screens
+* [IMPROVEMENT] More reliable handling of card reader connectivity issues during checkout
+* [IMPROVEMENT] Tip amount may be shown at the top of the screen during checkout
+* [IMPROVEMENT] Improvements to the Bluetooth scanning screen
+* [IMPROVEMENT] Improvements to some card reader animations
+* [REMOVED] Payment links are no longer supported as a payment method
+* [REMOVED] Switch to enable/disable card reader removed from the Checkout Preferences screen
+* [REMOVED] Minimum deployment target is now iOS 12 (was iOS 10)
+
 ## Version 4.2.1
 * [BUGFIX] Internal bug fixes and improvements
 
@@ -8,7 +20,6 @@
   shown at the end of a failed transaction.
 * [ADDED] Dedicated error code for handling invalid decimal values for currencies - `SMPSumUpSDKErrorInvalidAmountDecimals`
 * [UPCOMING] Dropping support for iOS 10 and iOS 11
-
 
 ## Version 4.1.1
 
