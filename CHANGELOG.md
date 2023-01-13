@@ -6,6 +6,7 @@
 
 ## Version 4.3.0
 
+* [ADDED] Starting with firmware version 1.0.1.84, Air card readers with serial numbers starting with 108, 109 or later require iOS SDK 4.3.0 and later. Please update to the latest iOS SDK version if you need to support these readers.
 * [ADDED] Introduction of the support for SumUp 'Solo' card reader (beta phase)
 * [ADDED] Prompt may appear after a checkout to recommend updating card reader firmware
 * [IMPROVEMENT] Refreshed SumUp Brand Design Language for failed, successful and receipt screens
