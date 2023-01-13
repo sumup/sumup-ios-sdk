@@ -34,7 +34,7 @@ For more information, please refer to
 
 ### Compatibility
 
-* Air card readers with serial numbers starting with 108, 109 or later are not compatible with iOS SDK 4.2.1 or earlier.  Please update to the latest iOS SDK version if you need to support these readers.
+* Starting with firmware version 1.0.1.84, Air card readers with serial numbers starting with 108, 109 or later require iOS SDK 4.3.0 and later. Please update to the latest iOS SDK version if you need to support these readers.
 
 ### Table of Contents
 * [Installation](#installation)
