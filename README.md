@@ -32,6 +32,10 @@ For more information, please refer to
 5. Recommended to use on Xcode 13 and iOS SDK 15 or later.
 6. iPhone, iPad or iPod touch.
 
+### Compatibility
+
+* Air card readers with serial numbers starting with 108, 109 or later are not compatible with iOS SDK 4.2.1 or earlier.  Please update to the latest iOS SDK version if you need to support these readers.
+
 ### Table of Contents
 * [Installation](#installation)
   * [Manual Integration](#manual-integration)
