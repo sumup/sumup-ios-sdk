@@ -177,6 +177,18 @@ typedef NS_ENUM(NSInteger, SMPSumUpSDKError) {
     SMPSumUpSDKErrorInvalidAmountDecimals   = 55,
 } NS_SWIFT_NAME(SumUpSDKError);
 
+#pragma mark - Features
+
+/**
+ Returns YES if the last-used card reader, if any, supports the Tip on Card Reader feature (TCR).
+ TCR prompts the customer directly on the card reader's display for a tip amount, rather than
+ prompting for a tip amount on the iPhone or iPad display.
+ This property will equal NO if no card reader has been used before. You can optionally present
+ the Checkout Preferences screen to configure a card reader before the first transaction occurs
+ to avoid this.
+ */
+@property (class, readonly) BOOL isTipOnCardReaderAvailable;
+
 #pragma mark - SDK Integration
 
 /**

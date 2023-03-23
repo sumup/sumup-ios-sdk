@@ -1,0 +1,17 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/data\/node\/wd\/workspace\/sumup-orga_iOS-Merchant_PR-7944\/code\/Cashier\/Cashier\/WeakContainer.swift",
+      "kind": "Array",
+      "offset": 363,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

@@ -89,13 +89,42 @@ NS_SWIFT_NAME(CheckoutRequest)
  */
 @property (nonatomic, copy, nullable) NSString *foreignTransactionID;
 
-
 /**
  *  An optional additional tip amount to be charged to a customer.
  *
- *  @note Will be added to the totalAmount. Must be greater zero if passed.
+ *  @note This property will be ignored if the connected card reader supports the
+ *  Tip on Card Reader (TCR) feature and if it is enabled by setting
+ *  tipOnCardReaderIfAvailable to YES.
+ *
+ *  Important: the customer may use a reader that does not support TCR.
+ *  You must handle this case yourself in order to avoid no tip from being prompted.
+ *
+ *  To do this:
+ *
+ *  Before calling SMPSumUpSDK checkoutWithRequest:fromViewController:completion:,
+ *  check SMPSumUpSDK.isTipOnCardReaderAvailable:
+ *
+ *    - If NO, you should prompt the user for a tip amount yourself and set tipAmount
+ *
+ *    - If YES, you may set tipOnCardReaderIfAvailable to YES.
+ *      Do not prompt the user for a tip amount or set tipAmount if you do this.
+ *
+ *  Will be added to the totalAmount. Must be greater than zero if set.
  */
 @property (nonatomic, copy, nullable) NSDecimalNumber *tipAmount;
+
+/**
+ *  Enables Tip on Card Reader (TCR), if the feature is available.
+ *
+ *  @note TCR prompts the customer directly on the card reader's display for a tip amount,
+ *  rather than prompting for a tip amount on the iPhone or iPad display.
+ *
+ *  Not all card readers support this feature. To find out if the feature is supported for the
+ *  last-used card reader, check SMPSumUpSDK.isTipOnCardReaderAvailable.
+ *
+ *  Setting this property to YES when the feature is not available will do nothing.
+ */
+@property (nonatomic) BOOL tipOnCardReaderIfAvailable;
 
 /**
  *  An optional count for the display of the number of sale items throughout the checkout process.

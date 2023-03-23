@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.3.3
+
+* [IMPROVEMENT] Tip on Card Reader (TCR) feature, allowing tips to optionally be prompted-for on supported card readers' displays instead of on the iPhone/iPad display.
+* [IMPROVEMENT] Connecting and disconnecting multiple times to a Solo card reader from the Checkout Preferences screen could cause it to get into a state where connection was not possible anymore. This issue has been fixed.
+* [IMPROVEMENT] Solo card reader support in the SDK has left beta phase.
+* [BUGFIX] Removed internal use of UIAppearance to override colors of navigation bars. This caused issues with host apps.
+
 ## Version 4.3.1
 
 * [BUGFIX] Podspec fix. The release v4.3.0 does not work with Cocoapods due to an issue in the Podspec file. All changes mentioned in v4.3.0 are available in this release.
