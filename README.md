@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
 [![Supports](https://img.shields.io/badge/Requires-iOS%2010+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-4.3.3-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-4.3.4-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -36,8 +36,7 @@ For more information, please refer to
 
 * Starting with firmware version 1.0.1.84, Air card readers with serial numbers starting with 108, 109 or later require iOS SDK 4.3.0 and later. Please update to the latest iOS SDK version if you need to support these readers.
 
-
-### Tip on Card Reader (TCR)
+### Tipping
 
 There are three modes for tipping:
 
@@ -46,6 +45,8 @@ There are three modes for tipping:
 2. Programmatic tipping via the tipAmount property. Ask the user in your own UI for an appropriate tip amount and then set the tipAmount property on SMPCheckoutRequest. This will be added to the total amount, but will be displayed to the user separately during checkout.
 
 3. Tip on Card Reader. TCR prompts the customer directly on the card reader's display for a tip amount, rather than prompting for a tip amount on the iPhone or iPad display.
+
+#### Tip on Card Reader (TCR)
 
 Important: Not all card readers support this feature. To find out if the feature is supported for the last-used card reader, you should always check SMPSumUpSDK.isTipOnCardReaderAvailable. You must handle this case yourself in order to avoid no tip from being prompted.
 

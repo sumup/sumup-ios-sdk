@@ -1,5 +1,9 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.3.4
+
+* [BUGFIX] Tip on Card Reader feature: bug fixes and stability improvements
+
 ## Version 4.3.3
 
 * [IMPROVEMENT] Tip on Card Reader (TCR) feature, allowing tips to optionally be prompted-for on supported card readers' displays instead of on the iPhone/iPad display.
