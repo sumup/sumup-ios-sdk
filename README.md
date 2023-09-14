@@ -32,6 +32,8 @@ For more information, please refer to
 5. Recommended to use on Xcode 13 and iOS SDK 15 or later.
 6. iPhone, iPad or iPod touch.
 
+:warning: **Important:** Upcoming versions of the SDK will no longer support iOS 12 and iOS 13. Please make sure to update your app's deployment target to iOS 14 or later.
+
 ### Compatibility
 
 * Starting with firmware version 1.0.1.84, Air card readers with serial numbers starting with 108, 109 or later require iOS SDK 4.3.0 and later. Please update to the latest iOS SDK version if you need to support these readers.
