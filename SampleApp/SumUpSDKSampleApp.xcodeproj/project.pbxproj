@@ -66,6 +66,7 @@
 		1B584F481DE6146000642029 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "SumUpSDKSampleApp/en.lproj/Main-Swift.storyboard"; sourceTree = SOURCE_ROOT; };
 		1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "SumUpSDKSampleApp/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SumUpSDK.xcframework; path = ../SumUpSDK.xcframework; sourceTree = "<group>"; };
+		C46B41062AB2FD3C00271656 /* project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
 		DC9610B118996359009D8EBC /* SumUpSDKSampleAppObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumUpSDKSampleAppObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9610BC18996359009D8EBC /* SumUpSDKSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SumUpSDKSampleApp-Info.plist"; sourceTree = "<group>"; };
 		DC9610BE18996359009D8EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -182,6 +183,7 @@
 		DC9610BB18996359009D8EBC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C46B41062AB2FD3C00271656 /* project.xcconfig */,
 				DC9610BC18996359009D8EBC /* SumUpSDKSampleApp-Info.plist */,
 				DC9610BD18996359009D8EBC /* InfoPlist.strings */,
 			);
@@ -355,7 +357,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,7 +386,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,6 +402,7 @@
 		};
 		DC9610E118996359009D8EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46B41062AB2FD3C00271656 /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -447,8 +448,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 4.3.4;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -457,6 +456,7 @@
 		};
 		DC9610E218996359009D8EBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46B41062AB2FD3C00271656 /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -495,8 +495,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 4.3.4;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -513,7 +511,6 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,7 +531,6 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

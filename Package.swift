@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SumUpSDK",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v14)
     ],
     products: [
         .library(
