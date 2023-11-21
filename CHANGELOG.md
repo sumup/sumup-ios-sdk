@@ -1,5 +1,11 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.3.5
+
+* [FIXED] A crash when using AirPrint on devices running iOS 17
+* [FIXED] A crash when using UIDatePicker on devices running iOS 17
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
 ## Version 4.3.4
 
 * [BUGFIX] Tip on Card Reader feature: bug fixes and stability improvements
