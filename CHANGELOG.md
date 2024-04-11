@@ -1,5 +1,9 @@
 # SumUp iOS SDK Changelog
 
+## Version 4.4.1
+* [IMPROVEMENT] Includes Privacy Manifest file
+* [REMOVED] Minimum deployment target is now iOS 14 (was iOS 12)
+
 ## Version 4.4.0
 * [REMOVED] Minimum deployment target is now iOS 14 (was iOS 12)
 * [FIXED] A crash when using AirPrint on devices running iOS 17
