@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet fileprivate weak var buttonLogin: UIButton?
     @IBOutlet fileprivate weak var buttonLogout: UIButton?
     @IBOutlet fileprivate weak var buttonPreferences: UIButton?
-    @IBOutlet fileprivate weak var buttonRegisterDemo: UIButton?
     @IBOutlet fileprivate weak var buttonCharge: UIButton?
 
     @IBOutlet fileprivate weak var textFieldTotal: UITextField?
@@ -265,10 +264,6 @@ extension ViewController {
 
         // buttonCharge?.isEnabled = isLoggedIn
         // buttonPreferences?.isEnabled = isLoggedIn
-
-        // Hidden by default: Please refer to AirRegister/README.md for
-        // further details.
-        buttonRegisterDemo?.isHidden = !SumUpRegisterSDK.registerIsSupported
 
         switchSkipReceiptScreen?.isEnabled = isLoggedIn
         updateTipControl()

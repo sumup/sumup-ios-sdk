@@ -1,3 +1,3 @@
 // Configuration file containging common settings for the sample apps
-IPHONEOS_DEPLOYMENT_TARGET=14.0
-MARKETING_VERSION=4.4.0
+IPHONEOS_DEPLOYMENT_TARGET = 14.0
+MARKETING_VERSION = 5.0.0

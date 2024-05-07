@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B2A869B1FBB4CF50053D675 /* RegisterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A869A1FBB4CF50053D675 /* RegisterDemoViewController.swift */; };
 		1B584F341DE60FEE00642029 /* SUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F311DE60FEE00642029 /* SUSAppDelegate.m */; };
 		1B584F351DE60FEE00642029 /* SUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F331DE60FEE00642029 /* SUSViewController.m */; };
 		1B584F371DE60FFC00642029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F361DE60FFC00642029 /* main.m */; };
@@ -53,7 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B2A869A1FBB4CF50053D675 /* RegisterDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterDemoViewController.swift; path = SrcSwift/RegisterDemoViewController.swift; sourceTree = "<group>"; };
 		1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		1B584F181DE60F7100642029 /* SumUpSDKSampleAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumUpSDKSampleAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B584F301DE60FEE00642029 /* SUSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUSAppDelegate.h; path = SrcObjC/SUSAppDelegate.h; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				1B584F391DE6101000642029 /* AppDelegate.swift */,
-				1B2A869A1FBB4CF50053D675 /* RegisterDemoViewController.swift */,
 				1B584F3A1DE6101100642029 /* ViewController.swift */,
 				1B584F4A1DE6146300642029 /* Supporting Files */,
 			);
@@ -298,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B584F3B1DE6101100642029 /* AppDelegate.swift in Sources */,
-				1B2A869B1FBB4CF50053D675 /* RegisterDemoViewController.swift in Sources */,
 				1B584F3C1DE6101100642029 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

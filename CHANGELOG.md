@@ -1,11 +1,22 @@
 # SumUp iOS SDK Changelog
 
-## Version 4.4.1
-* [IMPROVEMENT] Includes Privacy Manifest file
-* [REMOVED] Minimum deployment target is now iOS 14 (was iOS 12)
+## Version 5.0.0
+
+* [ADDED] Support for the Solo Lite card reader
+* [ADDED] Support for the Australian Dollar and Mexican Pesos currencies: `SMPCurrencyCodeAUD`, `SMPCurrencyCodeMXN`
+* [ADDED] Introduction of a unified Black and White theme that represents "One Design Language" across all SumUp products
+* [ADDED] Support for running in Simulator with ARM64 architecture
+* [REMOVED] Unused `AirRegister` directory 
 
 ## Version 4.4.0
+
 * [REMOVED] Minimum deployment target is now iOS 14 (was iOS 12)
+* [FIXED] A crash when using AirPrint on devices running iOS 17
+* [FIXED] A crash when using UIDatePicker on devices running iOS 17
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 4.3.5
+
 * [FIXED] A crash when using AirPrint on devices running iOS 17
 * [FIXED] A crash when using UIDatePicker on devices running iOS 17
 * [IMPROVEMENT] Miscellaneous bug fixes and enhancements

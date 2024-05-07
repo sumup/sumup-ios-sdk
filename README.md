@@ -1,12 +1,11 @@
 # SumUp mPOS SDK - iOS
 
-[![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat-square)](#prerequisites)
-[![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat-square)](https://sumup.com)
-[![Supports](https://img.shields.io/badge/Requires-iOS%2010+-red.svg?style=flat-square)]()
-[![Version](https://img.shields.io/badge/Version-4.4.1-yellowgreen.svg?style=flat-square)](CHANGELOG.md)
-[![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat-square)](LICENSE)
-[![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat-square)]()
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat)](#prerequisites)
+[![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat)](https://sumup.com)
+[![Supports](https://img.shields.io/badge/Requires-iOS%2014+-red.svg?style=flat)]()
+[![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat)](LICENSE)
+[![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat)](SumUpSDK.podspec)
+[![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](Package.swift)
 
 This repository provides a native iOS SDK that enables you to integrate SumUp's proprietary
 card terminal(s) and its payment platform to accept credit and debit card payments
@@ -29,7 +28,7 @@ For more information, please refer to
 2. Received SumUp card terminal: Solo, Air, Air Lite, PIN+ terminal, Chip & Signature reader, or SumUp Air Register.
 3. Requested an Affiliate (Access) Key via [SumUp Dashboard](https://me.sumup.com/developers) for Developers.
 4. Deployment Target iOS 14.0 or later.
-5. Recommended to use on Xcode 14.2 and iOS SDK 15 or later.
+5. Recommended to use on Xcode 14.3.1 and iOS SDK 16 or later.
 6. iPhone, iPad or iPod touch.
 
 ### Compatibility
@@ -79,9 +78,6 @@ Before calling SMPSumUpSDK checkoutWithRequest:fromViewController:completion:, c
 * [License](#license)
 
 ## Installation
-
-If you want to support the SumUp Air Register, please also read our additional
-[Air Register setup guide](AirRegister/README.md).
 
 ### Manual Integration
 

@@ -99,9 +99,9 @@ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS “AS IS” AND ANY EX
 
 ---
 
-[SAMKeychain](https://github.com/soffes/SAMKeychain).
+[SSKeychain](https://github.com/samsoffes/sskeychain).
 
-Copyright (c) 2010-2016 Sam Soffes, http://soff.es
+Copyright (c) 2010-2012 Sam Soffes, http://soff.es
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
