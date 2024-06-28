@@ -72,6 +72,7 @@ Before calling SMPSumUpSDK checkoutWithRequest:fromViewController:completion:, c
   * [Login](#login)
   * [Accept card payments](#accept-card-payments)
   * [Update checkout preferences](#update-checkout-preferences)
+* [Tap to Pay on iPhone](#tap-to-pay-on-iphone)
 * [Out of Scope](#out-of-scope)
 * [Community](#community)
 * [Changelog](#changelog)
@@ -317,6 +318,136 @@ respective account settings.
                                                  }
                                                }];
 ```
+
+## Tap to Pay on iPhone
+
+With Tap to Pay on iPhone merchants can accept contactless card payments on their iPhone without needing a card reader.
+
+To add Tap to Pay on iPhone to your app:
+
+* Request the Tap to Pay on iPhone entitlement from Apple, receive approval, and then add the `com.apple.developer.proximity-reader.payment.acceptance` entitlement to your app. [Setting up the entitlement](https://developer.apple.com/documentation/proximityreader/setting-up-the-entitlement-for-tap-to-pay-on-iphone?language=objc).
+* This feature requires an iPhone XS or later, running iOS 16.4 (iOS 16.7 starting July 8th) or later (ideally 17.5 or later.) The feature does not work on iPad.
+* For debugging and testing you will need to be logged into an iPhone with a non-Sandbox Apple ID. Using a Sandbox Apple ID requires both Apple and SumUp implementations to connect to their respective non-production (test) backends, which the SDK does not support.
+* During testing, to avoid transactions going to the acquirer and transferring real money, use a SumUp test account. To create a test account, please log in [here](https://auth.sumup.com/flows/login?client_id=developer_portal&login_challenge=fd21867fbc224ee985c0e206ef7f7549). Hover over "Account" on the top right corner of the page and click on “Test Profile” in the drop-down menu.
+
+In your code:
+
+* Make a call to check feature availability: is the Tap to Pay on iPhone payment method available for the current merchant?
+* Trigger activation if needed. Activation sets up the iPhone to receive payments, shows the merchant how to use the feature, and links the SumUp account and Apple ID.
+* Start the checkout.
+
+### Check feature availability
+
+* Call `checkTapToPayAvailability` on `SMPSumUpSDK` to check the availability of the Tap to Pay on iPhone payment method. This call, which requires the SDK to be in a logged-in state, may internally perform one or more network calls.
+* If the feature is not available, your app could, as an example, hide or disable a button or menu item representing the Tap to Pay on iPhone payment method. 
+* The feature is generally available when the following criteria are fulfilled: 
+    * the iPhone model and iOS version requirements are met 
+    * the user logs in with a SumUp account registered in one of the countries where SumUp supports Tap to Pay on iPhone (temporarily with exception of Brazil) 
+
+### Perform activation if needed
+
+* Activation must be completed before the first transaction can be performed. Activation means:
+    * the merchant links their Apple ID with their SumUp account
+    * the iPhone is prepared, which can take 45 seconds or longer
+* This needs to be done once per merchant account, per device. 
+* In addition to determining feature availability, `checkTapToPayAvailability` also indicates whether Tap to Pay on iPhone has been activated yet for the current merchant. 
+* If it has not yet been activated then you should trigger activation by calling `presentTapToPayActivation` at a convenient time. Calling it more than once will still show the user education screens each time. Independently, the activation from the initial setup will remain valid.
+
+Code example: checking availability and activation status
+
+Objective-C
+
+```obj-c
+[SMPSumUpSDK checkTapToPayAvailability:^(BOOL isAvailable, BOOL isActivated, NSError * _Nullable error) {
+    if (error == nil) {
+        if (!isAvailable) {
+            // Tap to Pay on iPhone is not available for the merchant
+            return;
+        }
+
+        if (!isActivated) {
+            // Tap to Pay on iPhone needs activation - call presentTapToPayActivation
+            return;
+        }
+
+    // The app is ready to take Tap to Pay on iPhone payments!
+
+    } else {
+        // An error occurred
+    }
+}];
+```
+
+Swift
+
+```swift
+SumUpSDK.checkTapToPayAvailability { isAvailable, isActivated, error in
+
+    if let error {
+        // An error occurred
+        return
+    }
+
+    if !isAvailable {
+        // Tap to Pay on iPhone is not available for the merchant
+        return
+    }
+
+    if !isActivated {
+        // Tap to Pay on iPhone needs activation - call presentTapToPayActivation
+        return
+    }
+
+    // The app is ready to take Tap to Pay on iPhone payments!
+}
+```
+
+### Do the checkout
+
+* Use the initializer of `SMPCheckoutRequest`/`CheckoutRequest` that takes a `paymentMethod` parameter, and specify `SMPPaymentMethodTapToPay`/`tapToPay`:
+
+Objective-C
+
+```objc
+SMPCheckoutRequest request = [SMPCheckoutRequest requestWithTotal:total
+                                                            title:itemDescription
+                                                     currencyCode:SMPSumUpSDK.currentMerchant.currencyCode
+                                                    paymentMethod:SMPPaymentMethodTapToPay];
+```
+
+Swift
+
+```swift
+let request = CheckoutRequest(total: total, 
+                              title: itemDescription,
+                              currencyCode: SumUpSDK.currentMerchant?.currencyCode,
+                              paymentMethod: .tapToPay)
+```
+
+* The rest of the checkout process is the same as when using a card reader.
+
+### Background initialization
+
+When `SMPSumUpSDK` initializes, it triggers a background initialization process. This can take about 10-15 seconds and must be completed before the first Tap to Pay on iPhone card-read can occur. If the user quickly initiates a transaction after your app launches, it may take longer than usual as it first waits for the initialization to complete. For subsequent transactions, however, (until the app is relaunched) this delay should not happen.
+
+### Card Verification Method
+
+Tap to Pay on iPhone supports contactless payments with physical cards or wallets (eg. Apple or Google Pay).
+When accepting payments with physical cards, additional card holder verification in a form of PIN may be required. In the majority of such cases, the UI will display a PIN pad where the customer can enter and confirm the digits. 
+However, not every physical card allows this type of PIN processing. Some can only be processed by inserting the card into a physical card reader, which is not possible in the case of Tap to Pay on iPhone. 
+In such an instance, the merchant should ask the customer to try a different card or payment method.
+
+### Best practices
+
+* Follow the [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/tap-to-pay-on-iphone) to save time when Apple reviews your app. 
+* Also consider [Apple’s marketing guidelines](https://developer.apple.com/tap-to-pay/marketing-guidelines/) and use standard assets where possible. 
+
+### Known issues
+
+* If entitlements are not correctly set up in your app, `presentTapToPayActivation` may show an error Alert with "Failed to show Terms of Service".
+* Bluetooth permissions will be requested even if the merchant does not plan to use any of the SumUp Bluetooth  card readers. This will be fixed in an upcoming release.
+* Businesses using SumUp sub-accounts must first activate the feature on their main account before using it on devices logged in with sub-accounts, otherwise an error message will appear during activation for the sub-account user.
+* The `title` field in `SMPCheckoutRequest` does not currently appear on receipts.
 
 ## Out of Scope
 The following functions are handled by the [SumUp APIs](http://docs.sumup.com/rest-api/):

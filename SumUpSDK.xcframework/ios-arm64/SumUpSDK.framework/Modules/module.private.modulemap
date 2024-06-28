@@ -1,0 +1,7 @@
+framework module SumUpSDK_Private {
+
+    header "PECPaymentManagerPrivate.h"
+    header "SMPSumUpTapNavigationAdapter.h"
+
+    export *
+}

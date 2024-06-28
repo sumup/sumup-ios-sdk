@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 6.0.0
+
+* [ADDED] New payment method: Tap to Pay on iPhone
+* [ADDED] New `paymentMethod` property on `SMPCheckoutRequest`. This defaults to `cardReader` but may be set to `tapToPay`.
+* [REMOVED] `SMPPaymentOptions` was deleted. This was previously deprecated and is no longer used.
+* [IMPROVEMENTS] Minor fixes for unified Black and White theme
+
 ## Version 5.0.0
 
 * [ADDED] Support for the Solo Lite card reader

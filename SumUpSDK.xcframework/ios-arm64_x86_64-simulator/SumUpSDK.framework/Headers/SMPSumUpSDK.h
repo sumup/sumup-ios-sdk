@@ -139,6 +139,55 @@ NS_SWIFT_NAME(SumUpSDK)
                                             animated:(BOOL)animated
                                           completion:(nullable SMPCompletionBlock)block;
 
+#pragma mark - Tap to Pay on iPhone
+
+/**
+ *  Checks whether the Tap to Pay on iPhone payment method is available for the current merchant and whether or
+ *  not it requires activation to be performed via a call to
+ *  `presentTapToPayActivationFromViewController:animated:completionBlock:`.
+ *
+ *  For the merchant to be able to use this payment method the following must be true:
+ *
+ *    - The feature must be available in the merchant's country
+ *
+ *    - It must be activated. This is where the merchant's Apple ID is linked with their SumUp account and the 
+ *      iPhone is prepared to work as a card reader. As this can take a minute or so the first time, the
+ *      merchant is shown a UI that introduces them to the feature as it initializes in the background.
+ *
+ *  The merchant must be logged in before you call this method.
+ *
+ *  @param availability YES if the feature is available for the current merchant and it's OK to start activation.
+ *  @param isActivated  YES if activation has already been done for this device and merchant account
+ */
++ (void)checkTapToPayAvailability:(void (^ _Nonnull)(BOOL isAvailable, BOOL isActivated, NSError * _Nullable error))block NS_SWIFT_NAME(checkTapToPayAvailability(completion:));
+
+/**
+ *  Performs activation for Tap to Pay on iPhone. This prepares the device, introduces the merchant to the
+ *  feature and links their Apple ID to their SumUp account (which will require confirmation from the merchant.)
+ *
+ *  Call `checkTapToPayAvailability:` before calling this method to find out if this payment method is available
+ *  and if activation is needed.
+ *
+ *  The merchant must be logged in before you call this method.
+ *
+ *  Tap to Pay on iPhone requirements:
+ *
+ *  - The hosting app must have the `com.apple.developer.proximity-reader.payment.acceptance`
+ *    entitlement.
+ *
+ *  - The merchant must have an iPhone XS or later with iOS 16.4 or later (iOS 17 or later recommended.)
+ *    The feature does not work with iPads.
+ *
+ *  @param fromViewController The UIViewController instance from which the UI should be presented modally.
+ *  @param animated           Pass YES to animate the transition.
+ *  @param block              The completion block is called after the view controller has been dismissed.
+ */
++ (void)presentTapToPayActivationFromViewController:(UIViewController *)fromViewController
+                                           animated:(BOOL)animated
+                                    completionBlock:(nullable SMPCompletionBlock)block;
+
+#pragma mark - Misc
+
 /**
  *  This method does not do anything. It will be removed in a future release.
  */
@@ -170,11 +219,25 @@ typedef NS_ENUM(NSInteger, SMPSumUpSDKError) {
     /// The currency code specified in the checkout request does not match that of the current merchant.
     SMPSumUpSDKErrorCheckoutCurrencyCodeMismatch   = 52,
     /// The foreign transaction ID specified in the checkout request has already been used.
-    SMPSumUpSDKErrorDuplicateForeignID   = 53,
+    SMPSumUpSDKErrorDuplicateForeignID             = 53,
     /// The access token is invalid. Login to get a valid access token.
-    SMPSumUpSDKErrorInvalidAccessToken   = 54,
+    SMPSumUpSDKErrorInvalidAccessToken             = 54,
     /// The amount entered contains invalid number of decimals.
-    SMPSumUpSDKErrorInvalidAmountDecimals   = 55,
+    SMPSumUpSDKErrorInvalidAmountDecimals          = 55,
+    /// Tap to Pay on iPhone payment method is not available for the current merchant. This may be
+    /// because the payment method is not available in their country.
+    SMPSumUpSDKErrorTapToPayNotAvailable           = 100,
+    /// Tap to Pay on iPhone: activation is required. Call `presentTapToPayActivationFromViewController:animated:completionBlock:`.
+    SMPSumUpSDKErrorTapToPayActivationNeeded       = 101,
+    /// Tap to Pay on iPhone: an unspecified error occurred
+    SMPSumUpSDKErrorTapToPayInternalError          = 102,
+    /// Tap to Pay on iPhone requires an iPhone XS or later and does not work on iPads.
+    SMPSumUpSDKErrorTapToPayMinHardwareNotMet      = 103,
+    /// Tap to Pay on iPhone requires a newer version of iOS; please check the documentation for the
+    /// minimum supported version.
+    SMPSumUpSDKErrorTapToPayiOSVersionTooOld       = 104,
+    /// Tap to Pay on iPhone has some other (unspecified) requirement(s) that are not met.
+    SMPSumUpSDKErrorTapToPayRequirementsNotMet     = 105,
 } NS_SWIFT_NAME(SumUpSDKError);
 
 #pragma mark - Features

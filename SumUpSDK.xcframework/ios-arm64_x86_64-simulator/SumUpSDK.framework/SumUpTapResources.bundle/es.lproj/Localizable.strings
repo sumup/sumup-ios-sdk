@@ -1,0 +1,312 @@
+/* upper label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSublabel" = "Hemos perdido la conexión con el servidor de SumUp";
+
+/* lower label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSubsublabel" = "Antes de intentarlo de nuevo, comprueba el estado de este pago en tu Historial de ventas.";
+
+/* title in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearTitle" = "Error de conexión";
+
+"sumup_btn_cancel" = "Cancelar";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Hecho";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Siguiente";
+
+"sumup_btn_ok" = "Aceptar";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Cerrar";
+
+"sumup_tap_activation_continue_button" = "Continuar";
+
+"sumup_tap_activation_finished_btn_learn_more" = "Learn more";
+
+"sumup_tap_activation_finished_btn_try_now" = "Try now";
+
+"sumup_tap_activation_finished_subtitle" = "Start taking contactless payments with your iPhone";
+
+"sumup_tap_activation_finished_title" = "You're all set";
+
+"sumup_tap_activation_intro_btn_set_up_now" = "Configurar ahora";
+
+"sumup_tap_activation_intro_btn_start" = "Comenzar";
+
+"sumup_tap_activation_intro_new_subtitle" = "Start accepting in-person, contactless payments with only an iPhone.";
+
+"sumup_tap_activation_intro_new_title" = "Vende en cualquier lugar.\nNo se necesita datáfono.";
+
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay en iPhone";
+
+"sumup_tap_activation_intro_subtitle" = "Set up Tap to Pay on iPhone to take quick and secure payments";
+
+"sumup_tap_activation_intro_table_first_row" = "iPhone XS o más reciente";
+
+"sumup_tap_activation_intro_table_second_row" = "iOS 16.4 o superior";
+
+"sumup_tap_activation_intro_table_third_row" = "Código activado";
+
+"sumup_tap_activation_intro_table_title" = "¿Qué se necesita?";
+
+"sumup_tap_activation_intro_title" = "Tap to Pay on iPhone.\nNo card reader needed.";
+
+"sumup_tap_activation_learn_more_button" = "Más información";
+
+"sumup_tap_activation_learn_more_title" = "About Tap to Pay on iPhone";
+
+"sumup_tap_activation_preparing_subtitle" = "Un momento, por favor…";
+
+"sumup_tap_activation_preparing_title" = "Preparándolo todo";
+
+"sumup_tap_activation_setup_button" = "Configurar";
+
+"sumup_tap_capture_pin_failed" = "Failed to obtain PIN";
+
+"sumup_tap_card_declined" = "The payment failed or was declined";
+
+"sumup_tap_enable_subtitle" = "Mostrar como forma de pago al cobrar.";
+
+"sumup_tap_enable_toggle" = "Tap to Pay on iPhone";
+
+"sumup_tap_error_title" = "Error";
+
+"sumup_tap_failed_to_read_card" = "Card read failed";
+
+"sumup_tap_finalizing_tx" = "Finalizing";
+
+"sumup_tap_home_button" = "Comenzar";
+
+"sumup_tap_home_title" = "Accept contactless payments with only your iPhone";
+
+"sumup_tap_learn_more_accessibility" = "Opciones de accesibilidad";
+
+"sumup_tap_learn_more_at_checkout" = "En el pago, selecciona\n \"Tap to Pay en iPhone\".";
+
+"sumup_tap_learn_more_btn_set_up_now" = "Configurar ahora";
+
+"sumup_tap_learn_more_customer_enters_pin" = "Customer enters their PIN. Use accessibility options if needed.";
+
+"sumup_tap_learn_more_enter_card_pin" = "Introducir PIN de la tarjeta";
+
+"sumup_tap_learn_more_hold_here_to_pay" = "Mantener aquí para pagar";
+
+"sumup_tap_learn_more_hold_near_contactless" = "Or to hold their device near the contactless symbol";
+
+"sumup_tap_learn_more_pay_flower_shop" = "Pay Flower Shop";
+
+"sumup_tap_learn_more_payment_links" = "Enlaces de pago";
+
+"sumup_tap_learn_more_payment_methods" = "Formas de pago";
+
+"sumup_tap_learn_more_present_to_customer" = "Ask your customer to hold their card as shown";
+
+"sumup_tap_learn_more_price" = "€ 17,50";
+
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay en iPhone";
+
+"sumup_tap_link_account_failed" = "Failed to show Terms of Service";
+
+"sumup_tap_model_check_alert_message" = "You need an iPhone XS or later to use this feature";
+
+"sumup_tap_model_check_alert_title" = "iPhone model";
+
+"sumup_tap_must_accept_tos" = "Please accept the Terms of Service to use SumUp Tap";
+
+"sumup_tap_must_enable_passcode" = "The security passcode for this phone must be enabled to use Tap to Pay on iPhone";
+
+"sumup_tap_not_allowed_during_call" = "Please end all calls before using Tap to Pay on iPhone";
+
+"sumup_tap_on_phone_android_version_success_title" = "Versión de Android";
+
+"sumup_tap_on_phone_android_version_warning_description" = "Se necesita versión 8.0 o superior";
+
+"sumup_tap_on_phone_android_version_warning_title" = "Versión de Android no compatible";
+
+"sumup_tap_on_phone_app_version_title" = "Versión de la SumUp App";
+
+"sumup_tap_on_phone_app_version_warning_description" = "Pulsa para actualizar";
+
+"sumup_tap_on_phone_btn_retry" = "Reintentar";
+
+"sumup_tap_on_phone_cancel_message" = "Para cancelar tu transacción, fuerza el cierre de la SumUp App.";
+
+"sumup_tap_on_phone_connection_lost" = "Se ha perdido la conexión";
+
+"sumup_tap_on_phone_developer_options_check_success_title" = "Opciones de desarrollador";
+
+"sumup_tap_on_phone_developer_options_check_warning_description" = "Pulsa para desactivar";
+
+"sumup_tap_on_phone_developer_options_check_warning_title" = "Opciones de desarrollador activadas";
+
+"sumup_tap_on_phone_failed_message" = "Algo ha salido mal. Inténtalo más tarde o ponte en contacto con nuestro equipo de atención a clientes.";
+
+"sumup_tap_on_phone_feature_description" = "Acepta pagos con tu teléfono móvil sin necesidad de un datáfono. Tap to Pay estará disponible como forma de pago durante el pago.";
+
+"sumup_tap_on_phone_feature_enabled_with_warnings_description" = "Para hacer transacciones con Tap to Pay, revisa los problemas marcados en rojo a continuación.";
+
+/* Title of the guide box when find antenna failed */
+"sumup_tap_on_phone_find_antenna_box_failed_title" = "No he encontrado la antena. Inténtalo de nuevo.";
+
+/* Title of the guide box when find antenna starts */
+"sumup_tap_on_phone_find_antenna_box_follow_title" = "Sigue este cuadro con una tarjeta en la parte trasera de tu teléfono.";
+
+/* Title of the guide box before starting on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_box_initial_title" = "Este cuadro se moverá lentamente hacia abajo y hacia arriba en la pantalla. Síguelo con una tarjeta por la parte trasera del teléfono. <strong>No se aplicará ningún cargo.</strong> Toca \"Empezar\" cuando esté todo listo.";
+
+/* Title of the guide box body when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_body" = "Para asegurarte de que los pagos siempre se completen, <strong>pide a tus clientes que toquen con su tarjeta en este punto de la parte trasera de tu teléfono.</strong> Si lo tienes todo listo, acepta un pago.";
+
+/* Title of the guide box header when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_header" = "¡Has encontrado la antena!";
+
+/* Title of the find antenna tutorial screen when attempts limit reached */
+"sumup_tap_on_phone_find_antenna_contact_support_title" = "No encuentro la antena. Ponte en contacto con Ayuda de SumUp para obtener ayuda.";
+
+/* Title of the cancel CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Cancelar";
+
+/* Title of the contact support CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_contact_support" = "Contactar con Ayuda";
+
+/* Title of the finish CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_finish" = "Finalizar";
+
+/* Title of the start CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_start" = "Empezar";
+
+/* Title of the take a payment CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_take_a_payment" = "Aceptar un pago";
+
+/* Title of the try again CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_try_again" = "Intentarlo de nuevo";
+
+"sumup_tap_on_phone_google_services_title" = "Servicios de Google";
+
+"sumup_tap_on_phone_loading_description" = "Convirtiendo tu teléfono en un dispositivo de pagos. Solo llevará un minuto.";
+
+"sumup_tap_on_phone_loading_message" = "Iniciando Tap to Pay";
+
+"sumup_tap_on_phone_loading_title" = "Preparándolo todo";
+
+"sumup_tap_on_phone_nfc_error_title" = "NFC no disponible";
+
+"sumup_tap_on_phone_nfc_success_title" = "NFC activado";
+
+"sumup_tap_on_phone_nfc_warning_description" = "Pulsa para activar";
+
+"sumup_tap_on_phone_nfc_warning_title" = "NFC no activado";
+
+"sumup_tap_on_phone_title" = "Tap to Pay";
+
+/* Title of the android version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_android_version_requirement" = "Android 8 o superior instalado";
+
+/* Title of the app version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_app_version_requirement" = "Última versión de la SumUp App";
+
+/* Title of the body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_body" = "Usa tu teléfono para aceptar pagos con tarjeta contactless y monedero digital con Tap to Pay en Android y la SumUp App.";
+
+/* Title of CTA on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_cta_title" = "Configurar ahora";
+
+/* Title of the developer tools requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_developer_tools_requirement" = "\"Opciones de desarrollador\" desactivadas";
+
+/* Title of the google services requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_google_services_requirement" = "Servicios de Google activados";
+
+/* Title of the header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_header" = "Todo lo que necesitas para aceptar pagos está en tu mano";
+
+/* Title of the NFC requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_nfc_requirement" = "NFC activado (en los ajustes del teléfono)";
+
+/* Title of the requirements header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_requirements_header" = "Requisitos";
+
+/* Title of the alert dialog body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_body" = "Para continuar con la configuración, asegúrate de que el teléfono cumple con los requisitos de uso de Tap to Pay.";
+
+/* Title of the alert dialog header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_header" = "Requisitos del sistema";
+
+/* Title of the CTA on tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_cta" = "Configurar ahora";
+
+/* Title of the tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_title" = "Acepta pagos contactless con solo el teléfono";
+
+"sumup_tap_on_phone_update_app_message" = "Actualiza tu SumUp App para usar Tap to Pay.";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_find_antenna" = "Buscar antena NFC";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_next" = "Siguiente";
+
+/* Title of the CTA to turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_turn_on_ttp" = "Activar ahora";
+
+/* Title of the step customer tap card on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_customer_tap_card" = "El cliente toca con su tarjeta la antena NFC de la parte posterior de tu teléfono para completar la venta.";
+
+/* Title of the step find antenna on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_find_antenna" = "¿No tienes claro dónde está la antena? Dedica un minuto a buscarla.";
+
+/* Title of the step select payment method on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_select_payment" = "En el pago, selecciona \"Tap to Pay\" como forma de pago";
+
+/* Title of the step turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_turn_on_ttp" = "Activa \"Tap to Pay\" ahora o más adelante en tu perfil SumUp";
+
+"sumup_tap_os_check_alert_message" = "You need iOS version %1$@ or later to use this feature";
+
+"sumup_tap_os_check_alert_settings_button" = "Ajustes";
+
+"sumup_tap_os_check_alert_title" = "OS version";
+
+"sumup_tap_prepare_failed" = "Failed to start Apple Tap to Pay";
+
+"sumup_tap_prereq_app_version" = "Versión de la SumUp App";
+
+"sumup_tap_prereq_app_version_cta" = "Open app store";
+
+"sumup_tap_prereq_apple_tap_to_pay" = "'Tap to Pay' services";
+
+"sumup_tap_prereq_device_model" = "iPhone model";
+
+"sumup_tap_prereq_device_model_cta" = "Más información";
+
+"sumup_tap_prereq_os_version" = "iOS version";
+
+"sumup_tap_prereq_os_version_cta" = "Open iOS settings";
+
+"sumup_tap_prereq_terms_of_service" = "Terms of service";
+
+"sumup_tap_prereq_terms_of_service_cta" = "Review terms of service";
+
+"sumup_tap_processing_tx" = "Procesando";
+
+"sumup_tap_profile_settings_item" = "Tap to Pay on iPhone";
+
+"sumup_tap_profile_settings_title" = "Tap to Pay on iPhone";
+
+"sumup_tap_proximity_reader_check_alert_message" = "Unfortunately, Apple Tap to Pay for iPhone is not available.";
+
+"sumup_tap_proximity_reader_check_alert_title" = "Apple Tap to Pay for iPhone";
+
+"sumup_tap_renewal_failed" = "Unable to renew the session";
+
+"sumup_tap_settings_learn_more" = "Learn about Tap to Pay on iPhone";
+
+"sumup_tap_settings_learn_more_title" = "Tap to Pay on iPhone";
+
+"sumup_tap_starting" = "Starting";
+
+"sumup_tap_tos_already_accepted" = "Terms of Service have already been accepted";
+
+"sumup_tap_user_cancelled" = "The transaction was cancelled by the user";
+

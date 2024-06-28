@@ -11,11 +11,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_OPTIONS (NSUInteger, SMPPaymentOptions) {
-    SMPPaymentOptionAny = 0,
-    SMPPaymentOptionCardReader = 1 << 0,
-    SMPPaymentOptionMobilePayment = 1 << 1,
-} NS_SWIFT_NAME(PaymentOptions);
+typedef NS_ENUM(NSInteger, SMPPaymentMethod) {
+    SMPPaymentMethodCardReader = 0,
+    SMPPaymentMethodTapToPay = 1,
+} NS_SWIFT_NAME(PaymentMethod);
 
 /// Encapsulates all information that is necessary during a checkout with the SumUp SDK.
 NS_SWIFT_NAME(CheckoutRequest)
@@ -24,27 +23,23 @@ NS_SWIFT_NAME(CheckoutRequest)
 /**
  *  Creates a new checkout request.
  *
- *  Be careful when creating the NSDecimalNumber to not
- *  falsely use the NSNumber class creator methods.
- *  Use SMPPaymentOptionAny to not put restrictions on the desired payment types.
+ *  Be careful when creating the NSDecimalNumber to not falsely use the NSNumber class creator methods.
  *
  *  @param totalAmount The total amount to be charged to a customer. Cannot be nil.
  *  @param title An optional title to be displayed in the merchant's history and on customer receipts.
  *  @param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Cannot be nil, has to match the currency of the merchant logged in. Use [[[SMPSumUpSDK currentMerchant] currencyCode] and ensure its length is not 0.
- *  @param paymentOptions Payment options to choose a payment type(card reader, mobile payment...)
  *
  *  @return A new request object or nil if totalAmount or currencyCode are nil.
  */
 + (SMPCheckoutRequest *)requestWithTotal:(NSDecimalNumber *)totalAmount
                                    title:(nullable NSString *)title
                             currencyCode:(NSString *)currencyCode
-                          paymentOptions:(SMPPaymentOptions)paymentOptions __deprecated_msg("Payment options will be ignored and default to .any. Options presented will be governed by merchant settings. Please use requestWithTotal:title:currencyCode: instead.");
+                           paymentMethod:(SMPPaymentMethod)paymentMethod;
 
 /**
- *  Creates a new checkout request.
+ *  Creates a new checkout request using a card reader as the method of payment.
  *
- *  Be careful when creating the NSDecimalNumber to not
- *  falsely use the NSNumber class creator methods.
+ *  Be careful when creating the NSDecimalNumber to not falsely use the NSNumber class creator methods.
  *
  *  @param totalAmount The total amount to be charged to a customer. Cannot be nil.
  *  @param title An optional title to be displayed in the merchant's history and on customer receipts.
@@ -76,9 +71,6 @@ NS_SWIFT_NAME(CheckoutRequest)
  *  requestWithTotal:title:currencyCode:
  */
 @property (nonatomic, readonly, nullable) NSString *currencyCode;
-
-/// Payment options to choose a payment type
-@property (nonatomic, readonly) SMPPaymentOptions paymentOptions __deprecated_msg("Payment options will be ignored and default to .any");
 
 /**
  *  An (optional) ID to be associated with this transaction.
@@ -134,13 +126,19 @@ NS_SWIFT_NAME(CheckoutRequest)
  */
 @property (nonatomic) NSUInteger saleItemsCount;
 
-
 /**
  *  An optional flag to skip the confirmation screen in checkout.
  *  If set, the checkout will be dismissed w/o user interaction.
  *  Default is SMPSkipScreenOptionNone.
  */
 @property (nonatomic) SMPSkipScreenOptions skipScreenOptions;
+
+/**
+ *  The method of payment to use during checkout; for example, a bluetooth-connected card reader, or Tap to Pay on iPhone.
+ *
+ *  Defaults to `SMPPaymentMethodCardReader`.
+ */
+@property (nonatomic) SMPPaymentMethod paymentMethod;
 
 @end
 

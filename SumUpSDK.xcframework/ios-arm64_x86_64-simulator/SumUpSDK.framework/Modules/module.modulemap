@@ -4,3 +4,8 @@ framework module SumUpSDK {
 
   module * { export * }
 }
+
+module SumUpSDK.Swift {
+  header "SumUp-GeneratedHeader-Swift.h"
+  requires objc
+}
