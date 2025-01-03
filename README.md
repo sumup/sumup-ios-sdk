@@ -140,7 +140,7 @@ Requirement: Xcode 12 beta 6 (swift-tools-version:5.3)
 
 1. Add the package dependency to the repository `https://github.com/sumup/sumup-ios-sdk` (*File > Swift Packages > Add Package Dependency...*) with the version `Up to Next Major: 4.0.0`
 2. Leave the checkbox unchecked for the SumUpSDK at the integration popup (*Add Package to ...:*)
-![Swift PM - do not auto-integrate SDK](README/setup_swiftpm_skipautointegrate.png)
+![Swift PM - do not auto-integrate SDK](.github/assets/setup_swiftpm_skipautointegrate.png)
 3. From the Project Navigator, drag and drop the `SumUpSDK/Referenced Binaries/SumUpSDK.xcframework` to your Xcode project's "Frameworks, Libraries, and Embedded Content" on the General settings tab.
 4. Make sure the [required Info.plist keys](#privacy-info-plist-keys) are present.
 
