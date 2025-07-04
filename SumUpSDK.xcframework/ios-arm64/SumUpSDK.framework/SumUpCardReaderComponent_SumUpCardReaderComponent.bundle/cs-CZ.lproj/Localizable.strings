@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Terminál";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Aktivovat Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Přijímat platby s terminálem";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Přijímat platby přes Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Zobrazit jako způsob platby při placení";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Začít s karetními platbami";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Připojit terminál";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Začít s karetními platbami";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Začněte s terminálem Solo";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Přejít na jiný terminál";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Rescan";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Zavolat nyní";
+
+"sumup_btn_cancel" = "Zrušit";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Připojit";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Odstranit";
+
+"sumup_btn_dismiss" = "OK";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Hotovo";
+
+"sumup_btn_edit" = "Upravit";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Dokončit";
+
+"sumup_btn_go_to_support" = "Přejít na podporu";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Později";
+
+"sumup_btn_new_set_up" = "Nové nastavení";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Dále";
+
+"sumup_btn_no" = "Ne";
+
+"sumup_btn_not_my_reader" = "Nejedná se o můj terminál";
+
+"sumup_btn_ok" = "OK";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Zaplatit";
+
+"sumup_btn_previous" = "Předchozí";
+
+"sumup_btn_proceed" = "Dále";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Vyhledat znovu";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Opakovat";
+
+"sumup_btn_scan" = "Vyhledávat";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Odeslat";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Poslat na mobilní telefon";
+
+"sumup_btn_skip" = "Přeskočit";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Zkusit znovu";
+
+"sumup_btn_update" = "Aktualizovat";
+
+"sumup_btn_yes" = "Ano";
+
+"sumup_btn_yes_connect" = "Ano, zapnout";
+
+"sumup_btn_yes_scan" = "Ano, vyhledávat";
+
+"sumup_card_reader_battery_level_label" = "Nabití baterie";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Baterie";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Software bluetooth";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Připojit";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Připojení se nezdařilo";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Zkusit znovu";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Připojení k terminálu se nezdařilo. Zkuste to znovu.";
+
+"sumup_card_reader_hardware_version_text" = "Hardware";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Poslední číslice";
+
+"sumup_card_reader_low_battery" = "Baterie je vybitá, dobijte ji";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Připojit terminál";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Začínáme s karetními platbami";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Začínáme s terminálem Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Výrobní číslo";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Přijímat platby přes terminál";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Přijímat platby přes Top / Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Zobrazit jako způsob platby při placení";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Přejít na jiný terminál";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Software";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Zavřít";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Zadejte přijatý obnos a vypočte se částka k vrácení";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Vypočítat částku k vrácení";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Platba v hotovosti";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Zobrazte hotovostní platby jako způsob platby při placení a mějte o nich přehled.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Hotovostní platby nejsou zpoplatněny.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Přijímat hotovostní platby";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Hotovostní platby";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Neznámý";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Připojování k terminálu";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Připojování";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Aktualizovat zařízení";
+
+"sumup_reader_not_found_message" = "Platební terminál %1$@ nebyl nalezen. Zkontrolujte, zda je zapnutý a nachází se poblíž.";
+
+"sumup_reader_off_and_unplugged_message" = "Zařízení je potřeba vypnout a odpojit od napájení.";
+
+"sumup_reader_off_and_unplugged_title" = "Odpojení a vypnutí";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Platba";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Platba byla zrušena";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Nastavení platebního terminálu";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Neaktivní";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Připraveno";
+

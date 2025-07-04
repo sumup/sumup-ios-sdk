@@ -1,0 +1,393 @@
+/* upper label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSublabel" = "Yhteys SumUpin palvelimeen katkesi";
+
+/* lower label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSubsublabel" = "Ennen kuin yrität uudestaan, tarkista maksun tila myyntihistoriastasi.";
+
+/* title in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearTitle" = "Yhteysvirhe";
+
+"sumup_btn_cancel" = "Peruuta";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Valmis";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Seuraava";
+
+"sumup_btn_ok" = "OK";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Sulje";
+
+/* Accessibility title for Close button of Stories component */
+"sumup_stories_component_shared_close_button_accessibility_title" = "Close";
+
+/* Button title for the error state of Stories component. Common case: trigger reload */
+"sumup_stories_component_shared_error_action_button_title" = "Reload";
+
+/* General title for error state of Stories component */
+"sumup_stories_component_shared_error_title" = "Error";
+
+/* Accessibility title for Next Story button of Stories component */
+"sumup_stories_component_shared_next_button_accessibility_title" = "Next";
+
+/* Accessibility title for Pause button of Stories component */
+"sumup_stories_component_shared_pause_button_accessibility_title" = "Pause";
+
+/* Accessibility title for Play button of Stories component */
+"sumup_stories_component_shared_play_button_accessibility_title" = "Play";
+
+/* Accessibility title for Previous Story button of Stories component */
+"sumup_stories_component_shared_previous_button_accessibility_title" = "Previous";
+
+/* Accessibility title for timeline description of Stories component */
+"sumup_stories_component_shared_timeline_description_accessibility_title" = "Playing story %1$d of %2$d";
+
+"sumup_tap_activation_continue_button" = "Jatka";
+
+"sumup_tap_activation_finished_btn_learn_more" = "Lue lisää";
+
+"sumup_tap_activation_finished_btn_try_now" = "Kokeile nyt";
+
+"sumup_tap_activation_finished_subtitle" = "Voit nyt aloittaa lähimaksujen vastaanottamisen iPhonellasi";
+
+"sumup_tap_activation_finished_title" = "Valmista tuli";
+
+"sumup_tap_activation_intro_btn_set_up_now" = "Ota käyttöön nyt";
+
+"sumup_tap_activation_intro_btn_start" = "Aloita";
+
+"sumup_tap_activation_intro_new_subtitle" = "Aloita lähimaksujen vastaanottaminen pelkällä iPhonellasi.";
+
+"sumup_tap_activation_intro_new_title" = "Myy missä tahansa.\nKortinlukijaa ei tarvita.";
+
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay iPhonella";
+
+"sumup_tap_activation_intro_subtitle" = "Hyväksy maksut nopeasti ja turvallisesti ottamalla käyttöön Tap to Pay iPhonella";
+
+"sumup_tap_activation_intro_table_first_row" = "iPhone XS tai uudempi";
+
+"sumup_tap_activation_intro_table_second_row" = "iOS 16.4 tai uudempi";
+
+"sumup_tap_activation_intro_table_third_row" = "Pääsykoodi käytössä";
+
+"sumup_tap_activation_intro_table_title" = "Mitä tarvitaan?";
+
+"sumup_tap_activation_intro_title" = "Tap to Pay iPhonella.\nKortinlukijaa ei tarvita.";
+
+"sumup_tap_activation_learn_more_button" = "Lue lisää";
+
+"sumup_tap_activation_learn_more_title" = "Tietoa Tap to Pay iPhonella ‑ominaisuudesta";
+
+"sumup_tap_activation_preparing_subtitle" = "Odota hetki…";
+
+"sumup_tap_activation_preparing_title" = "Valmistellaan";
+
+"sumup_tap_activation_setup_button" = "Määritä";
+
+"sumup_tap_capture_pin_failed" = "PIN-koodia ei saatu";
+
+"sumup_tap_card_declined" = "Maksu epäonnistui tai se hylättiin";
+
+"sumup_tap_enable_subtitle" = "Näytä maksutapana kassalla.";
+
+"sumup_tap_enable_toggle" = "Tap to Pay iPhonella";
+
+"sumup_tap_error_title" = "Virhe";
+
+"sumup_tap_failed_to_read_card" = "Kortin luku epäonnistui";
+
+"sumup_tap_finalizing_tx" = "Viimeistellään";
+
+"sumup_tap_home_button" = "Aloita nyt";
+
+"sumup_tap_home_title" = "Vastaanota lähimaksuja pelkällä iPhonellasi";
+
+"sumup_tap_learn_more_accessibility" = "Helppokäyttöisyys";
+
+"sumup_tap_learn_more_at_checkout" = "Valitse maksuvaiheessa\n”Tap to Pay iPhonella”.";
+
+"sumup_tap_learn_more_btn_set_up_now" = "Ota käyttöön nyt";
+
+"sumup_tap_learn_more_customer_enters_pin" = "Asiakas syöttää PIN-koodin. Käytä tarvittaessa helppokäyttötoimintoja.";
+
+"sumup_tap_learn_more_enter_card_pin" = "Syötä kortin PIN";
+
+"sumup_tap_learn_more_hold_here_to_pay" = "Maksa pitämällä tässä";
+
+"sumup_tap_learn_more_hold_near_contactless" = "Tai pitämään laitettaan lähimaksusymbolin lähellä";
+
+"sumup_tap_learn_more_pay_flower_shop" = "Maksa kukkakaupalle";
+
+"sumup_tap_learn_more_payment_links" = "Maksulinkit";
+
+"sumup_tap_learn_more_payment_methods" = "Maksutavat";
+
+"sumup_tap_learn_more_present_to_customer" = "Pyydä asiakasta pitämään korttiaan kuvan mukaisesti";
+
+"sumup_tap_learn_more_price" = "17,50 €";
+
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay iPhonella";
+
+"sumup_tap_link_account_failed" = "Käyttöehtoja ei voitu näyttää";
+
+"sumup_tap_model_check_alert_message" = "Tämän ominaisuuden käyttämiseen tarvitaan vähintään iPhone XS";
+
+"sumup_tap_model_check_alert_title" = "iPhonen malli";
+
+"sumup_tap_must_accept_tos" = "Hyväksy käyttöehdot voidaksesi käyttää SumUp Tapia";
+
+"sumup_tap_must_enable_passcode" = "Puhelimen tunnuskoodin tulee olla käytössä, jotta Tap to Pay iPhonella voidaan ottaa käyttöön";
+
+"sumup_tap_not_allowed_during_call" = "Lopeta kaikki puhelut ennen Tap to Pay iPhonella ‑ominaisuuden käyttämistä";
+
+/* title for the Stories component for Tap on phone */
+"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp – Tap to Pay Androidilla";
+
+"sumup_tap_on_phone_android_version_success_title" = "Android version";
+
+"sumup_tap_on_phone_android_version_warning_description" = "Requires version 8.0 or above";
+
+"sumup_tap_on_phone_android_version_warning_title" = "Android version incompatible";
+
+"sumup_tap_on_phone_app_version_title" = "SumUp App version";
+
+"sumup_tap_on_phone_app_version_warning_description" = "Tap to update";
+
+"sumup_tap_on_phone_btn_retry" = "Yritä uudelleen";
+
+"sumup_tap_on_phone_cancel_message" = "In order to cancel your transaction, please force quit the SumUp App.";
+
+"sumup_tap_on_phone_connection_lost" = "Yhteys katkesi";
+
+"sumup_tap_on_phone_developer_options_check_success_title" = "Developer options";
+
+"sumup_tap_on_phone_developer_options_check_warning_description" = "Tap to disable";
+
+"sumup_tap_on_phone_developer_options_check_warning_title" = "Developer options enabled";
+
+"sumup_tap_on_phone_failed_message" = "Jotain meni pieleen. Yritä myöhemmin uudelleen tai ota yhteyttä asiakastukitiimiimme.";
+
+"sumup_tap_on_phone_feature_description" = "Ota vastaan maksuja mobiililaitteellasi ilman kortinlukijaa. Tap to Pay on käytettävissä maksutapana kassalla.";
+
+"sumup_tap_on_phone_feature_enabled_with_warnings_description" = "Voidaksesi käyttää Tap to Pay -maksutapaa, tarkista alla olevat punaisella merkityt kohdat.";
+
+/* Title of the guide box when find antenna failed */
+"sumup_tap_on_phone_find_antenna_box_failed_title" = "Antennia ei löytynyt. Yritä uudelleen.";
+
+/* Title of the guide box when find antenna starts */
+"sumup_tap_on_phone_find_antenna_box_follow_title" = "Seuraa tätä laatikkoa puhelimen taustapuolella olevalla kortilla.";
+
+/* Title of the guide box before starting on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_box_initial_title" = "Tämä laatikko liikkuu näytössä hitaasti alas ja sitten ylös. Seuraa sitä puhelimen taustapuolella olevalla kortilla. <strong>Korttia ei veloiteta.</strong> Napauta ”Aloita”, kun olet valmis.";
+
+/* Title of the guide box body when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_body" = "<strong>Pyydä asiakkaita napauttamaan kortillaan tähän kohtaan puhelimesi taustapuolella.</strong> Näin varmistat, että maksut onnistuvat. Jos olet valmis, voit aloittaa maksujen vastaanottamisen nyt.";
+
+/* Title of the guide box header when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_header" = "Siinä se on!";
+
+/* Title of the find antenna tutorial screen when attempts limit reached */
+"sumup_tap_on_phone_find_antenna_contact_support_title" = "Ota yhteyttä SumUpin asiakastukeen, jos tarvitset apua.";
+
+/* Title of the cancel CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Peruuta";
+
+/* Title of the contact support CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_contact_support" = "Ota yhteyttä tukeen";
+
+/* Title of the finish CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_finish" = "Valmis";
+
+/* Title of the start CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_start" = "Aloita";
+
+/* Title of the take a payment CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_take_a_payment" = "Vastaanota maksu";
+
+/* Title of the try again CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_try_again" = "Yritä uudelleen";
+
+"sumup_tap_on_phone_google_services_title" = "Google services";
+
+/* Title for the Stories component for Tap to Pay on iPhone */
+"sumup_tap_on_phone_ios_landing_stories_screen_title" = "SumUp – iPhonen Tap to Pay";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_subtitle" = "Vastaanota paikan päällä suoritettavat lähimaksut suoraan iPhonellasi — et tarvitse muita kortinlukijoita tai laitteita.";
+
+/* title for Stories TTP component page one */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_title" = "Vastaanota maksuja iPhonellasi";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "Ei sitovaa sopimusta eikä kuukausimaksuja – maksat vain pienen %1$@:n välityspalkkion SumUpille jokaisesta iPhonellasi vastaanottamastasi maksusta.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_3_subtitle" = "Sinun tarvitsee vain ladata SumUp-sovellus ja suorittaa muutama helppo vaihe, niin olet valmis vastaanottamaan maksuja iPhonellasi.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your iPhone.";
+
+/* title for the Stories component CTA button for Tap on phone */
+"sumup_tap_on_phone_landing_stories_action_button_title" = "Aloita nyt";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_1_subtitle" = "Vastaanota paikan päällä suoritettavat lähimaksut suoraan älypuhelimellasi — et tarvitse muita kortinlukijoita tai laitteita.";
+
+/* title for Stories component page one */
+"sumup_tap_on_phone_landing_stories_slide_1_title" = "Hyväksy maksuja älypuhelimellasi";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "Ei sitovaa sopimusta eikä kuukausimaksuja – maksat vain pienen %1$@:n välityspalkkion SumUpille jokaisesta älypuhelimellasi vastaanottamastasi maksusta.";
+
+/* title for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_title" = "Maksuton käyttöönotto, ei sitoumuksia";
+
+/* subtitle for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_subtitle" = "Sinun tarvitsee vain ladata SumUp-sovellus ja suorittaa muutama helppo vaihe, niin olet valmis vastaanottamaan maksuja älypuhelimellasi.";
+
+/* title for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_title" = "Aloita maksujen vastaanottaminen heti";
+
+/* subtitle for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your Android phone.";
+
+/* title for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_title" = "No contracts or monthly fees";
+
+"sumup_tap_on_phone_loading_description" = "Puhelimestasi tehdään maksulaite. Tämä kestää vain hetken.";
+
+"sumup_tap_on_phone_loading_message" = "Tap to Pay ‑toiminnon käytön aloittaminen";
+
+"sumup_tap_on_phone_loading_title" = "Valmistellaan";
+
+"sumup_tap_on_phone_nfc_error_title" = "NFC not available";
+
+"sumup_tap_on_phone_nfc_success_title" = "NFC enabled";
+
+"sumup_tap_on_phone_nfc_warning_description" = "Tap to enable";
+
+"sumup_tap_on_phone_nfc_warning_title" = "NFC not enabled";
+
+/* Title of the tap on phone tutorial CTA button on the overview screen */
+"sumup_tap_on_phone_overview_tutorial_cta_title" = "Lisää Tap to Pay -toiminnosta";
+
+"sumup_tap_on_phone_title" = "Tap to Pay";
+
+/* Title of the android version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_android_version_requirement" = "Android 8 tai uudempi versio asennettuna";
+
+/* Title of the app version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_app_version_requirement" = "SumUp-sovelluksen uusin versio";
+
+/* Title of the body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_body" = "Hyväksy lähimaksukorteilla ja digitaalisilla lompakoilla tehtävät maksut puhelimellasi Tap to Pay Androidilla ja SumUp-sovelluksella.";
+
+/* Title of CTA on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_cta_title" = "Ota käyttöön nyt";
+
+/* Title of the developer tools requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_developer_tools_requirement" = "”Kehittäjätyökalut” kytkettynä pois päältä";
+
+/* Title of the google services requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_google_services_requirement" = "Google Play -palvelut kytkettynä päälle";
+
+/* Title of the header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_header" = "Kaikki mitä tarvitset maksujen vastaanottamiseen on käden ulottuvillasi";
+
+/* Title of the NFC requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_nfc_requirement" = "NFC kytkettynä päälle (puhelimen asetuksista)";
+
+/* Title of the requirements header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_requirements_header" = "Vaatimukset";
+
+/* Title of the alert dialog body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_body" = "Käyttöönoton jatkamiseksi varmista, että puhelimesi täyttää Tap to Pay -toiminnon käytön vaatimukset.";
+
+/* Title of the alert dialog header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_header" = "Järjestelmävaatimukset";
+
+/* Title of the CTA on tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_cta" = "Ota käyttöön nyt";
+
+/* Title of the tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_title" = "Ota vastaan lähimaksuja puhelimellasi";
+
+"sumup_tap_on_phone_update_app_message" = "Päivitä SumUp-sovellus voidaksesi käyttää Tap to Pay -maksutapaa.";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_find_antenna" = "Etsi NFC-antenni";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_next" = "Seuraava";
+
+/* Title of the CTA to turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_turn_on_ttp" = "Kytke päälle nyt";
+
+/* Title of the step customer tap card on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_customer_tap_card" = "Asiakas pitää korttiaan Android-puhelimesi takaosaa vasten, kunnes kuuluu äänimerkki.";
+
+/* Title of the step find antenna on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_find_antenna" = "Etkö ole varma, mihin kortti tulee asettaa? Kokeile sitä, se vie vain hetken.";
+
+/* Title of the step select payment method on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_select_payment" = "Valitse kassalla maksutavaksi ”Tap to Pay”.";
+
+/* Title of the step turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_turn_on_ttp" = "Kytke ”Tap to Pay” päälle nyt tai tee se myöhemmin SumUp-profiilissasi.";
+
+"sumup_tap_os_check_alert_message" = "Ominaisuuden käyttöön tarvitaan vähintään iOS-versio %1$@";
+
+"sumup_tap_os_check_alert_settings_button" = "Asetukset";
+
+"sumup_tap_os_check_alert_title" = "Käyttöjärjestelmän versio";
+
+"sumup_tap_prepare_failed" = "Tap to Pay iPhonella ei käynnistynyt";
+
+"sumup_tap_prereq_app_version" = "SumUp-sovelluksen versio";
+
+"sumup_tap_prereq_app_version_cta" = "Avaa App Store";
+
+"sumup_tap_prereq_apple_tap_to_pay" = "Tap to Pay ‑palvelut";
+
+"sumup_tap_prereq_device_model" = "iPhonen malli";
+
+"sumup_tap_prereq_device_model_cta" = "Lisätietoja";
+
+"sumup_tap_prereq_os_version" = "iOS-versio";
+
+"sumup_tap_prereq_os_version_cta" = "Avaa iOS-asetukset";
+
+"sumup_tap_prereq_terms_of_service" = "Käyttöehdot";
+
+"sumup_tap_prereq_terms_of_service_cta" = "Lue käyttöehdot";
+
+"sumup_tap_processing_tx" = "Käsittelyssä";
+
+"sumup_tap_profile_settings_item" = "Tap to Pay iPhonella";
+
+"sumup_tap_profile_settings_title" = "Tap to Pay iPhonella";
+
+"sumup_tap_proximity_reader_check_alert_message" = "Valitettavasti Tap to Pay iPhonella ei ole käytettävissä.";
+
+"sumup_tap_proximity_reader_check_alert_title" = "Tap to Pay iPhonella";
+
+"sumup_tap_reader_busy" = "Ei käytettävissä juuri nyt. Yritä myöhemmin uudelleen";
+
+"sumup_tap_renewal_failed" = "Istuntoa ei voida uusia";
+
+"sumup_tap_settings_learn_more" = "Tutustu Tap to Pay iPhonella ‑ominaisuuteen";
+
+"sumup_tap_settings_learn_more_title" = "Tap to Pay iPhonella";
+
+"sumup_tap_starting" = "Käynnistyy";
+
+"sumup_tap_subaccount_check_alert_message" = "Valitettavasti työntekijätililläsi ei ole oikeuttaa ottaa käyttöön Tap to Pay ‑maksutapaa.\n\nPyydä SumUp-tilin omistajaa suorittamaan käyttöönotto ja yritä sitten uudelleen.";
+
+"sumup_tap_subaccount_check_alert_title" = "Käyttöönottoa ei voi suorittaa työntekijätilillä";
+
+"sumup_tap_tos_already_accepted" = "Käyttöehdot on jo hyväksytty";
+
+"sumup_tap_user_cancelled" = "Käyttäjä peruutti maksutapahtuman";
+

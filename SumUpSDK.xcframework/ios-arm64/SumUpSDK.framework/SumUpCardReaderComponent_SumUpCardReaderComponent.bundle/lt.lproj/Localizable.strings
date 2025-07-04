@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Kortelių skaitytuvas";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Aktyvuokite „Total“ / „Super“ / „On“";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Priimti mokėjimus skaitytuvu";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Atsiskaitymo metu rodyti šį mokėjimo būdą";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Priimkite mokėjimus kortele";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Prijungti skaitytuvą";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Priimkite mokėjimus kortele";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Aktyvuokite „SumUp Solo“";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Naudoti kitą skaitytuvą";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Rescan";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Skambinti dabar";
+
+"sumup_btn_cancel" = "Atšaukti";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Prisijungti";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Ištrinti";
+
+"sumup_btn_dismiss" = "Atmesti";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Atlikta";
+
+"sumup_btn_edit" = "Redaguoti";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Pabaiga";
+
+"sumup_btn_go_to_support" = "Eiti į pagalbos tinklalapį";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Vėliau";
+
+"sumup_btn_new_set_up" = "Nustatyti iš naujo";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Toliau";
+
+"sumup_btn_no" = "Ne";
+
+"sumup_btn_not_my_reader" = "Ne mano skaitytuvas";
+
+"sumup_btn_ok" = "Gerai";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Mokėti";
+
+"sumup_btn_previous" = "Ankstesnis";
+
+"sumup_btn_proceed" = "Tęsti";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Nuskaityti iš naujo";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Bandyti dar kartą";
+
+"sumup_btn_scan" = "Skenuoti";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Siųsti";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Siųsti į mobilųjį";
+
+"sumup_btn_skip" = "Praleisti";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Bandyti dar kartą";
+
+"sumup_btn_update" = "Atnaujinti";
+
+"sumup_btn_yes" = "Taip";
+
+"sumup_btn_yes_connect" = "Taip, prijungti";
+
+"sumup_btn_yes_scan" = "Taip, skenuoti";
+
+"sumup_card_reader_battery_level_label" = "Baterijos įkrovos lygis";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Baterija";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "„Bluetooth“ programinė įranga";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Prisijungti";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Nepacyko prijungti";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Pabandyti dar kartą";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Nepavyko prisijungti prie korte lių skaitytuvo. Pabandykite dar kartą.";
+
+"sumup_card_reader_hardware_version_text" = "Aparatinė įranga";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Paskutiniai skaičiai";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Prijungti kortelių skaitytuvą";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Priimkite mokėjimus kortele";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Aktyvuokite „Top“ / „Solo“";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Serijos numeris";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Priimti mokėjimus skaitytuvu";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Pariimti mokėjimus „Top“ / „Solo“ skaitytuvu";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Atsiskaitymo metu rodyti šį mokėjimo būdą.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Naudoti kitą skaitytuvą";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Programinė įranga";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Uždaryti";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Įvedus gautą sumą, bus apskaičiuota grąža.";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Skaičiuoti grąžą";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Grynieji pinigai";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Šis būdas rodomas atsiskaitymo metu ir fiksuojami mokėjimai grynaisiais.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Mokėjimams grynaisiais pinigais netaikomas joks mokestis.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Aktyvuoti mokėjimus grynaisiais pinigais";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Mokėjimas grynaisiais pinigais";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Nežinomas įkrovimo šaltinis";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Jungiamasi prie kortelių skaitytuvo";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Jungiamasi";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Atnaujinti įrenginį";
+
+"sumup_reader_not_found_message" = "Kortelių skaitytuvo %1$@ nepavyko aptikti. Patikrinkite, ar jis įjungtas ir yra netoli.";
+
+"sumup_reader_off_and_unplugged_message" = "Būtinai įrenginį išjunkite ir ištraukite laido kištuką iš elektros lizdo.";
+
+"sumup_reader_off_and_unplugged_title" = "Ištraukite laido kištuką ir išjunkite";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Mokėjimas";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Mokėjimas atšauktas";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Sukonfigūruoti kortelių skaitytuvą";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Neaktyvus";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Paruoštas";
+

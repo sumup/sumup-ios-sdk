@@ -1,11 +1,41 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SumUpSDK",
+    "printedName": "SumUpSDK",
     "children": [
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Tiber",
+        "printedName": "Tiber",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -21,7 +51,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -31,7 +61,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -41,7 +71,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -61,7 +91,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -71,7 +101,17 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SumUpReader",
+        "printedName": "SumUpReader",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -91,7 +131,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -101,7 +141,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -111,7 +151,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -121,7 +161,17 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -151,7 +201,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -171,7 +221,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -181,7 +231,27 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Tiber",
+        "printedName": "Tiber",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -208,7 +278,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -218,7 +288,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -228,7 +298,7 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -238,13 +308,103 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Tiber",
+        "printedName": "Tiber",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SumUpReader",
+        "printedName": "SumUpReader",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Tiber",
+        "printedName": "Tiber",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
@@ -268,36 +428,8 @@
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "DeveloperToolsSupport",
-        "printedName": "DeveloperToolsSupport",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK"
       },
       {
         "kind": "TypeDecl",
@@ -320,6 +452,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -373,8 +519,206 @@
             "kind": "Conformance",
             "name": "Withable",
             "printedName": "Withable",
-            "usr": "s:14SumUpUtilities8WithableP",
-            "mangledName": "$s14SumUpUtilities8WithableP"
+            "usr": "s:19SumUpUtilitiesSwift8WithableP",
+            "mangledName": "$s19SumUpUtilitiesSwift8WithableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DispatchSource",
+        "printedName": "DispatchSource",
+        "declKind": "Class",
+        "usr": "c:objc(cs)OS_dispatch_source",
+        "moduleName": "Dispatch",
+        "isOpen": true,
+        "objc_name": "OS_dispatch_source",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)OS_dispatch_object",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Dispatch.DispatchObject",
+          "os_object.OS_object",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Withable",
+            "printedName": "Withable",
+            "usr": "s:19SumUpUtilitiesSwift8WithableP",
+            "mangledName": "$s19SumUpUtilitiesSwift8WithableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVSpeechSynthesizer",
+        "printedName": "AVSpeechSynthesizer",
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVSpeechSynthesizer",
+        "moduleName": "AVFAudio",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "AVSpeechSynthesizer",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Withable",
+            "printedName": "Withable",
+            "usr": "s:19SumUpUtilitiesSwift8WithableP",
+            "mangledName": "$s19SumUpUtilitiesSwift8WithableP"
           }
         ]
       }
@@ -383,18 +727,130 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechActivationButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 704,
+      "length": 4,
+      "value": "48.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechActivationButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 746,
+      "length": 4,
+      "value": "48.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechActivationButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 800,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechActivationButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 846,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechActivationButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 899,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Model\/TextToSpeechImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 37,
+      "value": "\"text-to-speech-activate-button-icon\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Model\/TextToSpeechImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 37,
+      "value": "\"text-to-speech-playback-button-icon\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Model\/TextToSpeechImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 35,
+      "value": "\"text-to-speech-repeat-button-icon\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Model\/TextToSpeechImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 44,
+      "value": "\"text-to-speech-repeat-button-icon-disabled\""
+    },
+    {
       "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/SumUpTap\/SumUpTapCheckoutRequestAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1573,
+      "offset": 1702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/SumUpTap\/SumUpTapCheckoutStarter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3350,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/SMPSharedResources\/Bundle+spmSharedResources.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
-      "length": 23,
-      "value": "\"SumUpSDK.SumUpTapCheckoutStarter\""
+      "offset": 283,
+      "length": 20,
+      "value": "\"SMPSharedResources\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/SMPSharedResources\/Bundle+spmSharedResources.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechPlaybackButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 284,
+      "length": 4,
+      "value": "48.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechPlaybackButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 332,
+      "length": 4,
+      "value": "48.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechPlaybackButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 385,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechPlaybackButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 442,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Views\/TextToSpeechPlaybackButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 504,
+      "length": 5,
+      "value": "-90.0"
     },
     {
       "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/SumUpTap\/AsyncNonReentrantSection.swift",
@@ -404,60 +860,95 @@
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/ci-build-temp\/ci-derived-data\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SumUpSDK\/IntermediateBuildFilesPath\/Cashier.build\/SDK_RELEASE-iphonesimulator\/SumUpSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 736,
-      "length": 14,
-      "value": "\"card_contact\""
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/PaymentCardReaderTextToSpeechInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 959,
+      "length": 2,
+      "value": "30"
     },
     {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/ci-build-temp\/ci-derived-data\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SumUpSDK\/IntermediateBuildFilesPath\/Cashier.build\/SDK_RELEASE-iphonesimulator\/SumUpSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 891,
-      "length": 18,
-      "value": "\"card_contactless\""
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/PaymentCardReaderTextToSpeechInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1891,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/ci-build-temp\/ci-derived-data\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SumUpSDK\/IntermediateBuildFilesPath\/Cashier.build\/SDK_RELEASE-iphonesimulator\/SumUpSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1038,
-      "length": 12,
-      "value": "\"card_swipe\""
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/TextToSpeechService.swift",
+      "kind": "FloatLiteral",
+      "offset": 644,
+      "length": 3,
+      "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/ci-build-temp\/ci-derived-data\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SumUpSDK\/IntermediateBuildFilesPath\/Cashier.build\/SDK_RELEASE-iphonesimulator\/SumUpSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1181,
-      "length": 13,
-      "value": "\"device_back\""
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/TextToSpeechService.swift",
+      "kind": "FloatLiteral",
+      "offset": 683,
+      "length": 3,
+      "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/ci-build-temp\/ci-derived-data\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SumUpSDK\/IntermediateBuildFilesPath\/Cashier.build\/SDK_RELEASE-iphonesimulator\/SumUpSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Model\/TextToSpeechScreens.swift",
       "kind": "StringLiteral",
-      "offset": 1327,
-      "length": 14,
-      "value": "\"device_front\""
+      "offset": 217,
+      "length": 21,
+      "value": "\"present_card_screen\""
     },
     {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/ci-build-temp\/ci-derived-data\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SumUpSDK\/IntermediateBuildFilesPath\/Cashier.build\/SDK_RELEASE-iphonesimulator\/SumUpSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Model\/TextToSpeechScreens.swift",
       "kind": "StringLiteral",
-      "offset": 1479,
-      "length": 16,
-      "value": "\"lightIndicator\""
+      "offset": 268,
+      "length": 3,
+      "value": "\"1\""
     },
     {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/ci-build-temp\/ci-derived-data\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SumUpSDK\/IntermediateBuildFilesPath\/Cashier.build\/SDK_RELEASE-iphonesimulator\/SumUpSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/Provider\/SpeechTextProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
-      "length": 10,
-      "value": "\"pindigit\""
+      "offset": 438,
+      "length": 22,
+      "value": "\"SMPSharedLocalizable\""
     },
     {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/ci-build-temp\/ci-derived-data\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SumUpSDK\/IntermediateBuildFilesPath\/Cashier.build\/SDK_RELEASE-iphonesimulator\/SumUpSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/Provider\/SpeechTextProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1766,
-      "length": 15,
-      "value": "\"pindigit_full\""
+      "offset": 545,
+      "length": 41,
+      "value": "\"sumup_text_to_speech_activation_message\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/Provider\/SpeechTextProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 42,
+      "value": "\"sumup_text_to_speech_reader_instructions\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/Provider\/SpeechTextProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 690,
+      "length": 44,
+      "value": "\"sumup_text_to_speech_solo_pin_instructions\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/Provider\/SpeechTextProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 823,
+      "length": 41,
+      "value": "\"sumup_text_to_speech_activation_message\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/Provider\/SpeechTextProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 42,
+      "value": "\"sumup_text_to_speech_reader_instructions\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/Text-to-Speech\/Service\/Provider\/SpeechTextProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 968,
+      "length": 49,
+      "value": "\"sumup_text_to_speech_solo_lite_pin_instructions\""
     }
   ]
 }

@@ -1,14 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SumUpSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SumUpSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFAudio
 import Combine
-import DeveloperToolsSupport
 import Foundation
 @_exported import SumUpSDK
 import Swift
 import SwiftUI
-import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims

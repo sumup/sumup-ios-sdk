@@ -1,5 +1,17 @@
 # SumUp iOS SDK Changelog
 
+## Version 6.1.1
+
+* [IMPROVEMENT] Faster Solo/Solo Lite Bluetooth connection when starting a transaction
+* [ADDED] Credit/debit selection and installments can now be programmatically set without needing the SumUp UI to prompt the user
+* [REMOVED] The built-in UI to prompt for credit/debit selection has been deprecated. Please migrate your app to use programmatic credit/debit selection instead.
+* [ADDED] It is now possible to cancel the transaction from within the app (Solo and Solo Lite card readers only)
+* [ADDED] Tap to Pay on iPhone now also supports Austria, Chile, Czech Republic, Finland, Hungary, Poland, Portugal, Romania, Sweden, Switzerland
+* [ADDED] Solo Lite will require secure bluetooth pairing between the mobile device and the card reader in order to pair. During a first pairing, the mobile and reader will show a 6 digit code, which must be confirmed on both devices in order to proceed.
+* [REMOVED] Minimum deployment target is now iOS 15 (was iOS 14)
+* [IMPROVEMENT] Bluetooth permissions are no longer prompted-for if only Tap to Pay on iPhone is used as a payment method
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
 ## Version 6.0.0
 
 * [ADDED] New payment method: Tap to Pay on iPhone

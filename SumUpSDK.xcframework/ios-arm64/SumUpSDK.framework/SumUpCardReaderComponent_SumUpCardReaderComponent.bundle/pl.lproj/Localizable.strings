@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Terminal płatniczy";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Aktywuj Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Stosuj terminal do płatności";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Pokazuj jako metodę podczas przyjmowania płatności";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Zacznij przyjmować płatności kartami";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Podłącz terminal";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Zacznij przyjmować płatności kartami";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Zacznij korzystać z SumUp Solo";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Zmień terminal płatniczy";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Rescan";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Zadzwoń";
+
+"sumup_btn_cancel" = "Anuluj";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Połącz";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Usuń";
+
+"sumup_btn_dismiss" = "Dalej";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Gotowe";
+
+"sumup_btn_edit" = "Zmień";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Gotowe";
+
+"sumup_btn_go_to_support" = "Przejdź do pomocy technicznej";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "później";
+
+"sumup_btn_new_set_up" = "Nowa konfiguracja";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Dalej";
+
+"sumup_btn_no" = "Nie";
+
+"sumup_btn_not_my_reader" = "Nie mój terminal";
+
+"sumup_btn_ok" = "OK";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Zapłać";
+
+"sumup_btn_previous" = "Wstecz";
+
+"sumup_btn_proceed" = "Dalej";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Wyszukaj";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Wyczyść";
+
+"sumup_btn_scan" = "Wyszukaj";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Wyślij";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Wyślij na telefon";
+
+"sumup_btn_skip" = "Dalej";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Zmień tryb";
+
+"sumup_btn_tx_failed_try_again" = "Spróbuj ponownie";
+
+"sumup_btn_update" = "Aktualizuj";
+
+"sumup_btn_yes" = "Tak";
+
+"sumup_btn_yes_connect" = "Tak, połącz";
+
+"sumup_btn_yes_scan" = "Tak, wyszukaj";
+
+"sumup_card_reader_battery_level_label" = "Poziom naładowania baterii";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Bateria";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Oprogramowanie Bluetooth";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Połącz";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Nie udało się połączyć";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Spróbuj ponownie";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Nie udało się połączyć z terminalem płatniczym. Spróbuj ponownie.";
+
+"sumup_card_reader_hardware_version_text" = "Sprzęt";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Ostatnie cyfry";
+
+"sumup_card_reader_low_battery" = "Niski poziom baterii. Naładuj urządzenie.";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Podłącz terminal płatniczy";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Zacznij przyjmować płatności kartami";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Zacznij korzystać z Top / Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Numer seryjny";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Stosuj terminal do płatności";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Przyjmuj płatności przy użyciu Top / Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Pokazuj jako metodę podczas przyjmowania płatności.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Zmień terminal płatniczy";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Oprogramowanie";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Zamknij";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Wprowadź przyjętą gotówkę, aby obliczyć należną resztę";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Oblicz resztę";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Płatność gotówką";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Pokazuj płatności gotówką jako metodę przy finalizacji, aby je monitorować.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Za płatności gotówkowe nie są pobierane żadne opłaty.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Przyjmuj płatności gotówkowe";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Płatności gotówkowe";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Nieznany";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Łączenie z terminalem płatniczym";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Łączenie";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Zaktualizuj urządzenie";
+
+"sumup_reader_not_found_message" = "Nie znaleziono terminala %1$@. Sprawdź, czy jest włączony i znajduje się w pobliżu.";
+
+"sumup_reader_off_and_unplugged_message" = "Sprawdź, czy urządzenie jest wyłączone i odłączone od zasilania.";
+
+"sumup_reader_off_and_unplugged_title" = "Wyłącz i odłącz zasilanie";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Płatność";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Płatność została anulowana";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Skonfiguruj terminal płatniczy";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Nieaktywny";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Gotowy";
+

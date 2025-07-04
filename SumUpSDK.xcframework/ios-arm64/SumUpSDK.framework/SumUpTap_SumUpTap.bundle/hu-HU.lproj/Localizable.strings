@@ -1,0 +1,393 @@
+/* upper label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSublabel" = "Elvesztettük a kapcsolatot a SumUp-kiszolgálóval";
+
+/* lower label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSubsublabel" = "Mielőtt újra próbálkozna, ellenőrizze a fizetés állapotát az Értékesítési előzmények között.";
+
+/* title in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearTitle" = "Csatlakozási hiba";
+
+"sumup_btn_cancel" = "Mégse";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Kész";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Folytatás";
+
+"sumup_btn_ok" = "OK";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Bezárás";
+
+/* Accessibility title for Close button of Stories component */
+"sumup_stories_component_shared_close_button_accessibility_title" = "Close";
+
+/* Button title for the error state of Stories component. Common case: trigger reload */
+"sumup_stories_component_shared_error_action_button_title" = "Reload";
+
+/* General title for error state of Stories component */
+"sumup_stories_component_shared_error_title" = "Error";
+
+/* Accessibility title for Next Story button of Stories component */
+"sumup_stories_component_shared_next_button_accessibility_title" = "Next";
+
+/* Accessibility title for Pause button of Stories component */
+"sumup_stories_component_shared_pause_button_accessibility_title" = "Pause";
+
+/* Accessibility title for Play button of Stories component */
+"sumup_stories_component_shared_play_button_accessibility_title" = "Play";
+
+/* Accessibility title for Previous Story button of Stories component */
+"sumup_stories_component_shared_previous_button_accessibility_title" = "Previous";
+
+/* Accessibility title for timeline description of Stories component */
+"sumup_stories_component_shared_timeline_description_accessibility_title" = "Playing story %1$d of %2$d";
+
+"sumup_tap_activation_continue_button" = "Folytatás";
+
+"sumup_tap_activation_finished_btn_learn_more" = "Bővebben";
+
+"sumup_tap_activation_finished_btn_try_now" = "Kipróbálás";
+
+"sumup_tap_activation_finished_subtitle" = "Kezdjen el érintés nélküli fizetéseket fogadni az iPhone-eszközével";
+
+"sumup_tap_activation_finished_title" = "Már kész is";
+
+"sumup_tap_activation_intro_btn_set_up_now" = "Beállítás";
+
+"sumup_tap_activation_intro_btn_start" = "Kezdés";
+
+"sumup_tap_activation_intro_new_subtitle" = "Fogadjon személyes, érintés nélküli fizetéseket az iPhone-eszközével.";
+
+"sumup_tap_activation_intro_new_title" = "Bárhol értékesíthet.\nNincs szükség kártyaolvasóra.";
+
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay iPhone-nal";
+
+"sumup_tap_activation_intro_subtitle" = "Állítsa be a Tap to Pay iPhone-nal funkciót a biztonságos fizetések gyors fogadásához";
+
+"sumup_tap_activation_intro_table_first_row" = "iPhone XS vagy újabb verzió";
+
+"sumup_tap_activation_intro_table_second_row" = "iOS 16.4 vagy újabb verzió";
+
+"sumup_tap_activation_intro_table_third_row" = "Jelkód engedélyezve";
+
+"sumup_tap_activation_intro_table_title" = "Mire van szüksége?";
+
+"sumup_tap_activation_intro_title" = "Tap to Pay iPhone-nal.\nNincs szükség kártyaolvasóra.";
+
+"sumup_tap_activation_learn_more_button" = "További információk";
+
+"sumup_tap_activation_learn_more_title" = "További információk a Tap to Pay iPhone-nal funkcióról";
+
+"sumup_tap_activation_preparing_subtitle" = "Kis türelmet kérünk…";
+
+"sumup_tap_activation_preparing_title" = "Felkészülés";
+
+"sumup_tap_activation_setup_button" = "Beállítás";
+
+"sumup_tap_capture_pin_failed" = "Hiányzó PIN-kód";
+
+"sumup_tap_card_declined" = "A fizetés sikertelen vagy elutasításra került";
+
+"sumup_tap_enable_subtitle" = "Jelenítse meg fizetési módként a fizetés során.";
+
+"sumup_tap_enable_toggle" = "Tap to Pay iPhone-nal";
+
+"sumup_tap_error_title" = "Hiba";
+
+"sumup_tap_failed_to_read_card" = "A kártya leolvasása sikertelen";
+
+"sumup_tap_finalizing_tx" = "Véglegesítés";
+
+"sumup_tap_home_button" = "Első lépések";
+
+"sumup_tap_home_title" = "Fogadjon érintés nélküli fizetéseket az iPhone-eszközével";
+
+"sumup_tap_learn_more_accessibility" = "Kisegítő lehetőségek";
+
+"sumup_tap_learn_more_at_checkout" = "A fizetéskor válassza\n a „Tap to Pay iPhone-nal” lehetőséget.";
+
+"sumup_tap_learn_more_btn_set_up_now" = "Beállítás";
+
+"sumup_tap_learn_more_customer_enters_pin" = "Az ügyfél megadja a PIN-kódot. Kisegítő lehetőségeket is használhat.";
+
+"sumup_tap_learn_more_enter_card_pin" = "PIN-kód megadása";
+
+"sumup_tap_learn_more_hold_here_to_pay" = "Tartsa ide a fizetéshez";
+
+"sumup_tap_learn_more_hold_near_contactless" = "Vagy tartsa az eszközt az érintés nélküli szimbólumhoz";
+
+"sumup_tap_learn_more_pay_flower_shop" = "Fizetés – Virágbolt";
+
+"sumup_tap_learn_more_payment_links" = "Fizetési linkek";
+
+"sumup_tap_learn_more_payment_methods" = "Fizetési módok";
+
+"sumup_tap_learn_more_present_to_customer" = "Kérje meg az ügyfelét, hogy tartsa a kártyáját a képen látható módon";
+
+"sumup_tap_learn_more_price" = "7150 Ft";
+
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay iPhone-nal";
+
+"sumup_tap_link_account_failed" = "A szolgáltatási feltételek megjelenítése sikertelen";
+
+"sumup_tap_model_check_alert_message" = "A funkció használatához iPhone XS vagy újabb eszközre van szüksége";
+
+"sumup_tap_model_check_alert_title" = "iPhone-modell";
+
+"sumup_tap_must_accept_tos" = "Fogadja el a szolgáltatási feltételeket a SumUp Tap használatához";
+
+"sumup_tap_must_enable_passcode" = "A Tap to Pay iPhone-nal funkcióval történő fizetéshez engedélyezni kell a telefon jelkódját.";
+
+"sumup_tap_not_allowed_during_call" = "Fejezze be a hívásokat a Tap to Pay iPhone-nal funkció használata előtt";
+
+/* title for the Stories component for Tap on phone */
+"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp Tap to Pay Androiddal";
+
+"sumup_tap_on_phone_android_version_success_title" = "Android version";
+
+"sumup_tap_on_phone_android_version_warning_description" = "Requires version 8.0 or above";
+
+"sumup_tap_on_phone_android_version_warning_title" = "Android version incompatible";
+
+"sumup_tap_on_phone_app_version_title" = "SumUp App version";
+
+"sumup_tap_on_phone_app_version_warning_description" = "Tap to update";
+
+"sumup_tap_on_phone_btn_retry" = "Újrapróbálkozás";
+
+"sumup_tap_on_phone_cancel_message" = "In order to cancel your transaction, please force quit the SumUp App.";
+
+"sumup_tap_on_phone_connection_lost" = "Megszakadt a kapcsolat";
+
+"sumup_tap_on_phone_developer_options_check_success_title" = "Developer options";
+
+"sumup_tap_on_phone_developer_options_check_warning_description" = "Tap to disable";
+
+"sumup_tap_on_phone_developer_options_check_warning_title" = "Developer options enabled";
+
+"sumup_tap_on_phone_failed_message" = "Hiba történt.Kérjük, próbálja meg később, vagy forduljon Ügyfélszolgálatunkhoz.";
+
+"sumup_tap_on_phone_feature_description" = "Fogadjon fizetéseket mobileszközével kártyaolvasó nélkül. A Tap to Pay elérhető lesz fizetési módként a fizetés során.";
+
+"sumup_tap_on_phone_feature_enabled_with_warnings_description" = "A Tap to Pay segítségével lebonyolított tranzakcióhoz tekintse át az alábbi, pirossal jelölt problémákat.";
+
+/* Title of the guide box when find antenna failed */
+"sumup_tap_on_phone_find_antenna_box_failed_title" = "Az antenna nem található. Próbálja újra.";
+
+/* Title of the guide box when find antenna starts */
+"sumup_tap_on_phone_find_antenna_box_follow_title" = "Kövesse ezt a mezőt egy kártyával a telefon hátulján.";
+
+/* Title of the guide box before starting on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_box_initial_title" = "Ez a mező lassan lefelé, majd felfelé mozog a képernyőn. Kövesse egy kártyával a telefon hátulján. <strong>A kártyát nem terheljük meg.</strong> Koppintson a „Kezdés” lehetőségre, ha készen áll.";
+
+/* Title of the guide box body when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_body" = "Hogy a fizetés mindig sikeres legyen, <strong>kérje meg az ügyfeleket, hogy érintsék a kártyát ehhez a helyhez a telefon hátulján</strong>. Ha készen áll, fogadjon egy fizetést most.";
+
+/* Title of the guide box header when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_header" = "Pont ott!";
+
+/* Title of the find antenna tutorial screen when attempts limit reached */
+"sumup_tap_on_phone_find_antenna_contact_support_title" = "Ha további segítségre van szüksége, forduljon a SumUp ügyfélszolgálatához.";
+
+/* Title of the cancel CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Mégse";
+
+/* Title of the contact support CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_contact_support" = "Kapcsolatfelvétel az ügyfélszolgálattal";
+
+/* Title of the finish CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_finish" = "Befejezés";
+
+/* Title of the start CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_start" = "Kezdés";
+
+/* Title of the take a payment CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_take_a_payment" = "Fizetés fogadása";
+
+/* Title of the try again CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_try_again" = "Újrapróbálkozás";
+
+"sumup_tap_on_phone_google_services_title" = "Google services";
+
+/* Title for the Stories component for Tap to Pay on iPhone */
+"sumup_tap_on_phone_ios_landing_stories_screen_title" = "SumUp Tap to Pay az iPhone-on";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_subtitle" = "Fogadjon személyes, érintés nélküli fizetéseket közvetlenül az iPhone-jával — nincs szükség további kártyaolvasóra vagy hardverre.";
+
+/* title for Stories TTP component page one */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_title" = "Fogadjon fizetéseket az iPhone-jával";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "Kötelező érvényű szerződések vagy havi díjak helyett alacsony, mindössze %1$@-os SumUp tranzakciós díjat kell fizetnie minden egyes, iPhone-jával elfogadott fizetés után.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_3_subtitle" = "A SumUp alkalmazás letöltésével és néhány egyszerű lépés végrehajtásával percek alatt készen állhat a fizetések fogadására az iPhone-jával.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your iPhone.";
+
+/* title for the Stories component CTA button for Tap on phone */
+"sumup_tap_on_phone_landing_stories_action_button_title" = "Engedélyezés";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_1_subtitle" = "Fogadjon személyes, érintés nélküli fizetéseket közvetlenül az okostelefonjával — nincs szükség további kártyaolvasóra vagy hardverre.";
+
+/* title for Stories component page one */
+"sumup_tap_on_phone_landing_stories_slide_1_title" = "Fogadjon fizetéseket az okostelefonjával";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "Kötelező érvényű szerződések vagy havi díjak helyett alacsony, mindössze %1$@-os SumUp tranzakciós díjat kell fizetnie minden egyes, okostelefonjával elfogadott fizetés után.";
+
+/* title for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_title" = "Ingyenes, kötelező szerződés nélkül";
+
+/* subtitle for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_subtitle" = "A SumUp alkalmazás letöltésével és néhány egyszerű lépés végrehajtásával percek alatt készen állhat a fizetések fogadására az okostelefonjával.";
+
+/* title for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_title" = "Kezdjen el fizetéseket fogadni azonnal";
+
+/* subtitle for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your Android phone.";
+
+/* title for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_title" = "No contracts or monthly fees";
+
+"sumup_tap_on_phone_loading_description" = "Fizetőeszközzé alakítjuk a telefonját. Ez csak egy percet vesz igénybe.";
+
+"sumup_tap_on_phone_loading_message" = "A Tap to Pay használatának megkezdése";
+
+"sumup_tap_on_phone_loading_title" = "Felkészülés";
+
+"sumup_tap_on_phone_nfc_error_title" = "NFC not available";
+
+"sumup_tap_on_phone_nfc_success_title" = "NFC enabled";
+
+"sumup_tap_on_phone_nfc_warning_description" = "Tap to enable";
+
+"sumup_tap_on_phone_nfc_warning_title" = "NFC not enabled";
+
+/* Title of the tap on phone tutorial CTA button on the overview screen */
+"sumup_tap_on_phone_overview_tutorial_cta_title" = "További információk a Tap to Pay funkcióról";
+
+"sumup_tap_on_phone_title" = "Tap to Pay";
+
+/* Title of the android version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_android_version_requirement" = "Android 8 vagy újabb";
+
+/* Title of the app version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_app_version_requirement" = "A SumUp alkalmazás legújabb verziója";
+
+/* Title of the body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_body" = "Érintés nélküli kártyákat és digitális tárcákat fogadhat az okostelefonján a Tap to Pay Androiddal funkcióval és a SumUp alkalmazásban.";
+
+/* Title of CTA on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_cta_title" = "Beállítás";
+
+/* Title of the developer tools requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_developer_tools_requirement" = "Kikapcsolt „Fejlesztői eszközök” lehetőség";
+
+/* Title of the google services requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_google_services_requirement" = "Bekapcsolt Google Play-szolgáltatások";
+
+/* Title of the header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_header" = "Minden, amire szüksége van a fizetések fogadásához, egy karnyújtásnyira";
+
+/* Title of the NFC requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_nfc_requirement" = "NFC bekapcsolva (a telefon beállításai között)";
+
+/* Title of the requirements header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_requirements_header" = "Követelmények";
+
+/* Title of the alert dialog body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_body" = "A beállítás folytatásához győződjön meg arról, hogy a telefonja megfelel a Tap to Pay funkció használati követelményeinek.";
+
+/* Title of the alert dialog header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_header" = "Rendszerkövetelmények";
+
+/* Title of the CTA on tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_cta" = "Beállítás";
+
+/* Title of the tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_title" = "Fogadjon érintés nélküli fizetéseket a telefonja segítségével";
+
+"sumup_tap_on_phone_update_app_message" = "A Tap to Pay használatához frissítse a SumUp alkalmazást.";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_find_antenna" = "NFC-antenna megkeresése";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_next" = "Tovább";
+
+/* Title of the CTA to turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_turn_on_ttp" = "Bekapcsolás";
+
+/* Title of the step customer tap card on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_customer_tap_card" = "Az ügyfél addig érintse a kártyáját az Android-eszköz hátlapjához, amíg hangjelzést nem hall.";
+
+/* Title of the step find antenna on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_find_antenna" = "Nem tudja, hova érintse a kártyát? Szánjon egy percet a tesztelésre most.";
+
+/* Title of the step select payment method on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_select_payment" = "Fizetéskor válassza fizetési módként a „Tap to Pay” lehetőséget";
+
+/* Title of the step turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_turn_on_ttp" = "Kapcsolja be a „Tap to Pay” funkciót most, vagy tegye meg később a SumUp-fiókjában";
+
+"sumup_tap_os_check_alert_message" = "A funkció használatához %1$@ vagy újabb iOS-verzióra van szüksége";
+
+"sumup_tap_os_check_alert_settings_button" = "Beállítások";
+
+"sumup_tap_os_check_alert_title" = "Operációsrendszer-verzió";
+
+"sumup_tap_prepare_failed" = "Az Apple Tap to Pay elindítása sikertelen";
+
+"sumup_tap_prereq_app_version" = "A SumUp alkalmazás verziója";
+
+"sumup_tap_prereq_app_version_cta" = "App Store";
+
+"sumup_tap_prereq_apple_tap_to_pay" = "„Tap to Pay” szolgáltatások";
+
+"sumup_tap_prereq_device_model" = "iPhone-modell";
+
+"sumup_tap_prereq_device_model_cta" = "További információk";
+
+"sumup_tap_prereq_os_version" = "iOS-verzió";
+
+"sumup_tap_prereq_os_version_cta" = "iOS-beállítások megnyitása";
+
+"sumup_tap_prereq_terms_of_service" = "Szolgáltatási feltételek";
+
+"sumup_tap_prereq_terms_of_service_cta" = "Szolgáltatási feltételek megnyitása";
+
+"sumup_tap_processing_tx" = "Feldolgozás alatt";
+
+"sumup_tap_profile_settings_item" = "Tap to Pay iPhone-nal";
+
+"sumup_tap_profile_settings_title" = "Tap to Pay iPhone-nal";
+
+"sumup_tap_proximity_reader_check_alert_message" = "Sajnos az Apple Tap to Pay iPhone-nal funkció nem érhető el.";
+
+"sumup_tap_proximity_reader_check_alert_title" = "Apple Tap to Pay iPhone-nal";
+
+"sumup_tap_reader_busy" = "Beállítás folyamatban. Próbálja újra később";
+
+"sumup_tap_renewal_failed" = "A munkamenet nem újítható meg";
+
+"sumup_tap_settings_learn_more" = "További információk a Tap to Pay iPhone-nal funkcióról";
+
+"sumup_tap_settings_learn_more_title" = "Tap to Pay iPhone-nal";
+
+"sumup_tap_starting" = "Kezdés";
+
+"sumup_tap_subaccount_check_alert_message" = "Sajnos az Ön alkalmazotti fiókja nem jogosult a Tap to Pay aktiválására.\n\nLépjen kapcsolatba a SumUp-fiók tulajdonosával, majd próbálja újra.";
+
+"sumup_tap_subaccount_check_alert_title" = "Nem aktiválható alkalmazotti fiókkal";
+
+"sumup_tap_tos_already_accepted" = "Már elfogadták a szolgáltatási feltételeket";
+
+"sumup_tap_user_cancelled" = "A felhasználó megszakította a tranzakciót";
+

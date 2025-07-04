@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Τερματικό POS";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Ενεργοποίηση Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Δεχτείτε πληρωμές με POS";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Να εμφανίζεται ως μέθοδος πληρωμής κατά την ολοκλήρωση των αγορών";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Ξεκινήστε με τις πληρωμές με κάρτα";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Σύνδεση τερματικού POS";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Ξεκινήστε με τις πληρωμές με κάρτα";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Ενεργοποίηση SumUp Top";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Μετάβαση σε άλλο τερματικό POS";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Νέα σάρωση";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Κλήση τώρα";
+
+"sumup_btn_cancel" = "Ακύρωση";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Σύνδεση";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Διαγραφή";
+
+"sumup_btn_dismiss" = "Απόρριψη";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Τέλος";
+
+"sumup_btn_edit" = "Επεξεργασία";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Τέλος";
+
+"sumup_btn_go_to_support" = "Μεταβείτε στην Υποστήριξη";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Αργότερα";
+
+"sumup_btn_new_set_up" = "Νέα ρύθμιση";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Επόμενο";
+
+"sumup_btn_no" = "Όχι";
+
+"sumup_btn_not_my_reader" = "Δεν είναι το τερματικό μου";
+
+"sumup_btn_ok" = "OK";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Πληρωμή";
+
+"sumup_btn_previous" = "Προηγούμενο";
+
+"sumup_btn_proceed" = "Συνέχεια";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Νέα σάρωση";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Νέα δοκιμή";
+
+"sumup_btn_scan" = "Σάρωση";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Αποστολή";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Αποστολή σε κινητό τηλέφωνο";
+
+"sumup_btn_skip" = "Παράβλεψη";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Δοκιμάστε ξανά";
+
+"sumup_btn_update" = "Ενημέρωση";
+
+"sumup_btn_yes" = "Ναι";
+
+"sumup_btn_yes_connect" = "Ναι, σύνδεση";
+
+"sumup_btn_yes_scan" = "Ναι, σάρωση";
+
+"sumup_card_reader_battery_level_label" = "Battery level";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Μπαταρία";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Λογισμικό Bluetooth";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Σύνδεση";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Δεν ήταν δυνατή η σύνδεση";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Δοκιμάστε ξανά";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Δεν ήταν δυνατή η σύνδεση με το τερματικό POS. Δοκιμάστε ξανά.";
+
+"sumup_card_reader_hardware_version_text" = "Υλικός εξοπλισμός";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Τελευταία ψηφία";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Σύνδεση τερματικού POS";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Ξεκινήστε με τις πληρωμές με κάρτα";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Ξεκινήστε με το Top / Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Αριθμός σειράς";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Δεχτείτε πληρωμές με τερματικό POS";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Δεχτείτε πληρωμές με το Top / Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Να εμφανίζεται ως μέθοδος πληρωμής στο ταμείο.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Μετάβαση σε άλλο τερματικό POS";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Λογισμικό";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Κλείσιμο";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Εισαγάγετε τα μετρητά που εισπράξατε για τον υπολογισμό των οφειλόμενων ρέστων";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Υπολογισμός ρέστων";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Πληρωμή με μετρητά";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Οι πληρωμές με μετρητά αποτελούν μέθοδο πληρωμής και παρακολουθούνται.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Για τις πληρωμές με μετρητά δεν υπάρχουν χρεώσεις.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Αποδοχή πληρωμών με μετρητά";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Πληρωμές με μετρητά";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Άγνωστο";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Γίνεται σύνδεση με τερματικό POS";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Γίνεται σύνδεση";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Ενημέρωση συσκευής";
+
+"sumup_reader_not_found_message" = "Το τερματικό POS %1$@ δεν βρέθηκε. Βεβαιωθείτε ότι είναι ενεργοποιημένο και κοντά σας.";
+
+"sumup_reader_off_and_unplugged_message" = "Βεβαιωθείτε ότι η συσκευή είναι απενεργοποιημένη και αποσυνδεδεμένη από την παροχή ρεύματος.";
+
+"sumup_reader_off_and_unplugged_title" = "Αποσυνδέστε και απενεργοποιήστε";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Πληρωμή";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Η πληρωμή ακυρώθηκε";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Διαμόρφωση τερματικού";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Ανενεργό";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Έτοιμο";
+

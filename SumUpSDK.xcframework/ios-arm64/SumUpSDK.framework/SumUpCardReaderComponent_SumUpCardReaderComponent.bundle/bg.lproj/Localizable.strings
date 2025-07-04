@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Терминал";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Активиране на Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Плащания с терминал";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Показване като метод на плащане при плащане";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Първи стъпки с картови плащания";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Свързване на терминал";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Първи стъпки с картови плащания";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Активиране на Top / Solo";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Промяна към друг терминал";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Търсене";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Обаждане";
+
+"sumup_btn_cancel" = "Отмяна";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Свързване";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Изтрий";
+
+"sumup_btn_dismiss" = "Отмяна";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Готово";
+
+"sumup_btn_edit" = "Редактиране";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Завърши";
+
+"sumup_btn_go_to_support" = "Обърнете се за помощ";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "По-късно";
+
+"sumup_btn_new_set_up" = "Нова настройка";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Следващ";
+
+"sumup_btn_no" = "Не";
+
+"sumup_btn_not_my_reader" = "Не е моя терминал";
+
+"sumup_btn_ok" = "Добре";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Плати";
+
+"sumup_btn_previous" = "Назад";
+
+"sumup_btn_proceed" = "Продължи";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Търсене";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Отново";
+
+"sumup_btn_scan" = "Сканиране";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Изпращане";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Изпращане като SMS";
+
+"sumup_btn_skip" = "Пропусни";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Опитайте отново";
+
+"sumup_btn_update" = "Обновяване";
+
+"sumup_btn_yes" = "Да";
+
+"sumup_btn_yes_connect" = "Да, свържи";
+
+"sumup_btn_yes_scan" = "Да, сканирай";
+
+"sumup_card_reader_battery_level_label" = "Ниво на батерията";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Батерия";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Софтуер на Bluetooth";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Свързване";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Неуспешно свързване";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Опитайте отново";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Неуспешно свързване към терминала. Моля, опитайте отново.";
+
+"sumup_card_reader_hardware_version_text" = "Хардуер";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Последни цифри";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Свързване на терминала";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Първи стъпки с картови плащания";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Активиране на Top / Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Сериен номер";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Плащания с терминал";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Применате на плащания с Top / Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Показване като метод на плащане при плащане.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Промяна към друг терминал";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Софтуер";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Затваряне";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Въведете получените пари в брой, за да изчислите дължимото ресто";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Изчисляване на ресто";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Плащане в брой";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Показване като метод на плащане и проследяване на плащанията в брой.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "При плащания в брой няма такси.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Приемане на плащания в брой";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Плащания в брой";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Unknown";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Свързване с терминала";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Свързване";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Актуализация на устройството";
+
+"sumup_reader_not_found_message" = "Терминал %1$@ не беше намерен. Уверете се, че е включен и е в близост.";
+
+"sumup_reader_off_and_unplugged_message" = "Уверете се, че терминалът е изключен и захранващият кабел е изваден от контакта.";
+
+"sumup_reader_off_and_unplugged_title" = "Извадете от контакта и изключете";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Плащане";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Плащането е отменено";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Настройка на терминала";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Неактивен";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Активен";
+

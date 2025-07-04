@@ -186,6 +186,12 @@ NS_SWIFT_NAME(SumUpSDK)
                                            animated:(BOOL)animated
                                     completionBlock:(nullable SMPCompletionBlock)block;
 
+/**
+ *  Returns the lozalized Tap To Pay on iPhone string.
+ *  For iOS versions less than 16.4, will return nil.
+ */
++ (NSString  * _Nonnull)tapToPayProductName;
+
 #pragma mark - Misc
 
 /**
@@ -224,6 +230,10 @@ typedef NS_ENUM(NSInteger, SMPSumUpSDKError) {
     SMPSumUpSDKErrorInvalidAccessToken             = 54,
     /// The amount entered contains invalid number of decimals.
     SMPSumUpSDKErrorInvalidAmountDecimals          = 55,
+    /// The processAs property of CheckoutRequest is not valid
+    SMPSumUpSDKErrorInvalidProcessAs               = 56,
+    /// The numberOfInstallments property of CheckoutRequest is not valid
+    SMPSumUpSDKErrorInvalidNumberOfInstallments    = 57,
     /// Tap to Pay on iPhone payment method is not available for the current merchant. This may be
     /// because the payment method is not available in their country.
     SMPSumUpSDKErrorTapToPayNotAvailable           = 100,
@@ -243,14 +253,29 @@ typedef NS_ENUM(NSInteger, SMPSumUpSDKError) {
 #pragma mark - Features
 
 /**
- Returns YES if the last-used card reader, if any, supports the Tip on Card Reader feature (TCR).
- TCR prompts the customer directly on the card reader's display for a tip amount, rather than
- prompting for a tip amount on the iPhone or iPad display.
- This property will equal NO if no card reader has been used before. You can optionally present
- the Checkout Preferences screen to configure a card reader before the first transaction occurs
- to avoid this.
+ *  Returns YES if the last-used card reader, if any, supports the Tip on Card Reader feature (TCR).
+ *  TCR prompts the customer directly on the card reader's display for a tip amount, rather than
+ *  prompting for a tip amount on the iPhone or iPad display.
+ *  This property will equal NO if no card reader has been used before. You can optionally present
+ *  the Checkout Preferences screen to configure a card reader before the first transaction occurs
+ *  to avoid this.
  */
 @property (class, readonly) BOOL isTipOnCardReaderAvailable;
+
+/**
+ *  `YES` if the merchant's country requires the `processAs` property to be set for each transaction.
+ *
+ *  Warning: The transaction will fail if `isProcessAsRequired` is `YES` but `processAs`on
+ *  `SMPCheckoutRequest` is `SMPProcessAsNotSet`.
+ *
+ *  When the payment method is card reader and `processAs` is `SMPProcessAsNotSet`,
+ *  for backwards-compatibility it will be automatically set to `SMPProcessAsPromptUser`.
+ *  However, `SMPProcessAsPromptUser` will be completely removed in a future version of
+ *  the SDK and transactions may start failing because `processAs` was not set.
+ *
+ *  Please migrate your code to always set `processAs` if `isProcessAsRequired` is YES.
+ */
+@property (class, readonly) BOOL isProcessAsRequired;
 
 #pragma mark - SDK Integration
 

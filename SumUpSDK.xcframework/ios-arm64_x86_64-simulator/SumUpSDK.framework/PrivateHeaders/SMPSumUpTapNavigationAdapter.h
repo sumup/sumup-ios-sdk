@@ -10,6 +10,7 @@
 
 @import UIKit;
 @import SumUpTap;
+@import ObservabilityKit;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,12 +22,13 @@ extern NSString *const SMPSumUpTapTransactionSuccessScreenNotification;
 /// Notification name constant, published when a tap transaction  fails
 extern NSString *const SMPSumUpTapTransactionFailedScreenNotification;
 
-@protocol SMPNextScreenPresenter
+@protocol SMPCheckoutFlowHandler
 - (void)presentNextScreens:(NSArray<SMPJSSignupScreen *> *)screens;
+- (void)dismissCheckoutFlow;
 @end
 
 // To work around an issue where the NavCon is not yet available at the time of initialization, we use a block and get it later.
-typedef UINavigationController<SMPNextScreenPresenter> *_Nullable(^DeferredNavigationControllerGetter)(void);
+typedef UINavigationController<SMPCheckoutFlowHandler> *_Nullable(^DeferredNavigationControllerGetter)(void);
 
 // Enables the SumUpTap framework to manipulate SMPPaymentNavigationController, navigating and controlling the checkout flow.
 @interface SMPSumUpTapNavigationAdapter : NSObject<SumUpTapNavigation>
@@ -36,13 +38,15 @@ typedef UINavigationController<SMPNextScreenPresenter> *_Nullable(^DeferredNavig
                           transactionStatusProvider:(id)transactionStatusProvider
                             checkoutRequestProvider:(id)checkoutRequestProvider
                                  notificationCenter:(NSNotificationCenter *)notificationCenter
-                                              isSDK:(BOOL)isSDK;
+                                              isSDK:(BOOL)isSDK
+                              observabilityProvider:(id<SMPObservabilityProvider>)observabilityProvider;
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
 
 - (void)wrapAndPushViewController:(UIViewController *)viewController;
 - (void)navigateToTransactionFailedScreenButUnknownResult;
+- (void)dismissCheckoutFlow;
 
 + (SMPCheckoutPageWrapperVC *)wrapViewController:(UIViewController *)viewController;
 

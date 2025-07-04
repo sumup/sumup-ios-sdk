@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Čitač kartica";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Aktiviraj Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Prim. plać. putem čit. kart.";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Prikaži kao način plaćanja tijekom naplate.";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Početak rada s kartičnim plaćanjem";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Poveži čitač kartica";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Početak rada s kartičnim plaćanjem";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Omogući SumUp Solo";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Prijeđi na drugi čitač kartica";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Ponovno skeniraj";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Nazovi odmah";
+
+"sumup_btn_cancel" = "Odustani";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Spoji";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Izbriši";
+
+"sumup_btn_dismiss" = "Odbaci";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Gotovo";
+
+"sumup_btn_edit" = "Uredi";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Završi";
+
+"sumup_btn_go_to_support" = "Idi na podršku";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Kasnije";
+
+"sumup_btn_new_set_up" = "Novo postavljanje";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Dalje";
+
+"sumup_btn_no" = "Ne";
+
+"sumup_btn_not_my_reader" = "To nije moj čitač";
+
+"sumup_btn_ok" = "U redu";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Plati";
+
+"sumup_btn_previous" = "Prethodni";
+
+"sumup_btn_proceed" = "Nastavi";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Ponovno skeniraj";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Pokušaj ponovo";
+
+"sumup_btn_scan" = "Skeniraj";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Poslati";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Pošalji na mobitel";
+
+"sumup_btn_skip" = "Preskoči";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Prebaci odmah";
+
+"sumup_btn_tx_failed_try_again" = "Pokušaj ponovo";
+
+"sumup_btn_update" = "Ažuriraj";
+
+"sumup_btn_yes" = "Da";
+
+"sumup_btn_yes_connect" = "Da, poveži";
+
+"sumup_btn_yes_scan" = "Da, skeniraj";
+
+"sumup_card_reader_battery_level_label" = "Napunjenost baterije";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Baterija";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Bluetooth software";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Spoji";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Povezivanje nije moguće";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Pokušaj ponovo";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Nije moguće povezati se s čitačem kartica. Pokušajte ponovno.";
+
+"sumup_card_reader_hardware_version_text" = "Hardver";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Posljednje znamenke";
+
+"sumup_card_reader_low_battery" = "Slaba baterija, napunite uređaj";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Poveži čitač kartica";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Početak rada s kartičnim plaćanjem";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Početak rada s Top / Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Serijski broj";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Prihvaćaj plaćanja putem čitača kartica";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Prihvaćaj plaćanja s Top / Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Prikaži kao način plaćanja tijekom naplate.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Prijeđi na drugi čitač kartica";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Softver";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Zatvori";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Unesite primljenu gotovinu kako biste izračunali koliko morate uzvratiti";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Izračunaj kusur";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Naplata u gotovini";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Prikažite kao način plaćanja tijekom naplate i pratite gotovinska plaćanja.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Za plaćanje u gotovini se ne plaća naknada.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Omogući plaćanje u gotovini";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Naplata u gotovini";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Nepoznato";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Povezivanje s čitačem kartica";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Povezivanje";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Ažuriraj uređaj";
+
+"sumup_reader_not_found_message" = "Čitač kartica %1$@ nije pronađen. Provjerite je li čitač uključen i u blizini.";
+
+"sumup_reader_off_and_unplugged_message" = "Provjerite je li uređaj isključen i odspojen od napajanja.";
+
+"sumup_reader_off_and_unplugged_title" = "Odspojite i isključite";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Plaćanje";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Plaćanje je otkazano";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Postavite čitač kartica";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Neaktivan";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Spreman";
+

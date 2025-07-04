@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Kortläsare";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Aktiver Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Ta betalt med kortläsaren";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Ta betalt med Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Visa som betalningssätt i kassan.";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Kom igång med kortbetalningar";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Anslut en kortläsare";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Kom igång med kortbetalningar";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Kom igång med Solo";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Byt till en annan kortläsare";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Scanna igen";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Ring";
+
+"sumup_btn_cancel" = "Avbryt";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Anslut";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Ta bort";
+
+"sumup_btn_dismiss" = "Stäng";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Färdig";
+
+"sumup_btn_edit" = "Redigera";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Avsluta";
+
+"sumup_btn_go_to_support" = "Gå till supporten";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Senare";
+
+"sumup_btn_new_set_up" = "Ny konfiguration";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Fortsätt";
+
+"sumup_btn_no" = "Nej";
+
+"sumup_btn_not_my_reader" = "Inte min kortläsare";
+
+"sumup_btn_ok" = "OK";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Betala";
+
+"sumup_btn_previous" = "Föregående";
+
+"sumup_btn_proceed" = "Fortsätt";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Sök igen";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Försök igen";
+
+"sumup_btn_scan" = "Skanna";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Skicka";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Skicka till mobil";
+
+"sumup_btn_skip" = "Avstå";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Byt nu";
+
+"sumup_btn_tx_failed_try_again" = "Försök igen";
+
+"sumup_btn_update" = "Uppdatera";
+
+"sumup_btn_yes" = "Ja";
+
+"sumup_btn_yes_connect" = "Ja, anslut";
+
+"sumup_btn_yes_scan" = "Ja, skanna";
+
+"sumup_card_reader_battery_level_label" = "Batterinivå";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Batteri";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Bluetooth-programvara";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Anslut";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Anslutningen misslyckades";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Försök igen";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Kunde inte ansluta till kortläsaren. Försök igen.";
+
+"sumup_card_reader_hardware_version_text" = "Hårdvara";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Sista siffror";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Anslut kortläsaren";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Kom igång med kortbetalningar";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Kom igång med Top / Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Serienummer";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Ta betalt med kortläsaren";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Ta betalt med Top / Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Visa som betalningssätt i kassan.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Byt till en annan kortläsare";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Programvara";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Stäng";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Ange mottaget belopp för att räkna ut hur mycket kunden ska få tillbaka i växel";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Räkna ut växel";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Kontantbetalningar";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Visa som betalningssätt i kassan och håll koll på kontantbetalningar.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Du betalar ingen avgift för kontantbetalningar.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Tillåt kontantbetalningar";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Kontantbetalningar";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Unknown";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Ansluter till kortläsaren";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Ansluter";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Uppdatera enheten";
+
+"sumup_reader_not_found_message" = "Kunde inte hitta kortläsaren %1$@. Kontrollera att den är påslagen och i närheten.";
+
+"sumup_reader_off_and_unplugged_message" = "Kontrollera att enheten är avslagen och inte ansluten till något strömuttag.";
+
+"sumup_reader_off_and_unplugged_title" = "Stäng av och dra ur";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Betalning";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Betalningen avbröts";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Slå på kortläsare";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Används inte";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Redo";
+

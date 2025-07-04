@@ -1,0 +1,393 @@
+/* upper label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSublabel" = "Izgubili smo vezu sa SumUp poslužiteljem";
+
+/* lower label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSubsublabel" = "Prije ponovnog pokušaja, molimo provjerite status ove uplate u svojoj povijesti prodaje.";
+
+/* title in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearTitle" = "Greška u povezivanju";
+
+"sumup_btn_cancel" = "Odustani";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Gotovo";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Dalje";
+
+"sumup_btn_ok" = "U redu";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Zatvori";
+
+/* Accessibility title for Close button of Stories component */
+"sumup_stories_component_shared_close_button_accessibility_title" = "Close";
+
+/* Button title for the error state of Stories component. Common case: trigger reload */
+"sumup_stories_component_shared_error_action_button_title" = "Reload";
+
+/* General title for error state of Stories component */
+"sumup_stories_component_shared_error_title" = "Error";
+
+/* Accessibility title for Next Story button of Stories component */
+"sumup_stories_component_shared_next_button_accessibility_title" = "Next";
+
+/* Accessibility title for Pause button of Stories component */
+"sumup_stories_component_shared_pause_button_accessibility_title" = "Pause";
+
+/* Accessibility title for Play button of Stories component */
+"sumup_stories_component_shared_play_button_accessibility_title" = "Play";
+
+/* Accessibility title for Previous Story button of Stories component */
+"sumup_stories_component_shared_previous_button_accessibility_title" = "Previous";
+
+/* Accessibility title for timeline description of Stories component */
+"sumup_stories_component_shared_timeline_description_accessibility_title" = "Playing story %1$d of %2$d";
+
+"sumup_tap_activation_continue_button" = "Nastavi";
+
+"sumup_tap_activation_finished_btn_learn_more" = "Learn more";
+
+"sumup_tap_activation_finished_btn_try_now" = "Try now";
+
+"sumup_tap_activation_finished_subtitle" = "Start taking contactless payments with your iPhone";
+
+"sumup_tap_activation_finished_title" = "You're all set";
+
+"sumup_tap_activation_intro_btn_set_up_now" = "Postavi odmah";
+
+"sumup_tap_activation_intro_btn_start" = "Započni";
+
+"sumup_tap_activation_intro_new_subtitle" = "Start accepting in-person, contactless payments with only an iPhone.";
+
+"sumup_tap_activation_intro_new_title" = "Prodajite bilo gdje.\nNije potreban čitač kartica.";
+
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay na iPhoneu";
+
+"sumup_tap_activation_intro_subtitle" = "Set up Tap to Pay on iPhone to take quick and secure payments";
+
+"sumup_tap_activation_intro_table_first_row" = "iPhone XS ili noviji";
+
+"sumup_tap_activation_intro_table_second_row" = "iOS 16.4 ili noviji";
+
+"sumup_tap_activation_intro_table_third_row" = "Uključena šifra";
+
+"sumup_tap_activation_intro_table_title" = "Što je potrebno?";
+
+"sumup_tap_activation_intro_title" = "Tap to Pay on iPhone.\nNo card reader needed.";
+
+"sumup_tap_activation_learn_more_button" = "Saznaj više";
+
+"sumup_tap_activation_learn_more_title" = "About Tap to Pay on iPhone";
+
+"sumup_tap_activation_preparing_subtitle" = "One moment, please…";
+
+"sumup_tap_activation_preparing_title" = "Postavljanje u tijeku";
+
+"sumup_tap_activation_setup_button" = "Postavi";
+
+"sumup_tap_capture_pin_failed" = "Failed to obtain PIN";
+
+"sumup_tap_card_declined" = "The payment failed or was declined";
+
+"sumup_tap_enable_subtitle" = "Prikaži kao način plaćanja tijekom naplate.";
+
+"sumup_tap_enable_toggle" = "Tap to Pay on iPhone";
+
+"sumup_tap_error_title" = "Pogreška";
+
+"sumup_tap_failed_to_read_card" = "Card read failed";
+
+"sumup_tap_finalizing_tx" = "Finalizing";
+
+"sumup_tap_home_button" = "Započni";
+
+"sumup_tap_home_title" = "Accept contactless payments with only your iPhone";
+
+"sumup_tap_learn_more_accessibility" = "Mogućnosti pristupa";
+
+"sumup_tap_learn_more_at_checkout" = "Na naplati odaberite\n\"Tap to Pay na iPhoneu\".";
+
+"sumup_tap_learn_more_btn_set_up_now" = "Postavi odmah";
+
+"sumup_tap_learn_more_customer_enters_pin" = "Customer enters their PIN. Use accessibility options if needed.";
+
+"sumup_tap_learn_more_enter_card_pin" = "Unesite PIN";
+
+"sumup_tap_learn_more_hold_here_to_pay" = "Prislonite ovdje za plaćanje";
+
+"sumup_tap_learn_more_hold_near_contactless" = "Or to hold their device near the contactless symbol";
+
+"sumup_tap_learn_more_pay_flower_shop" = "Pay Flower Shop";
+
+"sumup_tap_learn_more_payment_links" = "Poveznice za plaćanje";
+
+"sumup_tap_learn_more_payment_methods" = "Načini plaćanja";
+
+"sumup_tap_learn_more_present_to_customer" = "Ask your customer to hold their card as shown";
+
+"sumup_tap_learn_more_price" = "€ 17,50";
+
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay na iPhoneu";
+
+"sumup_tap_link_account_failed" = "Failed to show Terms of Service";
+
+"sumup_tap_model_check_alert_message" = "You need an iPhone XS or later to use this feature";
+
+"sumup_tap_model_check_alert_title" = "iPhone model";
+
+"sumup_tap_must_accept_tos" = "Please accept the Terms of Service to use SumUp Tap";
+
+"sumup_tap_must_enable_passcode" = "The security passcode for this phone must be enabled to use Tap to Pay on iPhone";
+
+"sumup_tap_not_allowed_during_call" = "Please end all calls before using Tap to Pay on iPhone";
+
+/* title for the Stories component for Tap on phone */
+"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp Tap to Pay on Android";
+
+"sumup_tap_on_phone_android_version_success_title" = "Android version";
+
+"sumup_tap_on_phone_android_version_warning_description" = "Requires version 8.0 or above";
+
+"sumup_tap_on_phone_android_version_warning_title" = "Android version incompatible";
+
+"sumup_tap_on_phone_app_version_title" = "SumUp App version";
+
+"sumup_tap_on_phone_app_version_warning_description" = "Tap to update";
+
+"sumup_tap_on_phone_btn_retry" = "Pokušaj ponovno";
+
+"sumup_tap_on_phone_cancel_message" = "In order to cancel your transaction, please force quit the SumUp App.";
+
+"sumup_tap_on_phone_connection_lost" = "Izgubljena veza";
+
+"sumup_tap_on_phone_developer_options_check_success_title" = "Developer options";
+
+"sumup_tap_on_phone_developer_options_check_warning_description" = "Tap to disable";
+
+"sumup_tap_on_phone_developer_options_check_warning_title" = "Developer options enabled";
+
+"sumup_tap_on_phone_failed_message" = "Došlo je do pogreške. Molimo pokušajte ponovo kasnije ili kontaktirajte naš tim za podršku.";
+
+"sumup_tap_on_phone_feature_description" = "Obrađujte plaćanja na svojem mobilnom uređaju bez čitača kartica. Način plaćanja Tap to Pay će biti dostupan pri naplati.";
+
+"sumup_tap_on_phone_feature_enabled_with_warnings_description" = "Da biste koristili Tap to Pay, molimo pregledajte probleme u nastavku označene crvenom bojom.";
+
+/* Title of the guide box when find antenna failed */
+"sumup_tap_on_phone_find_antenna_box_failed_title" = "Antena nije pronađena. Pokušajte ponovo.";
+
+/* Title of the guide box when find antenna starts */
+"sumup_tap_on_phone_find_antenna_box_follow_title" = "Sijedite ovaj okvir s karticom na poleđini vašeg telefona.";
+
+/* Title of the guide box before starting on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_box_initial_title" = "Ovaj okvir će se polagano po zaslonu premještati dolje, a zatim gore. Slijedite ga s karticom na poleđini vašeg telefona. <strong>Kartica neće biti terećena.</strong> Dodirnite \"Start\" kada ste spremni.";
+
+/* Title of the guide box body when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_body" = "Da biste bili sigurni da su plaćanja prošla, <strong>zatražite klijente da prislone karticu na ovo mjesto na poleđinu vašeg telefona.</strong> Ako ste spremni, počnite s prihvatom plaćanja odmah.";
+
+/* Title of the guide box header when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_header" = "Na ovo mjesto!";
+
+/* Title of the find antenna tutorial screen when attempts limit reached */
+"sumup_tap_on_phone_find_antenna_contact_support_title" = "Obratite se SumUp-ovoj podršci za daljnju pomoć.";
+
+/* Title of the cancel CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Odustani";
+
+/* Title of the contact support CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_contact_support" = "Kontaktiraj podršku";
+
+/* Title of the finish CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_finish" = "Završi";
+
+/* Title of the start CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_start" = "Započni";
+
+/* Title of the take a payment CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_take_a_payment" = "Prihvati plaćanja";
+
+/* Title of the try again CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_try_again" = "Pokušaj ponovo";
+
+"sumup_tap_on_phone_google_services_title" = "Google services";
+
+/* Title for the Stories component for Tap to Pay on iPhone */
+"sumup_tap_on_phone_ios_landing_stories_screen_title" = "SumUp Tap to Pay on iPhone";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_subtitle" = "Accept in-person, contactless payments right on your iPhone — no extra card readers or hardware needed.";
+
+/* title for Stories TTP component page one */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_title" = "Accept payments on your iPhone";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "With no binding contracts or monthly fees, you only pay a small SumUp transaction fee of %1$@ on each payment you accept with your iPhone.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_3_subtitle" = "By downloading the SumUp app and following a few simple steps, you’ll be ready to start taking payments with your iPhone in minutes.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your iPhone.";
+
+/* title for the Stories component CTA button for Tap on phone */
+"sumup_tap_on_phone_landing_stories_action_button_title" = "Enable now";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_1_subtitle" = "Accept in-person, contactless payments right on your smartphone — no extra card readers or hardware needed.";
+
+/* title for Stories component page one */
+"sumup_tap_on_phone_landing_stories_slide_1_title" = "Accept payments on your smartphone";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "With no binding contracts or monthly fees, you only pay a small SumUp transaction fee of %1$@ on each payment you accept with your smartphone.";
+
+/* title for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_title" = "Free to activate, no binding contract";
+
+/* subtitle for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_subtitle" = "By downloading the SumUp app and following a few simple steps, you’ll be ready to start taking payments with your smartphone in minutes.";
+
+/* title for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_title" = "Start taking payments instantly";
+
+/* subtitle for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your Android phone.";
+
+/* title for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_title" = "No contracts or monthly fees";
+
+"sumup_tap_on_phone_loading_description" = "Vaš telefon se pretvara u uređaj za plaćanje. Ovo će trajati samo minutu.";
+
+"sumup_tap_on_phone_loading_message" = "Tap to Pay dostupno";
+
+"sumup_tap_on_phone_loading_title" = "Postavljanje u tijeku";
+
+"sumup_tap_on_phone_nfc_error_title" = "NFC not available";
+
+"sumup_tap_on_phone_nfc_success_title" = "NFC enabled";
+
+"sumup_tap_on_phone_nfc_warning_description" = "Tap to enable";
+
+"sumup_tap_on_phone_nfc_warning_title" = "NFC not enabled";
+
+/* Title of the tap on phone tutorial CTA button on the overview screen */
+"sumup_tap_on_phone_overview_tutorial_cta_title" = "Saznaj više o Prisloni i plati";
+
+"sumup_tap_on_phone_title" = "Tap to Pay";
+
+/* Title of the android version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_android_version_requirement" = "Instalirana verzija Androida 8 ili novija";
+
+/* Title of the app version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_app_version_requirement" = "Najnovija verzija SumUp aplikacije";
+
+/* Title of the body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_body" = "Prihvaćajte plaćanja beskontaktnim karticama i digitalnim novčanicima svojim pametnim telefonom koristeći se značajkom Tap to Pay na Androidu i SumUp aplikacijom.";
+
+/* Title of CTA on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_cta_title" = "Postavi odmah";
+
+/* Title of the developer tools requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_developer_tools_requirement" = "\"Alati za programere\" isključeni";
+
+/* Title of the google services requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_google_services_requirement" = "Uključene usluge Google Play";
+
+/* Title of the header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_header" = "Sve što trebate za prihvat plaćanja nalazi se u vašoj ruci";
+
+/* Title of the NFC requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_nfc_requirement" = "NFC uključen (u postavkama telefona)";
+
+/* Title of the requirements header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_requirements_header" = "Tehnički uvjeti";
+
+/* Title of the alert dialog body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_body" = "Za nastavak postavljanja, provjerite zadovoljava li vaš telefon sve preduvjete za korištenje značajke Tap to Pay.";
+
+/* Title of the alert dialog header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_header" = "Tehnički preduvjeti";
+
+/* Title of the CTA on tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_cta" = "Postavi odmah";
+
+/* Title of the tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_title" = "Prihvaćajte beskontaktna plaćanja koristeći se samo svojim telefonom";
+
+"sumup_tap_on_phone_update_app_message" = "Molimo ažurirajte svoju SumUp aplikaciju da biste koristili Tap to Pay.";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_find_antenna" = "Pronađi NCF antenu";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_next" = "Dalje";
+
+/* Title of the CTA to turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_turn_on_ttp" = "Uključi sada";
+
+/* Title of the step customer tap card on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_customer_tap_card" = "Klijent svoju karticu drži prislonjenom na poleđini vašeg Androida sve dok ne začuje zvučni signal.";
+
+/* Title of the step find antenna on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_find_antenna" = "Niste sigurni gdje prisloniti? Uzmite minutu da to testirate sada.";
+
+/* Title of the step select payment method on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_select_payment" = "Na naplati odaberite \"Tap to Pay\" kao način plaćanja";
+
+/* Title of the step turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_turn_on_ttp" = "Uključite \"Tap to Pay\" sada ili kasnije u svojem SumUp profilu";
+
+"sumup_tap_os_check_alert_message" = "You need iOS version %1$@ or later to use this feature";
+
+"sumup_tap_os_check_alert_settings_button" = "Postavke";
+
+"sumup_tap_os_check_alert_title" = "OS version";
+
+"sumup_tap_prepare_failed" = "Failed to start Apple Tap to Pay";
+
+"sumup_tap_prereq_app_version" = "SumUp app version";
+
+"sumup_tap_prereq_app_version_cta" = "Open app store";
+
+"sumup_tap_prereq_apple_tap_to_pay" = "'Tap to Pay' services";
+
+"sumup_tap_prereq_device_model" = "iPhone model";
+
+"sumup_tap_prereq_device_model_cta" = "Više informacija";
+
+"sumup_tap_prereq_os_version" = "iOS version";
+
+"sumup_tap_prereq_os_version_cta" = "Open iOS settings";
+
+"sumup_tap_prereq_terms_of_service" = "Uvjeti usluge";
+
+"sumup_tap_prereq_terms_of_service_cta" = "Review terms of service";
+
+"sumup_tap_processing_tx" = "Obrada";
+
+"sumup_tap_profile_settings_item" = "Tap to Pay on iPhone";
+
+"sumup_tap_profile_settings_title" = "Tap to Pay on iPhone";
+
+"sumup_tap_proximity_reader_check_alert_message" = "Unfortunately, Apple Tap to Pay for iPhone is not available.";
+
+"sumup_tap_proximity_reader_check_alert_title" = "Apple Tap to Pay for iPhone";
+
+"sumup_tap_reader_busy" = "Getting things ready. Please try again later";
+
+"sumup_tap_renewal_failed" = "Unable to renew the session";
+
+"sumup_tap_settings_learn_more" = "Learn about Tap to Pay on iPhone";
+
+"sumup_tap_settings_learn_more_title" = "Tap to Pay on iPhone";
+
+"sumup_tap_starting" = "Starting";
+
+"sumup_tap_subaccount_check_alert_message" = "Unfortunately your Employee account is not authorised to activate Tap to Pay.\n\nPlease contact the main SumUp account owner to activate and then try again.";
+
+"sumup_tap_subaccount_check_alert_title" = "Cannot activate as an Employee account";
+
+"sumup_tap_tos_already_accepted" = "Terms of Service have already been accepted";
+
+"sumup_tap_user_cancelled" = "The transaction was cancelled by the user";
+

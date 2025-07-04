@@ -1,0 +1,393 @@
+/* upper label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSublabel" = "Conexiunea la serverul SumUp a fost pierdută";
+
+/* lower label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSubsublabel" = "Înainte de a încerca din nou, verifică starea acestei plăți în Istoricul vânzărilor.";
+
+/* title in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearTitle" = "Eroare de conexiune";
+
+"sumup_btn_cancel" = "Anulează";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Efectuat";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Următorul";
+
+"sumup_btn_ok" = "O.K.";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Închide";
+
+/* Accessibility title for Close button of Stories component */
+"sumup_stories_component_shared_close_button_accessibility_title" = "Close";
+
+/* Button title for the error state of Stories component. Common case: trigger reload */
+"sumup_stories_component_shared_error_action_button_title" = "Reload";
+
+/* General title for error state of Stories component */
+"sumup_stories_component_shared_error_title" = "Error";
+
+/* Accessibility title for Next Story button of Stories component */
+"sumup_stories_component_shared_next_button_accessibility_title" = "Next";
+
+/* Accessibility title for Pause button of Stories component */
+"sumup_stories_component_shared_pause_button_accessibility_title" = "Pause";
+
+/* Accessibility title for Play button of Stories component */
+"sumup_stories_component_shared_play_button_accessibility_title" = "Play";
+
+/* Accessibility title for Previous Story button of Stories component */
+"sumup_stories_component_shared_previous_button_accessibility_title" = "Previous";
+
+/* Accessibility title for timeline description of Stories component */
+"sumup_stories_component_shared_timeline_description_accessibility_title" = "Playing story %1$d of %2$d";
+
+"sumup_tap_activation_continue_button" = "Continuare";
+
+"sumup_tap_activation_finished_btn_learn_more" = "Află mai multe";
+
+"sumup_tap_activation_finished_btn_try_now" = "Încearcă acum";
+
+"sumup_tap_activation_finished_subtitle" = "Începe să accepți plăți fără contact cu iPhone-ul tău";
+
+"sumup_tap_activation_finished_title" = "Ești gata";
+
+"sumup_tap_activation_intro_btn_set_up_now" = "Configurează acum";
+
+"sumup_tap_activation_intro_btn_start" = "Începe";
+
+"sumup_tap_activation_intro_new_subtitle" = "Începe să accepți plăți în persoană, fără contact, doar cu un iPhone.";
+
+"sumup_tap_activation_intro_new_title" = "Vinde oriunde.\nNu este necesar un terminal mPOS.";
+
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay pe iPhone";
+
+"sumup_tap_activation_intro_subtitle" = "Configurează Tap to Pay pe iPhone pentru a accepta plăți rapide și sigure";
+
+"sumup_tap_activation_intro_table_first_row" = "iPhone XS sau mai recent";
+
+"sumup_tap_activation_intro_table_second_row" = "iOS 16.4 sau superior";
+
+"sumup_tap_activation_intro_table_third_row" = "Cod de acces activat";
+
+"sumup_tap_activation_intro_table_title" = "De ce ai nevoie?";
+
+"sumup_tap_activation_intro_title" = "Tap to Pay pe iPhone.\nNu este necesar un terminal mPOS.";
+
+"sumup_tap_activation_learn_more_button" = "Află mai multe";
+
+"sumup_tap_activation_learn_more_title" = "Despre Tap to Pay pe iPhone";
+
+"sumup_tap_activation_preparing_subtitle" = "Un moment…";
+
+"sumup_tap_activation_preparing_title" = "Pregătirea lucrurilor";
+
+"sumup_tap_activation_setup_button" = "Configurează";
+
+"sumup_tap_capture_pin_failed" = "PIN-ul nu a putut fi obținut";
+
+"sumup_tap_card_declined" = "Plata a eșuat sau a fost respinsă";
+
+"sumup_tap_enable_subtitle" = "Afișează ca modalitate de plată la checkout.";
+
+"sumup_tap_enable_toggle" = "Tap to Pay pe iPhone";
+
+"sumup_tap_error_title" = "Eroare";
+
+"sumup_tap_failed_to_read_card" = "Citirea cardului a eșuat";
+
+"sumup_tap_finalizing_tx" = "Se finalizează";
+
+"sumup_tap_home_button" = "Să începem";
+
+"sumup_tap_home_title" = "Acceptă plăți fără contact folosind doar iPhone-ul tău";
+
+"sumup_tap_learn_more_accessibility" = "Opțiuni de accesibilitate";
+
+"sumup_tap_learn_more_at_checkout" = "La checkout, selectează\n „Tap to Pay pe iPhone”.";
+
+"sumup_tap_learn_more_btn_set_up_now" = "Configurează acum";
+
+"sumup_tap_learn_more_customer_enters_pin" = "Clientul introduce PIN-ul. Utiliz. opț. de accesibilit. dacă e nevoie.";
+
+"sumup_tap_learn_more_enter_card_pin" = "Introdu PIN-ul cardului";
+
+"sumup_tap_learn_more_hold_here_to_pay" = "Ține aici pentru a plăti";
+
+"sumup_tap_learn_more_hold_near_contactless" = "Sau să țină dispozitivul propriu în apropierea simbolului fără contact";
+
+"sumup_tap_learn_more_pay_flower_shop" = "Plătește la florărie";
+
+"sumup_tap_learn_more_payment_links" = "Link-uri de plată";
+
+"sumup_tap_learn_more_payment_methods" = "Modalități de plată";
+
+"sumup_tap_learn_more_present_to_customer" = "Cere-i clientului să țină cardul ca în imagine";
+
+"sumup_tap_learn_more_price" = "87 RON";
+
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay pe iPhone";
+
+"sumup_tap_link_account_failed" = "Nu s-au putut afișa Termenii serviciului";
+
+"sumup_tap_model_check_alert_message" = "Ai nevoie de un iPhone XS sau un model mai recent pentru a utiliza această caracteristică";
+
+"sumup_tap_model_check_alert_title" = "Model de iPhone";
+
+"sumup_tap_must_accept_tos" = "Te rugăm să accepți Termenii serviciului pentru a utiliza SumUp Tap";
+
+"sumup_tap_must_enable_passcode" = "Codul de acces de securitate pentru acest telefon trebuie să fie activat pentru a utiliza Tap to Pay pe iPhone";
+
+"sumup_tap_not_allowed_during_call" = "Închide toate apelurile înainte să utilizezi Tap to Pay pe iPhone";
+
+/* title for the Stories component for Tap on phone */
+"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp Tap to Pay pe Android";
+
+"sumup_tap_on_phone_android_version_success_title" = "Android version";
+
+"sumup_tap_on_phone_android_version_warning_description" = "Requires version 8.0 or above";
+
+"sumup_tap_on_phone_android_version_warning_title" = "Android version incompatible";
+
+"sumup_tap_on_phone_app_version_title" = "SumUp App version";
+
+"sumup_tap_on_phone_app_version_warning_description" = "Tap to update";
+
+"sumup_tap_on_phone_btn_retry" = "Încearcă din nou";
+
+"sumup_tap_on_phone_cancel_message" = "In order to cancel your transaction, please force quit the SumUp App.";
+
+"sumup_tap_on_phone_connection_lost" = "Conexiunea a fost pierdută";
+
+"sumup_tap_on_phone_developer_options_check_success_title" = "Developer options";
+
+"sumup_tap_on_phone_developer_options_check_warning_description" = "Tap to disable";
+
+"sumup_tap_on_phone_developer_options_check_warning_title" = "Developer options enabled";
+
+"sumup_tap_on_phone_failed_message" = "Ceva n-a mers bine. Te rugăm să încerci din nou mai târziu sau să contactezi echipa noastră de asistență.";
+
+"sumup_tap_on_phone_feature_description" = "Acceptă plăți pe dispozitivul tău mobil, fără să ai nevoie de un terminal mPOS. Tap to Pay va fi disponibil ca modalitate de plată la checkout.";
+
+"sumup_tap_on_phone_feature_enabled_with_warnings_description" = "Pentru a efectua tranzacții folosind Tap to Pay, te rugăm să verifici aspectele marcate cu roșu mai jos.";
+
+/* Title of the guide box when find antenna failed */
+"sumup_tap_on_phone_find_antenna_box_failed_title" = "Antena nu a fost găsită. Încearcă din nou.";
+
+/* Title of the guide box when find antenna starts */
+"sumup_tap_on_phone_find_antenna_box_follow_title" = "Urmărește această casetă cu un card pe spatele telefonului.";
+
+/* Title of the guide box before starting on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_box_initial_title" = "Această casetă se va deplasa lent întâi în jos, apoi în sus pe ecran. Urmărește-o cu un card pe spatele telefonului. <strong>Cardul nu va fi debitat.</strong> Atinge „Începe” când ești gata.";
+
+/* Title of the guide box body when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_body" = "Pentru a te asigura că plățile funcționează întotdeauna, <strong>roagă clienții să atingă cu cardul acest punct de pe spatele telefonului tău.</strong> Dacă ești gata, acceptă o plată acum.";
+
+/* Title of the guide box header when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_header" = "Acesta este locul!";
+
+/* Title of the find antenna tutorial screen when attempts limit reached */
+"sumup_tap_on_phone_find_antenna_contact_support_title" = "Contactează asistența SumUp pentru mai mult ajutor.";
+
+/* Title of the cancel CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Anulează";
+
+/* Title of the contact support CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_contact_support" = "Contactează asistența";
+
+/* Title of the finish CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_finish" = "Finalizează";
+
+/* Title of the start CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_start" = "Începe";
+
+/* Title of the take a payment CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_take_a_payment" = "Acceptă o plată";
+
+/* Title of the try again CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_try_again" = "Încearcă din nou";
+
+"sumup_tap_on_phone_google_services_title" = "Google services";
+
+/* Title for the Stories component for Tap to Pay on iPhone */
+"sumup_tap_on_phone_ios_landing_stories_screen_title" = "SumUp Tap to Pay pe iPhone";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_subtitle" = "Acceptă plăți contactless în persoană pe propriul iPhone, fără să ai nevoie de terminale mPOS suplimentare sau alte dispozitive hardware.";
+
+/* title for Stories TTP component page one */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_title" = "Acceptă plăți pe propriul iPhone";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "Fiindcă nu există obligații contractuale sau comisioane lunare, vei achita numai un mic comision de tranzacție la SumUp, de %1$@, pentru fiecare plată pe care o accepți cu iPhone-ul tău.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_3_subtitle" = "Descărcând aplicația SumUp și urmând câțiva pași simpli, vei fi gata să începi să accepți plăți cu iPhone-ul în doar câteva minute.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your iPhone.";
+
+/* title for the Stories component CTA button for Tap on phone */
+"sumup_tap_on_phone_landing_stories_action_button_title" = "Activează acum";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_1_subtitle" = "Acceptă plăți contactless în persoană pe propriul smartphone, fără să ai nevoie de terminale mPOS suplimentare sau alte dispozitive hardware.";
+
+/* title for Stories component page one */
+"sumup_tap_on_phone_landing_stories_slide_1_title" = "Acceptă plăți pe propriul smartphone";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "Fiindcă nu există obligații contractuale sau comisioane lunare, vei achita numai un mic comision de tranzacție la SumUp, de %1$@, pentru fiecare plată pe care o accepți cu smartphone-ul tău.";
+
+/* title for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_title" = "Se activează gratuit, fără contract";
+
+/* subtitle for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_subtitle" = "Descărcând aplicația SumUp și urmând câțiva pași simpli, vei fi gata să începi să accepți plăți cu smartphone-ul în doar câteva minute.";
+
+/* title for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_title" = "Începe să preiei plăți imediat";
+
+/* subtitle for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your Android phone.";
+
+/* title for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_title" = "No contracts or monthly fees";
+
+"sumup_tap_on_phone_loading_description" = "Îți transformăm telefonul într-un dispozitiv de plăți. Va dura doar un minut.";
+
+"sumup_tap_on_phone_loading_message" = "Tap to Pay pornește";
+
+"sumup_tap_on_phone_loading_title" = "Pregătirea lucrurilor";
+
+"sumup_tap_on_phone_nfc_error_title" = "NFC not available";
+
+"sumup_tap_on_phone_nfc_success_title" = "NFC enabled";
+
+"sumup_tap_on_phone_nfc_warning_description" = "Tap to enable";
+
+"sumup_tap_on_phone_nfc_warning_title" = "NFC not enabled";
+
+/* Title of the tap on phone tutorial CTA button on the overview screen */
+"sumup_tap_on_phone_overview_tutorial_cta_title" = "Află despre Tap to Pay";
+
+"sumup_tap_on_phone_title" = "Tap to Pay";
+
+/* Title of the android version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_android_version_requirement" = "Android 8 sau o versiune superioară instalată";
+
+/* Title of the app version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_app_version_requirement" = "Cea mai recentă versiune a aplicației SumUp";
+
+/* Title of the body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_body" = "Acceptă plăți fără contact cu cardul și portofele digitale pe smartphone-ul tău, folosind Tap to Pay pe Android și aplicația SumUp.";
+
+/* Title of CTA on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_cta_title" = "Configurează acum";
+
+/* Title of the developer tools requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_developer_tools_requirement" = "Opțiunea „Instrumente pentru dezvoltatori” dezactivată";
+
+/* Title of the google services requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_google_services_requirement" = "Serviciile Google activate";
+
+/* Title of the header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_header" = "Ții în mână tot ce ai nevoie pentru a accepta plăți";
+
+/* Title of the NFC requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_nfc_requirement" = "NFC activat (din setările telefonului)";
+
+/* Title of the requirements header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_requirements_header" = "Cerințe";
+
+/* Title of the alert dialog body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_body" = "Pentru a continua configurarea, asigură-te că telefonul tău îndeplinește cerințele pentru utilizarea Tap to Pay.";
+
+/* Title of the alert dialog header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_header" = "Cerințe de sistem";
+
+/* Title of the CTA on tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_cta" = "Configurează acum";
+
+/* Title of the tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_title" = "Acceptă plăți fără contact folosind doar telefonul";
+
+"sumup_tap_on_phone_update_app_message" = "Te rugăm să-ți actualizezi aplicația SumUp pentru a utiliza Tap to Pay.";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_find_antenna" = "Găsește antena NFC";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_next" = "Înainte";
+
+/* Title of the CTA to turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_turn_on_ttp" = "Activează acum";
+
+/* Title of the step customer tap card on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_customer_tap_card" = "Clientul atinge cardul pe spatele dispozitivului tău Android până auzi un bip.";
+
+/* Title of the step find antenna on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_find_antenna" = "Nu ești sigur unde să atingi? Alocă un minut testării locului potrivit.";
+
+/* Title of the step select payment method on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_select_payment" = "La checkout, selectează „Tap to Pay” ca modalitate de plată";
+
+/* Title of the step turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_turn_on_ttp" = "Activează „Tap to Pay” acum sau fă-o mai târziu din profilul SumUp";
+
+"sumup_tap_os_check_alert_message" = "Ai nevoie de versiunea iOS %1$@ sau o versiune mai recentă pentru a utiliza această funcționalitate";
+
+"sumup_tap_os_check_alert_settings_button" = "Setări";
+
+"sumup_tap_os_check_alert_title" = "Versiunea OS";
+
+"sumup_tap_prepare_failed" = "Pornirea Tap to Pay a eșuat";
+
+"sumup_tap_prereq_app_version" = "Versiunea aplicației SumUp";
+
+"sumup_tap_prereq_app_version_cta" = "Desc. App store";
+
+"sumup_tap_prereq_apple_tap_to_pay" = "Servicii „Tap to Pay”";
+
+"sumup_tap_prereq_device_model" = "Model de iPhone";
+
+"sumup_tap_prereq_device_model_cta" = "Mai multe informații";
+
+"sumup_tap_prereq_os_version" = "Versiune iOS";
+
+"sumup_tap_prereq_os_version_cta" = "Deschide setările iOS";
+
+"sumup_tap_prereq_terms_of_service" = "termenii și condițiile serviciului";
+
+"sumup_tap_prereq_terms_of_service_cta" = "Revizuiește Termenii serviciului";
+
+"sumup_tap_processing_tx" = "În curs de procesare";
+
+"sumup_tap_profile_settings_item" = "Tap to Pay pe iPhone";
+
+"sumup_tap_profile_settings_title" = "Tap to Pay pe iPhone";
+
+"sumup_tap_proximity_reader_check_alert_message" = "Din păcate, Tap to Pay pe iPhone nu este disponibil.";
+
+"sumup_tap_proximity_reader_check_alert_title" = "Tap to Pay pe iPhone";
+
+"sumup_tap_reader_busy" = "Lucrurile sunt în curs de pregătire. Te rugăm să încerci din nou mai târziu";
+
+"sumup_tap_renewal_failed" = "Sesiunea nu poate fi reînnoită";
+
+"sumup_tap_settings_learn_more" = "Află despre Tap to Pay pe iPhone";
+
+"sumup_tap_settings_learn_more_title" = "Tap to Pay pe iPhone";
+
+"sumup_tap_starting" = "Se inițiază";
+
+"sumup_tap_subaccount_check_alert_message" = "Din păcate, contul tău de angajat nu este autorizat să activeze Tap to Pay.\n\nContactează proprietarul contului SumUp principal pentru activare și apoi încearcă din nou.";
+
+"sumup_tap_subaccount_check_alert_title" = "Nu se poate activa ca un cont de angajat";
+
+"sumup_tap_tos_already_accepted" = "Termenii serviciului au fost deja acceptați";
+
+"sumup_tap_user_cancelled" = "Tranzacția a fost anulată de utilizator";
+

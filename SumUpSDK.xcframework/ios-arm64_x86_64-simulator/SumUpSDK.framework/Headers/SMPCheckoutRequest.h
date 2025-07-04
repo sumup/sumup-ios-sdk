@@ -16,6 +16,21 @@ typedef NS_ENUM(NSInteger, SMPPaymentMethod) {
     SMPPaymentMethodTapToPay = 1,
 } NS_SWIFT_NAME(PaymentMethod);
 
+/// In some markets, customers' cards often contain multiple apps.
+/// The customer selects Credit or Debit to disambiguate which app is actually used to process the transaction.
+typedef NS_ENUM(NSInteger, SMPProcessAs) {
+
+    // Deprecated. A future version of the SDK will interpret this as SMPProcessAsNotSet, and the transaction will fail if the merchant's country requires credit/debit selection. See `isProcessAsRequired` on `SMPSumUpSDK` for details.
+    // Warning: `SMPProcessAsPromptUser` is not supported for the Tap to Pay on iPhone payment method and will produce an error.
+    SMPProcessAsPromptUser __deprecated_enum_msg("In a future version of the SDK this will be treated as SMPProcessAsNotSet") = 0,
+
+    SMPProcessAsCredit = 1,
+    SMPProcessAsDebit = 2,
+
+    SMPProcessAsNotSet = -1,
+
+} NS_SWIFT_NAME(ProcessAs);
+
 /// Encapsulates all information that is necessary during a checkout with the SumUp SDK.
 NS_SWIFT_NAME(CheckoutRequest)
 @interface SMPCheckoutRequest : NSObject
@@ -134,11 +149,32 @@ NS_SWIFT_NAME(CheckoutRequest)
 @property (nonatomic) SMPSkipScreenOptions skipScreenOptions;
 
 /**
- *  The method of payment to use during checkout; for example, a bluetooth-connected card reader, or Tap to Pay on iPhone.
+ *  The method of payment to use during checkout; for example, a bluetooth-connected 
+ *  card reader, or Tap to Pay on iPhone.
  *
  *  Defaults to `SMPPaymentMethodCardReader`.
  */
 @property (nonatomic) SMPPaymentMethod paymentMethod;
+
+/**
+ *  Some cards contain multiple applications. Use `processAs` to allow the customer to
+ *  control which application is used to process the transaction, e.g. credit or debit.
+ *
+ *  To do this, display a UI that asks the user to select either Credit or Debit.
+ *  If they choose Credit, there should also be a way for them to enter the number of
+ *  installments, which you should assign to `numberOfInstallments`
+
+ *  Warning: The transaction will fail if `isProcessAsRequired` on `SMPSumUpSDK`  is `YES` but `processAs` is
+ *  `SMPProcessAsNotSet`.
+ *
+ *  Defaults to `SMPProcessAsNotSet`.
+ */
+@property (nonatomic) SMPProcessAs processAs;
+
+/**
+  * Some markets allow the customer to pay in installments. Ignored unless `processAs` is set to `SMPProcessAsCredit`.
+ */
+@property (nonatomic) NSInteger numberOfInstallments;
 
 @end
 

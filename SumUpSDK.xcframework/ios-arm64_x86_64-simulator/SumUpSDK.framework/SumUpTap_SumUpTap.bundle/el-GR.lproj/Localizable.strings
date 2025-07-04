@@ -1,0 +1,393 @@
+/* upper label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSublabel" = "Η σύνδεση με τον διακομιστή της SumUp διεκόπη";
+
+/* lower label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSubsublabel" = "Προτού προσπαθήσετε ξανά, ελέγξτε την κατάσταση αυτής της πληρωμής στο Ιστορικό Πωλήσεων.";
+
+/* title in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearTitle" = "Σφάλμα σύνδεσης";
+
+"sumup_btn_cancel" = "Ακύρωση";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Τέλος";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Επόμενο";
+
+"sumup_btn_ok" = "OK";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Κλείσιμο";
+
+/* Accessibility title for Close button of Stories component */
+"sumup_stories_component_shared_close_button_accessibility_title" = "Close";
+
+/* Button title for the error state of Stories component. Common case: trigger reload */
+"sumup_stories_component_shared_error_action_button_title" = "Reload";
+
+/* General title for error state of Stories component */
+"sumup_stories_component_shared_error_title" = "Error";
+
+/* Accessibility title for Next Story button of Stories component */
+"sumup_stories_component_shared_next_button_accessibility_title" = "Next";
+
+/* Accessibility title for Pause button of Stories component */
+"sumup_stories_component_shared_pause_button_accessibility_title" = "Pause";
+
+/* Accessibility title for Play button of Stories component */
+"sumup_stories_component_shared_play_button_accessibility_title" = "Play";
+
+/* Accessibility title for Previous Story button of Stories component */
+"sumup_stories_component_shared_previous_button_accessibility_title" = "Previous";
+
+/* Accessibility title for timeline description of Stories component */
+"sumup_stories_component_shared_timeline_description_accessibility_title" = "Playing story %1$d of %2$d";
+
+"sumup_tap_activation_continue_button" = "Συνέχεια";
+
+"sumup_tap_activation_finished_btn_learn_more" = "Learn more";
+
+"sumup_tap_activation_finished_btn_try_now" = "Try now";
+
+"sumup_tap_activation_finished_subtitle" = "Start taking contactless payments with your iPhone";
+
+"sumup_tap_activation_finished_title" = "You're all set";
+
+"sumup_tap_activation_intro_btn_set_up_now" = "Ρύθμιση τώρα";
+
+"sumup_tap_activation_intro_btn_start" = "Έναρξη";
+
+"sumup_tap_activation_intro_new_subtitle" = "Start accepting in-person, contactless payments with only an iPhone.";
+
+"sumup_tap_activation_intro_new_title" = "Πραγματοποιήστε πωλήσεις όπου κι αν βρίσκεστε.\nΔεν απαιτείται τερματικό POS.";
+
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay για iPhone";
+
+"sumup_tap_activation_intro_subtitle" = "Set up Tap to Pay on iPhone to take quick and secure payments";
+
+"sumup_tap_activation_intro_table_first_row" = "iPhone XS ή νεότερη έκδοση";
+
+"sumup_tap_activation_intro_table_second_row" = "iOS 16.4 ή νεότερη έκδοση";
+
+"sumup_tap_activation_intro_table_third_row" = "Συνθηματικό ενεργοποιημένο";
+
+"sumup_tap_activation_intro_table_title" = "Τι χρειάζεται;";
+
+"sumup_tap_activation_intro_title" = "Tap to Pay on iPhone.\nNo card reader needed.";
+
+"sumup_tap_activation_learn_more_button" = "Μάθετε περισσότερα";
+
+"sumup_tap_activation_learn_more_title" = "About Tap to Pay on iPhone";
+
+"sumup_tap_activation_preparing_subtitle" = "One moment, please…";
+
+"sumup_tap_activation_preparing_title" = "Ετοιμάζουμε διάφορες ρυθμίσεις";
+
+"sumup_tap_activation_setup_button" = "Ρύθμιση";
+
+"sumup_tap_capture_pin_failed" = "Failed to obtain PIN";
+
+"sumup_tap_card_declined" = "The payment failed or was declined";
+
+"sumup_tap_enable_subtitle" = "Να εμφανίζεται ως μέθοδος πληρωμής στο ταμείο.";
+
+"sumup_tap_enable_toggle" = "Tap to Pay on iPhone";
+
+"sumup_tap_error_title" = "Σφάλμα";
+
+"sumup_tap_failed_to_read_card" = "Card read failed";
+
+"sumup_tap_finalizing_tx" = "Finalizing";
+
+"sumup_tap_home_button" = "Ξεκινήστε";
+
+"sumup_tap_home_title" = "Accept contactless payments with only your iPhone";
+
+"sumup_tap_learn_more_accessibility" = "Επιλογές προσβασιμότητας";
+
+"sumup_tap_learn_more_at_checkout" = "Στο ταμείο, επιλέξτε\n \"Tap to Pay για iPhone\".";
+
+"sumup_tap_learn_more_btn_set_up_now" = "Ρύθμιση τώρα";
+
+"sumup_tap_learn_more_customer_enters_pin" = "Customer enters their PIN. Use accessibility options if needed.";
+
+"sumup_tap_learn_more_enter_card_pin" = "Εισαγάγετε το PIN της κάρτας σας";
+
+"sumup_tap_learn_more_hold_here_to_pay" = "Κρατήστε το εδώ για να πληρώσετε";
+
+"sumup_tap_learn_more_hold_near_contactless" = "Or to hold their device near the contactless symbol";
+
+"sumup_tap_learn_more_pay_flower_shop" = "Pay Flower Shop";
+
+"sumup_tap_learn_more_payment_links" = "Σύνδεσμοι πληρωμής";
+
+"sumup_tap_learn_more_payment_methods" = "Μέθοδοι πληρωμής";
+
+"sumup_tap_learn_more_present_to_customer" = "Ask your customer to hold their card as shown";
+
+"sumup_tap_learn_more_price" = "€ 17,50";
+
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay για iPhone";
+
+"sumup_tap_link_account_failed" = "Failed to show Terms of Service";
+
+"sumup_tap_model_check_alert_message" = "You need an iPhone XS or later to use this feature";
+
+"sumup_tap_model_check_alert_title" = "iPhone model";
+
+"sumup_tap_must_accept_tos" = "Please accept the Terms of Service to use SumUp Tap";
+
+"sumup_tap_must_enable_passcode" = "The security passcode for this phone must be enabled to use Tap to Pay on iPhone";
+
+"sumup_tap_not_allowed_during_call" = "Please end all calls before using Tap to Pay on iPhone";
+
+/* title for the Stories component for Tap on phone */
+"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp Tap to Pay για Android";
+
+"sumup_tap_on_phone_android_version_success_title" = "Android version";
+
+"sumup_tap_on_phone_android_version_warning_description" = "Requires version 8.0 or above";
+
+"sumup_tap_on_phone_android_version_warning_title" = "Android version incompatible";
+
+"sumup_tap_on_phone_app_version_title" = "SumUp App version";
+
+"sumup_tap_on_phone_app_version_warning_description" = "Tap to update";
+
+"sumup_tap_on_phone_btn_retry" = "Επανάληψη";
+
+"sumup_tap_on_phone_cancel_message" = "In order to cancel your transaction, please force quit the SumUp App.";
+
+"sumup_tap_on_phone_connection_lost" = "Διακοπή σύνδεσης";
+
+"sumup_tap_on_phone_developer_options_check_success_title" = "Developer options";
+
+"sumup_tap_on_phone_developer_options_check_warning_description" = "Tap to disable";
+
+"sumup_tap_on_phone_developer_options_check_warning_title" = "Developer options enabled";
+
+"sumup_tap_on_phone_failed_message" = "Παρουσιάστηκε κάποιο πρόβλημα. Δοκιμάστε ξανά αργότερα ή επικοινωνήστε με την Ομάδα υποστήριξης.";
+
+"sumup_tap_on_phone_feature_description" = "Δεχτείτε πληρωμές από την κινητή σας συσκευή χωρίς να χρειάζεστε τερματικό POS. Η λειτουργία Tap to Pay θα είναι διαθέσιμη ως μέθοδος πληρωμής κατά την ολοκλήρωση της πληρωμής.";
+
+"sumup_tap_on_phone_feature_enabled_with_warnings_description" = "Για να πραγματοποιήσετε συναλλαγές με τη λειτουργία Tap to Pay, ανατρέξτε στα θέματα που επισημαίνονται παρακάτω με κόκκινο χρώμα.";
+
+/* Title of the guide box when find antenna failed */
+"sumup_tap_on_phone_find_antenna_box_failed_title" = "Δεν βρήκα την κεραία. Δοκιμάστε ξανά.";
+
+/* Title of the guide box when find antenna starts */
+"sumup_tap_on_phone_find_antenna_box_follow_title" = "Ακολουθήστε αυτό το πλαίσιο με μια κάρτα στο πίσω μέρος του τηλεφώνου σας.";
+
+/* Title of the guide box before starting on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_box_initial_title" = "Αυτό το πλαίσιο θα κινηθεί αργά προς τα κάτω και, στη συνέχεια, προς τα πάνω στην οθόνη. Ακολουθήστε το με μια κάρτα στο πίσω μέρος του τηλεφώνου σας. <strong>Η κάρτα δεν θα χρεωθεί.</strong> Πατήστε \"Έναρξη\" όταν είστε έτοιμοι.";
+
+/* Title of the guide box body when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_body" = "Για να βεβαιωθείτε ότι οι πληρωμές διεκπεραιώνονται πάντα, <strong>ζητήστε από τους πελάτες να ακουμπήσουν την κάρτα τους σε αυτό το σημείο στο πίσω μέρος του τηλεφώνου σας.</strong> Αν είστε έτοιμοι, πληρώστε τώρα.";
+
+/* Title of the guide box header when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_header" = "Αυτό είναι το σωστό σημείο!";
+
+/* Title of the find antenna tutorial screen when attempts limit reached */
+"sumup_tap_on_phone_find_antenna_contact_support_title" = "Επικοινωνήστε με την υποστήριξη της SumUp για περαιτέρω βοήθεια.";
+
+/* Title of the cancel CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Άκυρο";
+
+/* Title of the contact support CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_contact_support" = "Επικοινωνία με την Υποστήριξη";
+
+/* Title of the finish CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_finish" = "Τέλος";
+
+/* Title of the start CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_start" = "Έναρξη";
+
+/* Title of the take a payment CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_take_a_payment" = "Δεχτείτε μια πληρωμή";
+
+/* Title of the try again CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_try_again" = "Δοκιμάστε ξανά";
+
+"sumup_tap_on_phone_google_services_title" = "Google services";
+
+/* Title for the Stories component for Tap to Pay on iPhone */
+"sumup_tap_on_phone_ios_landing_stories_screen_title" = "SumUp Tap to Pay στο iPhone";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_subtitle" = "Αποδεχτείτε αυτοπρόσωπες, ανέπαφες πληρωμές στο smartphone σας— χωρίς έξτρα κόστος για τερματικά POS ή υλισμικό.";
+
+/* title for Stories TTP component page one */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_title" = "Αποδοχή πληρωμών στο iPhone σας";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "Χωρίς δεσμευτικά συμβόλαια ή μηνιαία κόστη, πληρώνετε μόνο ένα μικρό τέλος συναλλαγής %1$@ σε κάθε πληρωμή που λαμβάνετε με το iPhone σας.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_3_subtitle" = "Κατεβάζοντας την εφαρμογή SumUp κι ακολουθώντας μερικά απλά βήματα, θα είστε έτοιμοι να αποδέχεστε πληρωμές με το smartphone σας σε λίγα λεπτά.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your iPhone.";
+
+/* title for the Stories component CTA button for Tap on phone */
+"sumup_tap_on_phone_landing_stories_action_button_title" = "Ενεργοποίηση τώρα";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_1_subtitle" = "Αποδεχτείτε αυτοπρόσωπες, ανέπαφες πληρωμές στο smartphone σας— χωρίς έξτρα κόστος για τερματικά POS ή υλισμικό.";
+
+/* title for Stories component page one */
+"sumup_tap_on_phone_landing_stories_slide_1_title" = "Αποδεχτείτε πληρωμές στο smartphone σας";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "Χωρίς δεσμευτικά συμβόλαια ή μηνιαία κόστη, πληρώνετε μόνο ένα μικρό τέλος συναλλαγής %1$@ σε κάθε πληρωμή που λαμβάνετε με το smartphone σας.";
+
+/* title for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_title" = "Δωρεάν ενεργοποίηση, χωρίς συμβόλαιο";
+
+/* subtitle for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_subtitle" = "Κατεβάζοντας την εφαρμογή SumUp κι ακολουθώντας μερικά απλά βήματα, θα είστε έτοιμοι να αποδέχεστε πληρωμές με το smartphone σας σε λίγα λεπτά.";
+
+/* title for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_title" = "Ξεκινήστε άμεσα να αποδέχεστε πληρωμές";
+
+/* subtitle for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your Android phone.";
+
+/* title for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_title" = "No contracts or monthly fees";
+
+"sumup_tap_on_phone_loading_description" = "Μετατρέπουμε το τηλέφωνό σας σε συσκευή πληρωμών. Η διαδικασία αυτή θα διαρκέσει μόνο ένα λεπτό.";
+
+"sumup_tap_on_phone_loading_message" = "Εκκίνηση λειτουργίας Tap to Pay";
+
+"sumup_tap_on_phone_loading_title" = "Ετοιμάζουμε διάφορες ρυθμίσεις";
+
+"sumup_tap_on_phone_nfc_error_title" = "NFC not available";
+
+"sumup_tap_on_phone_nfc_success_title" = "NFC enabled";
+
+"sumup_tap_on_phone_nfc_warning_description" = "Tap to enable";
+
+"sumup_tap_on_phone_nfc_warning_title" = "NFC not enabled";
+
+/* Title of the tap on phone tutorial CTA button on the overview screen */
+"sumup_tap_on_phone_overview_tutorial_cta_title" = "Μάθετε για το Tap to Pay";
+
+"sumup_tap_on_phone_title" = "Tap to Pay";
+
+/* Title of the android version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_android_version_requirement" = "Εγκατεστημένο Android 8 ή νεότερη έκδοση";
+
+/* Title of the app version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_app_version_requirement" = "Τελευταία έκδοση της Εφαρμογής SumUp";
+
+/* Title of the body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_body" = "Δεχτείτε πληρωμές με κάρτες ανέπαφων συναλλαγών και ψηφιακά πορτοφόλια από το smartphone σας χρησιμοποιώντας το Tap to Pay για Android και την Εφαρμογή SumUp.";
+
+/* Title of CTA on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_cta_title" = "Ρύθμιση τώρα";
+
+/* Title of the developer tools requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_developer_tools_requirement" = "\"Εργαλεία προγραμματιστή\" απενεργοποιημένα";
+
+/* Title of the google services requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_google_services_requirement" = "Υπηρεσίες Google ενεργοποιημένες";
+
+/* Title of the header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_header" = "Όλα όσα χρειάζεστε για να δέχεστε πληρωμές είναι στο χέρι σας";
+
+/* Title of the NFC requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_nfc_requirement" = "NFC ενεργοποιημένο (στις ρυθμίσεις του τηλεφώνου)";
+
+/* Title of the requirements header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_requirements_header" = "Απαιτήσεις";
+
+/* Title of the alert dialog body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_body" = "Για να συνεχίσετε τη ρύθμιση, βεβαιωθείτε ότι το τηλέφωνό σας πληροί τις προϋποθέσεις για τη χρήση του Tap to Pay.";
+
+/* Title of the alert dialog header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_header" = "Απαιτήσεις συστήματος";
+
+/* Title of the CTA on tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_cta" = "Ρύθμιση τώρα";
+
+/* Title of the tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_title" = "Δεχτείτε ανέπαφες πληρωμές χρησιμοποιώντας μόνο το τηλέφωνό σας";
+
+"sumup_tap_on_phone_update_app_message" = "Ενημερώστε την Εφαρμογή SumUp για να χρησιμοποιήσετε τη λειτουργία Tap to Pay.";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_find_antenna" = "Εύρεση κεραίας NFC";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_next" = "Επόμενο";
+
+/* Title of the CTA to turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_turn_on_ttp" = "Ενεργοποίηση τώρα";
+
+/* Title of the step customer tap card on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_customer_tap_card" = "Ο πελάτης ακουμπάει την κάρτα του στο πίσω μέρος του Android σας μέχρι να ακούσετε ένα ηχητικό σήμα.";
+
+/* Title of the step find antenna on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_find_antenna" = "Δεν ξέρετε πού πρέπει να ακουμπήσει η κάρτα; Αφιερώστε ένα λεπτό για να το δοκιμάσετε τώρα.";
+
+/* Title of the step select payment method on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_select_payment" = "Στο ταμείο, επιλέξτε \"Tap to Pay\" ως μέθοδο πληρωμής";
+
+/* Title of the step turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_turn_on_ttp" = "Ενεργοποιήστε το \"Tap to Pay\" τώρα ή αργότερα στο Προφίλ σας SumUp";
+
+"sumup_tap_os_check_alert_message" = "You need iOS version %1$@ or later to use this feature";
+
+"sumup_tap_os_check_alert_settings_button" = "Ρυθμίσεις";
+
+"sumup_tap_os_check_alert_title" = "OS version";
+
+"sumup_tap_prepare_failed" = "Failed to start Apple Tap to Pay";
+
+"sumup_tap_prereq_app_version" = "SumUp app version";
+
+"sumup_tap_prereq_app_version_cta" = "Open app store";
+
+"sumup_tap_prereq_apple_tap_to_pay" = "'Tap to Pay' services";
+
+"sumup_tap_prereq_device_model" = "iPhone model";
+
+"sumup_tap_prereq_device_model_cta" = "More info";
+
+"sumup_tap_prereq_os_version" = "iOS version";
+
+"sumup_tap_prereq_os_version_cta" = "Open iOS settings";
+
+"sumup_tap_prereq_terms_of_service" = "Terms of service";
+
+"sumup_tap_prereq_terms_of_service_cta" = "Review terms of service";
+
+"sumup_tap_processing_tx" = "Επεξεργασία";
+
+"sumup_tap_profile_settings_item" = "Tap to Pay on iPhone";
+
+"sumup_tap_profile_settings_title" = "Tap to Pay on iPhone";
+
+"sumup_tap_proximity_reader_check_alert_message" = "Unfortunately, Apple Tap to Pay for iPhone is not available.";
+
+"sumup_tap_proximity_reader_check_alert_title" = "Apple Tap to Pay for iPhone";
+
+"sumup_tap_reader_busy" = "Getting things ready. Please try again later";
+
+"sumup_tap_renewal_failed" = "Unable to renew the session";
+
+"sumup_tap_settings_learn_more" = "Learn about Tap to Pay on iPhone";
+
+"sumup_tap_settings_learn_more_title" = "Tap to Pay on iPhone";
+
+"sumup_tap_starting" = "Starting";
+
+"sumup_tap_subaccount_check_alert_message" = "Unfortunately your Employee account is not authorised to activate Tap to Pay.\n\nPlease contact the main SumUp account owner to activate and then try again.";
+
+"sumup_tap_subaccount_check_alert_title" = "Cannot activate as an Employee account";
+
+"sumup_tap_tos_already_accepted" = "Terms of Service have already been accepted";
+
+"sumup_tap_user_cancelled" = "The transaction was cancelled by the user";
+

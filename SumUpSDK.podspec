@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.9'
 
   s.name    = 'SumUpSDK'
-  s.version = '6.0.0'
+  s.version = '6.1.1'
   s.summary = "This SDK enables you to integrate SumUp's proprietary card terminal(s) and its payment platform to accept credit and debit card payments."
 
   s.description = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/sumup/sumup-ios-sdk'
   s.social_media_url = 'https://twitter.com/SumUp'
-  s.license          = { file: 'LICENSE', type: 'Proprietary' }
+  s.license          = { file: 'LICENSE', type: 'Apache-2.0' }
   s.author           = { 'SumUp' => 'integration@sumup.com' }
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.source = { git: 'https://github.com/sumup/sumup-ios-sdk.git', tag: "v#{s.version}" }
 
   s.vendored_frameworks = 'SumUpSDK.xcframework'
-  s.platform            = :ios, '14.0'
+  s.platform            = :ios, '15.0'
 end

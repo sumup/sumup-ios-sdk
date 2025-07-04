@@ -14,8 +14,8 @@ FOUNDATION_EXPORT double SumUpSDKVersionNumber;
 //! Project version string for SumUpSDK.
 FOUNDATION_EXPORT const unsigned char SumUpSDKVersionString[];
 
-#import <SumUpSDK/SMPCheckoutRequest.h>
-#import <SumUpSDK/SMPCheckoutResult.h>
-#import <SumUpSDK/SMPCurrencyCodes.h>
-#import <SumUpSDK/SMPMerchant.h>
-#import <SumUpSDK/SMPSumUpSDK.h>
+#import "SMPCheckoutRequest.h"
+#import "SMPCheckoutResult.h"
+#import "SMPCurrencyCodes.h"
+#import "SMPMerchant.h"
+#import "SMPSumUpSDK.h"

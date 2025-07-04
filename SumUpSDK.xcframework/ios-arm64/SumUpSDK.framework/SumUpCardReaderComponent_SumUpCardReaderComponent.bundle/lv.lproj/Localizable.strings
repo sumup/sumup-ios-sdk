@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Karšu terminālis";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Aktivizēt Air/Solo";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Maksājumi ar karšu termināli";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Parādīt kā maksājuma veidu norēķināšanās laikā";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Darba uzsākšana ar karšu maksājumiem";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Savienot termināli";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Darba uzsākšana ar karšu maksājumiem";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "SumUp Solo termināļa iespējošana";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Pārslēgties uz citu termināli";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Meklēt vēlreiz";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Zvanīt";
+
+"sumup_btn_cancel" = "Atcelt";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Savienot";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Izdzēst";
+
+"sumup_btn_dismiss" = "Atmest";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Gatavs";
+
+"sumup_btn_edit" = "Labot";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Gatavs";
+
+"sumup_btn_go_to_support" = "Doties uz atbalsta centru";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Vēlāk";
+
+"sumup_btn_new_set_up" = "Jauna iestatīšana";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Tālāk";
+
+"sumup_btn_no" = "Nē";
+
+"sumup_btn_not_my_reader" = "Nav mans terminālis";
+
+"sumup_btn_ok" = "LABI";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Jāapmaksā";
+
+"sumup_btn_previous" = "Atpakaļ";
+
+"sumup_btn_proceed" = "Turpināt";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Meklēt vēlreiz";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Mēģiniet vēlreiz";
+
+"sumup_btn_scan" = "Skenēt";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Nosūtīt";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Sūtīt uz mobilo tālruni";
+
+"sumup_btn_skip" = "Izlaist";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Mēģināt vēlreiz";
+
+"sumup_btn_update" = "Atjaunināt";
+
+"sumup_btn_yes" = "Jā";
+
+"sumup_btn_yes_connect" = "Jā, savienot";
+
+"sumup_btn_yes_scan" = "Jā, skenēt";
+
+"sumup_card_reader_battery_level_label" = "Akumulatora uzlādes līmenis";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Akumulators";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Bluetooth programmatūra";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Savienot";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Savienojuma izveide neizdevās";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Mēģināt vēlreiz";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Nevarēja izveidot savienojumu ar karšu termināli. Mēģini vēlreiz.";
+
+"sumup_card_reader_hardware_version_text" = "Aparatūra";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Pēdējie cipari";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Izveidot savienojumu ar karšu termināli";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Darba sākšana ar karšu maksājumiem";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "SumUp Solo termināļa iespējošana";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Sērijas numurs";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Pieņemt maksājumus, kas veikti ar karšu termināli";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Pieņemt maksājumus, kas veikti ar Top/Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Rādīt kā maksājuma veidu norēķināšanās laikā.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Pārslēgties uz citu termināli";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Programmatūra";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Aizvērt";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Ievadi saņemto skaidrās naudas summu, lai aprēķinātu izdodamo atlikumu";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Aprēķināt atlikumu";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Skaidras naudas maksājums";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Rādīt kā maksājuma veidu norēķinoties, reģistrēt maksājumus skaidrā naudā.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Maksājumiem skaidrā naudā netiek piemērotas nodevas.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Pieņemt maksājumus skaidrā naudā";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Maksājumi skaidrā naudā";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Nezināms";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Izveido savienojumu ar karšu termināli";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Izveido savienojumu";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Atjaunināt ierīci";
+
+"sumup_reader_not_found_message" = "Karšu terminālis %1$@ netika atrasts. Pārliecinies, ka tas ir ieslēgts un tuvumā.";
+
+"sumup_reader_off_and_unplugged_message" = "Pārliecinies, ka ierīce ir izslēgta un atvienota no elektrības padeves.";
+
+"sumup_reader_off_and_unplugged_title" = "Atvieno un izslēdz";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Maksājums";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Maksājums tika atcelts";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Uzstādīt karšu lasītāju";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Neaktīvs";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Gatavs lietošanai";
+

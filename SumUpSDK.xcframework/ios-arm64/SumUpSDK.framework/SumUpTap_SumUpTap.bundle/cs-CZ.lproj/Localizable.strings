@@ -1,0 +1,393 @@
+/* upper label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSublabel" = "Spojení se vzdáleným serverem SumUp bylo přerušeno";
+
+/* lower label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSubsublabel" = "Předtím, než se o platbu pokusíte znovu, zkontrolujte prosím její stav v Historii prodeje.";
+
+/* title in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearTitle" = "Chyba připojení";
+
+"sumup_btn_cancel" = "Zrušit";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Hotovo";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Dále";
+
+"sumup_btn_ok" = "OK";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Zavřít";
+
+/* Accessibility title for Close button of Stories component */
+"sumup_stories_component_shared_close_button_accessibility_title" = "Close";
+
+/* Button title for the error state of Stories component. Common case: trigger reload */
+"sumup_stories_component_shared_error_action_button_title" = "Reload";
+
+/* General title for error state of Stories component */
+"sumup_stories_component_shared_error_title" = "Error";
+
+/* Accessibility title for Next Story button of Stories component */
+"sumup_stories_component_shared_next_button_accessibility_title" = "Next";
+
+/* Accessibility title for Pause button of Stories component */
+"sumup_stories_component_shared_pause_button_accessibility_title" = "Pause";
+
+/* Accessibility title for Play button of Stories component */
+"sumup_stories_component_shared_play_button_accessibility_title" = "Play";
+
+/* Accessibility title for Previous Story button of Stories component */
+"sumup_stories_component_shared_previous_button_accessibility_title" = "Previous";
+
+/* Accessibility title for timeline description of Stories component */
+"sumup_stories_component_shared_timeline_description_accessibility_title" = "Playing story %1$d of %2$d";
+
+"sumup_tap_activation_continue_button" = "Pokračovat";
+
+"sumup_tap_activation_finished_btn_learn_more" = "Další informace";
+
+"sumup_tap_activation_finished_btn_try_now" = "Vyzkoušet";
+
+"sumup_tap_activation_finished_subtitle" = "Začněte přijímat bezkontaktní platby se svým iPhonem";
+
+"sumup_tap_activation_finished_title" = "Vše je připraveno";
+
+"sumup_tap_activation_intro_btn_set_up_now" = "Nastavit nyní";
+
+"sumup_tap_activation_intro_btn_start" = "Začít";
+
+"sumup_tap_activation_intro_new_subtitle" = "Začněte přijímat osobní, bezkontaktní platby – vystačíte si s iPhonem.";
+
+"sumup_tap_activation_intro_new_title" = "Prodávejte kdekoli.\nObejdete se bez terminálu.";
+
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay na iPhonu";
+
+"sumup_tap_activation_intro_subtitle" = "Nastavte si Tap to Pay na iPhonu a přijímejte rychlé a bezpečné platby";
+
+"sumup_tap_activation_intro_table_first_row" = "iPhone XS nebo novější";
+
+"sumup_tap_activation_intro_table_second_row" = "iOS 16.4 nebo vyšší";
+
+"sumup_tap_activation_intro_table_third_row" = "Přístupový kód zapnut";
+
+"sumup_tap_activation_intro_table_title" = "Co je zapotřebí?";
+
+"sumup_tap_activation_intro_title" = "Tap to Pay na iPhonu.\nNepotřebujete platební terminál.";
+
+"sumup_tap_activation_learn_more_button" = "Další informace";
+
+"sumup_tap_activation_learn_more_title" = "O službě Tap to Pay na iPhonu";
+
+"sumup_tap_activation_preparing_subtitle" = "Okamžik…";
+
+"sumup_tap_activation_preparing_title" = "Všechno vám připravíme";
+
+"sumup_tap_activation_setup_button" = "Nastavit";
+
+"sumup_tap_capture_pin_failed" = "Nepodařilo se získat PIN";
+
+"sumup_tap_card_declined" = "Platba selhala nebo byla zamítnuta";
+
+"sumup_tap_enable_subtitle" = "Zobrazit jako způsob platby při placení";
+
+"sumup_tap_enable_toggle" = "Tap to Pay na iPhonu";
+
+"sumup_tap_error_title" = "Chyba";
+
+"sumup_tap_failed_to_read_card" = "Načítání karty selhalo";
+
+"sumup_tap_finalizing_tx" = "Dokončuje se";
+
+"sumup_tap_home_button" = "Začněte ihned";
+
+"sumup_tap_home_title" = "Přijímejte bezkontaktní platby – vystačíte si s iPhonem";
+
+"sumup_tap_learn_more_accessibility" = "Usnadnění přístupu";
+
+"sumup_tap_learn_more_at_checkout" = "Při placení zvolte\n Tap to Pay na iPhonu.";
+
+"sumup_tap_learn_more_btn_set_up_now" = "Nastavit nyní";
+
+"sumup_tap_learn_more_customer_enters_pin" = "Zákazník zadá PIN. Dle potřeby použijte usnadnění přístupu.";
+
+"sumup_tap_learn_more_enter_card_pin" = "Zadejte PIN ke kartě";
+
+"sumup_tap_learn_more_hold_here_to_pay" = "Při placení přidržte zde";
+
+"sumup_tap_learn_more_hold_near_contactless" = "Nebo aby své zařízení přiložil k symbolu bezkontaktních plateb";
+
+"sumup_tap_learn_more_pay_flower_shop" = "Zaplatit v květinářství";
+
+"sumup_tap_learn_more_payment_links" = "Sdílení platebních odkazů";
+
+"sumup_tap_learn_more_payment_methods" = "Způsoby platby";
+
+"sumup_tap_learn_more_present_to_customer" = "Požádejte zákazníka, aby kartu přidržel, jak je vidět na obrázku";
+
+"sumup_tap_learn_more_price" = "429 Kč";
+
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay na iPhonu";
+
+"sumup_tap_link_account_failed" = "Nepodařilo se zobrazit podmínky";
+
+"sumup_tap_model_check_alert_message" = "Chcete-li tuto funkci využívat, potřebujete iPhone XS či vyšší verzi";
+
+"sumup_tap_model_check_alert_title" = "Model iPhonu";
+
+"sumup_tap_must_accept_tos" = "Chcete-li využívat SumUp, přijměte podmínky";
+
+"sumup_tap_must_enable_passcode" = "Chcete-li používat Tap to Pay na iPhonu, musíte pro tento telefon povolit bezpečnostní přístupový kód";
+
+"sumup_tap_not_allowed_during_call" = "Než použijete Tap to Pay na iPhonu, ukončete veškeré hovory";
+
+/* title for the Stories component for Tap on phone */
+"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp Tap to Pay na Androidu";
+
+"sumup_tap_on_phone_android_version_success_title" = "Android version";
+
+"sumup_tap_on_phone_android_version_warning_description" = "Requires version 8.0 or above";
+
+"sumup_tap_on_phone_android_version_warning_title" = "Android version incompatible";
+
+"sumup_tap_on_phone_app_version_title" = "SumUp App version";
+
+"sumup_tap_on_phone_app_version_warning_description" = "Tap to update";
+
+"sumup_tap_on_phone_btn_retry" = "Opakovat";
+
+"sumup_tap_on_phone_cancel_message" = "In order to cancel your transaction, please force quit the SumUp App.";
+
+"sumup_tap_on_phone_connection_lost" = "Ztráta připojení";
+
+"sumup_tap_on_phone_developer_options_check_success_title" = "Developer options";
+
+"sumup_tap_on_phone_developer_options_check_warning_description" = "Tap to disable";
+
+"sumup_tap_on_phone_developer_options_check_warning_title" = "Developer options enabled";
+
+"sumup_tap_on_phone_failed_message" = "Něco se nepodařilo. Zkuste to znovu později nebo se obraťte na zákaznickou podporu.";
+
+"sumup_tap_on_phone_feature_description" = "Obejdete se bez terminálu – platby můžete přijímat na svém mobilním zařízení. Během placení se jako způsob platby zobrazí Tap to Pay.";
+
+"sumup_tap_on_phone_feature_enabled_with_warnings_description" = "Chcete-li využívat službu Tap to Pay, vyřešte problémy, které jsou níže zobrazeny červeně.";
+
+/* Title of the guide box when find antenna failed */
+"sumup_tap_on_phone_find_antenna_box_failed_title" = "Anténa nenalezena? Zkuste to znovu.";
+
+/* Title of the guide box when find antenna starts */
+"sumup_tap_on_phone_find_antenna_box_follow_title" = "Po zadní straně telefonu sledujte kartou pohyb tohoto rámečku.";
+
+/* Title of the guide box before starting on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_box_initial_title" = "Toto pole se bude na obrazovce pomalu přesouvat nahoru a dolů. Sledujte ho kartou po zadní straně telefonu. <strong>Z karty nebude nic strženo.</strong> Jakmile budete připraveni, klepněte na Začít.";
+
+/* Title of the guide box body when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_body" = "<strong>Požádejte zákazníky, aby svoje karty přikládali na toto místo na zadní straně vašeho telefonu</strong>, ať máte jistotu, že platba pokaždé proběhne hladce. Jestli jste připraveni, přijměte platbu.";
+
+/* Title of the guide box header when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_header" = "Jste tady správně!";
+
+/* Title of the find antenna tutorial screen when attempts limit reached */
+"sumup_tap_on_phone_find_antenna_contact_support_title" = "Se žádostí o pomoc se obraťte na zákaznickou podporu SumUp.";
+
+/* Title of the cancel CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Zrušit";
+
+/* Title of the contact support CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_contact_support" = "Kontaktovat podporu";
+
+/* Title of the finish CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_finish" = "Dokončit";
+
+/* Title of the start CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_start" = "Začít";
+
+/* Title of the take a payment CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_take_a_payment" = "Přijmout platbu";
+
+/* Title of the try again CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_try_again" = "Zkusit znovu";
+
+"sumup_tap_on_phone_google_services_title" = "Google services";
+
+/* Title for the Stories component for Tap to Pay on iPhone */
+"sumup_tap_on_phone_ios_landing_stories_screen_title" = "SumUp Tap to Pay na iPhonu";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_subtitle" = "Přijímejte bezkontaktní platby s osobní přítomností plátce přímo na iPhonu — nepotřebujete žádný další hardware ani terminály.";
+
+/* title for Stories TTP component page one */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_title" = "Přijímejte platby na svém iPhonu";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "Vše se obejde bez smluvních závazků a měsíčních poplatků – společnosti SumUp platíte jen drobný transakční poplatek %1$@ za každou platbu, kterou na iPhonu přijmete.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_3_subtitle" = "Když si stáhnete aplikaci SumUp a provedete několik jednoduchých kroků, můžete začít přijímat platby pomocí iPhonu během několika minut.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your iPhone.";
+
+/* title for the Stories component CTA button for Tap on phone */
+"sumup_tap_on_phone_landing_stories_action_button_title" = "Povolit nyní";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_1_subtitle" = "Přijímejte bezkontaktní platby s osobní přítomností plátce přímo na chytrém telefonu — nepotřebujete žádný další hardware ani terminály.";
+
+/* title for Stories component page one */
+"sumup_tap_on_phone_landing_stories_slide_1_title" = "Přijímejte platby na chytrém telefonu";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "Vše se obejde bez smluvních závazků a měsíčních poplatků – společnosti SumUp platíte jen drobný transakční poplatek %1$@ za každou platbu, kterou na chytrém telefonu přijmete.";
+
+/* title for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_title" = "Bezplatná aktivace, žádné smluvní závazky";
+
+/* subtitle for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_subtitle" = "Když si stáhnete aplikaci SumUp a provedete několik jednoduchých kroků, můžete začít přijímat platby pomocí chytrého telefonu během několika minut.";
+
+/* title for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_title" = "Začněte okamžitě přijímat platby";
+
+/* subtitle for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your Android phone.";
+
+/* title for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_title" = "No contracts or monthly fees";
+
+"sumup_tap_on_phone_loading_description" = "Z vašeho telefonu se stane přístroj pro příjem plateb. Zabere to jen chvilku.";
+
+"sumup_tap_on_phone_loading_message" = "Jak začít s Tap to Pay";
+
+"sumup_tap_on_phone_loading_title" = "Jak vše připravit";
+
+"sumup_tap_on_phone_nfc_error_title" = "NFC not available";
+
+"sumup_tap_on_phone_nfc_success_title" = "NFC enabled";
+
+"sumup_tap_on_phone_nfc_warning_description" = "Tap to enable";
+
+"sumup_tap_on_phone_nfc_warning_title" = "NFC not enabled";
+
+/* Title of the tap on phone tutorial CTA button on the overview screen */
+"sumup_tap_on_phone_overview_tutorial_cta_title" = "Zjistěte více o Tap to Pay";
+
+"sumup_tap_on_phone_title" = "Tap to Pay";
+
+/* Title of the android version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_android_version_requirement" = "Nainstalovaný Android 8 nebo novější";
+
+/* Title of the app version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_app_version_requirement" = "Nejnovější verze aplikace SumUp";
+
+/* Title of the body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_body" = "Přijímejte bezkontaktní platby kartou a digitálními peněženkami pomocí chytrého telefonu s funkcí Tap to Pay pro Android a aplikací SumUp.";
+
+/* Title of CTA on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_cta_title" = "Nastavit";
+
+/* Title of the developer tools requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_developer_tools_requirement" = "Vypnuté Nástroje pro vývojáře";
+
+/* Title of the google services requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_google_services_requirement" = "Zapnuté Služby Google";
+
+/* Title of the header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_header" = "Všechno, co potřebujete k přijímání plateb, držíte právě teď v ruce";
+
+/* Title of the NFC requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_nfc_requirement" = "NFC zapnuto (v nastaveních telefonu)";
+
+/* Title of the requirements header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_requirements_header" = "Požadavky";
+
+/* Title of the alert dialog body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_body" = "Než budete pokračovat v nastavování, zkontrolujte, jestli váš telefon splňuje požadavky na používání Tap to Pay.";
+
+/* Title of the alert dialog header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_header" = "Systémové požadavky";
+
+/* Title of the CTA on tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_cta" = "Nastavit";
+
+/* Title of the tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_title" = "Přijímejte bezkontaktní platby jenom telefonem";
+
+"sumup_tap_on_phone_update_app_message" = "Aktualizujte si aplikaci SumUp, abyste mohli používat Tap to Pay.";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_find_antenna" = "Najít NFC anténu";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_next" = "Další";
+
+/* Title of the CTA to turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_turn_on_ttp" = "Zapnout hned";
+
+/* Title of the step customer tap card on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_customer_tap_card" = "Zákazník přidrží kartu u zadní strany vašeho zařízení s Androidem, dokud neuslyšíte pípnutí.";
+
+/* Title of the step find antenna on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_find_antenna" = "Nevíte jistě, kam kartu přiložit? Věnujte chvilku malému testu.";
+
+/* Title of the step select payment method on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_select_payment" = "Při placení vyberte jako způsob platby Tap to Pay";
+
+/* Title of the step turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_turn_on_ttp" = "Zapněte si Tap to Pay hned nebo to udělejte později ve svém profilu SumUp";
+
+"sumup_tap_os_check_alert_message" = "Chcete-li tuto funkci využívat, potřebujete iOS ve verzi %1$@ či vyšší";
+
+"sumup_tap_os_check_alert_settings_button" = "Nastavení";
+
+"sumup_tap_os_check_alert_title" = "Verze OS";
+
+"sumup_tap_prepare_failed" = "Nepodařilo se spustit Tap to Pay od společnosti Apple";
+
+"sumup_tap_prereq_app_version" = "Verze aplikace SumUp";
+
+"sumup_tap_prereq_app_version_cta" = "Do app store";
+
+"sumup_tap_prereq_apple_tap_to_pay" = "Služby Tap to Pay";
+
+"sumup_tap_prereq_device_model" = "Model iPhonu";
+
+"sumup_tap_prereq_device_model_cta" = "Další informace";
+
+"sumup_tap_prereq_os_version" = "Verze iOS";
+
+"sumup_tap_prereq_os_version_cta" = "Otevřít nastavení iOS";
+
+"sumup_tap_prereq_terms_of_service" = "Podmínky";
+
+"sumup_tap_prereq_terms_of_service_cta" = "Zkontrolovat podmínky";
+
+"sumup_tap_processing_tx" = "Probíhá zpracování";
+
+"sumup_tap_profile_settings_item" = "Tap to Pay na iPhonu";
+
+"sumup_tap_profile_settings_title" = "Tap to Pay na iPhonu";
+
+"sumup_tap_proximity_reader_check_alert_message" = "Služba Tap to Pay pro iPhone bohužel není k dispozici.";
+
+"sumup_tap_proximity_reader_check_alert_title" = "Tap to Pay pro iPhone od společnosti Apple";
+
+"sumup_tap_reader_busy" = "Vše se připravuje. Zkuste to znovu později";
+
+"sumup_tap_renewal_failed" = "Nepodařilo se obnovit relaci";
+
+"sumup_tap_settings_learn_more" = "Zjistěte více o Tap to Pay na iPhonu";
+
+"sumup_tap_settings_learn_more_title" = "Tap to Pay na iPhonu";
+
+"sumup_tap_starting" = "Začíná";
+
+"sumup_tap_subaccount_check_alert_message" = "Váš Zaměstnanecký účet bohužel nemá oprávnění k aktivaci Tap to Pay.\n\nPožádejte hlavního vlastníka účtu SumUp o aktivaci a pak to zkuste znovu.";
+
+"sumup_tap_subaccount_check_alert_title" = "Nelze aktivovat jako Zaměstnanecký účet";
+
+"sumup_tap_tos_already_accepted" = "Podmínky poskytování služeb již byly přijaty";
+
+"sumup_tap_user_cancelled" = "Uživatel transakci zrušil";
+

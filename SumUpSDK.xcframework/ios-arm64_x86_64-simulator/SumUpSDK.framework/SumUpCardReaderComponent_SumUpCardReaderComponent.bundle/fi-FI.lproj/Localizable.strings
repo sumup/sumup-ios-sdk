@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Kortinlukija";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Aktivoi Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Ota vastaan maksuja kortinlukijalla";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Ota vastaan maksuja Sololla";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Näytä maksutapana kassalla";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Korttimaksujen käytön aloittaminen";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Yhdistä kortinlukija";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Korttimaksujen käytön aloittaminen";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Solo-kortinlukijan käytön aloittaminen";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Vaihda toiseen kortinlukijaan";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Etsi uudestaan";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Soita nyt";
+
+"sumup_btn_cancel" = "Peruuta";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Yhdistä";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Poista";
+
+"sumup_btn_dismiss" = "Kumoa";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Valmis";
+
+"sumup_btn_edit" = "Muokkaa";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Valmis";
+
+"sumup_btn_go_to_support" = "Siirry tukeen";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Myöhemmin";
+
+"sumup_btn_new_set_up" = "Uusi määritys";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Seuraava";
+
+"sumup_btn_no" = "Ei";
+
+"sumup_btn_not_my_reader" = "Ei lukijani";
+
+"sumup_btn_ok" = "OK";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Maksa";
+
+"sumup_btn_previous" = "Edellinen";
+
+"sumup_btn_proceed" = "Jatka";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Etsi uudestaan";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Yritä uudestaan";
+
+"sumup_btn_scan" = "Etsi";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Lähetä";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Lähetä matkapuhelimeen";
+
+"sumup_btn_skip" = "Ohita";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Yritä uudestaan";
+
+"sumup_btn_update" = "Päivitä";
+
+"sumup_btn_yes" = "Kyllä";
+
+"sumup_btn_yes_connect" = "Kyllä, yhdistä";
+
+"sumup_btn_yes_scan" = "Kyllä, etsi";
+
+"sumup_card_reader_battery_level_label" = "Akun varaustaso";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Akku";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Bluetooth-ohjelmisto";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Yhdistä";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Yhteyttä ei voitu muodostaa";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Yritä uudestaan";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Kortinlukijaan ei voitu muodostaa yhteyttä. Yritä uudelleen.";
+
+"sumup_card_reader_hardware_version_text" = "Laitteisto";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Viimeiset numerot";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Yhdistä kortinlukija";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Korttimaksujen käytön aloittaminen";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Solo-kortinlukijan käytön aloittaminen";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Sarjanumero";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Ota vastaan maksuja kortinlukijalla";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Ota vastaan maksuja Sololla";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Näytä maksutapana kassalla.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Vaihda toiseen kortinlukijaan";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Ohjelmisto";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Sulje";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Syötä saamasi käteissumma vaihtorahan laskemiseksi";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Laske vaihtoraha";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Käteismaksu";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Näytä maksutapana kassalla ja seuraa käteismaksuja.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Käteismaksuista ei peritä välityspalkkiota.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Vastaanota käteismaksuja";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Käteismaksut";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Tuntematon";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Yhdistetään kortinlukijaan";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Yhdistetään";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Päivitä laite";
+
+"sumup_reader_not_found_message" = "Kortinlukijaa %1$@ ei löytynyt. Varmista, että se on päällä ja lähellä.";
+
+"sumup_reader_off_and_unplugged_message" = "Varmista, että laite on kytketty pois päältä ja irrotettu virtalähteestä.";
+
+"sumup_reader_off_and_unplugged_title" = "Irrota pistoke ja kytke virta pois päältä";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Maksu";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Maksu peruutettiin";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Kortinlukijan käyttöönotto";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Ei aktiivinen";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Valmis";
+

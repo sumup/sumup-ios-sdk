@@ -1,0 +1,224 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Terminal mPOS";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Activează Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Acceptă plăți cu acest mPOS";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Acceptă plăți cu Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Afișează ca modalitate de plată în timpul plății.";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Noțiuni introductive pentru plăți cu cardul";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Conectează terminalul";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Noțiuni introductive pentru plăți cu cardul";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Activare SumUp Solo";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Treci la alt terminal mPOS";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Rescanează";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Apelează acum";
+
+"sumup_btn_cancel" = "Anulează";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Conectează";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Ștergere";
+
+"sumup_btn_dismiss" = "Anulare";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Efectuat";
+
+"sumup_btn_edit" = "Editare";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Finalizare";
+
+"sumup_btn_go_to_support" = "Accesează asistența";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Mai târziu";
+
+"sumup_btn_new_set_up" = "Configurare nouă";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Următorul";
+
+"sumup_btn_no" = "Nu";
+
+"sumup_btn_not_my_reader" = "Nu este terminalul meu";
+
+"sumup_btn_ok" = "O.K.";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Plătește";
+
+"sumup_btn_previous" = "Anterior";
+
+"sumup_btn_proceed" = "Execută";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Rescanează";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Încearcă din nou";
+
+"sumup_btn_scan" = "Caută";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Trimite";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Trimite pe mobil";
+
+"sumup_btn_skip" = "Treci peste";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Comută acum";
+
+"sumup_btn_tx_failed_try_again" = "Încearcă din nou";
+
+"sumup_btn_update" = "Actualizează";
+
+"sumup_btn_yes" = "Da";
+
+"sumup_btn_yes_connect" = "Da, conectează";
+
+"sumup_btn_yes_scan" = "Da, caută";
+
+"sumup_card_reader_battery_level_label" = "Nivelul bateriei";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Baterie";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Software Bluetooth";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Conectează";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Nu s-a putut realiza conectarea";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Încearcă din nou";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Nu s-a putut realiza conectarea la terminalul mPOS. Te rugăm să încerci din nou.";
+
+"sumup_card_reader_hardware_version_text" = "Hardware";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Ultimele cifre";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Conectează terminalul mPOS";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Noțiuni introductive despre plățile cu cardul";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Noțiuni introductive despre Top / Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Număr de serie";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Acceptă plăți cu mPOS-ul";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Acceptă plăți cu Top / Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Afișează ca modalitate de plată la checkout.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Treci la alt terminal mPOS";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Software";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Închide";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Introdu suma de numerar primită pentru a calcula restul datorat";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Calculează restul";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Plăți în numerar";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Arată ca modalitate de plată la checkout și urmărește plățile în numerar.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Nu percepem comisioane pentru plățile în numerar.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Acceptă plățile cu cardul";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Plăți în numerar";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Necunoscut";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Conectare la terminalul mPOS";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Conectare";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Actualizează dispozitivul";
+
+"sumup_reader_not_found_message" = "Terminalul mPOS %1$@ nu a fost găsit. Asigură-te că e pornit și se află în apropiere.";
+
+"sumup_reader_off_and_unplugged_message" = "Asigură-te că dispozitivul este oprit și deconectat de la sursa de alimentare.";
+
+"sumup_reader_off_and_unplugged_title" = "Deconectează și oprește";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Plată";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Plata a fost anulată";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Setează terminalul mPOS";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Inactiv";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Gata";
+
