@@ -1,5 +1,9 @@
 # SumUp iOS SDK Changelog
 
+## Version 6.1.2
+
+* [FIXED] Now using the correct swift-tools-version version to support iOS 15. All changes mentioned in v6.1.1 are available in this release.
+
 ## Version 6.1.1
 
 * [IMPROVEMENT] Faster Solo/Solo Lite Bluetooth connection when starting a transaction
