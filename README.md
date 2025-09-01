@@ -7,7 +7,7 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat)](SumUpSDK.podspec)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](Package.swift)
 
-The documentation has moved. Please see https://developer-sumup-com.sumup-limited.workers.dev/tools/sdks/ios-sdk.
+The documentation has moved. Please see https://developer-sumup-com.sumup-limited.workers.dev/terminal-payments/sdks/ios-sdk.
 
 ## Community
 
