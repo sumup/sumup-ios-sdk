@@ -7,15 +7,6 @@ assignees: ''
 
 ---
 
----
-name: "SDK Feature Request"
-about: Suggest an idea or improvement for the SumUp iOS SDK
-title: "[Feature] "
-labels: feature
-assignees: ''
-
----
-
 ## Related Problem
 <!-- Is your feature request related to a problem? 
 Provide a clear and concise description of the issue (e.g., "I'm always frustrated when..."). -->
