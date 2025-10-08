@@ -8,15 +8,6 @@ assignees: ''
 
 ---
 
----
-name: "Critical Bug Report"
-about: Report issues that prevent the user from completing an action in the SumUp iOS SDK
-title: "[BUG] [P1] "
-labels: bug
-assignees: ''
-
----
-
 ## Summary
 <!-- A clear and concise summary of the issue. -->
 
