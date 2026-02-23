@@ -1,5 +1,9 @@
 # SumUp iOS SDK Changelog
 
+## Version 6.2.2
+
+* [FIXED] Now using the correct swift-tools-version version to support iOS 16. All changes mentioned in v6.2.1 are available in this release.
+
 ## Version 6.2.1
 
 * [IMPROVEMENT] Fixed: when using the SDK in an app built with Xcode 26, the Card Reader Settings screen does not respond to taps.
