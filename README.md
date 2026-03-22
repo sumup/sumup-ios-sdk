@@ -7,7 +7,12 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat)](SumUpSDK.podspec)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](Package.swift)
 
-The documentation has moved. Please see https://developer.sumup.com/terminal-payments/sdks/ios-sdk .
+The API reference for this repository is published with GitHub Pages from [`docs/`](docs/).
+
+- Published SDK docs: `/documentation/sumupsdk/`
+- Local source of truth: the `SumUpSDK` target in `sumup/iOS-Merchant`
+
+The broader integration guides also live at https://developer.sumup.com/terminal-payments/sdks/ios-sdk .
 
 ## Community
 
