@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SMPOfflineSessionDetails.h"
+#import "SMPReaderStatus.h"
 
 @class SMPMerchant;
 @class SMPCheckoutResult;
@@ -16,6 +18,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// A common completion block used within the SumUpSDK that is called with a success flag and an optional error object.
 typedef void (^SMPCompletionBlock)(BOOL success, NSError * _Nullable error);
+
+typedef void (^SMPOfflineRemainingTimeCompletionBlock)(NSTimeInterval remainingTime, NSError * _Nullable error);
+
+typedef void (^SMPOfflineSessionDetailsCompletionBlock)(SMPOfflineSessionDetails * _Nullable sessionDetails, NSError * _Nullable error);
 
 /**
  *  The completion block type that will be used when calling checkoutWithRequest:fromViewController:completion:
@@ -41,6 +47,11 @@ NS_SWIFT_NAME(SumUpSDK)
  *  YES if a checkout is in progress. NO otherwise.
  */
 @property (class, readonly) BOOL checkoutInProgress;
+
+/**
+ *  Returns the SDK's CFBundleIdentifier
+ */
+@property(class, readonly) NSString *bundleIdentifier;
 
 /**
  *  Returns the SDK's CFBundleVersion
@@ -111,6 +122,17 @@ NS_SWIFT_NAME(SumUpSDK)
  *  This allows the SDK to take appropriate measures, like attempting to wake a connected card terminal.
  */
 + (void)prepareForCheckout;
+
+/**
+ *  Call in advance when you know that checkout will occur for the logged-in user.
+ *
+ *  Functionally the same as @c prepareForCheckout
+ *  This version provides the option of supplying a @c SMPCompletionBlock where you can
+ *  dismiss custom UI, check the reader status or perform a checkout.
+ *
+ *  @param block The block is called at the end of the preparation after asking the reader to wake.
+ */
++ (void)prepareForCheckout:(nullable SMPCompletionBlock)block;
 
 /**
  *  Presents a checkout view with all necessary steps to charge a customer.
@@ -206,6 +228,146 @@ NS_SWIFT_NAME(SumUpSDK)
  */
 + (NSString  * _Nonnull)tapToPayProductName;
 
+#pragma mark - Offline Transactions
+
+/**
+ * @brief Synchronizes and persists the Offline session, including security definitions and
+ * transaction limits.
+ *
+ * This method downloads the security definitions and transaction limits required for Offline
+ * transactions. This data is stored locally on the device for later use. If data is already present, it
+ * will be updated only if the method deems it necessary and permitted.
+ *
+ * Offline session data is unique to each merchant. This data is not shared between different
+ * users; therefore, this synchronization must be performed for every merchant account used on
+ * the device to ensure the correct limits and security policies are applied.
+ *
+ * This method is a prerequisite for the Offline feature. If the aforementioned data is not available
+ * on the device, any call to Offline-related methods will fail.
+ *
+ * @note This method must be called while the device is online. The SDK automatically performs
+ * this operation after a successful login; calling this method manually immediately after login is
+ * redundant and discouraged. The Offline session persists even if the SDK is terminated or the
+ * device is disconnected from the network.
+ *
+ * @param completion Block invoked upon completion. The result of the operation is provided
+ * through the block parameters: 'success' indicates whether the synchronization was completed
+ * successfully, while 'error' provides details if the operation failed.
+ */
++ (void)setupOfflineSessionWithCompletion:(nullable SMPCompletionBlock)completion;
+
+/**
+ * @brief Activates the local Offline session.
+ *
+ * This method enables Offline transaction processing. Once the session is active, the SDK will
+ * only allow Offline transactions.
+ *
+ * While an Offline session is active, transactions are authorized or declined based on local
+ * logic that may differ from the real-time authorization logic typically used by the SumUp
+ * backend.
+ *
+ * The Offline session state persists even if the SDK is terminated or the device is disconnected
+ * from the network. To exit this state and resume standard online operations, you must use
+ * either `endOfflineSessionWithCompletion:` or `uploadOfflineSessionWithCompletion:`.
+ *
+ * Note that these deactivation methods may require an active internet connection, especially if
+ * Offline transactions were processed while the session was active.
+ *
+ * @warning Once activated, an Offline session has a finite duration. Use
+ * `getOfflineSessionRemainingTime` to monitor its validity.
+ *
+ * @param completion Block invoked upon completion. The result of the operation is provided
+ * through the block parameters: 'success' indicates whether the Offline session was started
+ * successfully, while 'error' provides details if the operation failed.
+ */
++ (void)startOfflineSessionWithCompletion:(nullable SMPCompletionBlock)completion;
+
+/**
+ * @brief Deactivates the local Offline session.
+ *
+ * This method prevents the SDK from accepting further Offline transactions and restores
+ * standard online operations.
+ *
+ * Transitioning from an active to a deactivated Offline session is always permitted. However, the
+ * reverse (re-activating a session) is not always guaranteed, as it depends on the validity of the
+ * local security definitions. Therefore, this method should be used only when the merchant is
+ * certain they no longer require Offline capabilities for the foreseeable future.
+ *
+ * This method will also attempt to upload any stored Offline transactions and update the local
+ * security definitions, similar to `uploadOfflineSessionWithCompletion:`. However, if
+ * an error occurs during either the upload or the update process, it will not be reported; the
+ * priority is finalizing the session state. Stored transactions will not be deleted unless they have
+ * been successfully uploaded.
+ *
+ * @note This method may require an active internet connection to synchronize the final session
+ * state with the SumUp backend.
+ *
+ * @param completion Block invoked upon completion. The result of the operation is provided
+ * through the block parameters: 'success' indicates whether the Offline session was ended
+ * successfully, while 'error' provides details if the operation failed.
+ */
++ (void)endOfflineSessionWithCompletion:(nullable SMPCompletionBlock)completion;
+
+/**
+ * @brief Queries the remaining time-to-live (TTL) of the current Offline session.
+ *
+ * For security and compliance reasons, the Offline session has a limited validity period.
+ * This method retrieves the remaining time, in seconds, before the local session expires and
+ * requires a new online synchronization.
+ *
+ * When this value reaches zero, the SDK will block any further Offline checkouts.
+ * Depending on the previous state and the presence of stored transactions, the session
+ * can be restarted by first finalizing the current state (via
+ * `endOfflineSessionWithCompletion:` or
+ * `uploadOfflineSessionWithCompletion:`) and then calling
+ * `startOfflineSessionWithCompletion:`.
+ *
+ * @param completion Block invoked upon completion. The result of the operation is provided
+ * through the block parameters: 'remainingTime' indicates the validity in seconds
+ * (NSTimeInterval), while 'error' provides details if no session is active or the data is
+ * inaccessible.
+ */
++ (void)getOfflineSessionRemainingTimeWithCompletion:(nonnull SMPOfflineRemainingTimeCompletionBlock)completion;
+
+/**
+ * @brief Retrieves the details of the current Offline session.
+ *
+ * This method returns an `SMPOfflineSessionDetails` object reflecting the current state of
+ * the Offline session. It provides granular data including the number of approved and
+ * failed transactions, the total accumulated amount, and the remaining session time.
+ *
+ * This information is essential for merchant-facing dashboards to track "Pending Sync" totals
+ * and to monitor the consumption of local limits before an upload to the backend is required.
+ *
+ * @param completion Block invoked upon completion. The result of the operation is provided
+ * through the block parameters: 'sessionDetails' contains the `SMPOfflineSessionDetails` object,
+ * while 'error' provides details if no Offline session is currently active.
+ */
++ (void)getOfflineSessionDetailsWithCompletion:(nonnull SMPOfflineSessionDetailsCompletionBlock)completion;
+
+/**
+ * @brief Synchronizes stored Offline transactions for settlement.
+ *
+ * This method is responsible for uploading all Offline transactions stored on the device to the
+ * backend. Offline transactions are not finalized, and funds are not settled, until they are
+ * successfully uploaded.
+ *
+ * Once the upload completes successfully, the local Offline session is deactivated, restoring
+ * standard online operations. Stored transactions will not be deleted unless they have been
+ * successfully uploaded.
+ *
+ * During this process, the SDK will also attempt to update the local security definitions.
+ * However, if this update fails, the error will not be reported to prioritize the upload success.
+ *
+ * @note This method requires an active internet connection. It should be called as soon as the
+ * app detects network availability to ensure timely settlement of Offline transactions.
+ *
+ * @param completion Block invoked upon completion. The result of the operation is provided
+ * through the block parameters: 'success' indicates whether the transactions were uploaded
+ * and the session was ended successfully, while 'error' provides details if the operation failed.
+ */
++ (void)uploadOfflineSessionWithCompletion:(nullable SMPCompletionBlock)completion;
+
 #pragma mark - Error Domain and Codes
 
 NS_SWIFT_NAME(SumUpSDKErrorDomain)
@@ -241,6 +403,9 @@ typedef NS_ENUM(NSInteger, SMPSumUpSDKError) {
     SMPSumUpSDKErrorInvalidProcessAs               = 56,
     /// The numberOfInstallments property of CheckoutRequest is not valid
     SMPSumUpSDKErrorInvalidNumberOfInstallments    = 57,
+    /// Reader wake error during Prepare for Checkout process.
+    /// Includes when a reader has never been paired.
+    SMPSumUpSDKErrorPrepareCheckoutReaderWakeFailed = 60,
     /// Tap to Pay on iPhone payment method is not available for the current merchant. This may be
     /// because the payment method is not available in their country.
     SMPSumUpSDKErrorTapToPayNotAvailable           = 100,
@@ -283,6 +448,17 @@ typedef NS_ENUM(NSInteger, SMPSumUpSDKError) {
  *  Please migrate your code to always set `processAs` if `isProcessAsRequired` is YES.
  */
 @property (class, readonly) BOOL isProcessAsRequired;
+
+#pragma mark - Reader Status
+
+/**
+ *  The most recently reported information about a saved or connected reader.
+ *
+ *  See @c SMPReaderStatus for more information.
+ *
+ *  @returns An `SMPReaderStatus`; or `nil` if not logged in, or no reader has yet been connected and saved.
+ */
+@property (class, readonly, copy, nullable) SMPReaderStatus *lastReaderStatus;
 
 #pragma mark - SDK Integration
 

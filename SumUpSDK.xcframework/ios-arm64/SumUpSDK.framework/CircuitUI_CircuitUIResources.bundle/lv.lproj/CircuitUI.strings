@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Pievienot";
 
 "circuit_navigationHeader_backButton_title" = "Atpakaļ";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Piemērot atlaidi";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Dokuments";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Rediģēt";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Rediģēt kategorijas";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Kategoriju rediģēšana";
 
 "circuit_navigationHeader_filterButton_title" = "Filtrēt";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Zibspuldze izslēgta";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Zibspuldze ieslēgta";
 
 "circuit_navigationHeader_helpButton_title" = "Palīdzība";
 
 "circuit_navigationHeader_hideButton_title" = "Paslēpt";
 
+"circuit_navigationHeader_historyButton_title" = "Vēsture";
+
 "circuit_navigationHeader_inboxButton_title" = "Iesūtne";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Pasts";
 
 "circuit_navigationHeader_minimizeButton_title" = "Samazināt";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Ziņot";
 
+"circuit_navigationHeader_calendarButton_title" = "Kalendārs";
+
 "circuit_navigationHeader_saveButton_title" = "Saglabāt";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skenēt svītrkodu";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Skenēt";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skenēt QR kodu";
 
 "circuit_navigationHeader_searchButton_title" = "Meklēt";
 
@@ -62,11 +68,18 @@
 
 "circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "%1$d. darbība no %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Notiek ielāde";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "Procesā";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus līmenis";
 
+"circuit_navigationHeader_archiveButton_title" = "Arhivēt";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skenēt svītrkodu";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skenē QR kodu vai svītrkodu";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skenēt QR kodu";

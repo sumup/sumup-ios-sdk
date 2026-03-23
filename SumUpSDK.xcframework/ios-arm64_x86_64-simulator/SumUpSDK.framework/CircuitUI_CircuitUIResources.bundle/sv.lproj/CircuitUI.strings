@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Lägg till";
 
 "circuit_navigationHeader_backButton_title" = "Tillbaka";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Tillämpa rabatt";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Dokument";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Redigera";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Redigera kategorier";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Redigera kategorier";
 
 "circuit_navigationHeader_filterButton_title" = "Filter";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Blixt av";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Blixt på";
 
 "circuit_navigationHeader_helpButton_title" = "Hjälp";
 
 "circuit_navigationHeader_hideButton_title" = "Dölj";
 
+"circuit_navigationHeader_historyButton_title" = "Historik";
+
 "circuit_navigationHeader_inboxButton_title" = "Inkorg";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Skicka";
 
 "circuit_navigationHeader_minimizeButton_title" = "Minimera";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Rapport";
 
+"circuit_navigationHeader_calendarButton_title" = "Kalender";
+
 "circuit_navigationHeader_saveButton_title" = "Spara";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skanna streckkod";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Skanna";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skanna QR-kod";
 
 "circuit_navigationHeader_searchButton_title" = "Sök";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Visa";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Förlopp";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Steg %1$d av %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Laddar";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "Pågår";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plusnivå";
 
+"circuit_navigationHeader_archiveButton_title" = "Arkivera";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skanna streckkod";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skanna QR-kod eller streckkod";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skanna QR-kod";

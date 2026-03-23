@@ -2,7 +2,7 @@
 
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?style=flat)](#prerequisites)
 [![Created](https://img.shields.io/badge/Made%20by-SumUp-blue.svg?style=flat)](https://sumup.com)
-[![Supports](https://img.shields.io/badge/Requires-iOS%2014+-red.svg?style=flat)]()
+[![Supports](https://img.shields.io/badge/Requires-iOS%2016+-red.svg?style=flat)]()
 [![License](https://img.shields.io/badge/License-SumUp-brightgreen.svg?style=flat)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/SumUpSDK.svg?style=flat)](SumUpSDK.podspec)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](Package.swift)

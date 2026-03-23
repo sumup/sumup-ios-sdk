@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Προσθήκη";
 
 "circuit_navigationHeader_backButton_title" = "Πίσω";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Εφαρμογή έκπτωσης";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Έγγραφο";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Επεξεργασία";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Επεξεργασία κατηγοριών";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Επεξεργασία κατηγοριών";
 
 "circuit_navigationHeader_filterButton_title" = "Φιλτράρισμα";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Φλας απενεργοποιημένο";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Φλας ενεργοποιημένο";
 
 "circuit_navigationHeader_helpButton_title" = "Βοήθεια";
 
 "circuit_navigationHeader_hideButton_title" = "Απόκρυψη";
 
+"circuit_navigationHeader_historyButton_title" = "Ιστορικό";
+
 "circuit_navigationHeader_inboxButton_title" = "Εισερχόμενα";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Email";
 
 "circuit_navigationHeader_minimizeButton_title" = "Ελαχιστοποίηση";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Αναφορά";
 
+"circuit_navigationHeader_calendarButton_title" = "Ημερολόγιο";
+
 "circuit_navigationHeader_saveButton_title" = "Αποθήκευση";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Σάρωση barcode";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Σάρωση";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Σάρωση κωδικού QR";
 
 "circuit_navigationHeader_searchButton_title" = "Αναζήτηση";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Εμφάνιση";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Πρόοδος";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Βήμα %1$d από %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Γίνεται φόρτωση";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "Σε εξέλιξη";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Επίπεδο Plus";
 
+"circuit_navigationHeader_archiveButton_title" = "Αρχειοθέτηση";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Σάρωση barcode";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Σάρωση κωδικού QR ή barcode";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Σάρωση κωδικού QR";

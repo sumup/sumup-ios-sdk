@@ -1,5 +1,12 @@
 # SumUp iOS SDK Changelog
 
+## Version 7.0.0
+
+* [ADDED] Introduction of Offline Payment Support for Solo and Solo Lite Card Reader models.
+  * This feature is subject to specific limitations and minimum compatibility requirements. Further information is available in [`OFFLINE_PAYMENTS.md`](./OFFLINE_PAYMENTS.md).
+  * Please contact [`integrations@sumup.com`](mailto:integrations@sumup.com) to enable Offline Payments for your SumUp Merchant Account.
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
 ## Version 6.2.2
 
 * [FIXED] Now using the correct swift-tools-version version to support iOS 16. All changes mentioned in v6.2.1 are available in this release.

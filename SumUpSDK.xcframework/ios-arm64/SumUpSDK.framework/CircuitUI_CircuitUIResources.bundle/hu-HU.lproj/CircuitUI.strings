@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Hozzáadás";
 
 "circuit_navigationHeader_backButton_title" = "Vissza";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Kedvezmény alkalmazása";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Dokumentum";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Szerkesztés";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Kategóriák szerkesztése";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Kategóriák szerkesztése";
 
 "circuit_navigationHeader_filterButton_title" = "Szűrő";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Vaku kikapcsolva";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Vaku bekapcsolva";
 
 "circuit_navigationHeader_helpButton_title" = "Súgó";
 
 "circuit_navigationHeader_hideButton_title" = "Elrejtés";
 
+"circuit_navigationHeader_historyButton_title" = "Előzmények";
+
 "circuit_navigationHeader_inboxButton_title" = "Bejövő üzenetek";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Levelezés";
 
 "circuit_navigationHeader_minimizeButton_title" = "Minimalizálás";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Jelentés";
 
+"circuit_navigationHeader_calendarButton_title" = "Naptár";
+
 "circuit_navigationHeader_saveButton_title" = "Mentés";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Vonalkód leolvasása";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Keresés";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "QR-kód beolvasása";
 
 "circuit_navigationHeader_searchButton_title" = "Keresés";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Megjelenítés";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Haladás";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "%1$d/%2$d. lépés";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Betöltés folyamatban";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "Folyamatban";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus szint";
 
+"circuit_navigationHeader_archiveButton_title" = "Archiválás";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Vonalkód leolvasása";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "QR-kód vagy vonalkód leolvasása";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "QR-kód beolvasása";

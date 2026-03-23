@@ -19,3 +19,4 @@ FOUNDATION_EXPORT const unsigned char SumUpSDKVersionString[];
 #import "SMPCurrencyCodes.h"
 #import "SMPMerchant.h"
 #import "SMPSumUpSDK.h"
+#import "SMPReaderStatus.h"

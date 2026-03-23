@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Dodaj";
 
 "circuit_navigationHeader_backButton_title" = "Nazaj";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Uporabi popust";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Dokument";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Uredi";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Uredi kategorije";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Uredi kategorije";
 
 "circuit_navigationHeader_filterButton_title" = "Filter";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Izklopi bliskavico";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Vklopi bliskavico";
 
 "circuit_navigationHeader_helpButton_title" = "Pomoč";
 
 "circuit_navigationHeader_hideButton_title" = "Skrij";
 
+"circuit_navigationHeader_historyButton_title" = "Zgodovina";
+
 "circuit_navigationHeader_inboxButton_title" = "Prejeto";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Pošta";
 
 "circuit_navigationHeader_minimizeButton_title" = "Zmanjšaj";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Poročilo";
 
+"circuit_navigationHeader_calendarButton_title" = "Koledar";
+
 "circuit_navigationHeader_saveButton_title" = "Shrani";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skeniraj črtno kodo";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Poišči";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skeniraj kodo QR";
 
 "circuit_navigationHeader_searchButton_title" = "Iskanje";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Prikaži";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Napredek";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Korak %1$d od %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Nalaganje";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "V teku";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Stopnja Plus";
 
+"circuit_navigationHeader_archiveButton_title" = "Arhiviraj";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skeniraj črtno kodo";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skenirajte kodo QR ali črtno kodo";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skenirajte kodo QR";

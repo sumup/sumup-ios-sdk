@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Adăugă";
 
 "circuit_navigationHeader_backButton_title" = "Înapoi";
@@ -14,25 +16,27 @@
 
 "circuit_navigationHeader_documentButton_title" = "Document";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Editează";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Editează categoriile";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Editează categoriile";
 
 "circuit_navigationHeader_filterButton_title" = "Filtrează";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Bliț dezactivat";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Bliț activat";
 
 "circuit_navigationHeader_helpButton_title" = "Asistență";
 
 "circuit_navigationHeader_hideButton_title" = "Ascunde";
 
+"circuit_navigationHeader_historyButton_title" = "Istoric";
+
 "circuit_navigationHeader_inboxButton_title" = "Inbox";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Poștă";
 
 "circuit_navigationHeader_minimizeButton_title" = "Minimizează";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Raport";
 
+"circuit_navigationHeader_calendarButton_title" = "Calendar";
+
 "circuit_navigationHeader_saveButton_title" = "Salvează";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Scanează codul de bare";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Caută";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Scanează codul QR";
 
 "circuit_navigationHeader_searchButton_title" = "Căutare";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Afișează";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Progres";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Pasul %1$d din %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Se încarcă";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "În curs";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Nivelul Plus";
 
+"circuit_navigationHeader_archiveButton_title" = "Arhivează";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Scanează codul de bare";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scanează codul QR sau de bare";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scanează codul QR";

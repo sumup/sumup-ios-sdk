@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Lisa";
 
 "circuit_navigationHeader_backButton_title" = "Tagasi";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Rakenda allahindlus";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Dokument";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Muuda";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Muuda kategooriaid";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Muuda kategooriaid";
 
 "circuit_navigationHeader_filterButton_title" = "Filter";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Välk väljas";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Välk on sees";
 
 "circuit_navigationHeader_helpButton_title" = "Abi";
 
 "circuit_navigationHeader_hideButton_title" = "Peida";
 
+"circuit_navigationHeader_historyButton_title" = "Ajalugu";
+
 "circuit_navigationHeader_inboxButton_title" = "Saadud kirjad";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "E-post";
 
 "circuit_navigationHeader_minimizeButton_title" = "Minimeeri";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Aruanne";
 
+"circuit_navigationHeader_calendarButton_title" = "Kalender";
+
 "circuit_navigationHeader_saveButton_title" = "Salvesta";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skanni vöötkood";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Skanni";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skanni QR-kood";
 
 "circuit_navigationHeader_searchButton_title" = "Otsi";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Kuva";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Edusammud";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Samm %1$d / %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Laadimine";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "töötlemisel";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Pluss Tase";
 
+"circuit_navigationHeader_archiveButton_title" = "Arhiveeri";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skannige vöötkood";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skannige QR-kood või triipkood";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skannige QR-kood";

@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Lisää";
 
 "circuit_navigationHeader_backButton_title" = "Takaisin";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Käytä alennusta";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Asiakirja";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Muokkaa";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Muokkaa kategorioita";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Muokkaa kategorioita";
 
 "circuit_navigationHeader_filterButton_title" = "Suodatin";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Salama pois päältä";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Salama päällä";
 
 "circuit_navigationHeader_helpButton_title" = "Tuki";
 
 "circuit_navigationHeader_hideButton_title" = "Piilota";
 
+"circuit_navigationHeader_historyButton_title" = "Historia";
+
 "circuit_navigationHeader_inboxButton_title" = "Postilaatikko";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Sähköposti";
 
 "circuit_navigationHeader_minimizeButton_title" = "Minimoi";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Raportti";
 
+"circuit_navigationHeader_calendarButton_title" = "Kalenteri";
+
 "circuit_navigationHeader_saveButton_title" = "Tallenna";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skannaa viivakoodi";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Etsi";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skannaa QR-koodi";
 
 "circuit_navigationHeader_searchButton_title" = "Hae";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Näytä";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Edistyminen";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Vaihe %1$d/%2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Ladataan";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "Käynnissä";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus-taso";
 
+"circuit_navigationHeader_archiveButton_title" = "Arkistoi";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skannaa viivakoodi";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skannaa QR-koodi tai viivakoodi";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skannaa QR-koodi";

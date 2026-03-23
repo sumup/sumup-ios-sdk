@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Добавяне";
 
 "circuit_navigationHeader_backButton_title" = "Назад";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Прилагане на отстъпка";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Документ";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Редактиране";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Редактиране на категории";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Редактиране на категории";
 
 "circuit_navigationHeader_filterButton_title" = "Филтър";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Изключи светкавица";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Включи светкавица";
 
 "circuit_navigationHeader_helpButton_title" = "Помощ";
 
 "circuit_navigationHeader_hideButton_title" = "Скриване";
 
+"circuit_navigationHeader_historyButton_title" = "История";
+
 "circuit_navigationHeader_inboxButton_title" = "Входяща поща";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Поща";
 
 "circuit_navigationHeader_minimizeButton_title" = "Минимизиране";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Отчет";
 
+"circuit_navigationHeader_calendarButton_title" = "Календар";
+
 "circuit_navigationHeader_saveButton_title" = "Запазване";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Сканиране на баркод";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Сканиране";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Сканиране на QR код";
 
 "circuit_navigationHeader_searchButton_title" = "Търсене";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Показване";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Напредък";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Стъпка %1$d от %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Зареждане";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "Качване...";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Ниво Plus";
 
+"circuit_navigationHeader_archiveButton_title" = "Архивиране";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Сканиране на баркод";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Сканирайте QR код или баркод";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Сканиране на QR код";

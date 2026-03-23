@@ -1,0 +1,85 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Tilføj";
+
+"circuit_navigationHeader_backButton_title" = "Tilbage";
+
+"circuit_navigationHeader_cancelButton_title" = "Annuller";
+
+"circuit_navigationHeader_chatButton_title" = "Chat";
+
+"circuit_navigationHeader_closeButton_title" = "Luk";
+
+"circuit_navigationHeader_deleteButton_title" = "Slet";
+
+"circuit_navigationHeader_discountButton_title" = "Anvend rabat";
+
+"circuit_navigationHeader_documentButton_title" = "Dokument";
+
+"circuit_navigationHeader_editButton_title" = "Rediger";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Rediger kategorier";
+
+"circuit_navigationHeader_editCategories_title" = "Rediger kategorier";
+
+"circuit_navigationHeader_filterButton_title" = "Filtrer";
+
+"circuit_navigationHeader_flashButton_off_title" = "Blitz fra";
+
+"circuit_navigationHeader_flashButton_on_title" = "Blitz til";
+
+"circuit_navigationHeader_helpButton_title" = "Hjælp";
+
+"circuit_navigationHeader_hideButton_title" = "Skjul";
+
+"circuit_navigationHeader_historyButton_title" = "Historik";
+
+"circuit_navigationHeader_inboxButton_title" = "Indbakke";
+
+"circuit_navigationHeader_mailButton_title" = "E-mail";
+
+"circuit_navigationHeader_minimizeButton_title" = "Minimer";
+
+"circuit_navigationHeader_moreButton_title" = "Mere";
+
+"circuit_navigationHeader_printButton_title" = "Udskriv";
+
+"circuit_navigationHeader_refreshButton_title" = "Opdater";
+
+"circuit_navigationHeader_reportButton_title" = "Rapport";
+
+"circuit_navigationHeader_calendarButton_title" = "Kalender";
+
+"circuit_navigationHeader_saveButton_title" = "Gem";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Scan stregkode";
+
+"circuit_navigationHeader_scanButton_title" = "Scan";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR-kode";
+
+"circuit_navigationHeader_searchButton_title" = "Søg";
+
+"circuit_navigationHeader_settingsButton_title" = "Indstillinger";
+
+"circuit_navigationHeader_shareButton_title" = "Del";
+
+"circuit_navigationHeader_showButton_title" = "Vis";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Status";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Trin %1$d af %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Indlæser";
+
+"circuit_spinner_loading_accessibility_value" = "I gang";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus-niveau";
+
+"circuit_navigationHeader_archiveButton_title" = "Arkiver";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Scan stregkode";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scan QR-kode eller stregkode";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scan QR-kode";

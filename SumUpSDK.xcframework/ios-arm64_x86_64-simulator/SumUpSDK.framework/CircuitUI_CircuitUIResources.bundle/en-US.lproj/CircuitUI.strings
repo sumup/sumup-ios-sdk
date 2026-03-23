@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Add";
 
 "circuit_navigationHeader_backButton_title" = "Back";
@@ -16,9 +18,9 @@
 
 "circuit_navigationHeader_editButton_title" = "Edit";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Edit categories";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Edit categories";
 
 "circuit_navigationHeader_filterButton_title" = "Filter";
 
@@ -29,6 +31,8 @@
 "circuit_navigationHeader_helpButton_title" = "Help";
 
 "circuit_navigationHeader_hideButton_title" = "Hide";
+
+"circuit_navigationHeader_historyButton_title" = "History";
 
 "circuit_navigationHeader_inboxButton_title" = "Inbox";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Report";
 
+"circuit_navigationHeader_calendarButton_title" = "Calendar";
+
 "circuit_navigationHeader_saveButton_title" = "Save";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Scan barcode";
 
 "circuit_navigationHeader_scanButton_title" = "Scan";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR code";
 
 "circuit_navigationHeader_searchButton_title" = "Search";
 
@@ -66,7 +72,14 @@
 
 "circuit_spinner_loading_accessibility_label" = "Loading";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "In progress";
 
 "circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
 
+"circuit_navigationHeader_archiveButton_title" = "Archive";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Scan barcode";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scan QR code or barcode";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scan QR code";

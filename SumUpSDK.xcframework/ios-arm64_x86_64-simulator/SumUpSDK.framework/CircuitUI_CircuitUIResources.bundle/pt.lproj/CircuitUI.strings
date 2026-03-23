@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Adicionar";
 
 "circuit_navigationHeader_backButton_title" = "Voltar";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Aplicar desconto";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Documento";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Editar";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Editar categorias";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Editar categorias";
 
 "circuit_navigationHeader_filterButton_title" = "Filtro";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Flash desligado";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Flash ligado";
 
 "circuit_navigationHeader_helpButton_title" = "Ajuda";
 
 "circuit_navigationHeader_hideButton_title" = "Ocultar";
 
+"circuit_navigationHeader_historyButton_title" = "Histórico";
+
 "circuit_navigationHeader_inboxButton_title" = "Caixa de entrada";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Enviar";
 
 "circuit_navigationHeader_minimizeButton_title" = "Minimizar";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Relatório";
 
+"circuit_navigationHeader_calendarButton_title" = "Agenda";
+
 "circuit_navigationHeader_saveButton_title" = "Salvar";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Escanear código de barras";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Procurar";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Escanear QR Code";
 
 "circuit_navigationHeader_searchButton_title" = "Pesquisar";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Exibir";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Progresso";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Etapa %1$d de %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Carregando";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "Em andamento";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Nível Plus";
 
+"circuit_navigationHeader_archiveButton_title" = "Arquivar";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Escanear código de barras";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Escaneie o QR code ou o código de barras";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Escanear QR Code";

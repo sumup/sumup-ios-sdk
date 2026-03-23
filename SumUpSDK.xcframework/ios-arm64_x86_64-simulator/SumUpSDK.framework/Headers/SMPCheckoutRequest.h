@@ -46,9 +46,9 @@ NS_SWIFT_NAME(CheckoutRequest)
  *
  *  @return A new request object or nil if totalAmount or currencyCode are nil.
  */
-+ (SMPCheckoutRequest *)requestWithTotal:(NSDecimalNumber *)totalAmount
++ (SMPCheckoutRequest *)requestWithTotal:(nonnull NSDecimalNumber *)totalAmount
                                    title:(nullable NSString *)title
-                            currencyCode:(NSString *)currencyCode
+                            currencyCode:(nonnull NSString *)currencyCode
                            paymentMethod:(SMPPaymentMethod)paymentMethod;
 
 /**
@@ -62,9 +62,9 @@ NS_SWIFT_NAME(CheckoutRequest)
  *
  *  @return A new request object or nil if totalAmount or currencyCode are nil.
  */
-+ (SMPCheckoutRequest *)requestWithTotal:(NSDecimalNumber *)totalAmount
++ (SMPCheckoutRequest *)requestWithTotal:(nonnull NSDecimalNumber *)totalAmount
                                    title:(nullable NSString *)title
-                            currencyCode:(NSString *)currencyCode;
+                            currencyCode:(nonnull NSString *)currencyCode;
 
 /**
  *  The total amount to be charged to a customer.
@@ -172,9 +172,20 @@ NS_SWIFT_NAME(CheckoutRequest)
 @property (nonatomic) SMPProcessAs processAs;
 
 /**
-  * Some markets allow the customer to pay in installments. Ignored unless `processAs` is set to `SMPProcessAsCredit`.
+ * Some markets allow the customer to pay in installments. Ignored unless `processAs` is set to `SMPProcessAsCredit`.
  */
 @property (nonatomic) NSInteger numberOfInstallments;
+
+/**
+ * Automatically close the checkout if the user stops on the Send Receipt screen without manually dismissing it.
+ * This can be useful for kiosk environments where users might walk away without manually closing the Send Receipt screen.
+ *
+ * If the user starts entering a phone number or email address on the Send Receipt screen, this duration will automatically
+ * increase to 60 seconds after the last edit is made.
+ *
+ * If set to 0.0, the Send Receipt screen remains on-screen forever or until the user dismisses it.
+ */
+@property (nonatomic) NSTimeInterval successScreenTimeout;
 
 @end
 

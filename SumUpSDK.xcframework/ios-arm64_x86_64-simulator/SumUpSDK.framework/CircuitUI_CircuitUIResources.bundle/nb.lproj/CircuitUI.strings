@@ -14,7 +14,7 @@
 
 "circuit_navigationHeader_documentButton_title" = "Document";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Rediger";
 
 "circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
 
@@ -48,7 +48,7 @@
 
 "circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Skann";
 
 "circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
 

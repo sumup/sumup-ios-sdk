@@ -1,3 +1,5 @@
+/* smartling.instruction_comments_enabled = on */
+
 "circuit_navigationHeader_addButton_title" = "Pridėti";
 
 "circuit_navigationHeader_backButton_title" = "Grįžti";
@@ -12,27 +14,29 @@
 
 "circuit_navigationHeader_discountButton_title" = "Taikyti nuolaidą";
 
-"circuit_navigationHeader_documentButton_title" = "Document";
+"circuit_navigationHeader_documentButton_title" = "Dokumentas";
 
-"circuit_navigationHeader_editButton_title" = "Edit";
+"circuit_navigationHeader_editButton_title" = "Redaguoti";
 
-"circuit_navigationHeader_editCategoriesButton_title" = "Edit Categories";
+"circuit_navigationHeader_editCategoriesButton_title" = "Redaguoti kategorijas";
 
-"circuit_navigationHeader_editCategories_title" = "Edit Categories";
+"circuit_navigationHeader_editCategories_title" = "Redaguoti kategorijas";
 
 "circuit_navigationHeader_filterButton_title" = "Filtruoti";
 
-"circuit_navigationHeader_flashButton_off_title" = "Flash off";
+"circuit_navigationHeader_flashButton_off_title" = "Išjungti blykstę";
 
-"circuit_navigationHeader_flashButton_on_title" = "Flash on";
+"circuit_navigationHeader_flashButton_on_title" = "Įjungti blykstę";
 
 "circuit_navigationHeader_helpButton_title" = "Pagalba";
 
 "circuit_navigationHeader_hideButton_title" = "Nerodyti";
 
+"circuit_navigationHeader_historyButton_title" = "Istorija";
+
 "circuit_navigationHeader_inboxButton_title" = "Pašto dėžutė";
 
-"circuit_navigationHeader_mailButton_title" = "Mail";
+"circuit_navigationHeader_mailButton_title" = "Paštas";
 
 "circuit_navigationHeader_minimizeButton_title" = "Sumažinti";
 
@@ -44,13 +48,15 @@
 
 "circuit_navigationHeader_reportButton_title" = "Ataskaita";
 
+"circuit_navigationHeader_calendarButton_title" = "Kalendorius";
+
 "circuit_navigationHeader_saveButton_title" = "Išsaugoti";
 
-"circuit_navigationHeader_scanBarcodeButton_title" = "Scan Barcode";
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skenuoti brūkšninį kodą";
 
-"circuit_navigationHeader_scanButton_title" = "Scan";
+"circuit_navigationHeader_scanButton_title" = "Skenuoti";
 
-"circuit_navigationHeader_scanQRCodeButton_title" = "Scan QR Code";
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skenuoti QR kodą";
 
 "circuit_navigationHeader_searchButton_title" = "Ieškoti";
 
@@ -60,13 +66,20 @@
 
 "circuit_navigationHeader_showButton_title" = "Rodyti";
 
-"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Eiga";
 
-"circuit_segmentedProgressBar_progress_accessibility_value" = "Step %1$d of %2$d";
+"circuit_segmentedProgressBar_progress_accessibility_value" = "%1$d žingsnis iš %2$d";
 
-"circuit_spinner_loading_accessibility_label" = "Loading";
+"circuit_spinner_loading_accessibility_label" = "Įkeliama";
 
-"circuit_spinner_loading_accessibility_value" = "In Progress";
+"circuit_spinner_loading_accessibility_value" = "Vykdoma";
 
-"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus Tier";
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "„Plus“ pakopa";
 
+"circuit_navigationHeader_archiveButton_title" = "Archyvuoti";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skenuoti brūkšninį kodą";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Nuskenuokite QR kodą arba brūkšninį kodą";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skenuoti QR kodą";
