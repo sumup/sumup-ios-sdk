@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scanează codul QR sau de bare";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scanează codul QR";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (opțional)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d (de) caractere";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Șterge tot textul";
+
+"circuit_textInput_validation_required_error" = "Introdu o valoare";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Introdu cel puțin %1$d (de) caractere";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Introdu %1$d sau mai puține caractere";
+
+"circuit_textInput_validation_lengthExact_error" = "Introdu exact %1$d (de) caractere";
+
+"circuit_textInput_validation_lengthRange_error" = "Introdu între %1$d și %2$d (de) caractere";
+
+"circuit_textInput_validation_numericRange_error" = "Introdu o valoare între %1$@ și %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Introdu un număr de card valid";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Utilizează doar caracterele permise";
+
+"circuit_textInput_validation_equality_error" = "Valorile trebuie să corespundă";
+
+"circuit_textInput_validation_predicate_error" = "Introdu o valoare validă";
+
+"circuit_textInput_validation_regex_error" = "Introdu text în formatul corect";
+
+"circuit_navigationHeader_rewardsButton_title" = "Recompense";
+

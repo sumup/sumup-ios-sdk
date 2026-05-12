@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skanna QR-kod eller streckkod";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skanna QR-kod";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (valfritt)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d tecken";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Ren text";
+
+"circuit_textInput_validation_required_error" = "Ange ett värde";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Ange minst %1$d tecken";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Ange max. %1$d tecken";
+
+"circuit_textInput_validation_lengthExact_error" = "Ange exakt %1$d tecken";
+
+"circuit_textInput_validation_lengthRange_error" = "Ange mellan %1$d och %2$d tecken";
+
+"circuit_textInput_validation_numericRange_error" = "Ange ett värde mellan %1$@ och %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Ange ett giltigt kortnummer";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Använd bara tillåtna tecken";
+
+"circuit_textInput_validation_equality_error" = "Värdena måste stämma överens";
+
+"circuit_textInput_validation_predicate_error" = "Ange ett giltigt värde";
+
+"circuit_textInput_validation_regex_error" = "Ange text i rätt format";
+
+"circuit_navigationHeader_rewardsButton_title" = "Bonusar";
+

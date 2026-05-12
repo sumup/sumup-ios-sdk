@@ -78,8 +78,39 @@
 
 "circuit_navigationHeader_archiveButton_title" = "Arhiviraj";
 
-"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skeniraj črtno kodo";
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skenirajte črtno kodo";
 
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skenirajte kodo QR ali črtno kodo";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skenirajte kodo QR";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (izbirno)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d znakov";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Jasno besedilo";
+
+"circuit_textInput_validation_required_error" = "Vnesite vrednost.";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Vnesite vsaj toliko znakov: %1$d";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Vnesite največ toliko znakov: %1$d";
+
+"circuit_textInput_validation_lengthExact_error" = "Vnesite točno toliko znakov: %1$d";
+
+"circuit_textInput_validation_lengthRange_error" = "Vnesite od %1$d do toliko znakov: %2$d";
+
+"circuit_textInput_validation_numericRange_error" = "Vnesite vrednost med %1$@ in %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Vnesite veljavno številko kartice";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Uporabite samo dovoljene znake";
+
+"circuit_textInput_validation_equality_error" = "Vrednosti se morajo ujemati";
+
+"circuit_textInput_validation_predicate_error" = "Vnesite veljavno vrednost";
+
+"circuit_textInput_validation_regex_error" = "Vnesite besedilo v pravilni obliki";
+
+"circuit_navigationHeader_rewardsButton_title" = "Nagrade";
+

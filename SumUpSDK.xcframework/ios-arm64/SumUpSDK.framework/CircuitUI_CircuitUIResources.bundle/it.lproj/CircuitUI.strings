@@ -78,8 +78,39 @@
 
 "circuit_navigationHeader_archiveButton_title" = "Archivio";
 
-"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Scansiona codice a barre";
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Scansiona il codice a barre";
 
-"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scansiona il codice QR o il codice a barre";
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scansiona il codice QR o a barre";
 
-"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scansionare il codice QR";
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scansiona il codice QR";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (opzionale)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d caratteri";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Cancella testo";
+
+"circuit_textInput_validation_required_error" = "Inserisci un valore";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Inserisci almeno %1$d caratteri";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Inserisci %1$d caratteri o meno";
+
+"circuit_textInput_validation_lengthExact_error" = "Inserisci esattamente %1$d caratteri";
+
+"circuit_textInput_validation_lengthRange_error" = "Inserisci tra %1$d e %2$d caratteri";
+
+"circuit_textInput_validation_numericRange_error" = "Inserisci un valore tra %1$@ e %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Inserisci un numero di carta valido";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Usa solo caratteri consentiti";
+
+"circuit_textInput_validation_equality_error" = "I valori devono corrispondere";
+
+"circuit_textInput_validation_predicate_error" = "Inserisci un valore valido";
+
+"circuit_textInput_validation_regex_error" = "Inserisci il testo nel formato corretto";
+
+"circuit_navigationHeader_rewardsButton_title" = "Premi";
+

@@ -78,8 +78,39 @@
 
 "circuit_navigationHeader_archiveButton_title" = "Archyvuoti";
 
-"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skenuoti brūkšninį kodą";
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Nuskenuokite brūkšninį kodą";
 
-"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Nuskenuokite QR kodą arba brūkšninį kodą";
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Nuskenuokite QR kodą arba brūkšninį kodą";
 
-"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skenuoti QR kodą";
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Nuskenuokite QR kodą";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (neprivaloma)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d iš %2$d ženklų";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Išvalyti tekstą";
+
+"circuit_textInput_validation_required_error" = "Įveskite vertę";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Įveskite bent %1$d ženklus";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Įveskite %1$d ar mažiau ženklų";
+
+"circuit_textInput_validation_lengthExact_error" = "Įveskite tiksliai tiek ženklų: %1$d";
+
+"circuit_textInput_validation_lengthRange_error" = "Įveskite nuo %1$d iki %2$d ženklų";
+
+"circuit_textInput_validation_numericRange_error" = "Įveskite vertę nuo %1$@ iki %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Įveskite teisingą kortelės numerį";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Naudokite tik leistinus ženklus";
+
+"circuit_textInput_validation_equality_error" = "Vertės turi sutapti";
+
+"circuit_textInput_validation_predicate_error" = "Įveskite teisingą vertę";
+
+"circuit_textInput_validation_regex_error" = "Įveskite tekstą tinkamu formatu";
+
+"circuit_navigationHeader_rewardsButton_title" = "Atlygiai";
+

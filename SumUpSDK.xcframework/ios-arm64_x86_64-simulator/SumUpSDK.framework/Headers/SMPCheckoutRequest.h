@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "SMPSkipScreenOptions.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
 typedef NS_ENUM(NSInteger, SMPPaymentMethod) {
     SMPPaymentMethodCardReader = 0,
     SMPPaymentMethodTapToPay = 1,
@@ -36,145 +34,164 @@ NS_SWIFT_NAME(CheckoutRequest)
 @interface SMPCheckoutRequest : NSObject
 
 /**
- *  Creates a new checkout request.
+ * Creates a new checkout request.
  *
- *  Be careful when creating the NSDecimalNumber to not falsely use the NSNumber class creator methods.
+ * Be careful when creating the NSDecimalNumber to not falsely use the NSNumber class creator
+ * methods.
  *
- *  @param totalAmount The total amount to be charged to a customer. Cannot be nil.
- *  @param title An optional title to be displayed in the merchant's history and on customer receipts.
- *  @param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Cannot be nil, has to match the currency of the merchant logged in. Use [[[SMPSumUpSDK currentMerchant] currencyCode] and ensure its length is not 0.
+ * @param totalAmount The total amount to be charged to a customer.
+ * @param title An optional title to be displayed in the merchant's history and on customer receipts.
+ * @param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Has to match the currency of the merchant logged in. Use [[[SMPSumUpSDK currentMerchant] currencyCode] and ensure its length is not 0.
  *
- *  @return A new request object or nil if totalAmount or currencyCode are nil.
+ * @return A new request object
  */
-+ (SMPCheckoutRequest *)requestWithTotal:(nonnull NSDecimalNumber *)totalAmount
-                                   title:(nullable NSString *)title
-                            currencyCode:(nonnull NSString *)currencyCode
-                           paymentMethod:(SMPPaymentMethod)paymentMethod;
++ (nonnull SMPCheckoutRequest *)requestWithTotal:(nonnull NSDecimalNumber *)totalAmount
+                                           title:(nullable NSString *)title
+                                    currencyCode:(nonnull NSString *)currencyCode
+                                   paymentMethod:(SMPPaymentMethod)paymentMethod;
 
 /**
- *  Creates a new checkout request using a card reader as the method of payment.
+ * Creates a new checkout request using a card reader as the method of payment.
  *
- *  Be careful when creating the NSDecimalNumber to not falsely use the NSNumber class creator methods.
+ * Be careful when creating the NSDecimalNumber to not falsely use the NSNumber class creator
+ * methods.
  *
- *  @param totalAmount The total amount to be charged to a customer. Cannot be nil.
- *  @param title An optional title to be displayed in the merchant's history and on customer receipts.
- *  @param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Cannot be nil, has to match the currency of the merchant logged in. Use [[[SMPSumUpSDK currentMerchant] currencyCode] and ensure its length is not 0.
+ * @param totalAmount The total amount to be charged to a customer.
+ * @param title An optional title to be displayed in the merchant's history and on customer receipts.
+ * @param currencyCode Currency Code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode). Has to match the currency of the merchant logged in. Use [[[SMPSumUpSDK currentMerchant] currencyCode] and ensure its length is not 0.
  *
- *  @return A new request object or nil if totalAmount or currencyCode are nil.
+ * @return A new request object
  */
-+ (SMPCheckoutRequest *)requestWithTotal:(nonnull NSDecimalNumber *)totalAmount
-                                   title:(nullable NSString *)title
-                            currencyCode:(nonnull NSString *)currencyCode;
++ (nonnull SMPCheckoutRequest *)requestWithTotal:(nonnull NSDecimalNumber *)totalAmount
+                                           title:(nullable NSString *)title
+                                    currencyCode:(nonnull NSString *)currencyCode;
 
 /**
- *  The total amount to be charged to a customer.
- *
- *  @note Will not be nil if the instance was created using either
- *  requestWithTotal:title:currencyCode:paymentOptions: or
- *  requestWithTotal:title:currencyCode:
+ * The total amount to be charged to a customer.
  */
-@property (nonatomic, readonly, nullable) NSDecimalNumber *totalAmount;
+@property (nonatomic, strong, readonly, nullable) NSDecimalNumber *totalAmount;
 
 /// A title to be displayed in the merchant's history and on customer receipts.
-@property (nonatomic, readonly, nullable) NSString *title;
+@property (nonatomic, strong, readonly, nullable) NSString *title;
 
 /**
- *  Currency code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode).
- *
- *  @note Will not be nil if the instance was created using either
- *  requestWithTotal:title:currencyCode:paymentOptions: or
- *  requestWithTotal:title:currencyCode:
+ * Currency code in which the total should be charged (ISO 4217 code, see SMPCurrencyCode).
  */
-@property (nonatomic, readonly, nullable) NSString *currencyCode;
+@property (nonatomic, strong, readonly, nullable) NSString *currencyCode;
 
 /**
- *  An (optional) ID to be associated with this transaction.
- *  See https://docs.sumup.com/rest-api/#tag/Transactions
- *  on how to retrieve a transaction using this ID.
- *  This ID has to be unique in the scope of a SumUp merchant account and its sub-accounts.
- *  It must not be longer than 128 characters and can only contain printable ASCII characters.
+ * An (optional) ID to be associated with this transaction.
+ * See:
+ * https://docs.sumup.com/rest-api/#tag/Transactions
+ *
+ * on how to retrieve a transaction using this ID.
+ *
+ * This ID has to be unique in the scope of a SumUp merchant account and its sub-accounts.
+ * It must not be longer than 128 characters and can only contain printable ASCII characters.
  */
 @property (nonatomic, copy, nullable) NSString *foreignTransactionID;
 
 /**
- *  An optional additional tip amount to be charged to a customer.
+ * An optional additional tip amount to be charged to a customer.
  *
- *  @note This property will be ignored if the connected card reader supports the
- *  Tip on Card Reader (TCR) feature and if it is enabled by setting
- *  tipOnCardReaderIfAvailable to YES.
+ * @note This property will be ignored if the connected card reader supports the
+ * Tip-on-Card Reader (TCR) feature and if it is enabled by setting tipOnCardReaderIfAvailable to
+ * YES.
  *
- *  Important: the customer may use a reader that does not support TCR.
- *  You must handle this case yourself in order to avoid no tip from being prompted.
+ * Important: The customer may use a reader that does not support TCR. You must handle this
+ * case yourself in order to avoid no tip from being prompted.
  *
- *  To do this:
+ * To do this:
  *
- *  Before calling SMPSumUpSDK checkoutWithRequest:fromViewController:completion:,
- *  check SMPSumUpSDK.isTipOnCardReaderAvailable:
+ * Before calling SMPSumUpSDK checkoutWithRequest:fromViewController:completion:,
+ * check SMPSumUpSDK.isTipOnCardReaderAvailable:
  *
- *    - If NO, you should prompt the user for a tip amount yourself and set tipAmount
+ * - If NO, you should prompt the user for a tip amount yourself and set tipAmount
+ * - If YES, you may set tipOnCardReaderIfAvailable to YES.
+ * Do not prompt the user for a tip amount or set tipAmount if you do this.
  *
- *    - If YES, you may set tipOnCardReaderIfAvailable to YES.
- *      Do not prompt the user for a tip amount or set tipAmount if you do this.
- *
- *  Will be added to the totalAmount. Must be greater than zero if set.
+ * Will be added to the totalAmount. Must be greater than zero if set.
  */
 @property (nonatomic, copy, nullable) NSDecimalNumber *tipAmount;
 
 /**
- *  Enables Tip on Card Reader (TCR), if the feature is available.
+ * Optional list of suggested tip percentages shown during checkout.
  *
- *  @note TCR prompts the customer directly on the card reader's display for a tip amount,
- *  rather than prompting for a tip amount on the iPhone or iPad display.
+ * Values are interpreted as whole-number percentages, for example, 15.33 is treated as 15%.
+ * Negative values are also ignored.
  *
- *  Not all card readers support this feature. To find out if the feature is supported for the
- *  last-used card reader, check SMPSumUpSDK.isTipOnCardReaderAvailable.
+ * The SDK evaluates only the first 3 elements provided in the array. Within this subset, any
+ * values that are duplicates or fall outside the 1-100 range are ignored.
  *
- *  Setting this property to YES when the feature is not available will do nothing.
+ * If the property is not set, or if the processed subset contains no valid values, the SDK reverts
+ * to the default suggestions: 10%, 15%, 20%.
+ *
+ * Note: Valid values are automatically displayed in ascending order.
+ *
+ * The "No Tip" option is always shown and is not part of this list.
+ *
+ * In Tip-on-Card Reader (TCR) mode, fewer than 3 values may be displayed
+ * depending on hardware support.
  */
-@property (nonatomic) BOOL tipOnCardReaderIfAvailable;
+@property (nonatomic, copy, nullable) NSArray<NSNumber *> *customTipRates;
 
 /**
- *  An optional count for the display of the number of sale items throughout the checkout process.
- *  Default is zero which will hide the display of the item count.
- *  This value is currently not reflected in the merchant's history
- *  or the customer receipts.
+ * Enables Tip-on-Card Reader (TCR), if the feature is available.
+ *
+ * @note TCR prompts the customer directly on the card reader's display for a tip amount, rather
+ * than prompting for a tip amount on the iPhone or iPad display.
+ *
+ * Not all card readers support this feature. To find out if the feature is supported for the last-used
+ * card reader, check SMPSumUpSDK.isTipOnCardReaderAvailable.
+ *
+ * Setting this property to YES when the feature is not available will do nothing.
  */
-@property (nonatomic) NSUInteger saleItemsCount;
+@property (nonatomic, assign) BOOL tipOnCardReaderIfAvailable;
 
 /**
- *  An optional flag to skip the confirmation screen in checkout.
- *  If set, the checkout will be dismissed w/o user interaction.
- *  Default is SMPSkipScreenOptionNone.
+ * An optional count for the display of the number of sale items throughout the checkout process.
+ *
+ * Default is zero which will hide the display of the item count.
+ *
+ * This value is currently not reflected in the merchant's history or the customer receipts.
  */
-@property (nonatomic) SMPSkipScreenOptions skipScreenOptions;
+@property (nonatomic, assign) NSUInteger saleItemsCount;
 
 /**
- *  The method of payment to use during checkout; for example, a bluetooth-connected 
- *  card reader, or Tap to Pay on iPhone.
+ * An optional flag to skip the confirmation screen in checkout.
+ * If set, the checkout will be dismissed w/o user interaction.
  *
- *  Defaults to `SMPPaymentMethodCardReader`.
+ * Default is SMPSkipScreenOptionNone.
  */
-@property (nonatomic) SMPPaymentMethod paymentMethod;
+@property (nonatomic, assign) SMPSkipScreenOptions skipScreenOptions;
 
 /**
- *  Some cards contain multiple applications. Use `processAs` to allow the customer to
- *  control which application is used to process the transaction, e.g. credit or debit.
+ * The method of payment to use during checkout; for example, a bluetooth-connected card
+ * reader, or Tap to Pay on iPhone.
  *
- *  To do this, display a UI that asks the user to select either Credit or Debit.
- *  If they choose Credit, there should also be a way for them to enter the number of
- *  installments, which you should assign to `numberOfInstallments`
-
- *  Warning: The transaction will fail if `isProcessAsRequired` on `SMPSumUpSDK`  is `YES` but `processAs` is
- *  `SMPProcessAsNotSet`.
- *
- *  Defaults to `SMPProcessAsNotSet`.
+ * Defaults to `SMPPaymentMethodCardReader`.
  */
-@property (nonatomic) SMPProcessAs processAs;
+@property (nonatomic, assign) SMPPaymentMethod paymentMethod;
+
+/**
+ * Some cards contain multiple applications. Use `processAs` to allow the customer to
+ * control which application is used to process the transaction, e.g. credit or debit.
+ *
+ * To do this, display a UI that asks the user to select either Credit or Debit.
+ * If they choose Credit, there should also be a way for them to enter the number of
+ * installments, which you should assign to `numberOfInstallments`
+ *
+ * Warning: The transaction will fail if `isProcessAsRequired` on `SMPSumUpSDK`  is `YES` but `processAs` is
+ * `SMPProcessAsNotSet`.
+ *
+ * Defaults to `SMPProcessAsNotSet`.
+ */
+@property (nonatomic, assign) SMPProcessAs processAs;
 
 /**
  * Some markets allow the customer to pay in installments. Ignored unless `processAs` is set to `SMPProcessAsCredit`.
  */
-@property (nonatomic) NSInteger numberOfInstallments;
+@property (nonatomic, assign) NSInteger numberOfInstallments;
 
 /**
  * Automatically close the checkout if the user stops on the Send Receipt screen without manually dismissing it.
@@ -185,8 +202,6 @@ NS_SWIFT_NAME(CheckoutRequest)
  *
  * If set to 0.0, the Send Receipt screen remains on-screen forever or until the user dismisses it.
  */
-@property (nonatomic) NSTimeInterval successScreenTimeout;
+@property (nonatomic, assign) NSTimeInterval successScreenTimeout;
 
 @end
-
-NS_ASSUME_NONNULL_END

@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Σάρωση κωδικού QR ή barcode";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Σάρωση κωδικού QR";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (προαιρετικά)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d χαρακτήρες";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Διαγραφή κειμένου";
+
+"circuit_textInput_validation_required_error" = "Εισαγάγετε μια τιμή";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Εισαγάγετε τουλάχιστον %1$d χαρακτήρες";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Εισαγάγετε έως %1$d χαρακτήρες";
+
+"circuit_textInput_validation_lengthExact_error" = "Εισαγάγετε ακριβώς %1$d χαρακτήρες";
+
+"circuit_textInput_validation_lengthRange_error" = "Εισαγάγετε από %1$d έως %2$d χαρακτήρες";
+
+"circuit_textInput_validation_numericRange_error" = "Εισαγάγετε μια τιμή από %1$@ έως %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Εισαγάγετε έναν έγκυρο αριθμό κάρτας";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Χρησιμοποιήστε μόνο επιτρεπόμενους χαρακτήρες";
+
+"circuit_textInput_validation_equality_error" = "Οι τιμές πρέπει να συμφωνούν";
+
+"circuit_textInput_validation_predicate_error" = "Εισαγάγετε μια έγκυρη τιμή";
+
+"circuit_textInput_validation_regex_error" = "Εισαγάγετε κείμενο με τη σωστή μορφή";
+
+"circuit_navigationHeader_rewardsButton_title" = "Ανταμοιβές";
+

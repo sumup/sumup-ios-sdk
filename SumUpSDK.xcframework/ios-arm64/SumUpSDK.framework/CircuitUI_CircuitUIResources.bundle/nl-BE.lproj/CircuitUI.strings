@@ -80,6 +80,37 @@
 
 "circuit_barcodeScanner_instructionText_scanBarcode_title" = "Streepjescode scannen";
 
-"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "QR-code of barcode scannen.";
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "QR-code of streepjescode scannen";
 
-"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scan QR-code";
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "QR-code scannen";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (optioneel)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d tekens";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Tekst wissen";
+
+"circuit_textInput_validation_required_error" = "Geef de hoogte van de korting op";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Voer minimaal %1$d tekens in";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Voer %1$d of minder tekens in";
+
+"circuit_textInput_validation_lengthExact_error" = "Voer exact %1$d tekens in";
+
+"circuit_textInput_validation_lengthRange_error" = "Voer tussen de %1$d en de %2$d tekens in";
+
+"circuit_textInput_validation_numericRange_error" = "Voer een waarde in tussen de %1$@ en de %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Voer een geldig kaartnummer in";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Gebruik alleen toegestane tekens";
+
+"circuit_textInput_validation_equality_error" = "Waarden moeten overeenkomen";
+
+"circuit_textInput_validation_predicate_error" = "Voer een geldige waarde in";
+
+"circuit_textInput_validation_regex_error" = "Voer tekst in het juiste formaat in";
+
+"circuit_navigationHeader_rewardsButton_title" = "Beloningen";
+

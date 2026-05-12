@@ -78,8 +78,39 @@
 
 "circuit_navigationHeader_archiveButton_title" = "Arhivēt";
 
-"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skenēt svītrkodu";
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Noskenē svītrkodu";
 
-"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skenē QR kodu vai svītrkodu";
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Noskenē QR kodu vai svītrkodu";
 
-"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skenēt QR kodu";
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Noskenē QR kodu";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (nav obligāti)";
+
+"circuit_textInput_subtitle_characterCountValue" = "Rakstzīmes: %1$d/%2$d";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Skaidrs teksts";
+
+"circuit_textInput_validation_required_error" = "Ievadi vērtību";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Ievadi vismaz šādu skaitu rakstzīmju: %1$d";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Ievadi ne vairāk kā šādu skaitu rakstzīmju: %1$d";
+
+"circuit_textInput_validation_lengthExact_error" = "Ievadi precīzi šādu skaitu rakstzīmju: %1$d";
+
+"circuit_textInput_validation_lengthRange_error" = "Ievadītajam rakstzīmju skaitam jābūt no %1$d līdz %2$d";
+
+"circuit_textInput_validation_numericRange_error" = "Ievadi vērtību no %1$@ līdz %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Ievadi derīgu kartes numuru";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Izmanto tikai atļautās rakstzīmes";
+
+"circuit_textInput_validation_equality_error" = "Vērtībām ir jābūt vienādām";
+
+"circuit_textInput_validation_predicate_error" = "Ievadi derīgu vērtību";
+
+"circuit_textInput_validation_regex_error" = "Ievadi tekstu pareizajā formātā";
+
+"circuit_navigationHeader_rewardsButton_title" = "Atlīdzības";
+

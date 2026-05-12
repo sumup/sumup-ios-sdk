@@ -3,28 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B584F341DE60FEE00642029 /* SUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F311DE60FEE00642029 /* SUSAppDelegate.m */; };
-		1B584F351DE60FEE00642029 /* SUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F331DE60FEE00642029 /* SUSViewController.m */; };
-		1B584F371DE60FFC00642029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F361DE60FFC00642029 /* main.m */; };
-		1B584F3B1DE6101100642029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F391DE6101000642029 /* AppDelegate.swift */; };
-		1B584F3C1DE6101100642029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B584F3A1DE6101100642029 /* ViewController.swift */; };
-		1B584F3D1DE6123300642029 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9610CC18996359009D8EBC /* Images.xcassets */; };
-		1B584F3F1DE6124400642029 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */; };
-		1B584F401DE6125100642029 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9610BD18996359009D8EBC /* InfoPlist.strings */; };
-		1B584F491DE6146000642029 /* Main-Swift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B584F471DE6146000642029 /* Main-Swift.storyboard */; };
-		1BF7553B1CF6093C00C793FB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */; };
 		C43F5FBC24F4FBD10091DB67 /* SumUpSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */; };
 		C43F5FBD24F4FBD10091DB67 /* SumUpSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		C43F5FBF24F4FBD80091DB67 /* SumUpSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */; };
-		C43F5FC024F4FBD80091DB67 /* SumUpSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9610BD18996359009D8EBC /* InfoPlist.strings */; };
-		DC9610C818996359009D8EBC /* Main-ObjC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9610C618996359009D8EBC /* Main-ObjC.storyboard */; };
-		DC9610CD18996359009D8EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9610CC18996359009D8EBC /* Images.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0DBEE572F6AE7C00089B743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9610A918996359009D8EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B584F171DE60F7100642029;
+			remoteInfo = SumUpSDKSampleApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C43F5FBE24F4FBD10091DB67 /* Embed Frameworks */ = {
@@ -38,42 +33,22 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C43F5FC124F4FBD80091DB67 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C43F5FC024F4FBD80091DB67 /* SumUpSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B3F0FAE1FBC75B50003F8CA /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
-		1B584F181DE60F7100642029 /* SumUpSDKSampleAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumUpSDKSampleAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B584F301DE60FEE00642029 /* SUSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUSAppDelegate.h; path = SrcObjC/SUSAppDelegate.h; sourceTree = "<group>"; };
-		1B584F311DE60FEE00642029 /* SUSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SUSAppDelegate.m; path = SrcObjC/SUSAppDelegate.m; sourceTree = "<group>"; };
-		1B584F321DE60FEE00642029 /* SUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUSViewController.h; path = SrcObjC/SUSViewController.h; sourceTree = "<group>"; };
-		1B584F331DE60FEE00642029 /* SUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SUSViewController.m; path = SrcObjC/SUSViewController.m; sourceTree = "<group>"; };
-		1B584F361DE60FFC00642029 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SrcObjC/main.m; sourceTree = "<group>"; };
-		1B584F391DE6101000642029 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SrcSwift/AppDelegate.swift; sourceTree = "<group>"; };
-		1B584F3A1DE6101100642029 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SrcSwift/ViewController.swift; sourceTree = "<group>"; };
-		1B584F481DE6146000642029 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "SumUpSDKSampleApp/en.lproj/Main-Swift.storyboard"; sourceTree = SOURCE_ROOT; };
-		1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "SumUpSDKSampleApp/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1B584F181DE60F7100642029 /* SumUpSDKSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumUpSDKSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DBEE532F6AE7C00089B743 /* SumUpSDKSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumUpSDKSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43F5FBB24F4FBD10091DB67 /* SumUpSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SumUpSDK.xcframework; path = ../SumUpSDK.xcframework; sourceTree = "<group>"; };
-		C46B41062AB2FD3C00271656 /* project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
-		DC9610B118996359009D8EBC /* SumUpSDKSampleAppObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumUpSDKSampleAppObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9610BC18996359009D8EBC /* SumUpSDKSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SumUpSDKSampleApp-Info.plist"; sourceTree = "<group>"; };
-		DC9610BE18996359009D8EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC9610CC18996359009D8EBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SumUpSDKSampleApp/Images.xcassets; sourceTree = "<group>"; };
 		DCA9F4761899687D0057702B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DCA9F47E189968C70057702B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		E90292CD1B29EF6600D7B7BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/Main-ObjC.storyboard"; sourceTree = "<group>"; };
 		E92050D71B289E4B00173579 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B02D61772F5AE12F007F18EA /* SumUpSDKSampleApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SumUpSDKSampleApp; sourceTree = SOURCE_ROOT; };
+		B0DBEE672F6AEDB90089B743 /* SumUpSDKSampleAppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SumUpSDKSampleAppTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1B584F151DE60F7100642029 /* Frameworks */ = {
@@ -84,61 +59,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9610AE18996359009D8EBC /* Frameworks */ = {
+		B0DBEE502F6AE7C00089B743 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43F5FBF24F4FBD80091DB67 /* SumUpSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B584EFB1DE60B5500642029 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DC9610CC18996359009D8EBC /* Images.xcassets */,
-				1BF7553A1CF6093C00C793FB /* Launch Screen.storyboard */,
-				DC9610BB18996359009D8EBC /* Supporting Files */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		1B584EFC1DE60B9800642029 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC9610C618996359009D8EBC /* Main-ObjC.storyboard */,
-				1B584F361DE60FFC00642029 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1B584F191DE60F7100642029 /* SumUpSDKSampleAppSwift */ = {
-			isa = PBXGroup;
-			children = (
-				1B584F391DE6101000642029 /* AppDelegate.swift */,
-				1B584F3A1DE6101100642029 /* ViewController.swift */,
-				1B584F4A1DE6146300642029 /* Supporting Files */,
-			);
-			name = SumUpSDKSampleAppSwift;
-			path = SumUpSDKSampleApp;
-			sourceTree = "<group>";
-		};
-		1B584F4A1DE6146300642029 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1B584F471DE6146000642029 /* Main-Swift.storyboard */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		DC9610A818996359009D8EBC = {
 			isa = PBXGroup;
 			children = (
-				1B584EFB1DE60B5500642029 /* Resources */,
-				DC9610BA18996359009D8EBC /* SumUpSDKSampleApp */,
-				1B584F191DE60F7100642029 /* SumUpSDKSampleAppSwift */,
+				B02D61772F5AE12F007F18EA /* SumUpSDKSampleApp */,
+				B0DBEE672F6AEDB90089B743 /* SumUpSDKSampleAppTests */,
 				DC9610B318996359009D8EBC /* Frameworks */,
 				DC9610B218996359009D8EBC /* Products */,
 			);
@@ -147,8 +82,8 @@
 		DC9610B218996359009D8EBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC9610B118996359009D8EBC /* SumUpSDKSampleAppObjC.app */,
-				1B584F181DE60F7100642029 /* SumUpSDKSampleAppSwift.app */,
+				1B584F181DE60F7100642029 /* SumUpSDKSampleApp.app */,
+				B0DBEE532F6AE7C00089B743 /* SumUpSDKSampleAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,35 +100,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC9610BA18996359009D8EBC /* SumUpSDKSampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				1B584F301DE60FEE00642029 /* SUSAppDelegate.h */,
-				1B584F311DE60FEE00642029 /* SUSAppDelegate.m */,
-				1B584F321DE60FEE00642029 /* SUSViewController.h */,
-				1B584F331DE60FEE00642029 /* SUSViewController.m */,
-				1B584EFC1DE60B9800642029 /* Supporting Files */,
-			);
-			path = SumUpSDKSampleApp;
-			sourceTree = "<group>";
-		};
-		DC9610BB18996359009D8EBC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C46B41062AB2FD3C00271656 /* project.xcconfig */,
-				DC9610BC18996359009D8EBC /* SumUpSDKSampleApp-Info.plist */,
-				DC9610BD18996359009D8EBC /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			path = SumUpSDKSampleApp;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B584F171DE60F7100642029 /* SumUpSDKSampleAppSwift */ = {
+		1B584F171DE60F7100642029 /* SumUpSDKSampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B584F271DE60F7100642029 /* Build configuration list for PBXNativeTarget "SumUpSDKSampleAppSwift" */;
+			buildConfigurationList = 1B584F271DE60F7100642029 /* Build configuration list for PBXNativeTarget "SumUpSDKSampleApp" */;
 			buildPhases = (
 				1B584F141DE60F7100642029 /* Sources */,
 				1B584F151DE60F7100642029 /* Frameworks */,
@@ -204,28 +116,36 @@
 			);
 			dependencies = (
 			);
-			name = SumUpSDKSampleAppSwift;
+			fileSystemSynchronizedGroups = (
+				B02D61772F5AE12F007F18EA /* SumUpSDKSampleApp */,
+			);
+			name = SumUpSDKSampleApp;
 			productName = SumUpSDKSampleAppSwift;
-			productReference = 1B584F181DE60F7100642029 /* SumUpSDKSampleAppSwift.app */;
+			productReference = 1B584F181DE60F7100642029 /* SumUpSDKSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC9610B018996359009D8EBC /* SumUpSDKSampleAppObjC */ = {
+		B0DBEE522F6AE7C00089B743 /* SumUpSDKSampleAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9610E318996359009D8EBC /* Build configuration list for PBXNativeTarget "SumUpSDKSampleAppObjC" */;
+			buildConfigurationList = B0DBEE592F6AE7C00089B743 /* Build configuration list for PBXNativeTarget "SumUpSDKSampleAppTests" */;
 			buildPhases = (
-				DC9610AD18996359009D8EBC /* Sources */,
-				DC9610AE18996359009D8EBC /* Frameworks */,
-				DC9610AF18996359009D8EBC /* Resources */,
-				C43F5FC124F4FBD80091DB67 /* Embed Frameworks */,
+				B0DBEE4F2F6AE7C00089B743 /* Sources */,
+				B0DBEE502F6AE7C00089B743 /* Frameworks */,
+				B0DBEE512F6AE7C00089B743 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B0DBEE582F6AE7C00089B743 /* PBXTargetDependency */,
 			);
-			name = SumUpSDKSampleAppObjC;
-			productName = SumUpSDKSampleApp;
-			productReference = DC9610B118996359009D8EBC /* SumUpSDKSampleAppObjC.app */;
-			productType = "com.apple.product-type.application";
+			fileSystemSynchronizedGroups = (
+				B0DBEE672F6AEDB90089B743 /* SumUpSDKSampleAppTests */,
+			);
+			name = SumUpSDKSampleAppTests;
+			packageProductDependencies = (
+			);
+			productName = SumUpSDKSampleAppTests;
+			productReference = B0DBEE532F6AE7C00089B743 /* SumUpSDKSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -234,14 +154,18 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SUS;
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 1220;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = "SumUp Payments Limited";
 				TargetAttributes = {
 					1B584F171DE60F7100642029 = {
 						CreatedOnToolsVersion = 8.1;
 						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
+					};
+					B0DBEE522F6AE7C00089B743 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 1B584F171DE60F7100642029;
 					};
 				};
 			};
@@ -258,8 +182,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC9610B018996359009D8EBC /* SumUpSDKSampleAppObjC */,
-				1B584F171DE60F7100642029 /* SumUpSDKSampleAppSwift */,
+				1B584F171DE60F7100642029 /* SumUpSDKSampleApp */,
+				B0DBEE522F6AE7C00089B743 /* SumUpSDKSampleAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,21 +193,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B584F491DE6146000642029 /* Main-Swift.storyboard in Resources */,
-				1B584F3F1DE6124400642029 /* Launch Screen.storyboard in Resources */,
-				1B584F401DE6125100642029 /* InfoPlist.strings in Resources */,
-				1B584F3D1DE6123300642029 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9610AF18996359009D8EBC /* Resources */ = {
+		B0DBEE512F6AE7C00089B743 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF7553B1CF6093C00C793FB /* Launch Screen.storyboard in Resources */,
-				DC9610CD18996359009D8EBC /* Images.xcassets in Resources */,
-				DC9610C818996359009D8EBC /* Main-ObjC.storyboard in Resources */,
-				DC9610BF18996359009D8EBC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,54 +210,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B584F3B1DE6101100642029 /* AppDelegate.swift in Sources */,
-				1B584F3C1DE6101100642029 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9610AD18996359009D8EBC /* Sources */ = {
+		B0DBEE4F2F6AE7C00089B743 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B584F341DE60FEE00642029 /* SUSAppDelegate.m in Sources */,
-				1B584F371DE60FFC00642029 /* main.m in Sources */,
-				1B584F351DE60FEE00642029 /* SUSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		1B584F471DE6146000642029 /* Main-Swift.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B584F481DE6146000642029 /* en */,
-			);
-			name = "Main-Swift.storyboard";
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		B0DBEE582F6AE7C00089B743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B584F171DE60F7100642029 /* SumUpSDKSampleApp */;
+			targetProxy = B0DBEE572F6AE7C00089B743 /* PBXContainerItemProxy */;
 		};
-		DC9610BD18996359009D8EBC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC9610BE18996359009D8EBC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DC9610C618996359009D8EBC /* Main-ObjC.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E90292CD1B29EF6600D7B7BF /* en */,
-			);
-			name = "Main-ObjC.storyboard";
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1B584F281DE60F7100642029 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -353,14 +246,15 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUS_STORYBOARD_NAME = "Main-Swift";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,6 +264,7 @@
 		1B584F291DE60F7100642029 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -382,23 +277,98 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUS_STORYBOARD_NAME = "Main-Swift";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		B0DBEE5A2F6AE7C00089B743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.SumUpSDKSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumUpSDKSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SumUpSDKSampleApp";
+			};
+			name = Debug;
+		};
+		B0DBEE5B2F6AE7C00089B743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.SumUpSDKSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumUpSDKSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SumUpSDKSampleApp";
+			};
+			name = Release;
+		};
 		DC9610E118996359009D8EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C46B41062AB2FD3C00271656 /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -429,7 +399,6 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -452,7 +421,6 @@
 		};
 		DC9610E218996359009D8EBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C46B41062AB2FD3C00271656 /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -483,7 +451,6 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -499,54 +466,23 @@
 			};
 			name = Release;
 		};
-		DC9610E418996359009D8EBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
-				DEVELOPMENT_TEAM = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.objc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUS_STORYBOARD_NAME = "Main-ObjC";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		DC9610E518996359009D8EBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
-				DEVELOPMENT_TEAM = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "SumUpSDKSampleApp/SumUpSDKSampleApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.sdk.sample.objc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUS_STORYBOARD_NAME = "Main-ObjC";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B584F271DE60F7100642029 /* Build configuration list for PBXNativeTarget "SumUpSDKSampleAppSwift" */ = {
+		1B584F271DE60F7100642029 /* Build configuration list for PBXNativeTarget "SumUpSDKSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B584F281DE60F7100642029 /* Debug */,
 				1B584F291DE60F7100642029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0DBEE592F6AE7C00089B743 /* Build configuration list for PBXNativeTarget "SumUpSDKSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DBEE5A2F6AE7C00089B743 /* Debug */,
+				B0DBEE5B2F6AE7C00089B743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -556,15 +492,6 @@
 			buildConfigurations = (
 				DC9610E118996359009D8EBC /* Debug */,
 				DC9610E218996359009D8EBC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC9610E318996359009D8EBC /* Build configuration list for PBXNativeTarget "SumUpSDKSampleAppObjC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC9610E418996359009D8EBC /* Debug */,
-				DC9610E518996359009D8EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

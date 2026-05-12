@@ -64,7 +64,7 @@ NS_SWIFT_NAME(SumUpSDK)
 @property(class, readonly) NSString *bundleVersionShortString;
 
 /**
- *  Sets up the SumUpSDK for use in your app.
+ *  Sets up the SumUpSDK for use in your app. Deprecated. Use setupWithAffiliateKey: instead.
  *
  *  Needs to be called from the main thread at some point before starting interaction with the SDK.
  *  As this might ask for the user's location it should not necessarily be part
@@ -75,8 +75,24 @@ NS_SWIFT_NAME(SumUpSDK)
  *
  *  @param apiKey Your application's API Key for the SumUpSDK.
  *  @return YES if setup was successful. NO otherwise or if SDK has been set up before.
+ *  @deprecated Use setupWithAffiliateKey: instead.
  */
-+ (BOOL)setupWithAPIKey:(NSString *)apiKey;
++ (BOOL)setupWithAPIKey:(NSString *)apiKey DEPRECATED_MSG_ATTRIBUTE("Use setupWithAffiliateKey: instead.");
+
+/**
+ *  Sets up the SumUpSDK for use in your app.
+ *
+ *  Needs to be called from the main thread at some point before starting interaction with the SDK.
+ *  As this might ask for the user's location it should not necessarily be part
+ *  of the app launch. Make sure to only setup once per app lifecycle.
+ *
+ *  If the user did not previously grant your app the permission to use her location,
+ *  calling this method will prompt the user to grant such permission.
+ *
+ *  @param affiliateKey Your application's API Key for the SumUpSDK.
+ *  @return YES if setup was successful. NO otherwise or if SDK has been set up before.
+ */
++ (BOOL)setupWithAffiliateKey:(NSString *)affiliateKey NS_SWIFT_NAME(setup(affiliateKey:));
 
 #pragma mark - Authentication
 

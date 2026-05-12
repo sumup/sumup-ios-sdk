@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scan QR-kode eller stregkode";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scan QR-kode";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (valgfrit)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d tegn";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Ryd tekst";
+
+"circuit_textInput_validation_required_error" = "Indtast en værdi";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Indtast mindst %1$d tegn";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Indtast %1$d tegn eller derunder";
+
+"circuit_textInput_validation_lengthExact_error" = "Indtast præcis %1$d tegn";
+
+"circuit_textInput_validation_lengthRange_error" = "Indtast mellem %1$d og %2$d tegn";
+
+"circuit_textInput_validation_numericRange_error" = "Indtast en værdi mellem %1$@ og %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Indtast et gyldigt kortnummer";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Brug kun tilladte tegn";
+
+"circuit_textInput_validation_equality_error" = "Værdierne skal stemme overens";
+
+"circuit_textInput_validation_predicate_error" = "Indtast en gyldig værdi";
+
+"circuit_textInput_validation_regex_error" = "Indtast tekst i det korrekte format";
+
+"circuit_navigationHeader_rewardsButton_title" = "Belønninger";
+

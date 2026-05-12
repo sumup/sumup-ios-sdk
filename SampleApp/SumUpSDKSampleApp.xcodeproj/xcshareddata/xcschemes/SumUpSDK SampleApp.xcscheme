@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1220"
+   LastUpgradeVersion = "1600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC9610B018996359009D8EBC"
-               BuildableName = "SumUpSDKSampleAppObjC.app"
-               BlueprintName = "SumUpSDKSampleAppObjC"
+               BlueprintIdentifier = "1B584F171DE60F7100642029"
+               BuildableName = "SumUpSDKSampleApp.app"
+               BlueprintName = "SumUpSDKSampleApp"
                ReferencedContainer = "container:SumUpSDKSampleApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,13 +30,24 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC9610B018996359009D8EBC"
-            BuildableName = "SumUpSDKSampleAppObjC.app"
-            BlueprintName = "SumUpSDKSampleAppObjC"
+            BlueprintIdentifier = "1B584F171DE60F7100642029"
+            BuildableName = "SumUpSDKSampleApp.app"
+            BlueprintName = "SumUpSDKSampleApp"
             ReferencedContainer = "container:SumUpSDKSampleApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B0DBEE522F6AE7C00089B743"
+               BuildableName = "SumUpSDKSampleAppTests.xctest"
+               BlueprintName = "SumUpSDKSampleAppTests"
+               ReferencedContainer = "container:SumUpSDKSampleApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -53,9 +64,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC9610B018996359009D8EBC"
-            BuildableName = "SumUpSDKSampleAppObjC.app"
-            BlueprintName = "SumUpSDKSampleAppObjC"
+            BlueprintIdentifier = "1B584F171DE60F7100642029"
+            BuildableName = "SumUpSDKSampleApp.app"
+            BlueprintName = "SumUpSDKSampleApp"
             ReferencedContainer = "container:SumUpSDKSampleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,9 +81,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC9610B018996359009D8EBC"
-            BuildableName = "SumUpSDKSampleAppObjC.app"
-            BlueprintName = "SumUpSDKSampleAppObjC"
+            BlueprintIdentifier = "1B584F171DE60F7100642029"
+            BuildableName = "SumUpSDKSampleApp.app"
+            BlueprintName = "SumUpSDKSampleApp"
             ReferencedContainer = "container:SumUpSDKSampleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

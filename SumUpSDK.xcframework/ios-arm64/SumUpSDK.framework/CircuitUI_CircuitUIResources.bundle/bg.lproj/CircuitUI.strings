@@ -80,6 +80,37 @@
 
 "circuit_barcodeScanner_instructionText_scanBarcode_title" = "Сканиране на баркод";
 
-"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Сканирайте QR код или баркод";
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Сканиране на QR код или баркод";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Сканиране на QR код";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (незадължително)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d знака";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Изчистване на текст";
+
+"circuit_textInput_validation_required_error" = "Моля, въведете стойност";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Въведете поне %1$d знака";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Въведете %1$d знака или по-малко";
+
+"circuit_textInput_validation_lengthExact_error" = "Въведете точно %1$d знака";
+
+"circuit_textInput_validation_lengthRange_error" = "Въведете между %1$d и %2$d знака";
+
+"circuit_textInput_validation_numericRange_error" = "Въведете стойност между %1$@ и %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Въведете валиден номер на картата";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Използвайте само разрешени знаци";
+
+"circuit_textInput_validation_equality_error" = "Стойностите трябва да съвпадат";
+
+"circuit_textInput_validation_predicate_error" = "Въведете валидна стойност";
+
+"circuit_textInput_validation_regex_error" = "Въведете текст в правилния формат";
+
+"circuit_navigationHeader_rewardsButton_title" = "Награди";
+

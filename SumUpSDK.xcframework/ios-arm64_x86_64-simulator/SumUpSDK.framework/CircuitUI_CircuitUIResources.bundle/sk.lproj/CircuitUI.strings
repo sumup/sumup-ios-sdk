@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Naskenujte QR kód alebo čiarový kód";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Naskenujte QR kód";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (nepovinné)";
+
+"circuit_textInput_subtitle_characterCountValue" = "Počet znakov: %1$d/%2$d";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Vymazať text";
+
+"circuit_textInput_validation_required_error" = "Zadajte hodnotu.";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Zadajte aspoň %1$d znaky/znakov";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Zadajte maximálne %1$d znaky/znakov";
+
+"circuit_textInput_validation_lengthExact_error" = "Zadajte presne %1$d znaky/znakov";
+
+"circuit_textInput_validation_lengthRange_error" = "Zadajte %1$d až %2$d znaky/znakov";
+
+"circuit_textInput_validation_numericRange_error" = "Zadajte hodnotu %1$@ až %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Zadajte platné číslo karty";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Použite iba povolené znaky";
+
+"circuit_textInput_validation_equality_error" = "Hodnoty sa musia zhodovať";
+
+"circuit_textInput_validation_predicate_error" = "Zadajte platnú hodnotu";
+
+"circuit_textInput_validation_regex_error" = "Zadajte text v správnom formáte";
+
+"circuit_navigationHeader_rewardsButton_title" = "Odmeny";
+

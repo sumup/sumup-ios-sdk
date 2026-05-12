@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scan QR code or barcode";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scan QR code";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (optional)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d characters";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Clear text";
+
+"circuit_textInput_validation_required_error" = "Please enter a value";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Enter at least %1$d characters";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Enter %1$d characters or fewer";
+
+"circuit_textInput_validation_lengthExact_error" = "Enter exactly %1$d characters";
+
+"circuit_textInput_validation_lengthRange_error" = "Enter between %1$d and %2$d characters";
+
+"circuit_textInput_validation_numericRange_error" = "Enter a value between %1$@ and %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Enter a valid card number";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Only use allowed characters";
+
+"circuit_textInput_validation_equality_error" = "Values must match";
+
+"circuit_textInput_validation_predicate_error" = "Enter a valid value";
+
+"circuit_textInput_validation_regex_error" = "Enter text in the correct format";
+
+"circuit_navigationHeader_rewardsButton_title" = "Rewards";
+

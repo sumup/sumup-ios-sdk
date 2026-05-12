@@ -16,176 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "CashierWebService",
-        "printedName": "CashierWebService",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ObservabilityKit",
-        "printedName": "ObservabilityKit",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SumUpTap",
-        "printedName": "SumUpTap",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CashierWebService",
-        "printedName": "CashierWebService",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SumUpTap",
-        "printedName": "SumUpTap",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CashierWebService",
-        "printedName": "CashierWebService",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ObservabilityKit",
-        "printedName": "ObservabilityKit",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SumUpSDK_Private",
-        "printedName": "SumUpSDK_Private",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SumUpTap",
-        "printedName": "SumUpTap",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CashierWebService",
-        "printedName": "CashierWebService",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CashierWebService",
-        "printedName": "CashierWebService",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SumUpTap",
-        "printedName": "SumUpTap",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -205,6 +35,36 @@
         "kind": "Import",
         "name": "ObservabilityKit",
         "printedName": "ObservabilityKit",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SumUpTap",
+        "printedName": "SumUpTap",
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
@@ -249,6 +109,16 @@
         "kind": "Import",
         "name": "ObservabilityKit",
         "printedName": "ObservabilityKit",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PaymentManager",
+        "printedName": "PaymentManager",
         "declKind": "Import",
         "moduleName": "SumUpSDK",
         "declAttributes": [
@@ -303,6 +173,203 @@
         "moduleName": "SumUpSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SumUpTap",
+        "printedName": "SumUpTap",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SAKAnalytics",
+        "printedName": "SAKAnalytics",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SumUpTap",
+        "printedName": "SumUpTap",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObservabilityKit",
+        "printedName": "ObservabilityKit",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SumUpTap",
+        "printedName": "SumUpTap",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PaymentManager",
+        "printedName": "PaymentManager",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObservabilityKit",
+        "printedName": "ObservabilityKit",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SumUpSDK_Private",
+        "printedName": "SumUpSDK_Private",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SumUpTap",
+        "printedName": "SumUpTap",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -594,56 +661,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SAKAnalytics",
-        "printedName": "SAKAnalytics",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SumUpTap",
-        "printedName": "SumUpTap",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CashierWebService",
-        "printedName": "CashierWebService",
-        "declKind": "Import",
-        "moduleName": "SumUpSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "ISHCashierWebService",
         "printedName": "ISHCashierWebService",
@@ -661,6 +678,98 @@
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "CashierWebService.SMPWebService",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Withable",
+            "printedName": "Withable",
+            "usr": "s:19SumUpUtilitiesSwift8WithableP",
+            "mangledName": "$s19SumUpUtilitiesSwift8WithableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PECPaymentManager",
+        "printedName": "PECPaymentManager",
+        "declKind": "Class",
+        "usr": "c:objc(cs)PECPaymentManager",
+        "moduleName": "PaymentManager",
+        "isOpen": true,
+        "objc_name": "PECPaymentManager",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -850,6 +959,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/SumUpTap\/SDKTapIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 15091,
+      "length": 14,
+      "value": "\"tap_payments\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/SumUpTap\/AsyncNonReentrantSection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 722,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/SumUpTap\/SumUpTapCheckoutRequestAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 1686,
@@ -860,20 +983,6 @@
       "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/Cashier\/Payment\/dynamic_checkout_flow\/SumUpTap\/SumUpTapCheckoutStarter.swift",
       "kind": "BooleanLiteral",
       "offset": 3350,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/SumUpTap\/SDKTapIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 15060,
-      "length": 14,
-      "value": "\"tap_payments\""
-    },
-    {
-      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/SumUpTap\/AsyncNonReentrantSection.swift",
-      "kind": "BooleanLiteral",
-      "offset": 722,
       "length": 5,
       "value": "false"
     },

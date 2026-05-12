@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Zeskanuj kod QR lub kreskowy";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Zeskanuj kod QR";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (opcjonalnie)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d znaków";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Usuń tekst";
+
+"circuit_textInput_validation_required_error" = "Wprowadź wartość";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Wprowadź %1$d lub więcej znaków";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Wprowadź %1$d lub mniej znaków";
+
+"circuit_textInput_validation_lengthExact_error" = "Liczba wprowadzanych znaków musi wynosić %1$d";
+
+"circuit_textInput_validation_lengthRange_error" = "Wprowadź od %1$d do %2$d znaków";
+
+"circuit_textInput_validation_numericRange_error" = "Wprowadź wartość od %1$@ do %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Wprowadź prawidłowy numer karty";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Używaj tylko dozwolonych znaków";
+
+"circuit_textInput_validation_equality_error" = "Wartości muszą się zgadzać";
+
+"circuit_textInput_validation_predicate_error" = "Wprowadź prawidłową wartość";
+
+"circuit_textInput_validation_regex_error" = "Wprowadź tekst w odpowiednim formacie";
+
+"circuit_navigationHeader_rewardsButton_title" = "Nagrody";
+

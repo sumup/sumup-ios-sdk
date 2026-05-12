@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skann QR-kode eller strekkode";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skann QR-kode";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (valgfritt)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d tegn";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Klar tekst";
+
+"circuit_textInput_validation_required_error" = "Angi en verdi";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Angi minst %1$d tegn";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Angi %1$d tegn eller færre";
+
+"circuit_textInput_validation_lengthExact_error" = "Angi nøyaktig %1$d tegn";
+
+"circuit_textInput_validation_lengthRange_error" = "Angi mellom %1$d og %2$d tegn";
+
+"circuit_textInput_validation_numericRange_error" = "Angi en verdi mellom %1$@ og %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Oppgi et gyldig kortnummer";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Bruk kun tillatte tegn";
+
+"circuit_textInput_validation_equality_error" = "Verdiene må samsvare";
+
+"circuit_textInput_validation_predicate_error" = "Angi en gyldig verdi";
+
+"circuit_textInput_validation_regex_error" = "Angi tekst i riktig format";
+
+"circuit_navigationHeader_rewardsButton_title" = "Belønninger";
+

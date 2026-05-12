@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "QR-kód vagy vonalkód leolvasása";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "QR-kód beolvasása";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (opcionális)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d karakter";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Szöveg törlése";
+
+"circuit_textInput_validation_required_error" = "Adjon meg egy értéket";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Adjon meg legalább %1$d karaktert";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Legfeljebb %1$d karaktert adjon meg";
+
+"circuit_textInput_validation_lengthExact_error" = "Adjon meg pontosan %1$d karaktert";
+
+"circuit_textInput_validation_lengthRange_error" = "Adjon meg %1$d és %2$d közötti karaktert";
+
+"circuit_textInput_validation_numericRange_error" = "Adjon meg egy %1$@ és %2$@ közötti értéket";
+
+"circuit_textInput_validation_creditCard_error" = "Adjon meg egy érvényes kártyaszámot";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Csak engedélyezett karaktereket használjon";
+
+"circuit_textInput_validation_equality_error" = "Az értékeknek egyezniük kell";
+
+"circuit_textInput_validation_predicate_error" = "Adjon meg egy érvényes értéket";
+
+"circuit_textInput_validation_regex_error" = "Adja meg a szöveget a megfelelő formátumban";
+
+"circuit_navigationHeader_rewardsButton_title" = "Jutalmak";
+

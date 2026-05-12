@@ -83,3 +83,34 @@
 "circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skannaa QR-koodi tai viivakoodi";
 
 "circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skannaa QR-koodi";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (valinnainen)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d merkkiä";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Selkoteksti";
+
+"circuit_textInput_validation_required_error" = "Lisää arvo";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Lisää vähintään %1$d merkkiä";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Lisää enintään %1$d merkkiä";
+
+"circuit_textInput_validation_lengthExact_error" = "Lisää tarkalleen %1$d merkkiä";
+
+"circuit_textInput_validation_lengthRange_error" = "Lisää %1$d–%2$d merkkiä";
+
+"circuit_textInput_validation_numericRange_error" = "Lisää arvo väliltä %1$@–%2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Lisää kelvollinen kortin numero";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Käytä vain sallittuja merkkejä";
+
+"circuit_textInput_validation_equality_error" = "Arvojen on täsmättävä";
+
+"circuit_textInput_validation_predicate_error" = "Lisää kelvollinen arvo";
+
+"circuit_textInput_validation_regex_error" = "Kirjoita teksti oikeassa muodossa";
+
+"circuit_navigationHeader_rewardsButton_title" = "Palkinnot";
+

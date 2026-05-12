@@ -14,12 +14,12 @@
     * [Card Readers](#card-readers)
     * [Card Schemes](#card-schemes)
 5. [Limitations](#limitations)
-    * [Tap-to-Pay](#tap-to-pay)
-    * [Atomic Operations](#atomic-operations)
     * [Online Prerequisite and Card Reader Serial Binding](#online-prerequisite-and-card-reader-serial-binding)
     * [Transaction Caps](#transaction-caps)
     * [Cumulative Limit](#cumulative-limit)
     * [Time Constraints](#time-constraints)
+    * [Tap-to-Pay](#tap-to-pay)
+    * [Atomic Operations](#atomic-operations)
 6. [Associated Risks](#associated-risks)
     * [Deferred Declines](#deferred-declines)
     * [Data Loss](#data-loss)
@@ -48,7 +48,7 @@ The following table summarizes the core methods available in the SDK to manage t
 | `startOfflineSession`            | Activates the offline session, allowing the SDK to begin approving transactions locally.         |        🔴       |
 | `getOfflineSessionDetails`       | Returns the current offline session status, including transaction counts and approved volumes.   |        🔴       |
 | `getOfflineSessionRemainingTime` | Returns the remaining time before the active offline session expires.                            |        🔴       |
-| `uploadOfflineSession`           | Synchronizes stored transactions with the gateway to finalize payments.                          |        🔴       |
+| `uploadOfflineSession`           | Synchronizes stored transactions with the gateway to finalize payments.                          |        🟢       |
 | `endOfflineSession`              | Terminates the offline session and restores standard online-only operations.                     |        🟠 (*)   |
 
 > [!NOTE]
@@ -82,6 +82,9 @@ During an active offline session, the checkout routing is strictly governed by t
 
 ### Reconciliation
 Reconciliation synchronizes local records with SumUp's backend. The SDK triggers this automatically upon offline session deactivation or during the subsequent online transaction. The process is complete once the backend confirms receipt, transitioning transactions from "Pending" to "Cleared"
+
+> [!NOTE]
+> This requires an active internet connection.
 
 > [!TIP]
 > **Proactive Synchronization**
@@ -121,15 +124,10 @@ A compatible Card Reader with updated firmware is required:
 Offline processing is currently limited to:
 * Visa
 * Mastercard
+* American Express
 
 ## Limitations
 To maintain a secure and reliable payment environment, the offline mode is subject to several technical and operational constraints. These boundaries ensure data integrity and define the specific conditions under which local transactions can be safely processed.
-
-### Tap-to-Pay
-Offline Payments do not support Tap-to-Pay on iPhone. To enable and use the functionality, payments must be performed exclusively through a physical SumUp Card Reader.
-
-### Atomic Operations
-The SDK is designed to process offline-related requests as strictly atomic and serial operations. To maintain the integrity of the local environment and prevent state inconsistencies, APIs must not be invoked concurrently. Every request must be initiated only after the preceding operation has fully completed. This strict serial requirement is a core security design choice to ensure that the local system remains tamper-proof.
 
 ### Online Prerequisite and Card Reader Serial Binding
 To enable offline transactions, a merchant must first complete at least one successful online transaction on the specific iOS device.
@@ -148,6 +146,15 @@ There is a maximum total volume (sum of all successful offline transactions) tha
 
 ### Time Constraints
 Offline sessions are time-bound. If the device remains offline beyond the validity period defined within the session configuration, all subsequent transaction requests will be rejected until synchronization.
+
+> [!NOTE]
+> Once any of these limits (monetary volume, time window, or max transaction count) are reached, the SDK automatically attempts to return online and trigger an upload (synchronization) before allowing further offline processing. This ensures that the "Time-at-Risk" is minimized and transaction boundaries are strictly respected.
+
+### Tap-to-Pay
+Offline Payments do not support Tap-to-Pay on iPhone. To enable and use the functionality, payments must be performed exclusively through a physical SumUp Card Reader.
+
+### Atomic Operations
+The SDK is designed to process offline-related requests as strictly atomic and serial operations. To maintain the integrity of the local environment and prevent state inconsistencies, APIs must not be invoked concurrently. Every request must be initiated only after the preceding operation has fully completed. This strict serial requirement is a core security design choice to ensure that the local system remains tamper-proof.
 
 ## Associated Risks
 Processing payments without a real-time connection introduces specific financial and technical vulnerabilities.

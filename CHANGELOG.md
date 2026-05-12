@@ -1,5 +1,21 @@
 # SumUp iOS SDK Changelog
 
+## Version
+* [UPDATE] Updated Sample App
+  * An updated Sample App is provided to help you get quickly up to speed adding features from the SumUp SDK to your app.
+  * We welcome your ongoing feedback in [GitHub Issues](https://github.com/sumup/sumup-ios-sdk/issues/new). If you experience a problem or have any questions not covered in documentation, we are available to help.
+* [ADDED] Custom Tip Percentages Configuration
+  * Integrators can now configure the tip percentage options (up to 3) presented to customers during checkout. This replaces the hardcoded defaults (10%, 15%, 20%) with values more relevant to specific business use cases.
+    Validation Rules:
+    1. Accepts a list of 1 to 3 positive integers.
+    2. Maximum value per option is 99%.
+    3. Duplicate values are automatically rejected.
+    4. Options are automatically sorted from lowest to highest in the UI.
+  * If no custom percentages are provided, the SDK will continue to use the standard 10%, 15%, and 20% options.
+* [IMPROVEMENT] Enhanced Offline Session Management
+  * The SDK now automatically attempts to return online and upload the transaction batch as soon as a session limit (transaction count or time window) is reached.
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
 ## Version 7.0.0
 
 * [ADDED] Introduction of Offline Payment Support for Solo and Solo Lite Card Reader models.

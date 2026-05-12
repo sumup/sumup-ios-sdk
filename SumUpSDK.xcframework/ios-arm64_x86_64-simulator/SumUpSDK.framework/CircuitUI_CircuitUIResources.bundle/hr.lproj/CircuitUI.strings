@@ -78,8 +78,39 @@
 
 "circuit_navigationHeader_archiveButton_title" = "Arhiviraj";
 
-"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skeniraj bar kod";
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skenirajte bar kôd";
 
-"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skenirajte QR kôd ili bar kod";
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skenirajte QR kôd ili bar kôd";
 
-"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skeniraj QR kôd";
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skenirajte QR kôd";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (nije obavezno)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d znakova";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Jasan tekst";
+
+"circuit_textInput_validation_required_error" = "Molimo unesite vrijednost";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Unesite najmanje ovoliko znakova: %1$d";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Unesite ovoliko znakova: %1$d ili manje";
+
+"circuit_textInput_validation_lengthExact_error" = "Unesite točno ovoliko znakova: %1$d";
+
+"circuit_textInput_validation_lengthRange_error" = "Unesite od %1$d do %2$d znakova";
+
+"circuit_textInput_validation_numericRange_error" = "Unesite vrijednost od %1$@ do %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Unesite važeći broj kartice";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Koristite samo dopuštene znakove";
+
+"circuit_textInput_validation_equality_error" = "Vrijednosti se moraju podudarati";
+
+"circuit_textInput_validation_predicate_error" = "Unesite važeću vrijednost";
+
+"circuit_textInput_validation_regex_error" = "Unesite tekst u ispravnom formatu";
+
+"circuit_navigationHeader_rewardsButton_title" = "Nagrade";
+

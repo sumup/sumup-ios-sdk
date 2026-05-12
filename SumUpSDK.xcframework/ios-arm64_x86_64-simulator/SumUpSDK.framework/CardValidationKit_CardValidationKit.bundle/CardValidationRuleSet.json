@@ -1,0 +1,100 @@
+{
+    "rules": [
+        {
+            "scheme": "AMEX",
+            "regex": "^3(?:[47]\\d*|)$",
+            "minLength": 15,
+            "maxLength": 15,
+            "luhnCheck": true,
+            "cvvLength": 4
+        },
+        {
+            "scheme": "CUP",
+            "regex": "^6(?:2\\d*|)$",
+            "minLength": 16,
+            "maxLength": 19,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "DINERS",
+            "regex": "^3(?:[68]\\d*|(?:0|0[0-5]\\d*)|)$",
+            "minLength": 14,
+            "maxLength": 14,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "DISCOVER",
+            "regex": "^6(?:011|5|4[4-9]|22)\\d*$",
+            "minLength": 16,
+            "maxLength": 16,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "JCB",
+            "regex": "^3(?:5\\d*|)$",
+            "minLength": 16,
+            "maxLength": 16,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "ELO",
+            "regex": "^(?:40117[89]|43(?:1274|8935)|451416|457393|45763[12]|504175|506699|5067[0-6][0-9]|50677[0-8]|509\\d{3}|627780|636(?:297|368)|65003[1-3]|63003[5-9]|65004[0-9]|65005[01]|65040[5-9]|6504[1-3][0-9]|65048[5-9]|65049[0-9]|6505[0-2][0-9]|65053[0-8]|65054[1-9]|6505[5-8][0-9]|65059[0-8]|65070[0-9]|65071[0-8]|65072[0-7]|65090[1-9]|65091[0-9]|650920|65165[2-9]|6516[6-7][0-9]|6550[01][0-9]|65502[0-9]|6550[3-4][0-9]|65505[0-8])\\d*$",
+            "minLength": 16,
+            "maxLength": 16,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "HIPER",
+            "regex": "^6(?:06282|37(?:599|095|568))\\d*$",
+            "minLength": 16,
+            "maxLength": 16,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "MAESTRO",
+            "regex": "^(?:5018|5020|5038|5[6-9]|6020|6304|6703|6759|676[1-3])\\d*$",
+            "minLength": 12,
+            "maxLength": 19,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "MASTERCARD",
+            "regex": "^(?:5(?:[1-5]\\d*|)|(?:222[1-9]|22[3-9]|2[3-6]|27[0-1]|2720)\\d*)$",
+            "minLength": 16,
+            "maxLength": 16,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "VISA",
+            "regex": "^4(?!026|17500|405|508|844|913|917)\\d*$",
+            "minLength": 16,
+            "maxLength": 16,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "VISA_ELECTRON",
+            "regex": "^4(?:(?:026|1750{0,2}|405|508|844|913|917)\\d*|(?:02|17|40|50|84|91)|[014589]{0,1})$",
+            "minLength": 16,
+            "maxLength": 16,
+            "luhnCheck": true,
+            "cvvLength": 3
+        },
+        {
+            "scheme": "VPAY",
+            "regex": "^4(?!026|17500|405|508|844|913|917)\\d*$",
+            "minLength": 19,
+            "maxLength": 19,
+            "luhnCheck": true,
+            "cvvLength": 3
+        }
+    ]
+}
