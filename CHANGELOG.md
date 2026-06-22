@@ -1,6 +1,11 @@
 # SumUp iOS SDK Changelog
 
-## Version
+## Version 7.1.1
+
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 7.1.0
+
 * [UPDATE] Updated Sample App
   * An updated Sample App is provided to help you get quickly up to speed adding features from the SumUp SDK to your app.
   * We welcome your ongoing feedback in [GitHub Issues](https://github.com/sumup/sumup-ios-sdk/issues/new). If you experience a problem or have any questions not covered in documentation, we are available to help.
