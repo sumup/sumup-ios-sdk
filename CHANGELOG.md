@@ -1,5 +1,21 @@
 # SumUp iOS SDK Changelog
 
+## Version 7.1.2
+
+* [IMPROVEMENT] Improved Offline Payments availability
+  * Offline Payments are now more reliably kept available after a cancelled or timed-out card reader transaction.
+* [IMPROVEMENT] Extended Offline Payments card compatibility
+  * Offline Payments now support a wider range of payment cards from the same card schemes that are already supported.
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+> [!CAUTION]
+> Do not downgrade to an earlier SDK version if there are Offline Payments that have not been uploaded yet.
+>
+> If you need to downgrade, follow these steps:
+>   1. Upload any pending Offline Payments
+>   2. Delete the app
+>   3. Install the app again using the previous SDK version
+
 ## Version 7.1.1
 
 * [IMPROVEMENT] Miscellaneous bug fixes and enhancements

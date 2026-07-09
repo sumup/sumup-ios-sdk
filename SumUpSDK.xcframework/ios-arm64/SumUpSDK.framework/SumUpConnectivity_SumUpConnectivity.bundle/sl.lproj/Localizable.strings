@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Zapri";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "To bo trajalo približno minuto, nato pa lahko znova opravljate transakcije kot običajno.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Začnite znova zdaj";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Pozneje";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Za dokončanje posodobitve znova zaženite čitalec";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Povezava s čitalcem je bila prekinjena. Če želite nadaljevati transakcije, ga znova povežite.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Vaš kartični čitalec se posodablja. Še naprej lahko opravljate transakcije kot običajno.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Kartični čitalec ni bil posodobljen in bo poskusil znova. Še naprej lahko opravljate transakcije.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Počakajte minuto, da se vaš kartični čitalec znova zažene. Kmalu boste znova opravljali transakcije.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Vaš kartični čitalec je bil uspešno posodobljen.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Vnesite prejet znesek gotovine za izračun zneska vračila denarja.";
 

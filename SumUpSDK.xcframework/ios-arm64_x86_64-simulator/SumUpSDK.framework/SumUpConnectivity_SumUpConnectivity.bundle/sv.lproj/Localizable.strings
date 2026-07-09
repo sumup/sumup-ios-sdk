@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Stäng";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Det tar bara någon minut, och sedan kan du göra transaktioner igen som vanligt.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Starta om nu";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Senare";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Starta om kortläsaren för att avsluta uppdateringen";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Din kortläsare har kopplats bort. Anslut den igen för att kunna fortsätta göra transaktioner.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Din kortläsare uppdateras automatiskt. Du kan fortsätta att göra transaktioner som vanligt.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Kortläsaren kunde inte uppdateras. Försöker igen. Du kan fortsätta göra transaktioner som vanligt.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Vänta en minut medan kortläsaren startar om. Snart kan du göra transaktioner igen.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Din kortläsare har uppdaterats.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Ange mottaget belopp för att räkna ut hur mycket kunden ska få tillbaka i växel";
 

@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Zavřít";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Zabere to asi minutu. Potom můžete provádět transakce jako obvykle.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Restartujte nyní";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Později";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Dokončete aktualizaci restartováním terminálu";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Váš platební terminál se odpojil. Znovu jej připojte, chcete-li dále provádět transakce.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Platební terminál se aktualizuje. Transakce můžete dál provádět jako obvykle.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Aktualizace terminálu selhala a proběhne nový pokus. Transakce můžete dál provádět jako obvykle.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Počkejte chvíli, než se váš terminál restartuje. Brzy bude znovu možné provádět transakce.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Váš platební terminál byl úspěšně aktualizován.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Zadejte přijatý obnos a vypočte se částka k vrácení";
 

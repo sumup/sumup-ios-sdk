@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Close";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "This should take about a minute, after which you can transact again as usual.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Restart now";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Later";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Restart reader to finish update";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Your card reader has disconnected. Please reconnect it to resume transactions.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Your card reader is updating itself. You can continue to transact as usual.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "The card reader failed to update and it will try again. You can continue to transact as usual.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Please wait a minute while your card reader restarts. You'll be transacting again very soon.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Your card reader was successfully updated.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Enter cash received to calculate change due";
 

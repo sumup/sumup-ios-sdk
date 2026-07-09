@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Sulge";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Selleks võib kuluda umbes minut, misjärel saad jätkata tehinguid tavapärasel viisil.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Taaskäivita kohe";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Hiljem";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Taaskäivita makseterminal, et värskendamine lõpule viia";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Sinu makseterminal on lahi ühendatud. Palun ühenda see uuesti, et tehingut jätkata.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Sinu makseterminal värskendab ennast. Saad jätkata tehingutega nagu tavaliselt.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Makseterminali värskendamine nurjus ja seda proovitakse uuesti. Saad jätkata tehingutega nagu ikka.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Palun oota kuni sinu makseterminal taaskäivitub. Saad peagi uuesti tehinguid teha.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Sinu makseterminali värskendamine õnnestus.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Sisestage kliendid saadud sularaha, et arvutada vahetusraha, mis tuleb kliendile maksta.";
 

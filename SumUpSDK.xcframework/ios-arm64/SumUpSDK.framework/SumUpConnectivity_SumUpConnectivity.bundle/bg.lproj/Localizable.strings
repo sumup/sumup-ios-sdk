@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Затваряне";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Ще отнеме около минута, след което отново можете да извършвате транзакции както обикновено.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Рестартирай сега";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "По-късно";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Рестартирайте терминала, за да завършите актуализацията";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Връзката с вашия терминал е прекъсната. Моля, свържете го отново, за да възобновите транзакциите.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Вашият терминал се актуализира сам. Продължете да извършвате транзакции както обикновено.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Актуализацията е неуспешна. Предстои нов опит. Продължете да извършвате транзакции както обикновено.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Моля, изчакайте минута, докато вашият терминал се рестартира. Скоро ще извършвате отново транзакции.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Вашият терминал е успешно актуализиран.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Въведете получените пари в брой, за да изчислите дължимото ресто";
 

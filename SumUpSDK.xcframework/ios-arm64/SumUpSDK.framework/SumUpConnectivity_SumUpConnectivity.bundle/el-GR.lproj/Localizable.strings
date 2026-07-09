@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Κλείσιμο";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Περιμένετε περίπου ένα λεπτό και μετά θα μπορείτε να συνεχίσετε κανονικά τις συναλλαγές σας.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Επανεκκίνηση τώρα";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Αργότερα";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Επανεκκινήστε το τερματικό POS για να ολοκληρωθεί η ενημέρωση";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Το τερματικό POS σας αποσυνδέθηκε. Επανασυνδέστε το για να συνεχίσετε τις συναλλαγές.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Το τερματικό POS ενημερώνεται. Συνεχίστε κανονικά τις συναλλαγές σας.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Η ενημέρωση απέτυχε. Το τερματικό POS θα δοκιμάσει ξανά. Συνεχίστε κανονικά τις συναλλαγές σας.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Περιμένετε λίγο όσο το τερματικό POS επανεκκινείται. Σε λίγο θα μπορείτε να κάνετε ξανά συναλλαγές.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Το τερματικό POS σας ενημερώθηκε με επιτυχία.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Εισαγάγετε τα μετρητά που εισπράξατε για τον υπολογισμό των οφειλόμενων ρέστων";
 

@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Schließen";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Dies sollte etwa eine Minute dauern. Danach können Sie wie gewohnt wieder Zahlungen annehmen.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Jetzt neu starten";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Später";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Starten Sie das Kartenterminal neu, um das Update abzuschließen.";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Ihr Kartenterminal wurde getrennt. Bitte verbinden Sie es erneut, um weiter Zahlungen anzunehmen.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Ihr Kartenterminal wird gerade aktualisiert. Sie können Ihre Zahlungen wie gewohnt abwickeln.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Kartenterminal-Update fehlgeschlagen, neuer Versuch folgt. Sie können weiterhin Zahlungen abwickeln.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Warten Sie 1 Minute, bis Ihr Kartenterminal neu startet. Dann können Sie wieder Zahlungen annehmen.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Ihr Kartenterminal wurde erfolgreich aktualisiert.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Geben Sie das erhaltene Bargeld ein, um das fällige Wechselgeld zu berechnen";
 

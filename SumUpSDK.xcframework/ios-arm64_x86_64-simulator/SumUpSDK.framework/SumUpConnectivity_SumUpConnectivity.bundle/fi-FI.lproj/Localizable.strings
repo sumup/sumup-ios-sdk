@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Sulje";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Tämä kestää noin minuutin, minkä jälkeen voit jatkaa maksujen vastaanottamista tavalliseen tapaan.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Käynnistä uudelleen nyt";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Myöhemmin";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Viimeistele päivitys käynnistämällä lukija uudelleen";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Kortinlukijan yhteys on katkennut. Palauta yhteys, jotta voit jatkaa maksujen vastaanottamista.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Kortinlukijaan asennetaan päivitystä. Voit jatkaa maksujen vastaanottamista tavalliseen tapaan.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Kortinlukijan päivitys epäonnistui, ja sitä yritetään uudelleen. Voit hyväksyä maksuja normaalisti.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Odota, että kortinlukija käynnistyy uudelleen. Voit jatkaa maksujen vastaanottamista hyvin pian.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Kortinlukija on päivitetty.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Syötä saamasi käteissumma vaihtorahan laskemiseksi";
 

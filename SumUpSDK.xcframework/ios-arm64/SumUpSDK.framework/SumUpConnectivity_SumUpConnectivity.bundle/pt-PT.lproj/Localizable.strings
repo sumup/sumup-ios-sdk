@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Fechar";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Este processo deve demorar cerca de um minuto, período após o qual pode retomar as transações.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Reiniciar agora";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Mais tarde";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Reinicie o leitor para terminar a atualização";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "O leitor de cartões foi desconectado. Reconecte-o para retomar as transações.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "O leitor de cartões está a atualizar-se. Pode continuar a efetuar transações normalmente.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "O leitor de cartões falhou ao atualizar e vai tentar novamente. Pode continuar a efetuar transações.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Aguarde um minuto enquanto o leitor é reiniciado. Poderá voltar a fazer transações em breve.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "O leitor de cartões foi atualizado com sucesso.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Introduza o dinheiro recebido para calcular o troco devido";
 

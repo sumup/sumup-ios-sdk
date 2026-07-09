@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Sluiten";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Dat duurt ongeveer één minuut. Daarna kunt u weer zoals gebruikelijk transacties uitvoeren.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Nu opnieuw opstarten";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Later";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Start het pinapparaat opnieuw op en voltooi de update";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "De verbinding met uw pinapparaat is verbroken. Sluit dit opnieuw aan om de transactie te hervatten.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Uw pinapparaat is zichzelf aan het updaten. U kunt gewoon transacties blijven uitvoeren.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Het pinapparaat kon niet worden bijgewerkt en probeert het opnieuw. Blijf echter gewoon verkopen.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Over één minuut start uw pinapparaat opnieuw op. U kunt binnenkort weer transacties uitvoeren.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Het updaten van uw pinapparaat is gelukt.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Voer het ontvangen bedrag in en bereken de hoogte van het wisselgeld";
 

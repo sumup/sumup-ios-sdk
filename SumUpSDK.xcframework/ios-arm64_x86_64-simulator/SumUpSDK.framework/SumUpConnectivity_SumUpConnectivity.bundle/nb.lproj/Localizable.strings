@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Lukk";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Dette bør ta rundt et minutt, etter det kan du foreta transaksjoner igjen som vanlig.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Start på nytt nå";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Senere";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Start leseren på nytt for å fullføre oppdatering";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Kortleseren din er frakoblet. Koble til den igjen for å fortsette med transaksjoner.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Kortleseren din oppdaterer seg selv. Du kan fortsette å handle som normalt.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Kortleseren kunne ikke oppdateres, og den vil prøve på nytt. Du kan fortsette å handle som normalt.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Vent et øyeblikk mens kortleseren starter på nytt. Du vil fortsette med transaksjoner veldig snart.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Kortleseren din ble oppdatert.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Angi kontanter mottatt for å beregne veksel";
 

@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Uždaryti";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Skaitytuvo naujinimas turėtų trukti maždaug minutę. Paskui galėsite priimti mokėjimus kaip įprastai.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Paleisti iš naujo";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Vėliau";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Užbaikite atnaujinimą paleisdami skaitytuvą iš naujo.";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Kortelių skaitytuvas atjungtas. Prijunkite jį iš naujo, kad galėtumėte ir toliau priimti mokėjimus.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Kortelių skaitytuvas atnaujinamas automatiškai. Galite ir toliau priimti mokėjimus kaip įprastai.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Nepavyko atnaujinti, todėl bus bandoma dar kartą. Galite ir toliau priimti mokėjimus kaip įprastai.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Palaukite, kol kortelių skaitytuvas paleidžiamas iš naujo. Netrukus vėl galėsite priimti mokėjimus.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Kortelių skaitytuvas atnaujintas.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Įvedus gautą sumą, bus apskaičiuota grąža.";
 

@@ -163,6 +163,33 @@
 /* Button title to close current opened product on the Home Screen. */
 "sumup_home_close_btn" = "Fermer";
 
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Cela prendra environ une minute et vous pourrez effectuer des transactions comme d'habitude.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Redémarrer maintenant";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Plus tard";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Redémarrez votre terminal pour terminer la mise à jour";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Votre terminal de paiement a été déconnecté. Veuillez le reconnecter pour reprendre l'encaissement.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Votre terminal de paiement se met à jour. Vous pouvez continuer à encaisser comme d'habitude.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "La mise à jour a échoué et sera retentée. Vous pouvez continuer à encaisser comme d'habitude.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Veuillez patienter, votre terminal redémarre. Les transactions seront disponibles très bientôt.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Votre terminal de paiement a bien été mis à jour.";
+
 /* Description of Calculate cash change setting */
 "sumup_payment_setting_cash_calculation_at_checkout_description" = "Saisissez le montant reçu en espèces pour calculer le rendu monnaie.";
 
