@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Set up now";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Customer enters their PIN. Use accessibility options if needed.";
+"sumup_tap_learn_more_customer_enters_pin" = "If needed, the customer can enter their PIN for larger payments";
 
 "sumup_tap_learn_more_enter_card_pin" = "Enter Card PIN";
 

@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Konfigurer nå";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Kunde oppgir PIN-kode. Bruk tilgjengelighetsalternativer om nødvendig.";
+"sumup_tap_learn_more_customer_enters_pin" = "Om nødvendig kan kunden oppgi PIN-koden sin for større betalinger.";
 
 "sumup_tap_learn_more_enter_card_pin" = "Angi PIN-kode på kort";
 
@@ -126,7 +126,7 @@
 
 "sumup_tap_learn_more_present_to_customer" = "Be kunden holde kortet som anvist";
 
-"sumup_tap_learn_more_price" = "203,00 kr";
+"sumup_tap_learn_more_price" = "kr. 203";
 
 "sumup_tap_learn_more_ttpoi" = "Tap to Pay på iPhone";
 
@@ -143,7 +143,7 @@
 "sumup_tap_not_allowed_during_call" = "Avslutt alle samtaler før du bruker Tap to Pay på iPhone";
 
 /* title for the Stories component for Tap on phone */
-"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp Tap to Pay on Android";
+"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp Tap to Pay på Android";
 
 "sumup_tap_on_phone_android_version_success_title" = "Android version";
 
@@ -371,7 +371,7 @@
 
 "sumup_tap_profile_settings_title" = "Tap to Pay på iPhone";
 
-"sumup_tap_proximity_reader_check_alert_message" = "Dessverre er Apple Tap to Pay på iPhone ikke tilgjengelig.";
+"sumup_tap_proximity_reader_check_alert_message" = "Dessverre er Apple Tap to Pay on iPhone ikke tilgjengelig.";
 
 "sumup_tap_proximity_reader_check_alert_title" = "Apple Tap to Pay på iPhone";
 

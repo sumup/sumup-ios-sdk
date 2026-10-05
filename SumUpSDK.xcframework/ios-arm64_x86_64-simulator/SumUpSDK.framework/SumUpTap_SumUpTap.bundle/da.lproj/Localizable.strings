@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Sæt op nu";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Kunden indtaster sin PIN-kode. Brug evt. tilgængelighedsindstillinger.";
+"sumup_tap_learn_more_customer_enters_pin" = "Hvis det er nødvendigt, kan kunden indtaste sin PIN-kode ved betaling af større beløb";
 
 "sumup_tap_learn_more_enter_card_pin" = "Indtast kortets PIN-kode";
 

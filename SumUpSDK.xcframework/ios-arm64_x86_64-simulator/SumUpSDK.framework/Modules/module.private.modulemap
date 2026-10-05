@@ -1,6 +1,0 @@
-framework module SumUpSDK_Private {
-
-    header "SMPSumUpTapNavigationAdapter.h"
-
-    export *
-}

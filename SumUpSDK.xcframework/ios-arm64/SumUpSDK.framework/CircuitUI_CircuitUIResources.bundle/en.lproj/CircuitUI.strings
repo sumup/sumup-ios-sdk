@@ -92,6 +92,8 @@
 
 "circuit_textInput_validation_required_error" = "Please enter a value";
 
+"circuit_textInput_validation_validating_accessibility" = "Validating...";
+
 "circuit_textInput_validation_lengthMinimum_error" = "Enter at least %d characters";
 
 "circuit_textInput_validation_lengthMaximum_error" = "Enter %d characters or fewer";
@@ -110,7 +112,10 @@
 
 "circuit_textInput_validation_predicate_error" = "Enter a valid value";
 
+"circuit_textInput_validation_email_error" = "Enter a valid email address";
+
 "circuit_textInput_validation_regex_error" = "Enter text in the correct format";
 
-"circuit_navigationHeader_rewardsButton_title" = "Rewards";
+"circuit_textInput_validation_url_error" = "Enter a valid URL";
 
+"circuit_navigationHeader_rewardsButton_title" = "Rewards";

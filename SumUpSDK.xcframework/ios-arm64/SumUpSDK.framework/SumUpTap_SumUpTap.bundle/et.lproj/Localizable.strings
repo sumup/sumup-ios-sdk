@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Seadistage nüüd";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Klient sisestab oma PIN-koodi. Kasuta hõlbustusfunktsioone, kui vaja.";
+"sumup_tap_learn_more_customer_enters_pin" = "Vajadusel saab klient sisestada oma PIN-koodi suuremate maksete puhul";
 
 "sumup_tap_learn_more_enter_card_pin" = "Sisestage kaardi PIN";
 

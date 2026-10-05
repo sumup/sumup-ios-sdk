@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Skonfiguruj teraz";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Klient wprowadza PIN W razie potrzeby użyj opcji ułatwień dostępu.";
+"sumup_tap_learn_more_customer_enters_pin" = "W razie potrzeby klient może wprowadzić kod PIN w przypadku większej płatności";
 
 "sumup_tap_learn_more_enter_card_pin" = "Podaj kod PIN karty";
 

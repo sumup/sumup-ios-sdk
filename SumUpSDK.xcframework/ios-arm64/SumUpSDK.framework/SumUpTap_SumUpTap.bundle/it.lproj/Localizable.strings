@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Imposta ora";
 
-"sumup_tap_learn_more_customer_enters_pin" = "L'acquirente inserisce il PIN. Se necessario, usa le opzioni di accessibilità.";
+"sumup_tap_learn_more_customer_enters_pin" = "Se necessario, il cliente può inserire il proprio PIN per pagamenti di importo maggiore.";
 
 "sumup_tap_learn_more_enter_card_pin" = "Digita PIN della carta";
 

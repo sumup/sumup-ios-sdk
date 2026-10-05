@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Konfigurera nu";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Kunden anger sin kod. Använd tillgänglighetsanpassning vid behov.";
+"sumup_tap_learn_more_customer_enters_pin" = "Om det behövs kan kunden ange sin pinkod för större betalningar";
 
 "sumup_tap_learn_more_enter_card_pin" = "Ange kortets PIN-kod";
 

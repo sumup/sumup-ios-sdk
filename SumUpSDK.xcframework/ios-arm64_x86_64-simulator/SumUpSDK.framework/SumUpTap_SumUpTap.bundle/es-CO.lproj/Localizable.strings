@@ -62,7 +62,7 @@
 
 "sumup_tap_activation_intro_new_title" = "Vende en cualquier lugar.\nNo se necesita datáfono.";
 
-"sumup_tap_activation_intro_screen_title" = "Tocar para pagar con iPhone";
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay en iPhone";
 
 "sumup_tap_activation_intro_subtitle" = "Configura Tap to Pay en el iPhone para realizar pagos rápidos y seguros";
 
@@ -74,13 +74,13 @@
 
 "sumup_tap_activation_intro_table_title" = "¿Qué se necesita?";
 
-"sumup_tap_activation_intro_title" = "Tocar para pagar con iPhone.\nNo se necesita datáfono.";
+"sumup_tap_activation_intro_title" = "Tap to Pay en iPhone.\nNo se necesita datáfono.";
 
 "sumup_tap_activation_learn_more_button" = "Más información";
 
 "sumup_tap_activation_learn_more_title" = "Acerca de Tap to Pay en el iPhone";
 
-"sumup_tap_activation_preparing_subtitle" = "Un momento, por favor…";
+"sumup_tap_activation_preparing_subtitle" = "Un momento, por favor...";
 
 "sumup_tap_activation_preparing_title" = "Preparándolo todo";
 
@@ -92,7 +92,7 @@
 
 "sumup_tap_enable_subtitle" = "Mostrar como forma de pago al cobrar.";
 
-"sumup_tap_enable_toggle" = "Tocar para pagar con iPhone";
+"sumup_tap_enable_toggle" = "Tap to Pay en iPhone";
 
 "sumup_tap_error_title" = "Error";
 
@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Configurar ahora";
 
-"sumup_tap_learn_more_customer_enters_pin" = "El cliente introduce su PIN. Usa opción de accesibilidad si necesitas.";
+"sumup_tap_learn_more_customer_enters_pin" = "Si es necesario, el cliente puede introducir su PIN para realizar pagos de mayor valor";
 
 "sumup_tap_learn_more_enter_card_pin" = "Introducir PIN de la tarjeta";
 
@@ -128,7 +128,7 @@
 
 "sumup_tap_learn_more_price" = "COP$ 85,300.00";
 
-"sumup_tap_learn_more_ttpoi" = "Tocar para pagar con iPhone";
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay en iPhone";
 
 "sumup_tap_link_account_failed" = "Error al mostrar los Términos de servicio";
 
@@ -367,9 +367,9 @@
 
 "sumup_tap_processing_tx" = "Procesando";
 
-"sumup_tap_profile_settings_item" = "Tocar para pagar con iPhone";
+"sumup_tap_profile_settings_item" = "Tap to Pay en iPhone";
 
-"sumup_tap_profile_settings_title" = "Tocar para pagar con iPhone";
+"sumup_tap_profile_settings_title" = "Tap to Pay en iPhone";
 
 "sumup_tap_proximity_reader_check_alert_message" = "Lamentablemente, Apple Tap to Pay para iPhone no está disponible.";
 
@@ -379,9 +379,9 @@
 
 "sumup_tap_renewal_failed" = "No se puede renovar la sesión";
 
-"sumup_tap_settings_learn_more" = "Más información sobre Tocar para pagar en el iPhone";
+"sumup_tap_settings_learn_more" = "Más información sobre Tap to Pay en iPhone";
 
-"sumup_tap_settings_learn_more_title" = "Tocar para pagar con iPhone";
+"sumup_tap_settings_learn_more_title" = "Tap to Pay en iPhone";
 
 "sumup_tap_starting" = "Iniciando";
 

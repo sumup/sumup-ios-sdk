@@ -1,5 +1,22 @@
 # SumUp iOS SDK Changelog
 
+## Version 7.2.0
+
+* [IMPROVEMENT] Offline Payments can now be enabled without first completing an online transaction on the same iOS device.
+* [IMPROVEMENT] The Offline Payments availability check is now more reliable.
+* [IMPROVEMENT] Faster Offline Payments
+  * The tap-card screen now appears sooner on the card reader while using Offline Payments.
+* [IMPROVEMENT] Tap to Pay on iOS 26 and above will display Apple-provided education screens.
+* [RENAMED] `SMPReaderStatus` is now known as `ReaderStatus` in Swift. It is unchanged in Objective-C.
+* [REMOVED] The SDK no longer links against `CallKit.framework`.
+  * Resolves [#191](https://github.com/sumup/sumup-ios-sdk/issues/191) and [#193](https://github.com/sumup/sumup-ios-sdk/issues/193).
+* [REMOVED] Removed the `presentCheckoutPreferencesFromViewController:animated:completion:` method, deprecated in 6.2.0. Please use `presentCardReaderSettingsFromViewController:animated:completion:` instead.
+* [REMOVED] Removed the deprecated `setupWithAPIKey:` method. Please use `setupWithAffiliateKey:` instead.
+* [REMOVED] CocoaPods support.
+
+> [!CAUTION]
+> CocoaPods is no longer a supported integration method as of 7.2.0. Existing CocoaPods integrations must migrate before updating.
+
 ## Version 7.1.2
 
 * [IMPROVEMENT] Improved Offline Payments availability

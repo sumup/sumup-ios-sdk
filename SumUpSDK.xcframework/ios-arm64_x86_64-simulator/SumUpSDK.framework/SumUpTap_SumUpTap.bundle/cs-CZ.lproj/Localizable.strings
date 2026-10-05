@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Nastavit nyní";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Zákazník zadá PIN. Dle potřeby použijte usnadnění přístupu.";
+"sumup_tap_learn_more_customer_enters_pin" = "U vyšších hodnot může zákazník podle potřeby zadat PIN.";
 
 "sumup_tap_learn_more_enter_card_pin" = "Zadejte PIN ke kartě";
 

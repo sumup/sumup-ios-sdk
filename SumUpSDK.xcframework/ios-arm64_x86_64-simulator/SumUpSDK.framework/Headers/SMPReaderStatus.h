@@ -6,6 +6,7 @@
  *  This object is returned by @c SMPSumUpSDK to provide you with information about the current reader. You
  *  do not create it yourself.
  */
+NS_SWIFT_NAME(ReaderStatus)
 @interface SMPReaderStatus : NSObject
 
 /**

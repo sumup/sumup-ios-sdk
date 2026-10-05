@@ -80,7 +80,7 @@
 
 "sumup_tap_activation_learn_more_title" = "Acerca de Tap to Pay en iPhone";
 
-"sumup_tap_activation_preparing_subtitle" = "Un momento…";
+"sumup_tap_activation_preparing_subtitle" = "Un momento...";
 
 "sumup_tap_activation_preparing_title" = "Preparación";
 
@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Configurar ahora";
 
-"sumup_tap_learn_more_customer_enters_pin" = "El cliente introduce su PIN. Usa opción de accesibilidad si necesitas.";
+"sumup_tap_learn_more_customer_enters_pin" = "Si es necesario, el cliente puede introducir su PIN para pagos de mayor importe";
 
 "sumup_tap_learn_more_enter_card_pin" = "Introducir el PIN de la tarjeta";
 

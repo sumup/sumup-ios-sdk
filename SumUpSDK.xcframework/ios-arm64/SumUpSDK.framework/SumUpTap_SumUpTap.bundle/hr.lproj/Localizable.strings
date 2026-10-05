@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Postavi odmah";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Klijent unosi svoj PIN. Koristite mogućnosti pristupa ako je potrebno.";
+"sumup_tap_learn_more_customer_enters_pin" = "Po potrebi klijent može unijeti svoj PIN za plaćanja veće vrijednosti";
 
 "sumup_tap_learn_more_enter_card_pin" = "Unesite PIN";
 

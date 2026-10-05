@@ -2,10 +2,10 @@
 "TransactionStatusUnclearSublabel" = "Se ha perdido la conexión con el servidor de SumUp.";
 
 /* lower label in failure view if payment status is unknown and server response corrupted */
-"TransactionStatusUnclearSubsublabel" = "Antes de intentarlo de nuevo comprueba el estado de la operación anterior en el \"Historial de ventas\".";
+"TransactionStatusUnclearSubsublabel" = "Antes de intentarlo de nuevo compruebe el estado de la operación anterior en el \"Historial de ventas\".";
 
 /* title in failure view if payment status is unknown and server response corrupted */
-"TransactionStatusUnclearTitle" = "Error en la conexión";
+"TransactionStatusUnclearTitle" = "Error de conexión";
 
 "sumup_btn_cancel" = "Cancelar";
 
@@ -60,7 +60,7 @@
 
 "sumup_tap_activation_intro_new_subtitle" = "Comienza a aceptar pagos en persona y sin contacto con sólo un iPhone.";
 
-"sumup_tap_activation_intro_new_title" = "Vende en cualquier lugar.\nNo se necesita lector de tarjetas.";
+"sumup_tap_activation_intro_new_title" = "Vende en cualquier lugar.\nNo se necesita máquina de pago.";
 
 "sumup_tap_activation_intro_screen_title" = "Tap to Pay en iPhone";
 
@@ -74,13 +74,13 @@
 
 "sumup_tap_activation_intro_table_title" = "¿Qué se necesita?";
 
-"sumup_tap_activation_intro_title" = "Tap to Pay en iPhone.\nNo se necesita lector de tarjetas.";
+"sumup_tap_activation_intro_title" = "Tap to Pay en iPhone.\nNo se necesita máquina de pago.";
 
 "sumup_tap_activation_learn_more_button" = "Aprende más";
 
 "sumup_tap_activation_learn_more_title" = "Acerca de Tap to Pay en iPhone";
 
-"sumup_tap_activation_preparing_subtitle" = "Un momento, por favor…";
+"sumup_tap_activation_preparing_subtitle" = "Un momento, por favor...";
 
 "sumup_tap_activation_preparing_title" = "Preparándolo todo";
 
@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Configurar ahora";
 
-"sumup_tap_learn_more_customer_enters_pin" = "El cliente ingresa su PIN. Opciones de accesibilidad disponibles";
+"sumup_tap_learn_more_customer_enters_pin" = "Si es necesario, el cliente puede ingresar su PIN para pagos de mayor monto";
 
 "sumup_tap_learn_more_enter_card_pin" = "Ingresar el PIN de la tarjeta";
 

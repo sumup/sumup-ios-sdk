@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Настройте сега";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Клиентът въвежда своя ПИН код Използвай опции за достъпност при нужда.";
+"sumup_tap_learn_more_customer_enters_pin" = "При плащане на по-големи суми клиентът може да въведе своя ПИН код";
 
 "sumup_tap_learn_more_enter_card_pin" = "Въведете ПИН кода на картата";
 
@@ -126,7 +126,7 @@
 
 "sumup_tap_learn_more_present_to_customer" = "Помолете клиента да държи картата си, както е показано";
 
-"sumup_tap_learn_more_price" = "35,00 лв.";
+"sumup_tap_learn_more_price" = "17,50 евро.";
 
 "sumup_tap_learn_more_ttpoi" = "Tap to Pay на iPhone";
 

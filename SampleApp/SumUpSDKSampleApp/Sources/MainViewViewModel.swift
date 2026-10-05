@@ -1,8 +1,5 @@
 import SumUpSDK
 
-// Temporary -- remove when SDK updated
-typealias ReaderStatus = SMPReaderStatus
-
 /**
  This ViewModel supports the ``MainView`` and interacts with the SumUp SDK on its behalf.
  

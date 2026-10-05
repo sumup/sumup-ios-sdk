@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Nastaviť";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Zákazník zadá svoj PIN kód (možnosť využitia zjednodušeného prístupu).";
+"sumup_tap_learn_more_customer_enters_pin" = "V prípade potreby môže zákazník zadať svoj PIN kód (pri platbe väčšej sumy).";
 
 "sumup_tap_learn_more_enter_card_pin" = "Zadaj PIN kód";
 
@@ -221,7 +221,7 @@
 "sumup_tap_on_phone_ios_landing_stories_slide_1_title" = "Prijímaj platby pomocou svojho iPhonu";
 
 /* subtitle for Stories TTP component page two */
-"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "Zabudni na mesačné poplatky a zmluvnú viazanosť. Pri prijatí platby pomocou smartfónu budeš platiť iba transakčný poplatok vo výške 1,95 %%.";
+"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "Zabudni na mesačné poplatky a zmluvnú viazanosť. Pri prijatí platby pomocou smartfónu budeš platiť iba transakčný poplatok vo výške %1$@.";
 
 /* subtitle for Stories TTP component page four */
 "sumup_tap_on_phone_ios_landing_stories_slide_3_subtitle" = "Chceš prijímať platby pomocou svojho smartfónu? V tom prípade stačí, aby si si stiahol aplikáciu SumUp a postupoval podľa príslušných inštrukcií. Celý proces ti zaberie iba pár minút.";
@@ -239,7 +239,7 @@
 "sumup_tap_on_phone_landing_stories_slide_1_title" = "Začni prijímať platby pomocou svojho smartfónu";
 
 /* subtitle for Stories component page two */
-"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "Zabudni na mesačné poplatky a zmluvnú viazanosť. Pri prijatí platby pomocou smartfónu budeš platiť iba transakčný poplatok vo výške 1,95 %%.";
+"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "Zabudni na mesačné poplatky a zmluvnú viazanosť. Pri prijatí platby pomocou smartfónu budeš platiť iba transakčný poplatok vo výške %1$@.";
 
 /* title for Stories component page two */
 "sumup_tap_on_phone_landing_stories_slide_2_title" = "Aktivácia zdarma bez zmluvnej viazanosti";

@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Configurer maintenant";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Le client saisit son code PIN. Options d’accessibilité disponibles.";
+"sumup_tap_learn_more_customer_enters_pin" = "Si besoin, le client peut saisir son code PIN pour les paiements plus élevés.";
 
 "sumup_tap_learn_more_enter_card_pin" = "Saisir le PIN de la carte";
 

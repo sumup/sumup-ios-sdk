@@ -62,7 +62,7 @@
 
 "sumup_tap_activation_intro_new_title" = "Vende en cualquier lugar.\nNo se necesita datáfono.";
 
-"sumup_tap_activation_intro_screen_title" = "TOCAR PARA PAGAR CON IPHONE";
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay en iPhone";
 
 "sumup_tap_activation_intro_subtitle" = "Set up Tap to Pay on iPhone to take quick and secure payments";
 
@@ -74,7 +74,7 @@
 
 "sumup_tap_activation_intro_table_title" = "¿Qué se necesita?";
 
-"sumup_tap_activation_intro_title" = "Tap to Pay on iPhone.\nNo card reader needed.";
+"sumup_tap_activation_intro_title" = "Tap to Pay en iPhone.\nNo se necesita datáfono.";
 
 "sumup_tap_activation_learn_more_button" = "Más información";
 
@@ -92,7 +92,7 @@
 
 "sumup_tap_enable_subtitle" = "Mostrar como forma de pago al cobrar.";
 
-"sumup_tap_enable_toggle" = "Tap to Pay on iPhone";
+"sumup_tap_enable_toggle" = "Tap to Pay en iPhone";
 
 "sumup_tap_error_title" = "Error";
 
@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Configurar ahora";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Customer enters their PIN. Use accessibility options if needed.";
+"sumup_tap_learn_more_customer_enters_pin" = "Si es necesario, el cliente puede introducir su PIN para realizar pagos de mayor valor";
 
 "sumup_tap_learn_more_enter_card_pin" = "Introducir PIN de la tarjeta";
 
@@ -128,7 +128,7 @@
 
 "sumup_tap_learn_more_price" = "€ 17,50";
 
-"sumup_tap_learn_more_ttpoi" = "TOCAR PARA PAGAR CON IPHONE";
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay en iPhone";
 
 "sumup_tap_link_account_failed" = "Failed to show Terms of Service";
 
@@ -367,9 +367,9 @@
 
 "sumup_tap_processing_tx" = "Procesando";
 
-"sumup_tap_profile_settings_item" = "Tap to Pay on iPhone";
+"sumup_tap_profile_settings_item" = "Tap to Pay en iPhone";
 
-"sumup_tap_profile_settings_title" = "Tap to Pay on iPhone";
+"sumup_tap_profile_settings_title" = "Tap to Pay en iPhone";
 
 "sumup_tap_proximity_reader_check_alert_message" = "Unfortunately, Apple Tap to Pay for iPhone is not available.";
 
@@ -379,9 +379,9 @@
 
 "sumup_tap_renewal_failed" = "Unable to renew the session";
 
-"sumup_tap_settings_learn_more" = "Learn about Tap to Pay on iPhone";
+"sumup_tap_settings_learn_more" = "Más información sobre Tap to Pay en iPhone";
 
-"sumup_tap_settings_learn_more_title" = "Tap to Pay on iPhone";
+"sumup_tap_settings_learn_more_title" = "Tap to Pay en iPhone";
 
 "sumup_tap_starting" = "Starting";
 
