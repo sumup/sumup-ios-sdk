@@ -2,7 +2,7 @@
 "TransactionStatusUnclearSublabel" = "De verbinding met de SumUp server is verbroken";
 
 /* lower label in failure view if payment status is unknown and server response corrupted */
-"TransactionStatusUnclearSubsublabel" = "Before trying again, please check the status of this payment in your Sales History.";
+"TransactionStatusUnclearSubsublabel" = "Controleer uw \"Transactieoverzicht\"";
 
 /* title in failure view if payment status is unknown and server response corrupted */
 "TransactionStatusUnclearTitle" = "Verbindingsfout";
@@ -80,7 +80,7 @@
 
 "sumup_tap_activation_learn_more_title" = "Over Tap to Pay op iPhone";
 
-"sumup_tap_activation_preparing_subtitle" = "Een moment geduld…";
+"sumup_tap_activation_preparing_subtitle" = "Een moment geduld...";
 
 "sumup_tap_activation_preparing_title" = "We bereiden alles voor";
 
@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Nu configureren";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Indien nodig kan de klant bij grotere betalingen een pincode invoeren";
+"sumup_tap_learn_more_customer_enters_pin" = "Indien nodig, kan de klant bij grotere betalingen een pincode invoeren";
 
 "sumup_tap_learn_more_enter_card_pin" = "Voer pincode in";
 
@@ -256,11 +256,11 @@
 /* title for Stories component page four */
 "sumup_tap_on_phone_landing_stories_slide_4_title" = "No contracts or monthly fees";
 
-"sumup_tap_on_phone_loading_description" = "We maken van uw telefoon een betaalapparaat. Dit duurt een minuutje …";
+"sumup_tap_on_phone_loading_description" = "We maken van uw telefoon een betaalapparaat. Dit duurt een minuutje ...";
 
 "sumup_tap_on_phone_loading_message" = "Tap to Pay starten";
 
-"sumup_tap_on_phone_loading_title" = "Klaar voor de start …";
+"sumup_tap_on_phone_loading_title" = "Klaar voor de start ...";
 
 "sumup_tap_on_phone_nfc_error_title" = "NFC not available";
 

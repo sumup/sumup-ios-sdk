@@ -1,5 +1,11 @@
 # SumUp iOS SDK Changelog
 
+## Version 7.3.0
+
+* [ADDED] Support for access token providers.
+* [IMPROVEMENT] Faster Tap to Pay transactions.
+* [FIXED] Fixed an issue that could cause crashes when using Solo and Solo Lite readers.
+
 ## Version 7.2.0
 
 * [IMPROVEMENT] Offline Payments can now be enabled without first completing an online transaction on the same iOS device.

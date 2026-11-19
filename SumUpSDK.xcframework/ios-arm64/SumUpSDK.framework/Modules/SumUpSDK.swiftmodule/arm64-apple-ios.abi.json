@@ -1,0 +1,309 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SumUpSDK",
+    "printedName": "SumUpSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CashierWebService",
+        "printedName": "CashierWebService",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "SumUpSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISHCashierWebService",
+        "printedName": "ISHCashierWebService",
+        "declKind": "Class",
+        "usr": "c:objc(cs)ISHCashierWebService",
+        "moduleName": "CashierWebService",
+        "isOpen": true,
+        "objc_name": "ISHCashierWebService",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)SMPWebService",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "CashierWebService.SMPWebService",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/Model\/Extensions\/AccessTokenError+NSError.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 29,
+      "value": "\"SMPAccessTokenFailureReason\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/Service\/AccessTokenProviderService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 473,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/Service\/AccessTokenProviderService.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 14,
+      "value": "\".timeoutTask\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/AccessTokenFeature.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 12,
+      "value": "\".loginTask\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/AccessTokenFeature.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 13,
+      "value": "\".logoutTask\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/AccessTokenInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 14,
+      "value": "\".requestTask\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/AccessTokenInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 13,
+      "value": "\".cancelTask\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/AccessTokenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1005,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/AccessTokenWireframe.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 18,
+      "value": "\".accessTokenTask\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/node\/actions-runner\/_work\/iOS-Merchant\/iOS-Merchant\/code\/Cashier\/TerminalSDK\/Access Token\/AccessTokenWireframe.swift",
+      "kind": "BooleanLiteral",
+      "offset": 888,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

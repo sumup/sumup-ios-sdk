@@ -80,7 +80,7 @@
 
 "sumup_tap_activation_learn_more_title" = "Om Tap to Pay på Iphone";
 
-"sumup_tap_activation_preparing_subtitle" = "Ett ögonblick…";
+"sumup_tap_activation_preparing_subtitle" = "Ett ögonblick...";
 
 "sumup_tap_activation_preparing_title" = "Förbereder lite saker";
 
@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Konfigurera nu";
 
-"sumup_tap_learn_more_customer_enters_pin" = "Om det behövs kan kunden ange sin pinkod för större betalningar";
+"sumup_tap_learn_more_customer_enters_pin" = "Om det behövs kan kunden ange sin pinkod vid betalning av större belopp";
 
 "sumup_tap_learn_more_enter_card_pin" = "Ange kortets PIN-kod";
 

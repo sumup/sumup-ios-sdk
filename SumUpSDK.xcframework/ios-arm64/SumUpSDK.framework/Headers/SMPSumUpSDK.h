@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "SMPOfflineSessionDetails.h"
 #import "SMPReaderStatus.h"
+#import "SMPAccessTokenProvider.h"
 
 @class SMPMerchant;
 @class SMPCheckoutResult;
@@ -105,6 +106,21 @@ NS_SWIFT_NAME(SumUpSDK)
  *  @param block  a completion block that will run after login has succeeded/failed
  */
 + (void)loginWithToken:(NSString *)aToken completion:(nullable SMPCompletionBlock)block;
+
+/**
+ *  Installs an access token provider and logs in with the first token it returns.
+ *
+ *  The SDK asks the provider for a token whenever it needs one, so the provider stays in charge
+ *  of refreshing expired tokens for the whole session, not only while logging in.
+ *  The provider is released on logout.
+ *
+ *  Make sure that no user is logged in already when calling this method.
+ *
+ *  @param tokenProvider The object supplying access tokens.
+ *  @param block                  Called after the login has succeeded or failed.
+ */
++ (void)loginWithTokenProvider:(id<SMPAccessTokenProvider>)tokenProvider
+                    completion:(nullable SMPCompletionBlock)block;
 
 /**
  *  Performs a logout of the current merchant and resets the remembered password.

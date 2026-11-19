@@ -119,3 +119,5 @@
 "circuit_textInput_validation_url_error" = "Enter a valid URL";
 
 "circuit_navigationHeader_rewardsButton_title" = "Rewards";
+
+"circuit_navigationHeader_downloadButton_title" = "Download";

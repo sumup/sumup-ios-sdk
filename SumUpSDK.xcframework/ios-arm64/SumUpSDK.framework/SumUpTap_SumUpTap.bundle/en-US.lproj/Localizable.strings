@@ -2,10 +2,10 @@
 "TransactionStatusUnclearSublabel" = "We lost connection to the SumUp server";
 
 /* lower label in failure view if payment status is unknown and server response corrupted */
-"TransactionStatusUnclearSubsublabel" = "Before trying again, please check the status of this payment in your Sales History.";
+"TransactionStatusUnclearSubsublabel" = "Before trying again, please check the status of this payment in your “Sales history.”";
 
 /* title in failure view if payment status is unknown and server response corrupted */
-"TransactionStatusUnclearTitle" = "Connection Error";
+"TransactionStatusUnclearTitle" = "Connection error";
 
 "sumup_btn_cancel" = "Cancel";
 

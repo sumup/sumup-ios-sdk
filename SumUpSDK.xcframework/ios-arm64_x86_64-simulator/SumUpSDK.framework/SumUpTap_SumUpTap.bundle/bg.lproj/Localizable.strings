@@ -7,7 +7,7 @@
 /* title in failure view if payment status is unknown and server response corrupted */
 "TransactionStatusUnclearTitle" = "Грешка при свързване";
 
-"sumup_btn_cancel" = "Отмяна";
+"sumup_btn_cancel" = "Затвори";
 
 /* Synonym: Validate / Confirm */
 "sumup_btn_done" = "Готово";
@@ -80,7 +80,7 @@
 
 "sumup_tap_activation_learn_more_title" = "За Tap to Pay на iPhone";
 
-"sumup_tap_activation_preparing_subtitle" = "Един момент, моля…";
+"sumup_tap_activation_preparing_subtitle" = "Един момент, моля...";
 
 "sumup_tap_activation_preparing_title" = "Подготовка";
 
@@ -110,7 +110,7 @@
 
 "sumup_tap_learn_more_btn_set_up_now" = "Настройте сега";
 
-"sumup_tap_learn_more_customer_enters_pin" = "При плащане на по-големи суми клиентът може да въведе своя ПИН код";
+"sumup_tap_learn_more_customer_enters_pin" = "При нужда при плащане на по-големи суми клиентът може да въведе своя ПИН код";
 
 "sumup_tap_learn_more_enter_card_pin" = "Въведете ПИН кода на картата";
 
@@ -192,7 +192,7 @@
 "sumup_tap_on_phone_find_antenna_contact_support_title" = "Моля, свържете се с отдел „Обслужване на клиенти“ на SumUp за допълнителна помощ.";
 
 /* Title of the cancel CTA on the find antenna tutorial screen */
-"sumup_tap_on_phone_find_antenna_cta_cancel" = "Отмяна";
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Затвори";
 
 /* Title of the contact support CTA on the find antenna tutorial screen */
 "sumup_tap_on_phone_find_antenna_cta_contact_support" = "Свържете се с отдел „Обслужване на клиенти“";

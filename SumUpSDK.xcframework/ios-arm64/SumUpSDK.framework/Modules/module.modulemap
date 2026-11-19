@@ -2,3 +2,7 @@ framework module SumUpSDK {
     umbrella header "SumUpSDK.h"
     export *
 }
+
+module SumUpSDK.Swift {
+  header "SumUp-GeneratedHeader-Swift.h"
+}
